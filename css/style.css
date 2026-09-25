@@ -595,6 +595,11 @@ html[lang="en"] .step-title { font-family: var(--font-en-sans); font-weight: 400
 .lb-prev { inset-inline-start: 26px; top: 50%; translate: 0 -50%; }
 .lb-next { inset-inline-end: 26px; top: 50%; translate: 0 -50%; }
 
+/* Always-latin fragments that need LTR ordering inside the RTL page
+   (centered/isolated pieces only — alignment-sensitive labels stay untouched) */
+.statement-lines, .insta-handle, .loader-word, .loader-estd,
+.marquee-track { direction: ltr; unicode-bidi: isolate; }
+
 /* ---------- Reveal defaults (no-JS safe) ---------- */
 [data-reveal], .word-mask span, [data-clip] { opacity: 1; }
 
