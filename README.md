@@ -44,17 +44,21 @@ python3 -m http.server 8123 --directory sele-studio
 
 ## Deploying to sele-studio.com
 
-Option A — **GitHub Pages** (this repo):
-1. Repo Settings → Pages → deploy from a branch, folder = `/sele-studio` is not supported
-   directly, so either move this folder's contents to the repo root / `docs/`, or add a
-   tiny workflow that publishes `sele-studio/` as the Pages artifact.
-2. Custom domain: `sele-studio.com` (the `CNAME` file is already here) + DNS:
-   - `A` records for apex: 185.199.108.153 / .109 / .110 / .111
-   - `CNAME` for `www` → `<user>.github.io`
-3. Enforce HTTPS once the certificate is issued.
+**GitHub Pages — automatic.** `.github/workflows/deploy.yml` publishes the repo root
+to GitHub Pages on every push to `main` (it also enables Pages on the first run).
+After the first successful run the site is live at
+`https://sele-studio.github.io/website/`.
 
-Option B — **Netlify / Vercel / Cloudflare Pages**: point the project at the
-`sele-studio` subfolder as the publish directory and attach the domain. No build step.
+To attach the custom domain:
+1. Repo **Settings → Pages → Custom domain** → `sele-studio.com` → Save
+   (then tick *Enforce HTTPS* once the certificate is issued).
+2. At the domain registrar (DNS for `sele-studio.com`):
+   - Apex `A` records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - `www` `CNAME` → `sele-studio.github.io`
+3. Note: the repo must be **public** for Pages on a free plan.
+
+Alternative — **Netlify / Vercel / Cloudflare Pages**: import the repo, publish
+directory = root, attach the domain. No build step.
 
 ## Content TODOs
 
