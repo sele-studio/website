@@ -1,0 +1,306 @@
+{
+  "service-kitchen-design.hero.alt": {
+    "he": "מטבח ובו אי אבן מונוליתי בגוון אפור-חמים וכיריים גז, קיר נגרות מעץ אלון בהיר עד התקרה ונישת אבן מוארת עם כיור ומכונת קפה, הדמיה",
+    "en": "Kitchen with a monolithic warm-gray stone island and gas cooktop, full-height light-oak cabinetry and a backlit stone niche with sink and coffee machine, render"
+  },
+  "service-kitchen-design.hero.caption": {
+    "he": "אי אבן, נגרות אלון עד התקרה ונישה מוארת.",
+    "en": "Stone island, full-height oak joinery and a backlit niche."
+  },
+  "service-kitchen-design.crumb": {
+    "he": "עיצוב מטבח",
+    "en": "Kitchen design"
+  },
+  "service-kitchen-design.h1": {
+    "he": "עיצוב מטבח שמתחיל בהרגלים שלכם ונגמר בפרט האחרון",
+    "en": "Kitchen design that starts with how you live and ends with the last detail"
+  },
+  "service-kitchen-design.b0.text": {
+    "he": "במטבח משתמשים יותר מבכל חדר אחר בבית, ולכן הוא גם החדר שהכי פחות סולח על טעויות: מגירה שנתקעת בידית של התנור, מעבר צר מדי סביב האי, משטח שנגמר בדיוק במקום שבו רוצים להניח סיר חם. ב-<bdi lang=\"en\">SELÈ STUDIO</bdi> עיצוב מטבח מתחיל בשאלה איך אתם מבשלים, מארחים ופותחים את הבוקר, ורק אחר כך עובר לאבן, לעץ ולאור.",
+    "en": "The kitchen is used more than any other room in the house, which makes it the least forgiving of mistakes: a drawer that catches on the oven handle, a walkway around the island that’s too tight, a worktop that ends exactly where you need to set down a hot pan. At SELÈ STUDIO, kitchen design starts with how you cook, host and begin your morning, and only then moves on to stone, wood and light."
+  },
+  "service-kitchen-design.b1.text": {
+    "he": "אנחנו מתכננים מטבחים לדירות ולבתים פרטיים, כחלק מעיצוב הבית כולו. כמה פרטים חוזרים בעבודה שלנו: אי אבן שנקרא כגוש אחד, נגרות עץ שעולה עד התקרה ונבלעת בקיר, ותאורה נסתרת שהופכת נישה או מדף לרגע קטן של אור. נקי, מדויק ונכון.",
+    "en": "We design kitchens for apartments and private homes, as part of a whole-home project. A few details recur in our work: a stone island that reads as a single block, wood joinery that runs to the ceiling and disappears into the wall, and hidden lighting that turns a niche or a shelf into a small moment of light. Clean, precise and right."
+  },
+  "service-kitchen-design.b2.text": {
+    "he": "תכנון מטבח עם אי: אזורי עבודה, ישיבה ומרווחים",
+    "en": "Planning a kitchen with an island: work zones, seating and clearances"
+  },
+  "service-kitchen-design.b3.text": {
+    "he": "לפני שבוחרים גוון אבן, מחליטים מה תפקיד האי. הוא יכול להיות אזור הבישול, משטח ההכנה, תחנת שטיפה, שולחן לארוחת בוקר, או כמה מאלה יחד. כל תפקיד משנה את התכנון: נקודות גז, חשמל וניקוז ברצפה, פתרון יניקת אדים, עומק המשטח ומה נכנס מתחתיו.",
+    "en": "Before choosing a stone, decide what the island is for. It can be the cooking zone, the prep surface, a washing station, a breakfast table, or several of these at once. Each role changes the plan: gas, power and drainage points in the floor, how cooking fumes are extracted, the depth of the worktop and what goes underneath it."
+  },
+  "service-kitchen-design.b4.text": {
+    "he": "אזורי עבודה, לא רק משולש",
+    "en": "Work zones, not just a triangle"
+  },
+  "service-kitchen-design.b5.text": {
+    "he": "\"משולש העבודה\" (כיריים, כיור ומקרר במרחק נוח זה מזה) עדיין כלי טוב, אבל במטבח פתוח נכון יותר לחשוב באזורים: אחסון ומקרר, הכנה ושטיפה, בישול, הגשה. המטרה היא שהמסלול הטבעי, מהמקרר לכיור, למשטח ההכנה ולכיריים, יזרום בלי לחצות את מי שיושב ליד האי ואת המעבר לסלון. ליד הכיריים וליד הכיור משאירים משטח פנוי משני הצדדים. בלעדיו אין איפה להניח.",
+    "en": "The “work triangle” (hob, sink and fridge within easy reach of each other) is still a useful tool, but in an open-plan kitchen it is better to think in zones: storage and fridge, prep and washing, cooking, serving. The aim is for the natural route, from fridge to sink to prep surface to hob, to flow without cutting across whoever sits at the island or the path to the living room. Leave clear worktop on both sides of the hob and the sink; without it, there is nowhere to put anything down."
+  },
+  "service-kitchen-design.b6.text": {
+    "he": "ישיבה ליד האי",
+    "en": "Seating at the island"
+  },
+  "service-kitchen-design.b7.text": {
+    "he": "כהנחיה כללית מקובלת, כל מקום ישיבה צריך כ-60 ס\"מ ברוחב, והמשטח בולט כ-25–⁠30 ס\"מ מעבר לארונות כדי שיהיה מקום לברכיים. למשטח בגובה עבודה רגיל, כ-90 ס\"מ, מתאימים כיסאות בר בגובה מושב של כ-65 ס\"מ. אם הכיריים באי, עדיף שהישיבה לא תהיה ממש מולן: אדים, התזות וסירים חמים לא מסתדרים עם קפה של בוקר.",
+    "en": "As a common rule of thumb, each seat needs about 60 cm of width, and the worktop overhangs the cabinets by about 25–⁠30 cm to leave room for knees. At a standard working height of around 90 cm, bar stools with a seat height of about 65 cm fit well. If the hob is on the island, avoid seating directly opposite it: steam, splashes and hot pans don’t mix with morning coffee."
+  },
+  "service-kitchen-design.b8.text": {
+    "he": "המרווחים סביב האי",
+    "en": "Clearances around the island"
+  },
+  "service-kitchen-design.b9.text": {
+    "he": "המעבר בין האי לחזית הארונות הוא המידה שהכי קל לטעות בה. כנקודת פתיחה מקובלת, מעבר של כ-100–⁠120 ס\"מ מאפשר לפתוח מדיח ומגירות ולעבור מאחורי מי שמבשל. כשעובדים במטבח שניים, או כשהמעבר משמש גם כנתיב תנועה בבית, מכוונים לקצה העליון. המידה הסופית נגזרת מהחלל, מהמכשירים ומכיווני הפתיחה, ולכן אנחנו בודקים אותה בתוכנית ובהדמיה, ולא לפי העין.",
+    "en": "The walkway between the island and the cabinet fronts is the measurement people most often get wrong. As a common starting point, about 100–⁠120 cm lets you open the dishwasher and drawers and pass behind the person cooking. With two cooks, or when the walkway is also a route through the house, aim for the upper end. The final dimension depends on the room, the appliances and the way doors open, which is why we check it on the plan and in a render, not by eye."
+  },
+  "service-kitchen-design.b10.text": {
+    "he": "כיריים באי? מתכננים את יניקת האדים מראש",
+    "en": "A hob on the island? Plan the extraction first"
+  },
+  "service-kitchen-design.b11.text": {
+    "he": "קולט אדים תלוי מעל האי, קולט משולב בתקרה או קולט שעולה מתוך המשטח: לכל פתרון יש השלכות על התקרה, על הנגרות ועל תוואי התעלה. לכן ההחלטה מתקבלת בשלב התכנון, לפני שסוגרים את התקרה ולפני שמזמינים את האבן.",
+    "en": "A hood suspended over the island, one built into the ceiling, or a downdraft that rises from the worktop: each affects the ceiling, the joinery and the duct route. The decision is made at the planning stage, before the ceiling is closed and before the stone is ordered."
+  },
+  "service-kitchen-design.b12.text": {
+    "he": "נגרות עד התקרה ואחסון שלא רואים",
+    "en": "Joinery to the ceiling and storage you don’t see"
+  },
+  "service-kitchen-design.b13.text": {
+    "he": "ארון שעולה עד התקרה עושה שני דברים: הוא מוסיף שורת אחסון שלמה, והוא מבטל את המדף העליון שאוסף אבק ונראה תמיד קצת לא גמור. כשהחזיתות רציפות והמרווחים ביניהן דקים, קיר הנגרות נקרא כמשטח עץ אחד ולא כאוסף של דלתות. זה הבסיס למראה השקט של מטבח מודרני.",
+    "en": "Cabinetry that rises to the ceiling does two things: it adds a whole extra row of storage, and it removes the top ledge that collects dust and always looks slightly unfinished. With continuous fronts and fine gaps between them, the joinery wall reads as one surface of wood rather than a collection of doors. That is the basis of the calm look of a modern kitchen."
+  },
+  "service-kitchen-design.b14.text": {
+    "he": "איפה מסתירים את מה שלא צריך לראות:",
+    "en": "Where to hide what shouldn’t be seen:"
+  },
+  "service-kitchen-design.b15.i0": {
+    "he": "<strong>מכשירים בתוך הקיר:</strong> מקרר, מקפיא ותנורים בארונות גבוהים מאחורי חזיתות עץ. ארון גבוה שמסתיר מכשירים צריך אוורור לפי הוראות היצרן, ולכן מתכננים מראש סבכות או מרווחים בחלק העליון או התחתון שלו.",
+    "en": "<strong>Appliances inside the wall:</strong> fridge, freezer and ovens in tall units behind wood fronts. A tall unit that hides appliances needs ventilation according to the manufacturer’s instructions, so grilles or gaps are planned into its top or base from the start."
+  },
+  "service-kitchen-design.b15.i1": {
+    "he": "<strong>מזווה עם מגירות פנימיות:</strong> במקום מדפים עמוקים שבהם דברים נעלמים מאחור.",
+    "en": "<strong>A pantry with internal drawers:</strong> instead of deep shelves where things vanish at the back."
+  },
+  "service-kitchen-design.b15.i2": {
+    "he": "<strong>מגירות רחבות למטה:</strong> לסירים ולכלים, נוחות יותר מדלת ומדף.",
+    "en": "<strong>Wide drawers below:</strong> for pots and pans, easier to use than a door and shelf."
+  },
+  "service-kitchen-design.b15.i3": {
+    "he": "<strong>פינת קפה נסתרת:</strong> נישה עם דלתות שנפתחות ונכנסות לצדדים, ונקודות חשמל בתוכה, כך שהמשטח נשאר פנוי.",
+    "en": "<strong>A hidden coffee corner:</strong> a niche with doors that slide back into the sides and power points inside, so the worktop stays clear."
+  },
+  "service-kitchen-design.b16.text": {
+    "he": "מטבח מעץ אלון מקבל אופי שונה לפי הגוון. אלון בהיר מכניס אור ורוגע, ומשתלב עם אבן בגוון אפור-חמים. אלון כהה יוצר עומק ושקט, במיוחד לצד חזיתות בגוון גרייג' ומשטח אבן בהיר. על ההחלטות שקובעות את איכות הנגרות, מהחזית ועד המנגנון, כתבנו ב<a href=\"/journal/custom-carpentry-guide/\">מדריך לתכנון נגרות עם מעצבת</a>.",
+    "en": "An oak kitchen changes character with the tone. Light oak brings in light and calm and sits well with warm-gray stone. Dark oak creates depth and quiet, especially beside greige fronts and a light stone worktop. We cover the decisions that determine joinery quality, from front to hinge, in our <a href=\"/journal/custom-carpentry-guide/\">guide to planning joinery with a designer</a>."
+  },
+  "service-kitchen-design.b17.text": {
+    "he": "משטח עבודה וחיפוי: מה בוחרים ואיפה",
+    "en": "Worktop and splashback: what to choose, and where"
+  },
+  "service-kitchen-design.b18.text": {
+    "he": "המשטח הוא החלק שנוגעים בו הכי הרבה, ולכל חומר יש אופי אחר:",
+    "en": "The worktop is the surface you touch most, and each material has a different character:"
+  },
+  "service-kitchen-design.b19.i0": {
+    "he": "<strong>אבן טבעית</strong> (שיש, קוורציט): עורקים שאין להם העתק. הרגישות לחומצות ולכתמים משתנה מאבן לאבן, ולכן בודקים אותה ומתכננים איטום ותחזוקה.",
+    "en": "<strong>Natural stone</strong> (marble, quartzite): veining that can’t be copied. Sensitivity to acids and stains varies from stone to stone, so it is tested and sealing and care are planned."
+  },
+  "service-kitchen-design.b19.i1": {
+    "he": "<strong>משטח קוורץ מהונדס:</strong> אחיד ועמיד לכתמים, אבל רגיש יותר לחום ישיר, ולכן מניחים סיר חם על תחתית.",
+    "en": "<strong>Engineered quartz:</strong> even and stain-resistant, but more sensitive to direct heat, so hot pans go on a trivet."
+  },
+  "service-kitchen-design.b19.i2": {
+    "he": "<strong>פורצלן:</strong> עמיד לחום ולשריטות ומגיע בלוחות גדולים. דורש עיבוד מקצועי בפינות ובחיתוכים.",
+    "en": "<strong>Porcelain:</strong> resistant to heat and scratches, and available in large slabs. Needs professional fabrication at corners and cut-outs."
+  },
+  "service-kitchen-design.b20.text": {
+    "he": "כדי שאי מאבן ייראה כגוש אחד, צריך תכנון חיתוך: כשהאבן יורדת בדפנות עד הרצפה, מסדרים את הלוחות כך שהעורקים ימשיכו מהמשטח אל הדופן. לכן כדאי לבחור את הלוחות עצמם, ולא רק את הדגם. בחיפוי הקיר, אותה אבן כמו במשטח יוצרת רצף שקט, ולוח גדול במקום אריחים פירושו פחות פוגות לנקות. את ההשוואה המלאה בין החומרים ריכזנו ב<a href=\"/journal/choosing-kitchen-stone/\">מדריך לבחירת אבן ומשטח למטבח</a>.",
+    "en": "For a stone island to read as a single block, it needs a cutting plan: where the stone wraps down the sides to the floor, the slabs are laid out so the veining continues from the top onto the side. That is why it is worth choosing the actual slabs, not just the stone name. For the splashback, the same stone as the worktop creates a quiet continuity, and one large slab instead of tiles means fewer grout lines to clean. The full comparison is in our <a href=\"/journal/choosing-kitchen-stone/\">guide to choosing kitchen stone and worktops</a>."
+  },
+  "service-kitchen-design.b21.text": {
+    "he": "תאורה משולבת ונישות מוארות",
+    "en": "Integrated lighting and backlit niches"
+  },
+  "service-kitchen-design.b22.text": {
+    "he": "מטבח טוב מואר בשכבות: תאורה כללית לחלל, תאורת עבודה ישירה על המשטחים, בלי צל של מי שעומד מולם, ותאורת אווירה, כמו נישה מוארת או פס אור מתחת לארונות העליונים. כמה פרטים שעושים את ההבדל:",
+    "en": "A good kitchen is lit in layers: general light for the room, direct task light on the worktops with no shadow from the person standing there, and ambient light such as a backlit niche or a strip under the wall units. A few details make the difference:"
+  },
+  "service-kitchen-design.b23.i0": {
+    "he": "פס הלד שקוע בפרופיל ומוסתר מקו הראייה, כך שרואים את האור ולא את מקורו.",
+    "en": "The LED strip is recessed into a profile and hidden from the line of sight, so you see the light, not its source."
+  },
+  "service-kitchen-design.b23.i1": {
+    "he": "גוון חם, בסביבות 2700–⁠3000K, משלים עץ ואבן. מדד <bdi lang=\"en\">CRI</bdi> גבוה (90 ומעלה) שומר על הצבע האמיתי של האבן ושל האוכל.",
+    "en": "A warm tone around 2700–⁠3000K complements wood and stone. A high CRI (90 and above) keeps the true color of the stone and the food."
+  },
+  "service-kitchen-design.b23.i2": {
+    "he": "מעגלים נפרדים ועמעום מאפשרים לעבור מאור עבודה לאור ערב.",
+    "en": "Separate circuits and dimming let the room shift from working light to evening light."
+  },
+  "service-kitchen-design.b24.text": {
+    "he": "הסדר חשוב: את התאורה מתכננים לפני שסוגרים את תוכניות הנגרות, כי החריצים לפרופילים והמקום לספקי הכוח נחתכים בתוך הארונות. עוד על בניית <a href=\"/journal/home-lighting-design/\">שכבות התאורה בבית</a>.",
+    "en": "Order matters: lighting is planned before the joinery drawings are final, because the grooves for profiles and the space for LED drivers are cut inside the cabinets. More on <a href=\"/journal/home-lighting-design/\">layering light at home</a>."
+  },
+  "service-kitchen-design.b25.text": {
+    "he": "פרזול וברזים: הפרטים שנוגעים בהם כל יום",
+    "en": "Hardware and taps: the details you touch every day"
+  },
+  "service-kitchen-design.b26.text": {
+    "he": "את הפרטים האלה מרגישים בידיים כל יום, ולכן כדאי לבחור אותם יחד עם הנגרות ולא בסוף: הם משנים מידות של חזיתות, מגירות וחורים במשטח.",
+    "en": "You feel these details in your hands every day, so they are worth choosing together with the joinery rather than at the end: they change the sizes of fronts, drawers and cut-outs in the worktop."
+  },
+  "service-kitchen-design.b27.i0": {
+    "he": "<strong>פתיחה:</strong> ידית שקועה או פרופיל חריץ שומרים על חזית נקייה. מנגנון לחיצה לפתיחה נוח בארונות עליונים, ופחות במגירות כבדות. אם אתם אוהבים ידית שאפשר לאחוז בה, ידית דקה ועדינה תתאים.",
+    "en": "<strong>Opening:</strong> a recessed handle or a finger-pull channel keeps the front clean. Push-to-open works well on wall units, less so on heavy drawers. If you like a handle you can grip, a slim, delicate one will suit."
+  },
+  "service-kitchen-design.b27.i1": {
+    "he": "<strong>מסילות וצירים:</strong> פתיחה מלאה, סגירה שקטה ועומס מתאים. זה מה שנשחק ראשון, ולכן כאן לא חוסכים.",
+    "en": "<strong>Runners and hinges:</strong> full extension, soft close and the right load rating. This is what wears first, so it is not where to save."
+  },
+  "service-kitchen-design.b27.i2": {
+    "he": "<strong>ברזים:</strong> גמר שמתאים לשאר המתכות בבית (נירוסטה מוברשת, שחור מט או ברונזה), ראש נשלף, גובה זרבובית שמתאים לעומק הכיור, ומקום לברז מים מסוננים אם צריך.",
+    "en": "<strong>Taps:</strong> a finish that matches the other metals in the house (brushed steel, matte black or bronze), a pull-out head, a spout height that suits the depth of the sink, and space for a filtered-water tap if needed."
+  },
+  "service-kitchen-design.b27.i3": {
+    "he": "<strong>כיור:</strong> כיור שקוע מתחת למשטח, שאפשר לנגב אליו ישר מהמשטח, או כיור אינטגרלי מאותה אבן, בלי שפה, שנקרא כהמשך של המשטח.",
+    "en": "<strong>Sink:</strong> undermounted beneath the worktop, so you can wipe straight into it, or integrated in the same stone, with no rim, reading as a continuation of the worktop."
+  },
+  "service-kitchen-design.b28.text": {
+    "he": "איך נראה תכנון מטבח איתנו",
+    "en": "How kitchen planning works with us"
+  },
+  "service-kitchen-design.b29.i0": {
+    "he": "<strong>היכרות:</strong> מי מבשל, כמה, מה צריך להיות בהישג יד ומה מפריע במטבח היום.",
+    "en": "<strong>Getting to know you:</strong> who cooks, how much, what needs to be within reach and what bothers you in the kitchen today."
+  },
+  "service-kitchen-design.b29.i1": {
+    "he": "<strong>מדידה ותיעוד:</strong> קירות, חלונות, ונקודות מים, ניקוז, גז וחשמל קיימות.",
+    "en": "<strong>Measuring and recording:</strong> walls, windows, and the existing water, drainage, gas and power points."
+  },
+  "service-kitchen-design.b29.i2": {
+    "he": "<strong>תוכנית העמדה וחלופות:</strong> מיקום האי, אזורי העבודה והמרווחים, כחלק מ<a href=\"/services/space-planning/\">תכנון החלל כולו</a> כשהמטבח נפתח לסלון.",
+    "en": "<strong>Layout and options:</strong> island position, work zones and clearances, as part of <a href=\"/services/space-planning/\">planning the whole space</a> when the kitchen opens onto the living room."
+  },
+  "service-kitchen-design.b29.i3": {
+    "he": "<strong>חומרים והדמיה:</strong> אבן, עץ, מתכות ואור, והדמיה של המטבח לפני ביצוע, כדי לראות את ההחלטות יחד.",
+    "en": "<strong>Materials and render:</strong> stone, wood, metals and light, with a render of the kitchen before it’s built so you see the decisions together."
+  },
+  "service-kitchen-design.b29.i4": {
+    "he": "<strong>תוכניות עבודה:</strong> פרטי נגרות, חשמל ותאורה, פרזול ומכשירים, ברמת פירוט שבעלי המקצוע יכולים לבצע.",
+    "en": "<strong>Working drawings:</strong> joinery details, electrical and lighting, hardware and appliances, at a level of detail tradespeople can build from."
+  },
+  "service-kitchen-design.b29.i5": {
+    "he": "<strong>מול הספקים והביצוע:</strong> עבודה מול הנגר, ספק האבן והחשמלאי, ו<a href=\"/services/renovation-management/\">ליווי השיפוץ</a> עד שהמטבח מוכן.",
+    "en": "<strong>Suppliers and build:</strong> working with the carpenter, the stone supplier and the electrician, with <a href=\"/services/renovation-management/\">renovation guidance</a> until the kitchen is finished."
+  },
+  "service-kitchen-design.b30.text": {
+    "he": "לוח הזמנים תלוי בהיקף העבודה, בזמני האספקה של הנגרות והאבן ובשלב שבו נמצא השיפוץ. כשהמטבח הוא חלק מבית שלם, מתכננים אותו יחד עם <a href=\"/services/interior-design/\">עיצוב הבית כולו</a>.",
+    "en": "The timeline depends on the scope, on lead times for joinery and stone, and on where the renovation stands. When the kitchen is part of a whole home, it is planned together with <a href=\"/services/interior-design/\">the design of the whole home</a>."
+  },
+  "service-kitchen-design.b31.text": {
+    "he": "מטבחים מתוך העבודה שלנו",
+    "en": "Kitchens from our work"
+  },
+  "service-kitchen-design.b32.text": {
+    "he": "<strong>צילום מהביצוע:</strong> לצד ההדמיות מופיע גם צילום של מטבח שבוצע, עם נגרות עד התקרה ופתחי אוורור למכשירים המוסתרים.",
+    "en": "<strong>From the build:</strong> alongside the renders is a photograph of a built kitchen, with joinery to the ceiling and ventilation openings for the hidden appliances."
+  },
+  "service-kitchen-design.b33.i0.alt": {
+    "he": "מטבח שבוצע: ארונות אלון כהה עד התקרה עם סבכות אוורור, ארונות בגוון בהיר, אי מטרוורטין עם כיריים ותאורת מסילה, צילום מהשטח",
+    "en": "Built kitchen: full-height dark-oak cabinetry with ventilation grilles, light-toned units, a travertine island with cooktop and track lighting, site photograph"
+  },
+  "service-kitchen-design.b33.i0.caption": {
+    "he": "הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.",
+    "en": "It is not presented here as the built version of any visualization on this site."
+  },
+  "service-kitchen-design.b33.i1.alt": {
+    "he": "מטבח ובו אי אבן מונוליתי בגוון אפור-חמים וכיריים גז, קיר נגרות מעץ אלון בהיר עד התקרה ונישת אבן מוארת עם כיור ומכונת קפה, הדמיה",
+    "en": "Kitchen with a monolithic warm-gray stone island and gas cooktop, full-height light-oak cabinetry and a backlit stone niche with sink and coffee machine, render"
+  },
+  "service-kitchen-design.b33.i2.alt": {
+    "he": "אי אבן במטבח בזווית: האבן ממשיכה מהמשטח אל הדופן ויורדת עד הרצפה, כיריים גז ואור שמש על נגרות עץ האלון, הדמיה",
+    "en": "Angled view of a stone kitchen island: the stone wraps from the worktop down the side to the floor, with a gas cooktop and sunlight across the oak joinery, render"
+  },
+  "service-kitchen-design.b33.i3.alt": {
+    "he": "תקריב של נישת אבן מוארת במטבח: חיפוי בלוח אבן גדול, כיור שקוע, ברז נירוסטה מוברשת ומכונת קפה, הדמיה",
+    "en": "Close-up of a backlit stone niche: large-slab stone splashback, undermount sink, brushed-steel tap and coffee machine, render"
+  },
+  "service-kitchen-design.b33.i4.alt": {
+    "he": "פינת מטבח באלון כהה וחזיתות גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת כהים עם תאורה אחורית, הדמיה",
+    "en": "Dark-oak kitchen corner with greige fronts, an integrated stone sink, matte-black tap and backlit dark-metal shelving, render"
+  },
+  "service-kitchen-design.b34.i0.title": {
+    "he": "מטבח עם אי אבן ונגרות אלון בהיר",
+    "en": "Stone-island kitchen with light oak"
+  },
+  "service-kitchen-design.b34.i0.text": {
+    "he": "אי אבן מונוליתי עם כיריים, קיר נגרות עד התקרה ונישת אבן מוארת לפינת הקפה.",
+    "en": "A monolithic stone island with hob, a floor-to-ceiling joinery wall and a backlit stone niche for the coffee corner."
+  },
+  "service-kitchen-design.b34.i1.title": {
+    "he": "מטבח באלון כהה",
+    "en": "Dark-oak kitchen"
+  },
+  "service-kitchen-design.b34.i1.text": {
+    "he": "עץ אלון כהה, חזיתות בגוון גרייג', כיור אבן אינטגרלי ומדפי מתכת עם תאורה אחורית.",
+    "en": "Dark oak, greige fronts, an integrated stone sink and backlit metal shelving."
+  },
+  "service-kitchen-design.b35.q0": {
+    "he": "כמה מקום צריך בשביל אי במטבח?",
+    "en": "How much space do you need for a kitchen island?"
+  },
+  "service-kitchen-design.b35.a0": {
+    "he": "מעבר לגודל האי עצמו, צריך מעבר נוח סביבו. כנקודת פתיחה מקובלת, כ-100–⁠120 ס\"מ בין האי לחזית הארונות, ויותר כשעובדים שניים או כשהמעבר משמש לתנועה בבית. כשהמקום לא מאפשר, חצי אי או משטח מוארך לאורך הקיר יעבדו טוב יותר מאי צפוף.",
+    "en": "Beyond the island itself, you need comfortable circulation around it. As a common starting point, allow about 100–⁠120 cm between the island and the cabinet fronts, more with two cooks or when the walkway is a route through the house. Where space is short, a peninsula or a longer run along the wall works better than a cramped island."
+  },
+  "service-kitchen-design.b35.q1": {
+    "he": "עדיף כיריים או כיור באי?",
+    "en": "Hob or sink on the island?"
+  },
+  "service-kitchen-design.b35.a1": {
+    "he": "תלוי איך מבשלים. כיריים באי מאפשרות לבשל מול האורחים, אבל מחייבות פתרון יניקה מעל האי או בתוכו, ומרחק מהישיבה. כיור באי משאיר את הכלים המלוכלכים במרכז החדר, אבל מאפשר לפנות את קיר הגב לנגרות ולנישה. ההחלטה מתקבלת לפני שמתכננים ניקוז, גז וחשמל.",
+    "en": "It depends on how you cook. A hob on the island lets you cook facing your guests, but needs extraction above or within the island and distance from the seating. A sink on the island keeps dirty dishes in the middle of the room, but frees the back wall for joinery and a niche. Decide before drainage, gas and power are planned."
+  },
+  "service-kitchen-design.b35.q2": {
+    "he": "מה כדאי להכין לפגישה הראשונה על המטבח?",
+    "en": "What should you prepare for the first meeting about the kitchen?"
+  },
+  "service-kitchen-design.b35.a2": {
+    "he": "תוכנית של הדירה או הבית, אם יש, ותמונות של המטבח הקיים. רשימה של המכשירים שנשארים ושל אלה שרוצים להוסיף, מה מפריע לכם היום ומה חשוב לשמור, ותמונות השראה שאהבתם. כדאי גם לדעת באיזה שלב נמצא השיפוץ ואילו החלטות כבר התקבלו.",
+    "en": "A plan of the apartment or house, if you have one, and photos of the current kitchen. A list of the appliances that stay and the ones you want to add, what bothers you today and what matters to keep, and inspiration images you liked. It also helps to know what stage the renovation is at and which decisions have already been made."
+  },
+  "service-kitchen-design.b35.q3": {
+    "he": "מתי כדאי לפנות למעצבת בשיפוץ מטבח?",
+    "en": "When should you bring in a designer for a kitchen renovation?"
+  },
+  "service-kitchen-design.b35.a3": {
+    "he": "לפני שמזמינים נגרות ולפני שקובעים נקודות מים, ניקוז וחשמל. אחרי שהנקודות כבר בקיר, מיקום האי והכיור כמעט קבוע, וכל שינוי מחייב שבירה, זמן ועלות נוספת. פנייה מוקדמת מאפשרת לתכנן את האי, התאורה והנגרות כמערכת אחת.",
+    "en": "Before the joinery is ordered and before water, drainage and power points are fixed. Once the points are in the wall, the island and sink positions are almost fixed, and every change means demolition, time and extra cost. Starting early lets the island, lighting and joinery be planned as one system."
+  },
+  "service-kitchen-design.b35.q4": {
+    "he": "מה ההבדל בין תכנון של מעצבת לתכנון של חברת המטבחים?",
+    "en": "How is a designer’s plan different from the kitchen company’s?"
+  },
+  "service-kitchen-design.b35.a4": {
+    "he": "חברת מטבחים מתכננת בדרך כלל את המוצר שלה: ארונות, חזיתות ופרזול. מעצבת פנים מתכננת את המטבח כחלק מהבית: הקשר לסלון, התאורה, החומרים שחוזרים בחדרים אחרים ונקודות התשתית. התוכניות שלה לא קשורות לספק מסוים, ולכן אפשר לקבל עליהן הצעות מחיר מכמה ספקים.",
+    "en": "A kitchen company usually plans its own product: cabinets, fronts and hardware. An interior designer plans the kitchen as part of the house: its link to the living room, the lighting, materials that recur in other rooms and the infrastructure points. Her drawings aren’t tied to one supplier, so you can get quotes on them from several."
+  },
+  "service-kitchen-design.b35.h": {
+    "he": "שאלות נפוצות על עיצוב מטבח",
+    "en": "Kitchen design FAQ"
+  },
+  "service-kitchen-design.b36.h": {
+    "he": "מתכננים מטבח חדש או שיפוץ?",
+    "en": "Planning a new kitchen or a renovation?"
+  },
+  "service-kitchen-design.b36.p": {
+    "he": "ספרו לנו על החלל, על מה שעובד בו היום ועל מה שלא. נחזור אליכם לתיאום פגישת היכרות.",
+    "en": "Tell us about the space, what works in it today and what doesn’t. We’ll get back to you to arrange an introductory meeting."
+  },
+  "service-kitchen-design.b36.button": {
+    "he": "לתיאום פגישת היכרות",
+    "en": "Book an introductory meeting"
+  }
+}

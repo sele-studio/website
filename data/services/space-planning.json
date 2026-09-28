@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "id": "service-space-planning",
+    "path": "/services/space-planning/",
+    "type": "service",
+    "crumb": {
+      "he": "תכנון דירה",
+      "en": "Space planning"
+    },
+    "title": {
+      "he": "תכנון דירה ואדריכלות פנים — חלוקת חללים נכונה | SELÈ STUDIO",
+      "en": "Apartment Space Planning in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים — קבעו פגישת היכרות.",
+      "en": "Apartment space planning before a renovation or a move: layout, circulation, storage and light, led by interior designer Shoham Sela. Book a first meeting."
+    },
+    "h1": {
+      "he": "תכנון דירה שמתחיל מהאופן שבו אתם חיים",
+      "en": "Space planning that starts with how you live"
+    },
+    "latin": "PLANNING",
+    "hero": {
+      "img": "living-01",
+      "alt": {
+        "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון עד התקרה ובסיס אבן נמוך לאורך הקיר כולו, הדמיה",
+        "en": "Living room with a TV recessed into a plaster wall, oak shelving up to the ceiling and a low stone plinth running the length of the wall, render"
+      },
+      "caption": {
+        "he": "אחסון ומסך בקיר אחד מתוכנן. פרויקט מגורים פרטי.",
+        "en": "Storage and screen, planned into a single wall. Private residence."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "og": "/assets/img/og/og-service-space-planning.jpg",
+    "ogAlt": {
+      "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מאלון כהה, מנורות תלויות ושידות טרוורטין",
+      "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, pendant lights and travertine side tables"
+    },
+    "service": {
+      "name": {
+        "he": "תכנון דירה ואדריכלות פנים",
+        "en": "Space planning"
+      }
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "לפני שבוחרים אבן, גוון עץ או גוף תאורה, יש שאלה אחת שקובעת כמעט הכול: איך הבית מחולק. איפה עוברים ואיפה עוצרים, מאיפה נכנס האור ולאן נעלמים החפצים. תכנון דירה הוא השלב שבו עונים על השאלות האלה על הנייר, כשכל תיקון עוד נעשה במחק ולא בפטיש.",
+        "en": "Before you choose a stone, a wood tone or a light fitting, one question shapes almost everything else: how the home is divided. Where you walk and where you pause, where the light comes in, where things disappear to. Space planning is the stage where those questions are answered on paper, while every correction still takes an eraser, not a hammer."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה יפה לאורך זמן, לא רק ביום הצילום. אנחנו מתכננים דירות ובתים לקראת שיפוץ, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
+        "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment beautiful for years, not only on the day it is photographed. We plan apartments and homes ahead of a renovation, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed.",
+        "variants": [
+          {
+            "requires": "newBuild",
+            "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה יפה לאורך זמן, לא רק ביום הצילום. אנחנו מתכננים דירות ובתים לקראת שיפוץ או לפני כניסה לדירה חדשה, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
+            "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment beautiful for years, not only on the day it is photographed. We plan apartments and homes ahead of a renovation or before a move into a new apartment, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed."
+          }
+        ]
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בעמוד הזה תמצאו מה תוכנית טובה פותרת, ממה בנוי תהליך התכנון, ומתי נדרשים גם אדריכל או מהנדס רשום.",
+        "en": "On this page you’ll find what a good plan solves, what the planning process is made of, and when a registered architect or engineer is also needed."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה זה תכנון דירה, ובמה הוא שונה מעיצוב?",
+        "en": "What is space planning, and how is it different from design?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תכנון דירה, או תכנון פנים, עוסק באופן שבו החלל עובד: החלוקה לחדרים ולאזורים, מיקום הקירות הפנימיים והפתחים, העמדת הריהוט, נקודות המים והחשמל. העיצוב עוסק באווירה שהחלל יוצר: חומרים, צבעים, מרקמים וסטיילינג.",
+        "en": "Space planning, or interior planning, is about how a space works: the division into rooms and zones, the position of internal walls and openings, the furniture layout, and the water and electrical points. Design is about the atmosphere a space creates: materials, colors, textures and styling."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "השניים שזורים זה בזה, אבל הסדר חשוב. אי אבן מרהיב לא יציל מטבח שהמעבר סביבו צר מדי. ספרייה יפה הופכת למכשול כשהיא עומדת במעבר שכל בני הבית עוברים בו בדרך למרפסת. מכאן גם השם אדריכלות פנים: עבודה על המבנה הפנימי של הבית, בתוך המעטפת הקיימת. על הבסיס הזה נשען אחר כך <a href=\"/services/interior-design/\">עיצוב הפנים לדירה ולבית</a>.",
+        "en": "The two are intertwined, but the order matters. A striking stone island won’t save a kitchen whose surrounding passage is too narrow. A beautiful bookcase becomes an obstacle when it stands in the path everyone takes to the balcony. Hence the name interior architecture: work on the inner structure of the home, within the existing shell. <a href=\"/services/interior-design/\">Interior design for apartments and homes</a> then rests on that foundation."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "ארבעה דברים שתוכנית טובה פותרת",
+        "en": "Four things a good plan solves"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חלוקת חללים",
+        "en": "Dividing the space"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כמה חדרים באמת צריך, ואילו אזורים יכולים לחלוק חלל. פינת עבודה שנבלעת בסלון, חדר ארונות במקום חדר שאיש לא נכנס אליו, מטבח שנפתח לפינת האוכל או דווקא נפרד ממנה. החלוקה נגזרת מהשגרה שלכם ולא מתבנית.",
+        "en": "How many rooms you really need, and which zones can share a space. A work corner absorbed into the living room, a walk-in wardrobe instead of a room nobody uses, a kitchen that opens onto the dining area, or deliberately stays separate from it. The layout follows your routine, not a template."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מעברים ותנועה",
+        "en": "Circulation"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "את הבית חווים גם בתנועה בתוכו. תוכנית טובה בודקת איך נכנסים ואיפה מניחים מפתחות ותיק, איך עוברים מהמטבח לשולחן בלי להיתקל בכיסא, ולאן נפתחות הדלתות. מעבר שצר מדי בכמה סנטימטרים מורגש בכל יום.",
+        "en": "A home is also experienced by moving through it. A good plan checks how you come in and where keys and bags land, how you get from the kitchen to the table without bumping into a chair, and which way the doors open. A passage a few centimeters too narrow is felt every day."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "אחסון",
+        "en": "Storage"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אחסון טוב כמעט לא נראה. הוא מתוכנן מראש, לגובה מלא, בעומק שמתאים למה שייכנס אליו ובמקום שבו צריך את החפץ: ארון ליד דלת הכניסה, מזווה ליד המטבח, נישה לשואב ולכביסה. כשהאחסון נכנס לתוכנית מההתחלה, הקירות נשארים שקטים.",
+        "en": "Good storage is almost invisible. It is planned in advance: full height, at a depth that suits what goes in it, and where the thing is actually needed. A cupboard by the front door, a pantry by the kitchen, a niche for the vacuum and the laundry. When storage is part of the plan from the start, the walls stay quiet."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-01",
+      "alt": {
+        "he": "מטבח עם ארונות עץ אלון בהיר מהרצפה עד התקרה, נישת אבן מוארת עם כיור ואי אבן מונוליתי במרכז, הדמיה",
+        "en": "Kitchen with floor-to-ceiling light-oak cabinetry, a backlit stone niche with a sink, and a monolithic stone island, render"
+      },
+      "caption": {
+        "he": "חזית ארונות אחת לגובה מלא מסתירה את האחסון, ונישה מוארת פותחת בה מקום לעבודה. פרויקט מגורים פרטי.",
+        "en": "One full-height cabinet front conceals the storage, and a lit niche opens a work area within it. Private residence."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "אור",
+        "en": "Light"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "האור הטבעי קובע איפה נעים לשבת, לאכול ולעבוד. לכן בודקים את כיווני החלונות לפני שמזיזים קיר. גם התאורה המלאכותית נגזרת מהתוכנית: גוף תאורה מעל שולחן שעוד לא הוחלט איפה יעמוד הוא ניחוש. כשההעמדה ידועה, אפשר למקם מראש כל נקודת אור, שקע ומתג.",
+        "en": "Daylight decides where it is pleasant to sit, eat and work, so window orientation is studied before any wall moves. Artificial lighting follows the plan too: a pendant above a table whose position hasn’t been decided is a guess. Once the layout is fixed, every light point, socket and switch can be placed in advance."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bedroom-01",
+      "alt": {
+        "he": "חדר שינה עם קיר ראש מיטה מעוגל מעץ אלון כהה, מנורות תלויות ושקעים משני צדי המיטה ושידות לילה מטרוורטין, הדמיה",
+        "en": "Bedroom with a curved dark-oak headboard wall, pendant lights and sockets on both sides of the bed, and travertine bedside tables, render"
+      },
+      "caption": {
+        "he": "כשמיקום המיטה נקבע בתוכנית, המנורות והשקעים יכולים לשבת בדיוק לצידה. פרויקט מגורים פרטי.",
+        "en": "When the bed’s position is fixed in the plan, the pendants and sockets can sit exactly beside it. Private residence."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "ממה בנוי תהליך התכנון",
+        "en": "What the planning process is made of"
+      },
+      "requires": "workingDrawings"
+    },
+    {
+      "t": "steps",
+      "items": [
+        {
+          "title": {
+            "he": "מדידה ובדיקה של המצב הקיים",
+            "en": "Measuring and checking the existing condition"
+          },
+          "text": {
+            "he": "מדידה של הדירה ותיעוד של מה שכבר יש: קירות, פתחים, גבהים, נקודות מים, ביוב וחשמל. בדירה קיימת זה מתחיל בביקור.",
+            "en": "The apartment is measured and what’s already there is documented: walls, openings, ceiling heights, water, drainage and electrical points. In an existing home this starts with a visit.",
+            "variants": [
+              {
+                "requires": "newBuild",
+                "he": "מדידה של הדירה ותיעוד של מה שכבר יש: קירות, פתחים, גבהים, נקודות מים, ביוב וחשמל. בדירה קיימת זה מתחיל בביקור. בדירה בבנייה מתחילים מהתוכניות, ובודקים בשטח כשאפשר.",
+                "en": "The apartment is measured and what’s already there is documented: walls, openings, ceiling heights, water, drainage and electrical points. In an existing home this starts with a visit. In an apartment under construction it starts from the drawings, with a site check where possible."
+              }
+            ]
+          },
+          "requires": "workingDrawings"
+        },
+        {
+          "title": {
+            "he": "היכרות עם מי שגר בבית",
+            "en": "Getting to know who lives there"
+          },
+          "text": {
+            "he": "שיחה על השגרה, על ההרגלים ועל מה שחשוב לכם. מי מבשל, מי עובד מהבית, מה נאסף בפינות. מכאן נגזרות דרישות התוכנית.",
+            "en": "A conversation about your routine, your habits and what matters to you. Who cooks, who works from home, what piles up in the corners. The requirements of the plan come from here."
+          },
+          "requires": "workingDrawings"
+        },
+        {
+          "title": {
+            "he": "חלופות לחלוקה",
+            "en": "Layout options"
+          },
+          "text": {
+            "he": "כמה אפשרויות לחלוקת החלל, כל אחת עם היתרונות והוויתורים שלה, כדי שההחלטה תתקבל מתוך השוואה ולא רק מתחושה. כשקשה לדמיין, אפשר לבחון חלופה גם ב<a href=\"/services/3d-visualization/\">הדמיה של החלל</a>.",
+            "en": "Several ways to divide the space, each with its advantages and trade-offs, so the decision comes from comparison and not from instinct alone. When it’s hard to imagine, an option can also be explored as <a href=\"/services/3d-visualization/\">a visualization of the space</a>."
+          },
+          "requires": "workingDrawings"
+        },
+        {
+          "title": {
+            "he": "תוכנית העמדה",
+            "en": "Furniture layout plan"
+          },
+          "text": {
+            "he": "שרטוט בקנה מידה ובו כל רהיט במידותיו האמיתיות, כולל המרווחים לפתיחת דלתות ומגירות. זו התוכנית שעליה נשען כל השאר.",
+            "en": "A scaled drawing with every piece of furniture at its real size, including the clearances needed to open doors and drawers. Everything else rests on this plan."
+          },
+          "requires": "workingDrawings"
+        },
+        {
+          "title": {
+            "he": "תוכניות מפורטות לקבלן",
+            "en": "Detailed drawings for the contractor"
+          },
+          "text": {
+            "he": "לפי היקף הפרויקט: תוכנית בינוי (מה נהרס ומה נבנה), חשמל ותאורה ונגרות. ככל שהתוכניות מפורטות יותר, קל יותר להשוות בין הצעות מחיר של קבלנים, והביצוע נשען פחות על אלתור. מכאן אפשר להמשיך ל<a href=\"/services/renovation-management/\">ליווי השיפוץ בשטח</a>.",
+            "en": "Depending on the scope: a construction plan (what comes down and what goes up), electrical and lighting, and joinery. The more detailed the drawings, the easier it is to compare contractors’ quotes, and the less the build relies on improvisation. From here the work can continue into <a href=\"/services/renovation-management/\">renovation support on site</a>.",
+            "variants": [
+              {
+                "requires": "drawingsPlumbingFlooring",
+                "he": "לפי היקף הפרויקט: תוכנית בינוי (מה נהרס ומה נבנה), חשמל ותאורה, אינסטלציה, ריצוף ונגרות. ככל שהתוכניות מפורטות יותר, קל יותר להשוות בין הצעות מחיר של קבלנים, והביצוע נשען פחות על אלתור. מכאן אפשר להמשיך ל<a href=\"/services/renovation-management/\">ליווי השיפוץ בשטח</a>.",
+                "en": "Depending on the scope: a construction plan (what comes down and what goes up), electrical and lighting, plumbing, flooring and joinery. The more detailed the drawings, the easier it is to compare contractors’ quotes, and the less the build relies on improvisation. From here the work can continue into <a href=\"/services/renovation-management/\">renovation support on site</a>."
+              }
+            ]
+          },
+          "requires": "workingDrawings"
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "דירה בבנייה: תכנון דירת קבלן ושינויי דיירים",
+        "en": "New-build apartments: planning before handover"
+      },
+      "requires": "newBuild"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בדירה שעוד לא נבנתה יש הזדמנות שלא חוזרת. אפשר להזיז קירות פנימיים ונקודות חשמל ומים לפני שהם נבנים, במקום לפרק אחר כך. קבלנים רבים קובעים מועד ונוהל להגשת שינויי דיירים, ולפעמים גם גובים תשלום על כל שינוי. לכן כדאי להתחיל לתכנן ברגע שתוכנית הדירה בידיים. תוכנית ההעמדה היא הבסיס: ממנה נגזרים מיקומי השקעים, נקודות התאורה וההכנות למיזוג, כך שייבנו במקומם מלכתחילה.",
+        "en": "An apartment that hasn’t been built yet offers a chance that doesn’t come back. Internal walls, electrical points and water points can be moved before they are built, rather than taken apart later. Many developers in Israel set a deadline and a procedure for buyer modifications (known as <em>shinuyei dayarim</em>), and sometimes charge for each change. So it’s worth starting to plan as soon as you have the apartment’s drawings. The furniture layout is the basis: socket positions, light points and air-conditioning provisions follow from it, so they are built in the right place from the start."
+      },
+      "requires": "newBuild"
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה מעצבת פנים מתכננת, ומתי צריך אדריכל או מהנדס רשום?",
+        "en": "What an interior designer plans, and when you need a registered architect or engineer"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תכנון פנים עוסק בחלוקה ובהעמדה בתוך המבנה הקיים. יש שינויים שחורגים מזה ודורשים בעל מקצוע רשום: הריסה או פתיחה בקיר נושא, שינוי בחזית או בפתחים החיצוניים, תוספת בנייה וכל עבודה שמחייבת היתר. גם קיר שנראה כמו מחיצה פשוטה כדאי לבדוק לפני שמפרקים אותו. בממ\"ד, הקירות, הדלת והחלון אינם נתונים לשינוי ללא אישור פיקוד העורף.",
+        "en": "Interior planning deals with division and layout within the existing structure. Some changes go beyond that and require a registered professional: demolishing or opening a load-bearing wall, changing the façade or external openings, adding built area, and any work that needs a building permit. Even a wall that looks like a simple partition should be checked before it comes down. In a <em>mamad</em>, the reinforced safe room found in many Israeli homes, the walls, door and window may not be altered without Home Front Command approval."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "במקרים כאלה התכנון נעשה בתיאום עם אדריכל או מהנדס רשום, שאחראי לצד המבני ולרישוי. הרחבנו על כך במאמר <a href=\"/journal/interior-designer-vs-architect/\">מה ההבדל בין אדריכל למעצב פנים</a>.",
+        "en": "In these cases the planning is coordinated with a registered architect or engineer, who is responsible for the structural and permit side. We cover this in more depth in <a href=\"/journal/interior-designer-vs-architect/\">the difference between an architect and an interior designer</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "לפני הפגישה הראשונה: על מה כדאי לחשוב",
+        "en": "Before the first meeting: what to think about"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "מי גר בבית היום, ומי אולי יגור בו בעוד כמה שנים.",
+          "en": "Who lives in the home today, and who might in a few years."
+        },
+        {
+          "he": "מי עובד מהבית, ומה העבודה דורשת: שקט, שיחות, מסך גדול.",
+          "en": "Who works from home, and what the work needs: quiet, calls, a large screen."
+        },
+        {
+          "he": "איך מבשלים ואוכלים: ארוחות יומיות קצרות או אירוח של שולחן ארוך.",
+          "en": "How you cook and eat: quick daily meals, or hosting around a long table."
+        },
+        {
+          "he": "מה צריך אחסון ייעודי, כמו אופניים, ציוד ספורט, ספרים או בגדים עונתיים.",
+          "en": "What needs dedicated storage, such as bikes, sports gear, books or seasonal clothes."
+        },
+        {
+          "he": "מה אתם אוהבים בבית הנוכחי, ומה מתסכל בו כל יום.",
+          "en": "What you love about your current home, and what frustrates you every day."
+        },
+        {
+          "he": "מה לא זז: רהיט שעובר איתכם, חלון שאסור לחסום, נוף שרוצים לראות מהספה.",
+          "en": "What doesn’t move: a piece of furniture coming with you, a window that must stay clear, a view you want from the sofa."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לא צריך תשובות מלאות. אלו נקודות פתיחה לשיחה, והתוכנית נבנית מהן.",
+        "en": "You don’t need complete answers. These are starting points for a conversation, and the plan grows from them."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מהתוכנית לחלל: קיר אחד, כמה תפקידים",
+        "en": "From plan to space: one wall, several jobs"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אפשר לראות את זה בסלון שבתמונה הראשונה. הטלוויזיה שקועה בקיר הטיח ואינה תלויה עליו. הספרייה מעץ אלון עולה עד התקרה, ובסיס אבן נמוך אחד רץ מתחת לשני האזורים וקושר אותם יחד. פתרון כזה לא קונים מוכן בחנות. מסך שקוע מחייב להחליט על עומק הקיר כבר בשלב הבינוי, ובספרייה בגובה מלא צריך לדעת מראש מה יעמוד מולה ומאיפה יגיע אליה האור. <a href=\"/projects/oak-living-room/\">לפרויקט הסלון בעץ אלון</a>",
+        "en": "You can see it in the living room in the first image. The TV is recessed into the plaster wall rather than hung on it. The oak bookcase rises to the ceiling, and a single low stone plinth runs beneath both zones and ties them together. A solution like this isn’t bought ready-made in a shop. A recessed screen means deciding the wall’s depth at the construction stage, and with a full-height bookcase you need to know in advance what will face it and where its light will come from. <a href=\"/projects/oak-living-room/\">See the oak living room project</a>"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-02",
+      "alt": {
+        "he": "קיר חיפוי מלוחות עץ אלון בהיר עם טלוויזיה, ומתחתיו בסיס אבן עם תאורה נסתרת, לצד וילון שקוף, הדמיה",
+        "en": "Light-oak paneled wall with a TV above a stone plinth lit by concealed lighting, beside a sheer curtain, render"
+      },
+      "caption": {
+        "he": "התאורה הנסתרת בין החיפוי לאבן מתוכננת יחד עם הקיר, לא אחריו. פרויקט מגורים פרטי.",
+        "en": "The concealed light between the paneling and the stone is planned with the wall, not after it. Private residence."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "Frequently asked questions"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "אפשר לתכנן דירה בלי לשפץ אותה?",
+            "en": "Can you plan an apartment without renovating it?"
+          },
+          "a": {
+            "he": "כן. גם בלי הריסה ובנייה, תוכנית העמדה עוזרת להחליט אילו רהיטים לקנות, באילו מידות ואיפה יעמדו, ומראה איפה חסרים שקע, נקודת אור או אחסון. לפעמים מתברר שסידור נכון של הריהוט והנגרות פותר את מה שנראה כמו צורך בשיפוץ. ואם תשפצו בהמשך, התוכנית כבר מוכנה.",
+            "en": "Yes. Even with no demolition or building, a furniture layout helps you decide which pieces to buy, at what size and where they will stand, and shows where a socket, a light point or storage is missing. Sometimes the right arrangement of furniture and joinery solves what looked like a need to renovate. And if you do renovate later, the plan is already there."
+          }
+        },
+        {
+          "q": {
+            "he": "מתי כדאי להתחיל לתכנן?",
+            "en": "When should planning start?"
+          },
+          "a": {
+            "he": "לפני שמזמינים קבלן ולפני שבוחרים חומרים. בשיפוץ, התוכנית היא הבסיס שעליו הקבלנים נותנים הצעות מחיר.",
+            "en": "Before you hire a contractor and before you choose materials. In a renovation, the plan is what contractors base their quotes on.",
+            "variants": [
+              {
+                "requires": "newBuild",
+                "he": "לפני שמזמינים קבלן ולפני שבוחרים חומרים. בשיפוץ, התוכנית היא הבסיס שעליו הקבלנים נותנים הצעות מחיר. בדירה בבנייה כדאי להתחיל ברגע שיש תוכנית מהקבלן, כדי להספיק להגיש שינויי דיירים במועד שהוא קובע.",
+                "en": "Before you hire a contractor and before you choose materials. In a renovation, the plan is what contractors base their quotes on. In an apartment under construction, start as soon as you have the developer’s drawings, so modifications can be submitted by the developer’s deadline."
+              }
+            ]
+          }
+        },
+        {
+          "q": {
+            "he": "מה בודקים לפני שמזיזים קיר בדירה?",
+            "en": "What should be checked before moving a wall in an apartment?"
+          },
+          "a": {
+            "he": "קודם כול, אם הקיר נושא. את זה קובע מהנדס, לא מראה עיניים. אחר כך, מה עובר בתוכו: חשמל, מים או ביוב שיצטרכו מסלול חדש. חדרים רטובים תלויים גם בשיפוע של צנרת הביוב, ולכן לא תמיד אפשר להעביר מטבח או חדר רחצה לכל מקום. ולבסוף, מה הקיר החדש יעשה לאור ולאוורור בחדרים שמשני צדיו.",
+            "en": "First, whether the wall is load-bearing. An engineer decides that, not appearances. Next, what runs inside it: electrical, water or drainage lines that would need a new route. Wet rooms also depend on the fall of the drainage pipes, so a kitchen or bathroom can’t always move anywhere you like. Finally, what the new wall will do to the light and ventilation of the rooms on either side."
+          }
+        },
+        {
+          "q": {
+            "he": "מה זו תוכנית העמדה?",
+            "en": "What is a furniture layout plan?"
+          },
+          "a": {
+            "he": "שרטוט בקנה מידה של הדירה, ובו כל הרהיטים במידותיהם האמיתיות: ספה, שולחן, מיטה וארונות. היא מראה אם יש מקום לעבור, לפתוח דלת ומגירה ולשבת בנוחות. היא גם הבסיס לתוכניות החשמל, התאורה והנגרות.",
+            "en": "A scaled drawing of the apartment with all the furniture at its real size: sofa, table, bed and wardrobes. It shows whether there’s room to walk, to open a door or a drawer, and to sit comfortably. It is also the basis for the electrical, lighting and joinery drawings."
+          }
+        },
+        {
+          "q": {
+            "he": "האם צריך תכנון גם בדירה קטנה?",
+            "en": "Does a small apartment need planning too?"
+          },
+          "a": {
+            "he": "בדירה קטנה כל סנטימטר נספר, ולכן דווקא שם התכנון חשוב. הוא מוצא אחסון בגבהים ובעומקים שלא מנוצלים, מאפשר לאזורים לחלוק חלל בלי להתנגש, ומונע קנייה של רהיטים שלא נכנסים. כשהשטח מצומצם, כל החלטה משפיעה יותר.",
+            "en": "In a small apartment every centimeter counts, which is exactly why planning matters there. It finds storage in unused heights and depths, lets zones share space without colliding, and prevents buying furniture that doesn’t fit. When space is limited, every decision carries more weight."
+          }
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "רוצים להתחיל מהתוכנית?",
+        "en": "Want to start with the plan?"
+      },
+      "p": {
+        "he": "ספרו לנו על הבית: מה יש בו, מה חסר ומה חשוב לכם. נשמח להכיר.",
+        "en": "Tell us about the home: what’s there, what’s missing and what matters to you. We’d be glad to meet."
+      },
+      "button": {
+        "he": "קבעו פגישת היכרות",
+        "en": "Book an introductory meeting"
+      },
+      "href": "/contact/"
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "id": "journal-interior-designer-vs-architect",
+    "path": "/journal/interior-designer-vs-architect/",
+    "type": "article",
+    "crumb": {
+      "he": "אדריכל או מעצב פנים",
+      "en": "Architect vs designer"
+    },
+    "title": {
+      "he": "מה ההבדל בין אדריכל למעצב פנים, ומי עושה מה | SELÈ STUDIO",
+      "en": "Architect vs Interior Designer in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל. מדריך ברור עם טבלת השוואה מ-SELÈ STUDIO.",
+      "en": "Architect or interior designer? Who signs permit applications, when a renovation in Israel needs an architect or engineer, and what a designer leads."
+    },
+    "h1": {
+      "he": "מה ההבדל בין אדריכל למעצב פנים, ומתי צריך את שניהם",
+      "en": "Architect vs interior designer: what’s the difference, and when do you need both?"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "living-01",
+      "alt": {
+        "he": "סלון בגוונים חמים: קיר טיח עם נישה שקועה לטלוויזיה, ספריית עץ אלון בגובה מלא ובסיס אבן לאורך הקיר, הדמיה של SELÈ STUDIO",
+        "en": "Warm-toned living room: a plaster wall with a recessed TV niche, full-height light-oak shelving and a stone plinth along the wall, a SELÈ STUDIO render"
+      },
+      "caption": {
+        "he": "נישה, ספרייה ובסיס אבן: החלטות של תכנון פנים, בלי שינוי אחד במבנה.",
+        "en": "A niche, shelving and a stone plinth: interior-design decisions, with no change to the structure."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "thumb": "bedroom-02",
+    "og": "/assets/img/og/og-journal-interior-designer-vs-architect.jpg",
+    "ogAlt": {
+      "he": "פרט ליד המיטה: ראש מיטה מפשתן, פאנל אלון כהה מעוגל ושידת טרוורטין עם ספר ונר",
+      "en": "Bedside detail: linen headboard, curved dark-oak panel and a travertine side table with a book and candle"
+    },
+    "article": {
+      "section": "hiring",
+      "service": "space-planning",
+      "author": "org",
+      "published": null,
+      "modified": null
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "שני מקצועות שעובדים על אותו בית, מזוויות שונות. מי אחראי על המבנה, מי על החיים שבתוכו, ואיך יודעים למי לפנות קודם.",
+        "en": "Two professions working on the same home from different angles. Who is responsible for the building, who shapes the life inside it, and how to know whom to call first."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>בקצרה:</strong> אדריכל מתכנן את הבניין עצמו: המעטפת, החזיתות, הקונסטרוקציה בתיאום עם מהנדס, וההתאמה לתוכניות ולחוק. בישראל התואר \"אדריכל\" שמור בחוק למי שרשום בפנקס המהנדסים והאדריכלים. מעצב פנים מתכנן את החלל מבפנים: איך הוא מחולק, מאילו חומרים הוא עשוי, איך הוא מואר, איזו נגרות תיבנה בו ואיך יחיו בו. בשיפוץ של דירה קיימת, בלי שינוי במבנה ובלי תוספת בנייה, מעצב הפנים הוא לרוב זה שמוביל. כשהעבודה מחייבת היתר בנייה, או כוללת שינוי בקיר נושא, תוספת בנייה או שינוי בחזית, צריך בעל מקצוע רשום, בדרך כלל אדריכל או מהנדס. בפרויקטים רבים, בעיקר בבנייה חדשה, הדרך הנכונה היא לעבוד עם שניהם, מוקדם ככל האפשר.",
+        "en": "<strong>In short:</strong> an architect designs the building itself: the envelope, the façades, the structure (with an engineer), and its fit with the zoning plan and the law. In Israel, the title “architect” is reserved by law for people listed in the Engineers and Architects Register. An interior designer plans the space from the inside: how it is divided, what it is made of, how it is lit, what joinery is built into it and how it will be lived in. In a renovation of an existing apartment, with no structural change and no addition, the interior designer usually leads. When the work needs a building permit, or includes a change to a load-bearing wall, an addition or a change to the façade, you need a registered professional, usually an architect or engineer. In many projects, especially new builds, the right answer is to work with both, and as early as possible."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המדריך הזה נכתב כדי לעשות סדר. הוא כללי ואינו ייעוץ משפטי. לפני שמתחילים בעבודות, כדאי לבדוק מול הוועדה המקומית לתכנון ובנייה ומול איש מקצוע רשום.",
+        "en": "This guide is here to make that clear. It is general and is not legal advice. Before any work begins, check with your local planning and building committee and with a registered professional."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "אדריכל: תואר מוסדר בחוק ואחריות על המבנה",
+        "en": "The architect: a regulated title and responsibility for the structure"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חוק המהנדסים והאדריכלים, תשי\"ח-1958, קובע שאדם לא יישא את התואר \"אדריכל\" אלא אם הוא רשום בפנקס המהנדסים והאדריכלים. הרישום מבוסס על תואר אקדמי מוכר באדריכלות. מעבר לרישום יש גם \"אדריכל רשוי\", מדרגה נוספת המותנית, בין היתר, בניסיון מקצועי. החוק מאפשר גם לייחד בתקנות פעולות מסוימות לבעלי רישיון בלבד, ולכן מי רשאי לחתום על בקשה להיתר תלוי בסוג הרישום ובהיקף הבנייה.",
+        "en": "Israel’s Engineers and Architects Law, 1958, says that no one may carry the title “architect” unless they are listed in the Engineers and Architects Register. Registration rests on a recognized academic degree in architecture. Beyond registration there is also the “licensed architect”, a further level that depends, among other things, on professional experience. The law also allows certain acts to be reserved, by regulation, for license holders only, so who may sign a permit application depends on the type of registration and the scale of the building."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בפועל, אדריכל אחראי על מה שמחזיק את הבית ועל מה שהעירייה רואה:",
+        "en": "In practice, an architect is responsible for what holds the house up and for what the municipality sees:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "תכנון המבנה והמעטפת: קומות, חזיתות, פתחים, גובה ונפח.",
+          "en": "designing the building and its envelope: floors, façades, openings, height and volume;"
+        },
+        {
+          "he": "התאמה לתוכנית בניין העיר (תב\"ע), לזכויות הבנייה ולתקנות.",
+          "en": "compliance with the local zoning plan (TABA), building rights and regulations;"
+        },
+        {
+          "he": "הכנת הבקשה להיתר בנייה והגשתה, יחד עם מהנדס הקונסטרוקציה ויועצים נוספים.",
+          "en": "preparing and submitting the building-permit application, together with the structural engineer and other consultants;"
+        },
+        {
+          "he": "תיאום בין המערכות הגדולות של הבניין.",
+          "en": "coordinating the building’s major systems."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "רוצים לוודא שמי שמולכם אכן רשום? רשם המהנדסים והאדריכלים מנגיש חיפוש ציבורי באתר gov.il.",
+        "en": "Want to check that the person in front of you is really registered? The Registrar of Engineers and Architects offers a public search on gov.il."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מעצב פנים: איך החלל חי מבפנים",
+        "en": "The interior designer: how the space lives on the inside"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "\"מעצב פנים\" אינו תואר מוגן כמו \"אדריכל\", ולכן ההכשרה בתחום משתנה מאוד: מתואר אקדמי ארבע־שנתי בעיצוב פנים ועד קורסים קצרים. זו סיבה טובה לבדוק השכלה ותיק עבודות, ולהגיע לפגישה הראשונה עם שאלות. על כך כתבנו במדריך <a href=\"/journal/how-to-choose-interior-designer/\">מה לבדוק כשבוחרים מעצבת פנים</a>.",
+        "en": "“Interior designer” is not a protected title the way “architect” is, so training in the field varies widely, from a four-year academic degree in interior design to short courses. That is a good reason to check education and portfolio, and to come to the first meeting with questions. We wrote about that in <a href=\"/journal/how-to-choose-interior-designer/\">what to check when choosing an interior designer</a>."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מעצב פנים מקצועי מוביל את כל מה שקורה בתוך המעטפת:",
+        "en": "A professional interior designer leads everything that happens inside the envelope:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>חלוקת החלל:</strong> מיקום קירות פנימיים שאינם נושאים, תוכנית העמדה, זרימה בין החדרים ופתרונות אחסון.",
+          "en": "<strong>Space planning:</strong> the position of non-load-bearing interior walls, the furniture layout, the flow between rooms and storage."
+        },
+        {
+          "he": "<strong>חומרים וגימורים:</strong> ריצוף, חיפוי, אבן למשטחים, עץ לנגרות, טיח ובדים, כולל התאמה לשימוש ולתחזוקה.",
+          "en": "<strong>Materials and finishes:</strong> flooring, cladding, stone for worktops, wood for joinery, plaster and textiles, chosen for use and upkeep."
+        },
+        {
+          "he": "<strong>תאורה וחשמל:</strong> תוכנית נקודות, שכבות תאורה, גוון אור ותאורה משולבת בנגרות ובנישות.",
+          "en": "<strong>Lighting and electrical:</strong> the points plan, layers of light, color temperature, and lighting built into joinery and niches."
+        },
+        {
+          "he": "<strong>נגרות ופרטים:</strong> מטבח, ארונות, ספריות וקירות טלוויזיה, בשרטוטים מפורטים שהנגר יכול לבנות מהם.",
+          "en": "<strong>Joinery and details:</strong> kitchens, wardrobes, shelving and TV walls, in detailed drawings a joiner can build from."
+        },
+        {
+          "he": "<strong>ריהוט וסטיילינג:</strong> מה נכנס לחלל, באיזה גודל ובאיזה חומר.",
+          "en": "<strong>Furniture and styling:</strong> what goes into the space, at what size and in what material."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כאן נכנס גם המונח \"אדריכלות פנים\". זהו שם של תחום עבודה: תכנון החלל הפנימי, חתכים, פרטים ומידות. הוא אינו תואר ואינו מחליף רישום. אצלנו זה החלק שנקרא <a href=\"/services/space-planning/\">תכנון ואדריכלות פנים</a>.",
+        "en": "This is also where the Hebrew term “adrichalut pnim” (interior architecture) comes in. It names a field of work: planning the interior space, its sections, details and dimensions. It is not a title and does not replace registration. At the studio this is the part we call <a href=\"/services/space-planning/\">space planning and interior architecture</a>."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-01",
+      "alt": {
+        "he": "מטבח עם אי אבן מונוליתי עם עורקים אפורים, ארונות עץ אלון בהיר עד התקרה ונישת אבן עם תאורה נסתרת, הדמיה של SELÈ STUDIO",
+        "en": "Kitchen with a monolithic gray-veined stone island, full-height light-oak cabinetry and a stone niche with concealed lighting, a SELÈ STUDIO render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "<a href=\"/projects/stone-oak-kitchen/\">האי, הנישה והנגרות תוכננו כמקשה אחת.</a>",
+        "en": "<a href=\"/projects/stone-oak-kitchen/\">Island, niche and joinery designed as one piece.</a>"
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מתי צריך אדריכל או מהנדס רשום?",
+        "en": "When do you need a registered architect or engineer?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חוק התכנון והבנייה קובע שעבודות בנייה טעונות היתר. עבודות פנימיות בדירה, כמו החלפת ריצוף, מטבח חדש או הזזת קיר גבס, בדרך כלל אינן דורשות היתר. זה משתנה כשהעבודה נוגעת במבנה, בחזית או ברכוש של אחרים. אלה המצבים הנפוצים שבהם שיפוץ דורש בדרך כלל היתר בנייה, או לפחות מעורבות של אדריכל או מהנדס רשום:",
+        "en": "Israel’s Planning and Building Law requires a permit for building work. Interior work in an apartment, such as new flooring, a new kitchen or moving a plasterboard wall, usually does not need one. That changes when the work touches the structure, the façade or other people’s property. These are the common cases where a renovation usually needs a building permit, or at least a registered architect or engineer:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>שינוי בקונסטרוקציה:</strong> פתיחת פתח בקיר נושא, הסרת עמוד, שינוי בתקרה או ברצפה. כאן נדרש מהנדס קונסטרוקציה, ובדרך כלל גם היתר.",
+          "en": "<strong>Structural change:</strong> an opening in a load-bearing wall, removing a column, changes to a ceiling slab or floor. This needs a structural engineer, and usually a permit."
+        },
+        {
+          "he": "<strong>תוספת בנייה:</strong> חדר נוסף, קומה, הרחבה, סגירת מרפסת.",
+          "en": "<strong>An addition:</strong> an extra room, a story, an extension, enclosing a balcony."
+        },
+        {
+          "he": "<strong>שינוי בחזית:</strong> פתיחת חלון או דלת בקיר חיצוני, הגדלת פתח קיים או שינוי חומר החזית.",
+          "en": "<strong>A change to the façade:</strong> a new window or door in an exterior wall, enlarging an existing opening, or changing the façade material."
+        },
+        {
+          "he": "<strong>שינוי שימוש, פיצול או איחוד דירות.</strong>",
+          "en": "<strong>A change of use, or splitting or joining apartments.</strong>"
+        },
+        {
+          "he": "<strong>ממ\"ד:</strong> אין לגעת בקירות, בפתחים או במערכות של המרחב המוגן בלי אישור פיקוד העורף.",
+          "en": "<strong>The safe room (mamad):</strong> its walls, openings and systems must not be touched without Home Front Command approval."
+        },
+        {
+          "he": "<strong>בנייה חדשה:</strong> בית פרטי מהיסוד מתוכנן על ידי בעל מקצוע רשום ומוגש להיתר.",
+          "en": "<strong>A new build:</strong> a private house from the ground up is designed by a registered professional and submitted for a permit."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שני דברים נוספים שכדאי להכיר. הראשון: תקנות הפטור מהיתר (תשע\"ד-2014) מפרטות עבודות קטנות שאינן דורשות היתר, ולחלקן יש חובת דיווח לרשות המקומית לפני הביצוע. השני: בבית משותף, שינוי שנוגע ברכוש המשותף דורש בדרך כלל הסכמה של בעלי הדירות, וזו שאלה משפטית נפרדת מההיתר. אם אתם לא בטוחים, שאלו לפני שמפרקים. תיקון בדיעבד תמיד יקר יותר.",
+        "en": "Two more things worth knowing. First, the permit-exemption regulations (2014) list small works that need no permit, and some of them must be reported to the local authority before they are carried out. Second, in a shared building, a change that touches common property usually needs the other owners’ consent, which is a legal question separate from the permit. If you are unsure, ask before anything is taken apart. Fixing it afterwards always costs more."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה מעצב פנים מוביל בפועל: סלון ומטבח",
+        "en": "What an interior designer actually leads: a living room and a kitchen"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ברוב השיפוצים של דירות קיימות, רוב ההחלטות שקובעות איך ייראה הבית ואיך ירגישו בו הן החלטות של תכנון פנים. דוגמה אחת היא הסלון: קיר טיח עם נישה מדויקת לטלוויזיה, ספריית עץ אלון בגובה מלא ובסיס אבן שנמשך לכל אורך הקיר. אין כאן אף החלטה שדורשת היתר. יש כאן עשרות החלטות של מידה, חומר, אור ופרט, והן אלה שיוצרות את התחושה.",
+        "en": "In most renovations of existing apartments, most of the decisions that set how the home looks and feels are interior-planning decisions. Take the living room: a plaster wall with a precise recess for the TV, full-height oak shelving and a stone plinth running the length of the wall. None of it needs a permit. It is dozens of decisions about size, material, light and detail, and they are what create the feeling of the room."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אותו הדבר במטבח. מיקום האי, גובה המשטח, נישת אבן עם תאורה נסתרת וארונות עד התקרה הם תכנון פנים. אבל גם בתוך המטבח יש נקודות שדורשות בדיקה של בעל מקצוע נוסף: העברת קו גז, שנעשית על ידי מתקין גז מוסמך; פתח אוורור בקיר חיצוני, שנוגע בחזית; או העברת נקודות מים וניקוז, שהצנרת שלהן עוברת ברצפה ולפעמים גם בתקרה של הדירה שמתחת. מעצב פנים טוב יודע לזהות את הרגעים האלה ולעצור בזמן.",
+        "en": "The kitchen is the same. The position of the island, the worktop height, a stone niche with concealed lighting and cabinetry up to the ceiling are all interior planning. But even in a kitchen there are points that need another professional to check them: moving a gas line, which is done by a licensed gas installer; a vent opening in an exterior wall, which touches the façade; or moving water and drainage points, whose pipes run through the floor and sometimes through the ceiling of the apartment below. A good interior designer knows how to spot those moments and stop in time."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-02",
+      "alt": {
+        "he": "קיר חיפוי מלוחות עץ אלון בהיר עם טלוויזיה, ומתחתיו בסיס אבן עם פס תאורה נסתרת, הדמיה של SELÈ STUDIO",
+        "en": "Light-oak paneled wall with a TV above a stone plinth lit by a concealed light strip, a SELÈ STUDIO render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "פרט של חיבור בין עץ, אבן ואור. כאן תכנון הפנים עובד במילימטרים.",
+        "en": "A junction of wood, stone and light, where interior planning works to the millimeter."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "טבלת השוואה: אדריכל רשום ומעצב פנים",
+        "en": "Comparison table: registered architect and interior designer"
+      }
+    },
+    {
+      "t": "table",
+      "head": [
+        {
+          "he": "נושא",
+          "en": "Topic"
+        },
+        {
+          "he": "אדריכל רשום",
+          "en": "Registered architect"
+        },
+        {
+          "he": "מעצב פנים",
+          "en": "Interior designer"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "he": "התואר",
+            "en": "Title"
+          },
+          {
+            "he": "מוגן בחוק; מחייב רישום בפנקס המהנדסים והאדריכלים",
+            "en": "Protected by law; requires listing in the Engineers and Architects Register"
+          },
+          {
+            "he": "אינו מוגן; ההכשרה משתנה",
+            "en": "Not protected; training varies"
+          }
+        ],
+        [
+          {
+            "he": "השכלה אופיינית",
+            "en": "Typical education"
+          },
+          {
+            "he": "תואר אקדמי באדריכלות",
+            "en": "Academic degree in architecture"
+          },
+          {
+            "he": "תואר אקדמי בעיצוב פנים, או לימודים מקצועיים",
+            "en": "Academic degree in interior design, or professional studies"
+          }
+        ],
+        [
+          {
+            "he": "היתר בנייה",
+            "en": "Building permit"
+          },
+          {
+            "he": "מכין ומגיש בקשות להיתר",
+            "en": "Prepares and submits permit applications"
+          },
+          {
+            "he": "אינו מגיש בקשות להיתר",
+            "en": "Does not submit permit applications"
+          }
+        ],
+        [
+          {
+            "he": "קונסטרוקציה",
+            "en": "Structure"
+          },
+          {
+            "he": "מתאם עם מהנדס הקונסטרוקציה",
+            "en": "Coordinates with the structural engineer"
+          },
+          {
+            "he": "אינו מתכנן קונסטרוקציה; מזהה מתי צריך מהנדס",
+            "en": "Does not design structure; recognizes when an engineer is needed"
+          }
+        ],
+        [
+          {
+            "he": "מעטפת וחזיתות",
+            "en": "Envelope and façades"
+          },
+          {
+            "he": "באחריותו",
+            "en": "Their responsibility"
+          },
+          {
+            "he": "מתייחס אליהן, אך אינו משנה אותן",
+            "en": "Takes them into account but does not change them"
+          }
+        ],
+        [
+          {
+            "he": "חלוקת חללים פנימית",
+            "en": "Interior space planning"
+          },
+          {
+            "he": "במסגרת תכנון המבנה",
+            "en": "As part of designing the building"
+          },
+          {
+            "he": "מתכנן בפירוט, בתוך המעטפת הקיימת",
+            "en": "Plans in detail, inside the existing envelope"
+          }
+        ],
+        [
+          {
+            "he": "תאורה וחשמל",
+            "en": "Lighting and electrical"
+          },
+          {
+            "he": "נקודות בסיס בתכנון המבנה",
+            "en": "Base points in the building design"
+          },
+          {
+            "he": "תוכנית תאורה ונקודות מפורטת לכל חדר",
+            "en": "A detailed lighting and points plan for every room"
+          }
+        ],
+        [
+          {
+            "he": "חומרים וגימורים",
+            "en": "Materials and finishes"
+          },
+          {
+            "he": "חומרי חזית ומבנה",
+            "en": "Façade and structural materials"
+          },
+          {
+            "he": "ריצוף, חיפוי, אבן, עץ, טיח ובדים",
+            "en": "Flooring, cladding, stone, wood, plaster and textiles"
+          }
+        ],
+        [
+          {
+            "he": "נגרות ופרטים",
+            "en": "Joinery and details"
+          },
+          {
+            "he": "לפי היקף ההתקשרות",
+            "en": "Depends on the scope of the engagement"
+          },
+          {
+            "he": "מטבח, ארונות, ספריות, קירות, פרטי חיבור",
+            "en": "Kitchens, wardrobes, shelving, walls, junction details"
+          }
+        ],
+        [
+          {
+            "he": "ריהוט וסטיילינג",
+            "en": "Furniture and styling"
+          },
+          {
+            "he": "לרוב לא",
+            "en": "Usually not"
+          },
+          {
+            "he": "חלק מרכזי בעבודה",
+            "en": "A central part of the work"
+          }
+        ],
+        [
+          {
+            "he": "מתי מגיע",
+            "en": "When they join"
+          },
+          {
+            "he": "בתחילת תכנון המבנה",
+            "en": "At the start of the building design"
+          },
+          {
+            "he": "בשיפוץ: מההתחלה. בבנייה חדשה: לפני הגשת ההיתר",
+            "en": "Renovation: from the start. New build: before the permit is submitted"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך אדריכל ומעצב פנים עובדים יחד",
+        "en": "How an architect and an interior designer work together"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בבנייה חדשה ובשיפוץ עם שינוי מבני, השאלה איננה \"אדריכל או מעצב פנים\", אלא מתי כל אחד נכנס ואיך הם מדברים זה עם זה. טעות נפוצה היא לצרף מעצב פנים אחרי שההיתר כבר הוגש. אז מתברר שחלון יצא בדיוק במקום שבו היה צריך להיות ארון, שאין פיר למערכות במקום הנכון, או שגובה התקרה לא משאיר מקום לתאורה נסתרת ולמיזוג.",
+        "en": "In a new build, or a renovation with structural change, the question is not “architect or interior designer” but when each one comes in and how they talk to each other. A common mistake is to bring an interior designer in after the permit has already been submitted. That is when it turns out a window landed exactly where a wardrobe should have been, there is no service shaft in the right place, or the ceiling height leaves no room for concealed lighting and air conditioning."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "built-01",
+      "alt": {
+        "he": "מטבח בפרויקט שבוצע: ארונות עץ אלון כהה עד התקרה עם גרילים של אוורור בחלקם העליון, ארונות בגוון גרייג' ואי מאבן בהירה עם כיריים, צילום מהשטח",
+        "en": "Kitchen in a completed project: full-height dark-oak cabinetry with vent grilles along the top, greige cabinets and a light stone island with a cooktop, a photo from site"
+      },
+      "kind": "photo",
+      "caption": {
+        "he": "הגרילים שולבו בחלק העליון של הנגרות, בנקודה שבה מערכות הבית פוגשות את תכנון הפנים.",
+        "en": "Vent grilles built into the top of the joinery, where the home’s systems meet interior design."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "סדר עבודה שבדרך כלל עובד:",
+        "en": "A sequence that usually works:"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>היכרות משותפת:</strong> בעלי הבית, האדריכל ומעצב הפנים מגדירים יחד את הצרכים, את התקציב ואת האופי.",
+          "en": "<strong>A shared first meeting:</strong> the owners, the architect and the interior designer define the needs, the budget and the character together."
+        },
+        {
+          "he": "<strong>תכנון המבנה:</strong> האדריכל מוביל, ומעצב הפנים בודק את התוכנית מבפנים: חלוקה, פתחים, נקודות מים ומערכות.",
+          "en": "<strong>Designing the building:</strong> the architect leads, and the interior designer reviews the plan from the inside: layout, openings, water points and systems."
+        },
+        {
+          "he": "<strong>היתר וקונסטרוקציה:</strong> האדריכל והמהנדס מגישים ומתכננים. מעצב הפנים לא משנה דבר שנוגע במבנה בלי אישורם.",
+          "en": "<strong>Permit and structure:</strong> the architect and engineer submit and design. The interior designer changes nothing that touches the structure without their approval."
+        },
+        {
+          "he": "<strong>תכנון פנים מפורט:</strong> מעצב הפנים מוביל את החומרים, התאורה, הנגרות והפרטים, על בסיס תוכניות המבנה המאושרות.",
+          "en": "<strong>Detailed interior design:</strong> the interior designer leads materials, lighting, joinery and details, based on the approved building plans."
+        },
+        {
+          "he": "<strong>ביצוע:</strong> סט תוכניות אחד ומתואם, וכתובת ברורה לכל שאלה מהשטח.",
+          "en": "<strong>Construction:</strong> one coordinated set of drawings, and a clear address for every question from site."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כדאי להגדיר בכתב, מראש, מי אחראי על מה. כך נמנעים מהמצב המוכר שבו כל אחד חושב שהשני בדק.",
+        "en": "It is worth putting in writing, in advance, who is responsible for what. That avoids the familiar situation where each person assumes the other one checked."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "אדריכל או מעצב פנים? איך מחליטים",
+        "en": "Architect or interior designer? How to decide"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>שיפוץ דירה בלי שינוי מבני ובלי תוספת:</strong> מעצב פנים יכול להוביל את הפרויקט כולו. אם עולה שאלה על קיר, מערבים מהנדס לבדיקה נקודתית.",
+          "en": "<strong>An apartment renovation with no structural change and no addition:</strong> an interior designer can lead the whole project. If a question about a wall comes up, an engineer is brought in to check that point."
+        },
+        {
+          "he": "<strong>שיפוץ עם פתיחת קיר נושא, סגירת מרפסת או שינוי בחזית:</strong> מעצב פנים לתכנון הפנים, ומהנדס או אדריכל רשום לחלק המבני ולהיתר.",
+          "en": "<strong>A renovation that opens a load-bearing wall, encloses a balcony or changes the façade:</strong> an interior designer for the interior, and a registered engineer or architect for the structural part and the permit."
+        },
+        {
+          "he": "<strong>בית חדש או תוספת בנייה:</strong> אדריכל רשום כמתכנן המבנה, ומעצב פנים שמצטרף מוקדם, לפני שההיתר מוגש.",
+          "en": "<strong>A new house or an addition:</strong> a registered architect designs the building, and an interior designer joins early, before the permit is submitted."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אם אתם משווים גם את העלויות, כתבנו על <a href=\"/journal/interior-design-cost/\">איך מתמחרים עבודת עיצוב פנים</a> ומה משפיע על ההצעה.",
+        "en": "If you are comparing costs too, we wrote about <a href=\"/journal/interior-design-cost/\">how interior design work is priced</a> and what shapes a proposal."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איפה SELÈ STUDIO נכנס לתמונה",
+        "en": "Where SELÈ STUDIO fits"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים, בהובלת <a href=\"/studio/\">שוהם סלע</a>, מעצבת פנים בוגרת שנקר בהצטיינות. \"אדריכלות פנים\" אצלנו היא תחום העבודה, לא תואר. שוהם אינה רשומה בפנקס המהנדסים והאדריכלים, והסטודיו אינו מגיש בקשות להיתר ואינו מתכנן קונסטרוקציה. כשפרויקט דורש זאת, התפקיד הזה שייך לאדריכל או למהנדס רשום, ותכנון הפנים שלנו נבנה בתיאום איתו.",
+        "en": "SELÈ STUDIO is a boutique architecture and interior design studio led by <a href=\"/studio/\">Shoham Sela</a>, an interior designer who graduated from Shenkar with honors. For us, “interior architecture” is the field of work, not a title. Shoham is not a registered architect, and the studio does not submit permit applications or design structure. When a project needs that, the role belongs to a registered architect or engineer, and our interior design is coordinated with them."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "התחום שלנו הוא מה שקורה בתוך הקירות: חלוקת החלל, בחירת חומרים, תכנון תאורה, נגרות מפורטת, סטיילינג והדמיות שמראות את הבית לפני שהוא נבנה. אפשר לראות את זה ב<a href=\"/projects/stone-oak-kitchen/\">מטבח עם אי אבן ועץ אלון</a> וב<a href=\"/projects/oak-living-room/\">סלון עם ספריית אלון וקיר טיח</a>.",
+        "en": "Our field is what happens inside the walls: space planning, material selection, lighting design, detailed joinery, styling, and renders that show the home before it is built. You can see it in the <a href=\"/projects/stone-oak-kitchen/\">stone-island kitchen with oak joinery</a> and the <a href=\"/projects/oak-living-room/\">living room with oak shelving and a plaster wall</a>."
+      }
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "Frequently asked questions"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "האם מעצב פנים רשאי להציג את עצמו כאדריכל?",
+            "en": "Can an interior designer call themselves an architect in Israel?"
+          },
+          "a": {
+            "he": "לא. לפי חוק המהנדסים והאדריכלים, התואר \"אדריכל\" שמור למי שרשום בפנקס המהנדסים והאדריכלים. מעצב פנים שאינו רשום אינו רשאי להציג את עצמו כאדריכל. המונח \"אדריכלות פנים\" מתאר תחום עבודה, תכנון החלל הפנימי, ואינו תואר מקצועי.",
+            "en": "No. Under the Engineers and Architects Law, the title “architect” is reserved for people listed in the Engineers and Architects Register. An interior designer who is not registered may not present themselves as an architect. The term “interior architecture” describes a field of work, planning the interior space, and is not a professional title."
+          }
+        },
+        {
+          "q": {
+            "he": "האם הריסת קיר בדירה דורשת היתר בנייה?",
+            "en": "Does removing a wall in an apartment need a building permit?"
+          },
+          "a": {
+            "he": "עבודות פנימיות שאינן נוגעות במבנה, כמו הזזת קיר גבס, אינן דורשות בדרך כלל היתר. קיר נושא הוא סיפור אחר: פתיחה בו היא שינוי קונסטרוקטיבי שמחייב מהנדס, ובדרך כלל גם היתר. קירות ממ\"ד אסור לשנות בלי אישור פיקוד העורף. לפני שמפרקים קיר, מהנדס צריך לבדוק מה הוא נושא.",
+            "en": "Interior work that does not touch the structure, such as moving a plasterboard wall, usually needs no permit. A load-bearing wall is different: opening it is a structural change that requires an engineer, and usually a permit. Safe-room walls must not be altered without Home Front Command approval. Before a wall comes down, an engineer should check what it carries."
+          }
+        },
+        {
+          "q": {
+            "he": "האם צריך אדריכל כדי לשפץ דירה?",
+            "en": "Do I need an architect to renovate an apartment?"
+          },
+          "a": {
+            "he": "לא תמיד. בשיפוץ פנימי בלי שינוי מבני, בלי תוספת ובלי שינוי בחזית, בדרך כלל לא נדרש היתר, ומעצב פנים יכול להוביל את התכנון. כשיש פתיחת קיר נושא, סגירת מרפסת, תוספת בנייה או שינוי בחזית, צריך אדריכל או מהנדס רשום.",
+            "en": "Not always. An interior renovation with no structural change, no addition and no change to the façade usually needs no permit, and an interior designer can lead the design. When you are opening a load-bearing wall, enclosing a balcony, adding space or changing the façade, you need a registered architect or engineer."
+          }
+        },
+        {
+          "q": {
+            "he": "מתי כדאי לצרף מעצב פנים לפרויקט בנייה?",
+            "en": "When should an interior designer join a building project?"
+          },
+          "a": {
+            "he": "כמה שיותר מוקדם, ורצוי לפני הגשת ההיתר. בשלב הזה עדיין אפשר להזיז חלון, להוסיף פיר למערכות או להתאים גובה תקרה לתאורה ולמיזוג. אחרי שההיתר אושר והשלד נבנה, כל שינוי כזה יקר ומסובך יותר.",
+            "en": "As early as possible, ideally before the permit is submitted. At that stage a window can still move, a service shaft can be added, or a ceiling height adjusted for lighting and air conditioning. Once the permit is approved and the frame is built, every change like that is more expensive and more complicated."
+          }
+        },
+        {
+          "q": {
+            "he": "מי מתכנן את המטבח, אדריכל או מעצב פנים?",
+            "en": "Who designs the kitchen, the architect or the interior designer?"
+          },
+          "a": {
+            "he": "בדרך כלל מעצב הפנים: מיקום האי, המשטחים, הנגרות, התאורה ונקודות החשמל והמים. בבנייה חדשה, האדריכל קובע את המעטפת: קירות, חלונות ופירים. לכן כדאי ששניהם יתאמו את מיקום המטבח עוד בשלב תכנון המבנה.",
+            "en": "Usually the interior designer: the island position, the worktops, the joinery, the lighting and the electrical and water points. In a new build the architect sets the envelope: walls, windows and shafts. That is why both should agree on the kitchen’s location while the building is still being designed."
+          }
+        }
+      ]
+    },
+    {
+      "t": "sources",
+      "h": {
+        "he": "מקורות",
+        "en": "Sources"
+      },
+      "items": [
+        {
+          "label": {
+            "he": "חוק המהנדסים והאדריכלים, תשי\"ח-1958 (נבו)",
+            "en": "Engineers and Architects Law, 1958 (Hebrew, Nevo)"
+          },
+          "href": "https://www.nevo.co.il/law_html/law01/199_001.htm"
+        },
+        {
+          "label": {
+            "he": "תקנות התכנון והבנייה (עבודות ומבנים הפטורים מהיתר), תשע\"ד-2014 (gov.il)",
+            "en": "Planning and Building Regulations (Works and Structures Exempt from a Permit), 2014 (Hebrew, gov.il)"
+          },
+          "href": "https://www.gov.il/he/Departments/legalInfo/regulation_4"
+        },
+        {
+          "label": {
+            "he": "דיווח על ביצוע עבודות ומבנים הפטורים מהיתר (מינהל התכנון)",
+            "en": "Reporting permit-exempt works (Israel Planning Administration, Hebrew)"
+          },
+          "href": "https://www.gov.il/he/service/report_building_exempt_from_permit"
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "מתכננים שיפוץ או בית חדש?",
+        "en": "Planning a renovation or a new home?"
+      },
+      "p": {
+        "he": "ספרו לנו מה הפרויקט כולל ובאיזה שלב הוא נמצא. בפגישת היכרות נעבור יחד על מה שדרוש לתכנון הפנים, ועל הנקודות שבהן כדאי לערב אדריכל או מהנדס רשום.",
+        "en": "Tell us what the project includes and what stage it is at. In a first meeting we’ll go through what the interior design involves, and the points where a registered architect or engineer should be brought in."
+      },
+      "button": {
+        "he": "לתיאום פגישת היכרות",
+        "en": "Book a first meeting"
+      },
+      "href": "/contact/"
+    }
+  ]
+}

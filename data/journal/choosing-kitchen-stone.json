@@ -1,0 +1,690 @@
+{
+  "meta": {
+    "id": "journal-choosing-kitchen-stone",
+    "path": "/journal/choosing-kitchen-stone/",
+    "type": "article",
+    "crumb": {
+      "he": "אבן למטבח",
+      "en": "Kitchen stone"
+    },
+    "title": {
+      "he": "איך לבחור אבן למטבח: שיש, קוורץ או פורצלן | SELÈ STUDIO",
+      "en": "Choosing Kitchen Countertop Stone, Explained | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "איך לבחור אבן למטבח? שיש ואבן טבעית, קוורץ ופורצלן זה מול זה: כתמים, חום, שריטות ותחזוקה, וגם גימור, אי מאבן, חיפוי וכיור. מדריך לפני הבחירה.",
+      "en": "Choosing kitchen countertop stone: marble and natural stone, quartz and porcelain compared on stains, heat and care, plus finishes, islands and sinks."
+    },
+    "h1": {
+      "he": "איך לבחור אבן למטבח: החומר, הגימור והפרטים שקובעים את המראה",
+      "en": "Choosing kitchen countertop stone: the material, finish and details that shape the look"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-02",
+      "alt": {
+        "he": "אי מטבח מאבן אפורה־חמימה עם עורקים, שהאבן שלו יורדת מהמשטח אל הדופן, כיריים גז ונישת אבן מוארת מאחור, הדמיה",
+        "en": "Warm-gray veined stone kitchen island where the stone runs from the worktop down the side, with a gas cooktop and a backlit stone niche behind, render"
+      },
+      "caption": {
+        "he": "האבן יורדת מהמשטח אל הדופן.",
+        "en": "The stone runs from the worktop down the side."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "og": "/assets/img/og/og-journal-choosing-kitchen-stone.jpg",
+    "ogAlt": {
+      "he": "אי מטבח מאבן אפורה־חמימה עם עורקים, שהאבן שלו יורדת מהמשטח אל הדופן, כיריים גז ונישת אבן מוארת מאחור, הדמיה",
+      "en": "Warm-gray veined stone kitchen island where the stone runs from the worktop down the side, with a gas cooktop and a backlit stone niche behind, render"
+    },
+    "article": {
+      "section": "materials",
+      "service": "kitchen-design",
+      "author": "org",
+      "published": null,
+      "modified": null
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "שיש, קוורץ או פורצלן? בישראל קוראים „שיש\" כמעט לכל משטח מטבח, אבל מאחורי המילה עומדות משפחות חומרים שונות מאוד: אבן שנחצבה מההר, אבן מתועשת שנדחסה במפעל, ולוח קרמי שנשרף בחום גבוה. הן נבדלות במראה, בתגובה ללימון, ליין ולסיר חם, ובמה שהן דורשות מכם לאורך השנים.",
+        "en": "Marble, quartz or porcelain? In Israel almost any kitchen worktop gets called “shayish”, marble, but the word covers very different families of material: stone quarried from a mountain, engineered stone compressed in a factory, and a ceramic slab fired at high temperature. They differ in how they look, how they react to lemon, wine and a hot pan, and what they ask of you over the years."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המדריך הזה עוזר לבחור אבן למטבח לפי הדרך שבה אתם חיים בו, ולא לפי דוגמה יפה באולם תצוגה. נעבור על כל משפחה: מראה, נקבוביות וכתמים, חום ושריטות, תחזוקה, קנטים ועובי. אחר כך נגיע לפרטים שקובעים אם המטבח ייראה שקט ומדויק: העורקים באי, הגימור, הרצף בחיפוי והכיור. מחירים לא תמצאו כאן. הם משתנים בין ספקים, סדרות ועיבודים, ולכן משווים אותם רק על בסיס פרט מוגדר: חומר, עובי, קנטים וחיתוכים. ואם אתם בתחילת הדרך, כל הבחירות האלה מתחברות יחד ב<a href=\"/services/kitchen-design/\">תכנון ועיצוב המטבח</a>.",
+        "en": "This guide helps you choose kitchen countertop stone by how you actually live in your kitchen, not by a beautiful sample in a showroom. We go through each family: look, porosity and staining, heat and scratches, maintenance, edges and thickness. Then we get to the details that decide whether a kitchen looks calm and precise: the veining on the island, the finish, splashback continuity and the sink. You won’t find prices here. They vary between suppliers, series and fabrication, so they are only compared on the basis of a defined detail: material, thickness, edges and cut-outs. And if you are at the start of the process, all of these choices come together in <a href=\"/services/kitchen-design/\">kitchen design and planning</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "לפני הדוגמה: ארבע שאלות שחשובות יותר מכל קטלוג",
+        "en": "Before the sample: four questions that matter more than any catalog"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>איך אתם מבשלים?</strong> מי שמניח סירים ישר מהאש, קוצץ הרבה וסוחט לימונים כל בוקר צריך משטח אחר ממי שהמטבח שלו משמש בעיקר לקפה ולאירוח.",
+          "en": "<strong>How do you cook?</strong> Someone who puts pans straight off the flame, chops a lot and squeezes lemons every morning needs a different surface from someone whose kitchen is mostly for coffee and hosting."
+        },
+        {
+          "he": "<strong>כמה פטינה אתם מוכנים לקבל?</strong> יש מי שרואה בסימן עדין על השיש זיכרון, ויש מי שזה מטריד אותו. תשובה כנה לשאלה הזאת מצמצמת את הבחירה יותר מכל נתון טכני.",
+          "en": "<strong>How much patina are you willing to accept?</strong> Some people see a faint mark on marble as a memory; others find it bothersome. An honest answer to this question narrows the choice more than any technical figure."
+        },
+        {
+          "he": "<strong>מה האור עושה במטבח?</strong> שמש נמוכה מבליטה כל שריטה על משטח מבריק, ותאורה נסתרת שנופלת בזווית מדגישה טקסטורה.",
+          "en": "<strong>What does the light do in your kitchen?</strong> Low sun picks out every scratch on a polished surface, and concealed light falling at an angle brings out texture."
+        },
+        {
+          "he": "<strong>איפה עוד תופיע האבן?</strong> אי, חיפוי, נישה, אדן או כיור מאותו חומר. ככל שהאבן מופיעה ביותר מקומות, גודל הלוח ומהלך העורקים נעשים חלק מהתכנון.",
+          "en": "<strong>Where else will the stone appear?</strong> Island, splashback, niche, sill or a sink in the same material. The more places the stone appears, the more slab size and vein direction become part of the design."
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "אבן טבעית למטבח: שיש, קוורציט וגרניט",
+        "en": "Natural stone for the kitchen: marble, quartzite and granite"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>מראה.</strong> באבן טבעית כל לוח הוא יחיד במינו. העורקים עוברים דרך כל עובי האבן, ולכן גם הקנט, החיתוך לכיור והדופן של האי נראים אמיתיים. שיש מביא רכות וזוהר, קוורציט מביא עורקים דרמטיים עם קשיחות גבוהה, וגרניט מנומר יותר ופחות נפוץ במטבחים מינימליסטיים. טרוורטין ואבני גיר שייכים לאותה משפחה, עם נקבוביות גבוהה יותר. עליהם הרחבנו ב<a href=\"/journal/travertine-guide/\">מדריך לטרוורטין</a>.",
+        "en": "<strong>Look.</strong> With natural stone every slab is one of a kind. The veining runs through the full thickness, so the edge, the sink cut-out and the side of the island all look genuine. Marble brings softness and glow, quartzite brings dramatic veining with high hardness, and granite is more speckled and less common in minimalist kitchens. Travertine and limestone belong to the same family, with higher porosity; we cover them in <a href=\"/journal/travertine-guide/\">our travertine guide</a>."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>נקבוביות וכתמים.</strong> שיש הוא אבן גיר שהתגבשה מחדש, והוא מגיב לחומצות. לימון, חומץ, יין ורוטב עגבניות משאירים עליו איכול (etching): כתם מט על משטח מבריק. איטום מקטין ספיגה של שמן וצבע, אבל לא מונע את התגובה לחומצה. קוורציט אמיתי וגרניט עמידים יותר, אבל לא כל מה שנמכר כקוורציט הוא קוורציט: חלק מהלוחות הם דולומיט או שיש קשה. טיפת לימון ושריטה בשולי זכוכית על דוגמה יחסכו אכזבה.",
+        "en": "<strong>Porosity and staining.</strong> Marble is recrystallized limestone, and it reacts to acid. Lemon, vinegar, wine and tomato sauce leave etching on it: a dull mark on a polished surface. Sealing reduces absorption of oil and color but does not stop the reaction to acid. True quartzite and granite are more resistant, but not everything sold as quartzite is quartzite: some slabs are dolomite or hard marble. A drop of lemon and a scratch with the rim of a glass on a sample will save a disappointment."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>חום ושריטות.</strong> אבן טבעית לא נשרפת, אבל שינוי טמפרטורה חד ומקומי עלול לסדוק אותה. שיש רך יחסית ונשרט מסכין ומכלי חרס; קוורציט וגרניט קשים בהרבה.",
+        "en": "<strong>Heat and scratches.</strong> Natural stone doesn’t burn, but a sharp, local change in temperature can crack it. Marble is relatively soft and scratches from knives and stoneware; quartzite and granite are far harder."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>תחזוקה.</strong> איטום תקופתי לפי הנחיות הספק, ניקוי בחומר ניטרלי בלי חומצה ובלי אבקה שוחקת, וניגוב מהיר של נוזלים. מי שמקבל את הפטינה מקבל משטח שמתבגר יפה.",
+        "en": "<strong>Maintenance.</strong> Periodic sealing as the supplier directs, cleaning with a neutral product with no acid and no abrasive powder, and wiping up spills quickly. Accept the patina and you get a surface that ages beautifully."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>קנטים ועובי.</strong> אפשר לעבד אבן טבעית כמעט לכל פרופיל: קנט ישר וחד, מעוגל מעט, או מיטר, חיבור בזווית של 45 מעלות שיוצר מראה של גוש עבה. העוביים הנפוצים הם 2 ו־3 ס״מ.",
+        "en": "<strong>Edges and thickness.</strong> Natural stone can be worked to almost any profile: a straight, crisp edge, a slightly rounded one, or a miter, a 45-degree joint that gives the look of a thick block. Common thicknesses are 2 and 3 cm."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "קוורץ למטבח: אבן מתועשת",
+        "en": "Quartz for the kitchen: engineered stone"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>מראה.</strong> קוורץ מתועש עשוי מגרגרי קוורץ טחונים שנדחסים עם שרף ופיגמנטים. התוצאה אחידה וצפויה, והדוגמה דומה מאוד ללוח שיגיע. סדרות חדשות מחקות עורקי שיש, ובחלקן העורק עובר גם בעובי הלוח, אבל עין מאומנת מזהה חזרתיות.",
+        "en": "<strong>Look.</strong> Engineered quartz is made of crushed quartz bound with resin and pigments. The result is uniform and predictable, and the sample closely matches the slab you’ll receive. Newer series imitate marble veining, and in some the vein runs through the thickness too, but a trained eye picks up the repetition."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>נקבוביות וכתמים.</strong> הוא כמעט לא נקבובי, ולכן אינו דורש איטום ועמיד מאוד לכתמים ולחומצות. זה היתרון הגדול שלו במטבח עמוס.",
+        "en": "<strong>Porosity and staining.</strong> It is almost non-porous, so it needs no sealing and resists stains and acids very well. That is its great advantage in a busy kitchen."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>חום ושריטות.</strong> נקודת התורפה היא השרף. סיר חם ישר מהאש עלול להשאיר סימן, שינוי גוון או סדק, ולכן תחתית לסיר היא חובה. הוא עמיד לשריטות יומיומיות, אבל לא מתאים לחוץ, כי קרינת UV עלולה לשנות את גוונו.",
+        "en": "<strong>Heat and scratches.</strong> Its weak point is the resin. A hot pan straight off the flame can leave a mark, a color change or a crack, so a trivet is a must. It resists everyday scratches, but it isn’t suited to outdoor use, since UV can change its color."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>תחזוקה.</strong> מים, סבון עדין ומטלית, בלי חומרים חריפים או ממיסים.",
+        "en": "<strong>Maintenance.</strong> Water, mild soap and a cloth, with no harsh or solvent-based products."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>קנטים ועובי.</strong> עוביים נפוצים של 1.2, 2 ו־3 ס״מ, עם קנט ישר, מעוגל או מיטר.",
+        "en": "<strong>Edges and thickness.</strong> Common thicknesses are 1.2, 2 and 3 cm, with a straight, rounded or mitered edge."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>מילה על בטיחות.</strong> בשנים האחרונות גדלה המודעות לסיליקוזיס, מחלת ריאות שפוגעת בעובדים שחותכים ומלטשים אבן מתועשת עשירה בסיליקה. אוסטרליה אסרה על השימוש בה החל מ־2024, ויצרנים משיקים סדרות דלות סיליקה. הסיכון הוא באבק שנוצר בעיבוד, לא במשטח המותקן, ושווה לשאול את הספק על תנאי העבודה.",
+        "en": "<strong>A word on safety.</strong> Awareness has grown in recent years of silicosis, a lung disease affecting workers who cut and polish high-silica engineered stone. Australia banned its use from 2024, and manufacturers are launching low-silica series. The risk lies in the dust created during fabrication, not in the installed worktop, and it is worth asking your supplier about working conditions."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "משטח פורצלן למטבח",
+        "en": "Porcelain kitchen worktops"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>מראה.</strong> פורצלן, וקרובתו האבן המסונטרת (sintered stone), הם לוחות קרמיים שנשרפים בחום גבוה מאוד. הם מגיעים בלוחות גדולים ודקים, בגוונים של אבן, בטון ומתכת, ולעיתים משכנעים להפליא. ברוב הדגמים העורק מודפס על פני הלוח בלבד, ובקנט, בחיתוך לכיור או בשבב נחשף גוף בצבע אחר. לכן מתכננים פורצלן סביב הקנט, בדרך כלל במיטר, ומעדיפים סדרות שבהן הגוף צבוע לכל עומקו כשיש חיתוכים גלויים.",
+        "en": "<strong>Look.</strong> Porcelain and its close relative, sintered stone, are ceramic slabs fired at very high temperature. They come in large, thin formats in the tones of stone, concrete and metal, and can be remarkably convincing. In most products, though, the vein is printed on the surface only, and an edge, a sink cut-out or a chip reveals a body of a different color. That is why porcelain is designed around its edges, usually mitered, and why through-body series are preferred wherever cuts will be visible."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>נקבוביות וכתמים.</strong> ספיגה כמעט אפסית. עמיד לכתמים ולחומצות.",
+        "en": "<strong>Porosity and staining.</strong> Near-zero absorption. It resists stains and acids very well."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>חום ושריטות.</strong> עמיד מאוד לחום ולקרינת UV, ומתאים גם למטבח חוץ. קשה מאוד לשריטה, עד שסכינים מתקהים עליו. החולשה נמצאת בקנטים ובפינות: מכה של סיר כבד עלולה לגרום לשבב, ותיקון שבב בפורצלן קשה יותר מבחומרים אחרים.",
+        "en": "<strong>Heat and scratches.</strong> Highly resistant to heat and UV, and suitable for outdoor kitchens too. It is very hard to scratch, so hard that knives blunt on it. Its weakness is at the edges and corners: a knock from a heavy pan can chip it, and repairing a chip in porcelain is harder than in other materials."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>תחזוקה.</strong> הפשוטה מכולם: מים וסבון, בלי איטום.",
+        "en": "<strong>Maintenance.</strong> The simplest of all: water and soap, no sealing."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>קנטים ועובי.</strong> עוביים דקים של 6, 12 ו־20 מ״מ, עם מעט אפשרויות פרופיל. העובי הדק יוצר קו עכשווי וחד, והמיטר מאפשר מראה של גוש. עיבוד פורצלן דורש ציוד וניסיון, ולכן כדאי לבחור מעבד שעשה זאת פעמים רבות.",
+        "en": "<strong>Edges and thickness.</strong> Thin formats of 6, 12 and 20 mm, with few profile options. The thin edge makes a crisp, contemporary line, and a miter gives the look of a block. Porcelain needs the right equipment and experience to fabricate, so choose a fabricator who has done it many times."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "שיש או קוורץ, ואולי פורצלן? טבלת השוואה",
+        "en": "Marble or quartz, or porcelain? A comparison table"
+      }
+    },
+    {
+      "t": "table",
+      "head": [
+        {
+          "he": "​",
+          "en": "​"
+        },
+        {
+          "he": "אבן טבעית (שיש)",
+          "en": "Natural stone (marble)"
+        },
+        {
+          "he": "אבן טבעית (קוורציט, גרניט)",
+          "en": "Natural stone (quartzite, granite)"
+        },
+        {
+          "he": "קוורץ מתועש",
+          "en": "Engineered quartz"
+        },
+        {
+          "he": "פורצלן",
+          "en": "Porcelain"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "he": "מראה",
+            "en": "Look"
+          },
+          {
+            "he": "ייחודי, עורק לכל העומק",
+            "en": "Unique, veining through the body"
+          },
+          {
+            "he": "ייחודי, דרמטי או מנומר",
+            "en": "Unique, dramatic or speckled"
+          },
+          {
+            "he": "אחיד וצפוי",
+            "en": "Uniform and predictable"
+          },
+          {
+            "he": "מגוון רחב, העורק לרוב על פני השטח",
+            "en": "Wide range, vein usually on the surface"
+          }
+        ],
+        [
+          {
+            "he": "כתמים וחומצות",
+            "en": "Stains and acids"
+          },
+          {
+            "he": "רגיש, איכול מחומצה",
+            "en": "Sensitive, acid etching"
+          },
+          {
+            "he": "עמיד יותר, תלוי באבן",
+            "en": "More resistant, depends on the stone"
+          },
+          {
+            "he": "עמיד מאוד",
+            "en": "Very resistant"
+          },
+          {
+            "he": "עמיד מאוד",
+            "en": "Very resistant"
+          }
+        ],
+        [
+          {
+            "he": "חום",
+            "en": "Heat"
+          },
+          {
+            "he": "לא נשרף, רגיש לשינוי חד",
+            "en": "Won’t burn, sensitive to sudden change"
+          },
+          {
+            "he": "עמיד",
+            "en": "Resistant"
+          },
+          {
+            "he": "רגיש, צריך תחתית",
+            "en": "Sensitive, needs a trivet"
+          },
+          {
+            "he": "עמיד מאוד",
+            "en": "Highly resistant"
+          }
+        ],
+        [
+          {
+            "he": "שריטות",
+            "en": "Scratches"
+          },
+          {
+            "he": "רך יחסית",
+            "en": "Relatively soft"
+          },
+          {
+            "he": "קשה",
+            "en": "Hard"
+          },
+          {
+            "he": "עמיד",
+            "en": "Resistant"
+          },
+          {
+            "he": "קשה מאוד, קנטים רגישים לשבבים",
+            "en": "Very hard, edges prone to chipping"
+          }
+        ],
+        [
+          {
+            "he": "תחזוקה",
+            "en": "Maintenance"
+          },
+          {
+            "he": "איטום תקופתי",
+            "en": "Periodic sealing"
+          },
+          {
+            "he": "איטום לפי האבן",
+            "en": "Sealing depending on the stone"
+          },
+          {
+            "he": "ללא איטום",
+            "en": "No sealing"
+          },
+          {
+            "he": "ללא איטום",
+            "en": "No sealing"
+          }
+        ],
+        [
+          {
+            "he": "קנטים ועובי",
+            "en": "Edges and thickness"
+          },
+          {
+            "he": "כל פרופיל, 2–3 ס״מ",
+            "en": "Any profile, 2–3 cm"
+          },
+          {
+            "he": "כל פרופיל, 2–3 ס״מ",
+            "en": "Any profile, 2–3 cm"
+          },
+          {
+            "he": "רוב הפרופילים, 1.2–3 ס״מ",
+            "en": "Most profiles, 1.2–3 cm"
+          },
+          {
+            "he": "בעיקר ישר או מיטר, 6–20 מ״מ",
+            "en": "Mainly straight or mitered, 6–20 mm"
+          }
+        ],
+        [
+          {
+            "he": "שימוש בחוץ",
+            "en": "Outdoor use"
+          },
+          {
+            "he": "תלוי באבן",
+            "en": "Depends on the stone"
+          },
+          {
+            "he": "תלוי באבן",
+            "en": "Depends on the stone"
+          },
+          {
+            "he": "לא מומלץ",
+            "en": "Not recommended"
+          },
+          {
+            "he": "מתאים",
+            "en": "Suitable"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אין כאן מנצח אחד. יש התאמה בין חומר, אורח חיים ומידת הסבלנות לפטינה.",
+        "en": "There’s no single winner here. There’s a match between material, way of life and how patient you are with patina."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "אי מאבן: עורקים, Bookmatching ומיטר",
+        "en": "A stone island: veining, bookmatching and miters"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-01",
+      "alt": {
+        "he": "חזית של אי מאבן אפורה־חמימה עם עורקים בהירים, נקרא כגוש אחד, מול קיר נגרות עץ אלון בהיר ונישת אבן מוארת עם כיור, הדמיה",
+        "en": "Front face of a monolithic warm-gray stone island with light veining, set against full-height light-oak cabinetry and a backlit stone niche with a sink, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "חזית האי: כאן נקבע מהלך העורקים.",
+        "en": "The island’s front face, where the vein layout shows."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אי מאבן שנראה כמו גוש אחד הוא לא עניין של דגם, אלא של תכנון חיתוך. כשהאבן יורדת מהמשטח אל הדפנות, חותכים את החלקים ברצף מאותו לוח, כך שהעורק ממשיך מעל קו המיטר. את זה מסמנים יחד עם המעבד על צילום של הלוח עצמו, ובאבן טבעית גם בוחרים את הלוח במחסן.",
+        "en": "A stone island that reads as one block isn’t a matter of the model you pick; it’s a matter of the cutting plan. Where the stone drops from the worktop to the sides, the pieces are cut in sequence from the same slab so the vein carries on over the miter line. This is marked out with the fabricator on a photo of the actual slab, and with natural stone you also choose the slab in the yard."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<strong>Bookmatching</strong> („פתיחת ספר\") הוא פתיחת שני לוחות עוקבים מאותו גוש כמו דפי ספר, כך שהעורקים יוצרים תמונת ראי. זה עובד יפה בחזית רחבה של אי או בקיר חיפוי, ודורש לוחות עוקבים. בקוורץ ובפורצלן זה אפשרי רק בסדרות שיוצרו לכך.",
+        "en": "<strong>Bookmatching</strong> means opening two consecutive slabs from the same block like the pages of a book, so the veining forms a mirror image. It works beautifully on a wide island front or a splashback wall, and it needs consecutive slabs. In quartz and porcelain it’s possible only in series made for it."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "עוד שלוש החלטות שכדאי לקבל מראש: היכן יעבור החיבור אם האי ארוך מהלוח, כמה אבן להשאיר בין חיתוכי הכיריים והכיור לשולי המשטח, ואיך לתמוך בבליטה של משטח ישיבה.",
+        "en": "Three more decisions are worth making early: where the joint goes if the island is longer than the slab, how much stone to leave between the cooktop and sink cut-outs and the edge of the worktop, and how to support a seating overhang."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "גימור מבריק, מט או מוברש?",
+        "en": "Polished, honed or leathered?"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>מלוטש (מבריק):</strong> נותן עומק לצבע ולעורק, מחזיר אור וקל לניגוב. על שיש הוא מבליט סימני איכול ושריטות.",
+          "en": "<strong>Polished:</strong> gives depth to color and vein, reflects light and wipes clean easily. On marble it shows etching and scratches."
+        },
+        {
+          "he": "<strong>מושחז (מט):</strong> רך ושקט, ומסתיר איכול קל, אבל פתוח יותר לכתמים ודורש איטום מוקפד. על קוורץ ופורצלן בגימור מט עלולים להופיע סימנים אפורים מתחתיות של סירים, שיורדים בניקוי.",
+          "en": "<strong>Honed (matte):</strong> soft and quiet, and it hides light etching, but it is more open to stains and needs careful sealing. On quartz and porcelain with a matte finish, gray marks from the bottoms of pans can appear; they clean off."
+        },
+        {
+          "he": "<strong>מוברש (או „עור\"):</strong> טקסטורה עדינה שמסתירה טביעות אצבע וכתמי מים, נעימה למגע ומתעוררת תחת תאורה נסתרת. דורש ניקוי מעט יסודי יותר.",
+          "en": "<strong>Leathered (brushed):</strong> a subtle texture that hides fingerprints and water spots, feels good to the touch and comes alive under concealed light. It needs slightly more thorough cleaning."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ראו כל דוגמה באור שלכם, ביום ובערב, לפני שמחליטים.",
+        "en": "See every sample in your own light, by day and in the evening, before you decide."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "חיפוי ורצף: כשהאבן עולה לקיר",
+        "en": "Splashback continuity: when the stone goes up the wall"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-03",
+      "alt": {
+        "he": "תקריב של נישת מטבח: משטח וחיפוי מאותה אבן עם עורקים בלוח גדול, פס תאורה חמה נסתר מעל, כיור שקוע וברז פלדה מוברשת, הדמיה",
+        "en": "Kitchen niche close-up: worktop and splashback in the same veined stone as one large surface, a concealed warm light strip above, an undermount sink and a brushed-steel tap, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "משטח וחיפוי מאותה אבן, תחת אור נסתר.",
+        "en": "Worktop and splashback in one stone, under concealed light."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כשהמשטח ממשיך אל הקיר באותה אבן, ובמקרה הטוב מלוח אחד, המטבח נרגע: פחות פוגות לנקות, פחות קווים לעין. בנישה אפשר לחפות גב, דפנות ומדף באותו חומר. את השקעים, הברז בקיר והמסילות ממקמים לפני החיתוך, כי חור בלוח גדול אי אפשר להזיז. תאורה נסתרת בגוון חם של 2700–3000K מעל חיפוי עם עורקים מוסיפה עומק, בתנאי שהפס עצמו לא נראה. על כך הרחבנו ב<a href=\"/journal/home-lighting-design/\">מדריך לתכנון תאורה בבית</a>. פורצלן דק וקל במיוחד מתאים לחיפוי קירות בפורמט גדול.",
+        "en": "When the worktop continues up the wall in the same stone, ideally as a single slab, the kitchen calms down: fewer grout lines to clean, fewer lines for the eye. In a niche, the back, sides and shelf can all be clad in the same material. Sockets, a wall-mounted tap and rails are positioned before cutting, because a hole in a large slab can’t be moved. Concealed light at 2700–3000K over a veined splashback adds depth, as long as the strip itself stays out of sight; we go into this in our <a href=\"/journal/home-lighting-design/\">guide to planning home lighting</a>. Thin, light porcelain is especially well suited to cladding walls in large formats."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "כיור שקוע או כיור אינטגרלי?",
+        "en": "Undermount or integrated sink?"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-dark-01",
+      "alt": {
+        "he": "כיור אינטגרלי מאותה אבן מט כמו המשטח, בלי שפה ובלי תפר, ברז שחור מט ומדפים כהים עם תאורה אחורית, הדמיה",
+        "en": "Integrated sink formed from the same matte stone as the worktop, rimless and seamless, with a matte-black tap and backlit dark shelving, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "כיור אינטגרלי: המשך של המשטח.",
+        "en": "An integrated sink, continuous with the worktop."
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>כיור שקוע</strong> מותקן מתחת לחיתוך, עם קנט פנימי מלוטש, ומאפשר לגרוף פירורים ישר לתוכו. בפורצלן מודפס כדאי לוודא שהקנט הפנימי לא יחשוף גוף בגוון אחר.",
+          "en": "<strong>An undermount sink</strong> sits beneath the cut-out with a polished inner edge, so crumbs can be swept straight in. With printed porcelain, make sure the inner edge won’t reveal a body of a different tone."
+        },
+        {
+          "he": "<strong>כיור אינטגרלי</strong> נבנה מאותה אבן, בחיבורי מיטר ועם תחתית משופעת לניקוז. הוא נקרא כהמשך של המשטח, בלי שפה ובלי תפר, ודורש מעבד מיומן במיוחד.",
+          "en": "<strong>An integrated sink</strong> is built from the same stone, with mitered joints and a base that slopes to the drain. It reads as a continuation of the worktop, with no rim and no seam, and it demands a particularly skilled fabricator."
+        },
+        {
+          "he": "<strong>כיור מונח</strong> פשוט להתקנה ולהחלפה, אבל השפה שלו אוספת לכלוך ושוברת את הקו.",
+          "en": "<strong>A top-mount sink</strong> is simple to install and replace, but its rim collects dirt and breaks the line."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חריצי ניקוז חצובים לצד הכיור נוחים, אבל בשיש מבריק הם גם מקום שבו מים עומדים. זו החלטה עיצובית, לא ברירת מחדל.",
+        "en": "Drainer grooves carved beside the sink are practical, but on polished marble they are also where water stands. That’s a design decision, not a default."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך בוחרים בפועל: מהדוגמה ועד הלוח",
+        "en": "How to choose in practice: from sample to slab"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>בדקו דוגמה בבית:</strong> לימון, שמן, יין אדום וקפה, מכוסים ללילה; כוס חמה; שריטה במפתח. מה שקורה לדוגמה יקרה למשטח.",
+          "en": "<strong>Test a sample at home:</strong> lemon, oil, red wine and coffee, covered overnight; a hot mug; a scratch with a key. What happens to the sample will happen to the worktop."
+        },
+        {
+          "he": "<strong>ראו את הלוח המלא.</strong> באבן טבעית זו חובה, ורצוי לסמן איזה חלק ילך לחזית האי.",
+          "en": "<strong>See the full slab.</strong> With natural stone this is essential, and it’s worth marking which part goes on the island front."
+        },
+        {
+          "he": "<strong>מדידה מדויקת רק אחרי שהארונות מותקנים</strong>, כך שהמשטח נחתך למציאות ולא לתוכנית.",
+          "en": "<strong>Template only after the cabinets are installed</strong>, so the worktop is cut to reality rather than to the drawing."
+        },
+        {
+          "he": "<strong>שאלו את המעבד</strong> על חיבורים, קנטים, חיתוכים, הובלה והגנה על הלוח בשיפוץ.",
+          "en": "<strong>Ask the fabricator</strong> about joints, edges, cut-outs, delivery and protecting the slab during the renovation."
+        },
+        {
+          "he": "<strong>בקשו הוראות תחזוקה בכתב</strong> לחומר ולגימור שבחרתם.",
+          "en": "<strong>Get care instructions in writing</strong> for the material and finish you chose."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אבן טובה היא זו שמתאימה לבית שלה. כך זה נראה כשהאבן, העץ והאור מתוכננים יחד: <a href=\"/projects/stone-oak-kitchen/\">מטבח עם אי אבן ונגרות אלון בהיר</a>, פרויקט מגורים פרטי, בהדמיה.",
+        "en": "A good stone is one that suits its home. Here is what it looks like when stone, wood and light are designed together: <a href=\"/projects/stone-oak-kitchen/\">a stone-island kitchen with light-oak joinery</a>, a private residence, in render."
+      }
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "מתלבטים בין אבנים?",
+        "en": "Torn between stones?"
+      },
+      "p": {
+        "he": "ספרו לנו איך אתם משתמשים במטבח ומה חשוב לכם במראה ובתחזוקה, ונחשוב יחד על החומר, הגימור והפרטים שיתאימו לבית שלכם.",
+        "en": "Tell us how you use your kitchen and what matters to you in look and upkeep, and we’ll think through the material, finish and details that suit your home together."
+      },
+      "button": {
+        "he": "לתיאום פגישת היכרות",
+        "en": "Book an introductory meeting"
+      },
+      "href": "/contact/"
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "Frequently asked questions"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "מה עדיף למטבח, שיש או קוורץ?",
+            "en": "Which is better for a kitchen, marble or quartz?"
+          },
+          "a": {
+            "he": "תלוי בשימוש ובסבלנות לפטינה. שיש טבעי ייחודי ומתבגר יפה, אבל מגיב לחומצות ודורש איטום. קוורץ אחיד, לא נקבובי ועמיד מאוד לכתמים, אבל רגיש לחום ישיר. במטבח שמבשלים בו הרבה, בלי רצון לטפל במשטח, קוורץ או פורצלן יהיו רגועים יותר.",
+            "en": "It depends on use and on your patience for patina. Natural marble is unique and ages beautifully, but it reacts to acid and needs sealing. Quartz is uniform, non-porous and very stain-resistant, but sensitive to direct heat. In a kitchen that cooks a lot, with no wish to look after the surface, quartz or porcelain will be calmer."
+          }
+        },
+        {
+          "q": {
+            "he": "אפשר להניח סיר חם ישירות על משטח אבן?",
+            "en": "Can I put a hot pan directly on a stone worktop?"
+          },
+          "a": {
+            "he": "על פורצלן, ועל רוב האבנים הטבעיות הקשות, בדרך כלל כן, אם כי שינוי טמפרטורה חד עלול לסדוק כל אבן. על קוורץ מתועש לא: השרף שבו רגיש לחום. ההרגל הבטוח ביותר בכל חומר הוא תחתית לסיר.",
+            "en": "On porcelain, and on most hard natural stones, usually yes, although a sharp change in temperature can crack any stone. On engineered quartz, no: its resin is sensitive to heat. The safest habit with any material is a trivet."
+          }
+        },
+        {
+          "q": {
+            "he": "משטח פורצלן נשבר בקלות?",
+            "en": "Does a porcelain worktop break easily?"
+          },
+          "a": {
+            "he": "הלוח עצמו קשה ועמיד מאוד לשריטות ולחום. הנקודות הרגישות הן הקנטים והפינות, שעלולים להישבב ממכה חדה. לכן מתכננים קנטים במיטר או מעוגלים מעט, בוחרים מעבד מנוסה, ומעדיפים סדרות שבהן הגוף צבוע לכל עומקו.",
+            "en": "The slab itself is very hard and highly resistant to scratches and heat. The sensitive points are the edges and corners, which can chip from a sharp knock. That’s why edges are mitered or slightly rounded, an experienced fabricator is chosen, and through-body series are preferred."
+          }
+        },
+        {
+          "q": {
+            "he": "צריך לאטום משטח קוורץ או פורצלן?",
+            "en": "Do quartz or porcelain worktops need sealing?"
+          },
+          "a": {
+            "he": "לא. שניהם כמעט לא סופגים. איטום נדרש באבן טבעית, בתדירות שתלויה באבן, בגימור ובחומר האיטום. בדיקה פשוטה: אם טיפת מים שנשארת כמה דקות מכהה את האבן, הגיע הזמן לאטום מחדש.",
+            "en": "No. Both absorb almost nothing. Sealing is needed for natural stone, at intervals that depend on the stone, the finish and the sealer. A simple test: if a drop of water left for a few minutes darkens the stone, it’s time to reseal."
+          }
+        },
+        {
+          "q": {
+            "he": "מה זה Bookmatching ובאילו חומרים הוא אפשרי?",
+            "en": "What is bookmatching, and which materials allow it?"
+          },
+          "a": {
+            "he": "שני לוחות עוקבים מאותו גוש שנפתחים כמו דפי ספר, כך שהעורקים יוצרים תמונת ראי. זה טבעי בעיקר באבן טבעית, ודורש לבחור לוחות עוקבים במחסן. בקוורץ ובפורצלן זה אפשרי רק בסדרות מיוחדות שתוכננו לכך.",
+            "en": "Two consecutive slabs from the same block, opened like the pages of a book so the veining forms a mirror image. It comes naturally mainly with natural stone, and requires choosing consecutive slabs in the yard. In quartz and porcelain it’s possible only in special series designed for it."
+          }
+        },
+        {
+          "q": {
+            "he": "איזה גימור הכי מעשי במטבח?",
+            "en": "Which finish is most practical in a kitchen?"
+          },
+          "a": {
+            "he": "אין גימור מושלם. מבריק קל לניגוב, אבל מבליט שריטות וסימני איכול בשיש. מט שקט יותר, אבל פתוח לכתמים. מוברש מסתיר טביעות אצבע וכתמי מים. הכי נכון לבחון דוגמה באור של המטבח שלכם.",
+            "en": "No finish is perfect. Polished wipes clean easily but shows scratches and etching on marble. Honed is quieter but more open to stains. Leathered hides fingerprints and water spots. The best way to decide is to look at a sample in your own kitchen’s light."
+          }
+        }
+      ]
+    }
+  ]
+}

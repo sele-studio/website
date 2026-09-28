@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+# Every push to main is checked (tools/check.mjs, strict gate) and, only if it passes, published.
+# The published folder is _site/: the repo minus tools, data, partials, docs and git metadata.
+
 on:
   push:
     branches: [main]
@@ -24,6 +27,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Lint gate (tools/check.mjs)
+        # Strict mode. Switch to `node tools/check.mjs --launch` once the owner has answered SPEC §11 items 1–4.
+        run: node tools/check.mjs
+
+      - name: Guard — generated files present
+        run: test -f en/index.html && test -f sitemap.xml && test -f llms.txt && test -f favicon.ico && test -f CNAME
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -31,9 +46,9 @@ jobs:
         run: |
           mkdir -p _site
           rsync -a \
-            --exclude '.git' --exclude '.github' --exclude '_site' \
-            --exclude 'tools' --exclude 'node_modules' \
-            --exclude 'README.md' --exclude '.gitignore' --exclude '.DS_Store' \
+            --exclude '.git' --exclude '.github' --exclude 'tools' --exclude 'data' --exclude 'partials' \
+            --exclude 'README.md' --exclude '_site' --exclude 'node_modules' --exclude '.gitignore' --exclude '.DS_Store' --exclude '.htmlvalidate.mjs' \
+            --exclude '.htmlvalidate.mjs' \
             ./ _site/
 
       - name: Upload site

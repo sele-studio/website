@@ -1,0 +1,317 @@
+/* SELÈ STUDIO — Home (SPEC §5.1 + SPEC-ADDENDUM A7.1). Owner: P1.
+   Static layouts only: this is what no-JS, reduced motion, touch and every fx fallback see. The signature
+   moments (W1 intro, W2 frame, W4 vein cut) are P6's, in css/fx.css, keyed on their own *-ready classes.
+   Nothing here hides or moves content under fx-desktop / fx-frame. Logical properties only. */
+
+/* ================================================================== H1–H2 hero + manifesto (static) */
+.home-hero{ position:relative }
+.home-hero__stage{ position:relative; padding-block-start:var(--header-h) }
+.home-hero__grid{ row-gap:var(--s-5); padding-block:var(--s-4) var(--s-6) }
+.home-hero__copy{ grid-column:1 / -1; grid-row:2; min-inline-size:0 }
+.home-hero__film{ grid-column:1 / -1; grid-row:1; justify-self:end; inline-size:min(100%, 51svh) }
+.home-hero__target{ display:none }
+/* the W2 scrim and shutters are decorative layers that only exist while frame.js runs (fx.css shows them) */
+.home-hero__scrim, .home-hero__shutters{ display:none }
+
+.home-hero__h1{ margin:0; font-size:inherit; line-height:inherit; font-weight:inherit }
+.home-hero__display{
+  display:block;
+  font-family:var(--f-display); font-weight:300;
+  font-size:var(--t-hero); line-height:1.02;
+  letter-spacing:0;
+}
+html[lang="en"] .home-hero__display{ font-weight:400; line-height:.95; letter-spacing:-.01em }
+.home-hero__what{
+  display:block;
+  margin-block-start:var(--s-4);
+  font-family:var(--f-he-text); font-weight:300;
+  font-size:var(--t-brand); line-height:1.5;
+  color:var(--fg-2);
+  text-wrap:balance;
+}
+html[lang="en"] .home-hero__what{ font-family:var(--f-lat-text) }
+.home-hero__actions{ display:flex; flex-direction:column; gap:var(--s-3); margin-block-start:var(--s-5) }
+.home-hero__actions .btn{ inline-size:100% }
+/* below 1100 the fixed a11y button (48px at 16px from the inline-start corner) can land on the stacked CTAs in the
+   first viewport: keep its lane empty (16 + 48 + 20 of paper, measured from the wrap's own margin) */
+@media (max-width:1099px){ .home-hero__actions{ margin-inline-start:max(0px, 84px - var(--margin)) } }
+.home-hero__manifesto{
+  margin-block-start:var(--s-6);
+  max-inline-size:20em;               /* ≈ 36ch of the web font; em (not ch) so the fallback font wraps the same way (no CLS on swap) */
+  font-family:var(--f-he-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg);
+}
+html[lang="en"] .home-hero__manifesto{ font-family:var(--f-lat-text); font-weight:300 }
+
+@media (min-width:768px) and (max-width:1099px){
+  .home-hero__copy{ max-inline-size:34rem }
+}
+@media (min-width:1100px){
+  .home-hero__stage{ min-block-size:100svh; display:grid; align-content:center }
+  .home-hero__grid{ padding-block:var(--s-5) }
+  .home-hero__copy{ grid-column:1 / 7; grid-row:1; align-self:center }
+  .home-hero__film, .home-hero__target{ grid-column:7 / 13; grid-row:1; justify-self:end; align-self:center; inline-size:min(100%, 60vh) }
+  .home-hero__target{ display:block; visibility:hidden; aspect-ratio:4/5 }
+  .home-hero__display{ font-size:var(--t-hero) }
+  .home-hero__actions{ flex-direction:row; flex-wrap:wrap; gap:16px }
+  .home-hero__actions .btn{ inline-size:auto }
+}
+
+/* ================================================================== section rhythm
+   Consecutive paper bands would stack two full section paddings; the second one opens at half. */
+.home-works, .home-services, .home-journal{ padding-block-start:calc(var(--section) * .5) }
+
+/* ================================================================== H3 about */
+.home-about__opener{ grid-column:1 / -1; min-inline-size:0 }
+.home-about__lines{ margin-block-start:var(--s-5); line-height:1.6 }
+.home-about__lines .opener__line + .opener__line{ margin-block-start:.1em }
+.home-about__aside{ grid-column:1 / -1; margin-block-start:var(--s-6); max-inline-size:var(--measure) }
+.home-about__p{ color:var(--fg-2); text-wrap:pretty }
+.home-about__more{ margin-block-start:var(--s-4) }
+.home-about__estd{ margin-block-start:var(--s-5); padding-block-start:var(--s-3); border-block-start:1px solid var(--line); inline-size:max-content }
+@media (min-width:768px) and (max-width:1099px){
+  .home-about__aside{ grid-column:3 / -1 }
+}
+@media (min-width:1100px){
+  .home-about__opener{ grid-column:1 / 8 }
+  .home-about__aside{ grid-column:9 / 13; align-self:end; margin:0 }
+}
+
+/* ================================================================== H4 selected work */
+.home-works__body{ margin-block-start:var(--s-6) }
+.home-works__index{ grid-column:1 / -1; min-inline-size:0 }
+.home-works__preview{ display:none }
+.home-works__list{ border-block-start:1px solid var(--line) }
+.home-works__item{ border-block-end:1px solid var(--line) }
+.home-works__row{
+  --num-shift:8px; --arrow-shift:6px;
+  display:grid;
+  grid-template-columns:3rem minmax(0,1fr) 72px;
+  grid-template-areas:
+    "num title  thumb"
+    "num meta   thumb"
+    "num status thumb";
+  column-gap:var(--s-3);
+  align-items:center;
+  min-block-size:104px;
+  padding-block:var(--s-3);
+  color:inherit; text-decoration:none;
+}
+[dir="rtl"] .home-works__row{ --num-shift:-8px; --arrow-shift:-6px }   /* x-axis values: inline-start is right in RTL */
+.home-works__num{
+  grid-area:num; align-self:start;
+  padding-inline-start:var(--s-2);   /* = the hover/focus slide: the moved numeral ends flush with the row edge, inside its focus ring */
+  font-family:var(--f-display); font-weight:400; font-size:var(--t-d3); line-height:1.1;   /* FRL 400 below 28px, 300 from 1200 (below) */
+  color:var(--fg-3);
+  transition:translate var(--d-ui) var(--ease-paper), color var(--d-ui) var(--ease-paper);
+}
+.home-works__title{
+  grid-area:title;
+  font-family:var(--f-display); font-weight:400; font-size:var(--t-d3); line-height:1.15;
+  color:var(--fg-2);
+  transition:color var(--d-ui) var(--ease-paper);
+}
+.home-works__meta{ grid-area:meta; margin-block-start:var(--s-1) }
+@media (max-width:1099px){ html[lang="en"] :is(.home-works__meta, .home-works__status){ letter-spacing:.16em } }   /* the long EN material lists wrap less in the narrow row */
+.home-works__status{ grid-area:status; color:var(--fg-3) }
+.home-works__thumb{ grid-area:thumb; display:block; inline-size:72px }
+.home-works__thumb > .frame__clip{ display:block }   /* a span clip needs a block box for its aspect-ratio */
+.home-works__arrow{ display:none; inline-size:24px; block-size:24px; transition:translate var(--d-ui) var(--ease-paper) }
+.home-works__row:is(:hover, :focus-visible) .home-works__num{ translate:calc(var(--num-shift) * -1) 0; color:var(--fg-2) }
+.home-works__row:is(:hover, :focus-visible) .home-works__title{ color:var(--fg) }
+.home-works__row:is(:hover, :focus-visible) .home-works__arrow{ translate:var(--arrow-shift) 0 }
+.home-works__more{ margin-block-start:var(--s-5) }
+
+@media (min-width:1200px){
+  html[lang="he"] :is(.home-works__num, .home-works__title){ font-weight:300 }   /* FRL 300 once the size is >= 28px (Bodoni has 400 only) */
+}
+@media (min-width:1100px){
+  .home-works__index{ grid-column:1 / 8 }
+  .home-works__row{
+    grid-template-columns:4.5rem minmax(0,1fr) auto 24px;
+    grid-template-areas:
+      "num title  status arrow"
+      "num meta   status arrow";
+    column-gap:var(--s-4);
+    block-size:104px; padding-block:0;
+    align-content:center;
+  }
+  .home-works__num{ align-self:center; grid-row:1 / span 2 }
+  .home-works__status{ grid-row:1 / span 2; align-self:center }
+  .home-works__arrow{ display:block; grid-row:1 / span 2; align-self:center }
+  .home-works__thumb{ display:none }
+  .home-works__preview{
+    display:grid;
+    grid-column:9 / 13;
+    position:sticky; inset-block-start:20vh;
+    align-self:start;
+  }
+  .home-works__prev{ grid-area:1 / 1 }
+  .home-works__prev{ visibility:hidden; z-index:0 }
+  .home-works__prev.is-prev{ visibility:visible; z-index:1 }
+  .home-works__prev.is-active{ visibility:visible; z-index:2 }
+}
+
+/* ================================================================== H4b services (A7.1) */
+.home-services__grid{
+  counter-reset:svc;
+  display:grid; grid-template-columns:minmax(0,1fr);
+  gap:var(--s-5) var(--gap);
+  margin-block-start:var(--s-6);
+}
+.home-services__item{
+  counter-increment:svc;
+  position:relative;
+  padding-block-start:var(--s-4);
+  border-block-start:1px solid var(--line);
+}
+.home-services__item::before{
+  content:counter(svc, decimal-leading-zero); content:counter(svc, decimal-leading-zero) / "";
+  display:block; margin-block-end:var(--s-3);
+  /* set as a Latin label, not Bodoni: at ~20px Bodoni's hairlines vanish ("04" reads "0I") */
+  font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); line-height:1.4;
+  letter-spacing:.3em;
+  color:var(--fg-3);
+  font-variant-numeric:lining-nums tabular-nums;
+}
+.home-services__title{ font-size:var(--t-d3); font-weight:400; line-height:1.2 }
+html[lang="en"] .home-services__title{ font-weight:400 }
+.home-services__line{ margin-block-start:var(--s-3); color:var(--fg-2); max-inline-size:40ch }
+.home-services__more{ margin-block-start:var(--s-6) }
+@media (min-width:768px){ .home-services__grid{ grid-template-columns:repeat(2, minmax(0,1fr)); row-gap:var(--s-6) } }
+@media (min-width:1100px){ .home-services__grid{ grid-template-columns:repeat(3, minmax(0,1fr)) } }
+@media (min-width:1200px){ html[lang="he"] .home-services__title{ font-weight:300 } }
+
+/* ================================================================== H5 materials (static list; W4 is P6's, keyed on vein-ready) */
+.home-materials__frame{ display:none }
+.home-materials__stage{ margin-block-start:var(--s-6) }
+.home-materials__list{ grid-column:1 / -1; display:grid; row-gap:var(--s-7) }
+html:not(.vein-ready) .home-materials__item{
+  display:grid; grid-template-columns:minmax(0,1fr);
+  align-content:start; justify-items:start;
+}
+.home-materials__fig{ inline-size:min(100%, 30rem); margin-block-end:var(--s-4) }
+.home-materials__name{ font-size:var(--t-d3); font-weight:400; line-height:1.2 }
+.home-materials__line{
+  font-family:var(--f-he-display); font-weight:400; font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2);
+  max-inline-size:34ch;
+}
+html[lang="en"] .home-materials__line{ font-family:var(--f-lat-text); font-weight:300 }
+.home-materials__line{ margin-block-start:var(--s-3) }
+.home-materials__item > .link{ margin-block-start:var(--s-4) }
+.home-materials__note{
+  margin-block-start:var(--s-7);
+  padding-block-start:var(--s-3);
+  /* the p is itself the .l-wrap box; % here is the SECTION width, so rebuild the wrap width before capping the measure */
+  padding-inline-end:max(0px, min(100% - 2 * var(--margin), var(--maxw)) - 62ch);
+  border-block-start:1px solid var(--line);
+  font-size:var(--t-small); line-height:1.6;
+  color:var(--fg-2);
+}
+@media (min-width:768px){
+  /* figure | air | text | air — and mirrored for the 2nd and 4th, so the text always sits beside its image */
+  html:not(.vein-ready) .home-materials__item{
+    grid-template-columns:minmax(0,5fr) minmax(0,1fr) minmax(0,4fr) minmax(0,2fr);
+    grid-template-rows:1fr auto auto auto 1fr;
+  }
+  html:not(.vein-ready) .home-materials__fig{ grid-column:1; grid-row:1 / -1; margin:0 }
+  html:not(.vein-ready) .home-materials__item > :not(figure){ grid-column:3 }
+  html:not(.vein-ready) .home-materials__name{ grid-row:2 }
+  html:not(.vein-ready) .home-materials__line{ grid-row:3 }
+  html:not(.vein-ready) .home-materials__item > .link{ grid-row:4 }
+  html:not(.vein-ready) .home-materials__item:nth-child(even){ grid-template-columns:minmax(0,2fr) minmax(0,4fr) minmax(0,1fr) minmax(0,5fr) }
+  html:not(.vein-ready) .home-materials__item:nth-child(even) > .home-materials__fig{ grid-column:4; justify-self:end }
+  html:not(.vein-ready) .home-materials__item:nth-child(even) > :not(figure){ grid-column:2 }
+}
+@media (min-width:1100px){
+  html:not(.vein-ready) .home-materials__fig{ inline-size:min(100%, 58vh) }
+}
+@media (min-width:1200px){ html[lang="he"] .home-materials__name{ font-weight:300 } }
+
+/* ================================================================== H6 threshold teaser */
+.home-threshold__text{ grid-column:1 / -1; min-inline-size:0 }
+.home-threshold .opener__latin{ white-space:nowrap }
+.home-threshold__p{
+  margin-block-start:var(--s-5);
+  max-inline-size:var(--measure);
+  font-family:var(--f-he-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+}
+html[lang="en"] .home-threshold__p{ font-family:var(--f-lat-text); font-weight:300 }
+.home-threshold__more{ margin-block-start:var(--s-4) }
+.home-threshold__fig{ grid-column:1 / -1; justify-self:end; inline-size:min(100%, 60vh); margin-block-start:var(--s-6) }
+@media (min-width:1100px){
+  /* the opener word runs past the text column, so it gets a row of its own across the grid; the H2 + text (cols 1–5)
+     and the portrait (cols 7–11) share the rows below it, the figure's top on the H2's top. The last row is 1fr so the
+     tall figure's extra height lands under the text instead of spreading the text rows apart. */
+  .home-threshold .l-grid{ grid-template-rows:auto auto auto auto 1fr }
+  .home-threshold__text, .home-threshold .opener{ display:contents }
+  .home-threshold .opener__latin{ grid-column:1 / -1; grid-row:1 }
+  .home-threshold .opener__title{ grid-column:1 / 6; grid-row:2; margin-block-start:var(--s-6) }
+  .home-threshold__p{ grid-column:1 / 6; grid-row:3 }
+  .home-threshold__more{ grid-column:1 / 6; grid-row:4; align-self:start }
+  .home-threshold__fig{ grid-column:7 / 12; grid-row:2 / -1; align-self:start; margin-block-start:var(--s-6) }
+}
+
+/* ================================================================== H7 five steps (#home-process) */
+.home-steps__rule{ block-size:1px; margin-block-start:var(--s-6); background:var(--line) }
+.home-steps{ display:grid; grid-template-columns:minmax(0,1fr); gap:var(--s-5) var(--gap); padding-block-start:var(--s-5) }
+.home-steps__item{
+  display:grid;
+  grid-template-columns:4.5rem minmax(0,1fr);
+  grid-template-areas:"num title" "num text";
+  column-gap:var(--s-3);
+  align-content:start;
+}
+.home-steps__num{
+  grid-area:num;
+  font-family:var(--f-lat-display); font-weight:400; font-size:72px; line-height:.86;
+  color:var(--taupe);
+  font-variant-numeric:lining-nums;
+}
+.home-steps__title{ grid-area:title; align-self:end; font-size:var(--t-d4); font-weight:400; line-height:1.3 }
+.home-steps__text{ grid-area:text; margin-block-start:var(--s-2); color:var(--fg-2) }
+.home-process__more{ margin-block-start:var(--s-6) }
+@media (min-width:1100px){
+  .home-steps{ grid-template-columns:repeat(5, minmax(0,1fr)); padding-block-start:var(--s-5) }
+  .home-steps__item{ grid-template-columns:minmax(0,1fr); grid-template-areas:"num" "title" "text" }
+  .home-steps__num{ margin-block-end:var(--s-4) }
+  .home-steps__title{ align-self:start }
+  .home-steps__text{ font-size:var(--t-small); line-height:1.7 }
+}
+
+/* ================================================================== H7b journal (A7.1) */
+.home-journal__list{
+  display:grid; grid-template-columns:minmax(0,1fr);
+  gap:var(--s-5) var(--gap);
+  margin-block-start:var(--s-6);
+}
+.home-journal__card{
+  position:relative;
+  display:flex; flex-direction:column; gap:var(--s-3);
+  padding-block-start:var(--s-4);
+  border-block-start:1px solid var(--line);
+}
+.home-journal__card::before{
+  content:""; position:absolute; inset-block-start:-1px; inset-inline:0; block-size:1px;
+  background:var(--fg);
+  transform:scaleX(0); transform-origin:0 50%;
+  transition:transform var(--d-ui) var(--ease-paper);
+}
+[dir="rtl"] .home-journal__card::before{ transform-origin:100% 50% }
+.home-journal__card:is(:hover, :focus-within)::before{ transform:scaleX(1) }
+.home-journal__title{ font-size:var(--t-d4); font-weight:400; line-height:1.35 }
+.home-journal__link{ color:inherit; text-decoration:none }
+.home-journal__link::after{ content:""; position:absolute; inset:0 }   /* the whole card is the link's target */
+.home-journal__card:hover .home-journal__link{ text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.24em }
+.home-journal__excerpt{ font-size:var(--t-small); line-height:1.7; color:var(--fg-2) }
+.home-journal__more{ margin-block-start:var(--s-6) }
+@media (min-width:1100px){ .home-journal__list{ grid-template-columns:repeat(3, minmax(0,1fr)) } }
+
+/* ================================================================== openers: long Latin words fit the phone width
+   (the brand word stays one line; --t-mega's floor is too large for 8–9 letter words at 320–400 px) */
+@media (max-width:767px){
+  .home-materials .opener__latin, .home-threshold .opener__latin, .home-services .opener__latin, .home-works .opener__latin{ font-size:min(var(--t-mega), 12.4vw) }
+}

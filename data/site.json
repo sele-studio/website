@@ -1,0 +1,14 @@
+{
+  "serviceArea": null,
+  "gscToken": null,
+  "bingToken": null,
+  "launchDate": "2026-09-28",
+  "confirm": {
+    "styling": true, "siteSupport": true, "workingDrawings": true, "built01Publish": true,
+    "drawingsPlumbingFlooring": false, "built01SameAsDarkKitchen": false, "renderStages": false,
+    "rendersStandalone": false, "singleRoomProjects": false, "contractorQuotes": false,
+    "newBuild": false, "architectPartner": false, "formalSupervision": false,
+    "englishClients": false, "marketPriceReference": false,
+    "shohamByline": []
+  }
+}

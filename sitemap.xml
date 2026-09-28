@@ -1,8 +1,620 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://sele-studio.com/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/video/hero-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/video/hero-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/studio/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/studio/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-stone.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-bronze.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-bronze.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-oak.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/studio/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/studio/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-stone.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-bronze.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-bronze.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-oak.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/interior-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/interior-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/interior-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/interior-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/interior-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/interior-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/interior-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/interior-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/space-planning/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/space-planning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/space-planning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/space-planning/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/space-planning/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/space-planning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/space-planning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/space-planning/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/kitchen-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/kitchen-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/kitchen-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/kitchen-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/kitchen-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/kitchen-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/kitchen-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/kitchen-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/bathroom-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/bathroom-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/bathroom-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/bathroom-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/travertine.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/walnut.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/bathroom-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/bathroom-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/bathroom-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/bathroom-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/travertine.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/walnut.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/services/renovation-management/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/renovation-management/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/renovation-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/renovation-management/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/services/renovation-management/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/renovation-management/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/renovation-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/renovation-management/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/projects/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/projects/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/projects/stone-oak-kitchen/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/stone-oak-kitchen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-kitchen-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/stone-oak-kitchen.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/projects/stone-oak-kitchen/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/stone-oak-kitchen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-kitchen-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/stone-oak-kitchen.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/projects/oak-living-room/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/oak-living-room/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/oak-living-room/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/oak-living-room/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-living-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/oak-living-room.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/projects/oak-living-room/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/oak-living-room/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/oak-living-room/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/oak-living-room/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-living-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/oak-living-room.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/projects/travertine-bathroom/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/travertine-bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/travertine-bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/travertine-bathroom/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/bath-threshold-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/travertine-bathroom.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/projects/travertine-bathroom/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/travertine-bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/travertine-bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/travertine-bathroom/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/bath-threshold-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/travertine-bathroom.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/projects/dark-oak-bedroom/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/dark-oak-bedroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-bedroom-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/dark-oak-bedroom.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/projects/dark-oak-bedroom/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/dark-oak-bedroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/video/case-bedroom-4x5-720-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/light/dark-oak-bedroom.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/film/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/film/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/film/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/film/"/>
+    <video:video>
+      <video:thumbnail_loc>https://sele-studio.com/assets/video/hero-16x9-poster.jpg</video:thumbnail_loc>
+      <video:title>סרט הסטודיו: מבט על העבודות</video:title>
+      <video:description>סרט קצר ושקט מתוך הדמיות התכנון של SELÈ STUDIO: מטבח עם אי אבן ונגרות אלון, סלון באלון ואבן וחדר שינה באלון כהה ופשתן.</video:description>
+      <video:content_loc>https://sele-studio.com/assets/video/hero-16x9.mp4</video:content_loc>
+      <video:duration>22</video:duration>
+      <video:publication_date>2026-09-28T12:00:00+03:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/film/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/film/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/film/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/film/"/>
+    <video:video>
+      <video:thumbnail_loc>https://sele-studio.com/assets/video/hero-16x9-poster.jpg</video:thumbnail_loc>
+      <video:title>The studio film: a look at our work</video:title>
+      <video:description>A short, silent film from SELÈ STUDIO’s design visualizations: a stone-island kitchen with oak joinery, an oak and stone living room and a dark-oak bedroom.</video:description>
+      <video:content_loc>https://sele-studio.com/assets/video/hero-16x9.mp4</video:content_loc>
+      <video:duration>22</video:duration>
+      <video:publication_date>2026-09-28T12:00:00+03:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/how-to-choose-interior-designer/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/how-to-choose-interior-designer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/how-to-choose-interior-designer/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/how-to-choose-interior-designer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/interior-designer-vs-architect/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-designer-vs-architect/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/interior-designer-vs-architect/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-designer-vs-architect/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/interior-design-cost/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-design-cost/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-design-cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-design-cost/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/interior-design-cost/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-design-cost/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-design-cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-design-cost/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/choosing-kitchen-stone/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/choosing-kitchen-stone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/choosing-kitchen-stone/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/choosing-kitchen-stone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/travertine-guide/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/travertine-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/travertine-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/travertine-guide/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/travertine-guide/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/travertine-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/travertine-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/travertine-guide/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/home-lighting-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/home-lighting-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/home-lighting-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/home-lighting-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/home-lighting-design/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/home-lighting-design/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/home-lighting-design/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/home-lighting-design/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/custom-carpentry-guide/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/custom-carpentry-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/custom-carpentry-guide/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/custom-carpentry-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/built-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-dark-01.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/journal/warm-minimalism/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/warm-minimalism/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/warm-minimalism/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/warm-minimalism/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/travertine.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/light-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/dark-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/walnut.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/linen.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/journal/warm-minimalism/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/warm-minimalism/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/warm-minimalism/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/warm-minimalism/"/>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/marble.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/travertine.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/light-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/dark-oak.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/walnut.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/materials/linen.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/kitchen-stone-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bath-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/contact/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/contact/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/accessibility/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/accessibility/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/accessibility/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/accessibility/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/privacy/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://sele-studio.com/en/privacy/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/privacy/"/>
   </url>
 </urlset>

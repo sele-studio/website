@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "id": "journal-home-lighting-design",
+    "path": "/journal/home-lighting-design/",
+    "type": "article",
+    "crumb": {
+      "he": "תכנון תאורה",
+      "en": "Lighting design"
+    },
+    "title": {
+      "he": "תכנון תאורה לבית: שכבות, גוונים ותאורה נסתרת | SELÈ STUDIO",
+      "en": "Home Lighting Design Guide: Light in Layers | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "תכנון תאורה לבית בשלוש שכבות: גוון חם ומסירת צבע, תאורה נסתרת בנישות ומאחורי מראות, איך מאירים אבן ועץ ומתי מתכננים את האור ביחס לחשמלאי ולנגר.",
+      "en": "A home lighting design guide: three layers, warm light and CRI, concealed light in niches and behind mirrors, lighting stone and wood, and when to plan it."
+    },
+    "h1": {
+      "he": "תכנון תאורה לבית: אור בשכבות, חם ומדויק",
+      "en": "Home lighting design: light in layers, warm and precise"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-03",
+      "alt": {
+        "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
+        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+      },
+      "caption": {
+        "he": "תאורה נסתרת בנישה: רואים את האור, לא את המקור.",
+        "en": "Concealed light in the niche: you see the glow, not the source."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "og": "/assets/img/og/og-journal-home-lighting-design.jpg",
+    "ogAlt": {
+      "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
+      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+    },
+    "article": {
+      "section": "materials",
+      "service": "kitchen-design",
+      "author": "org",
+      "published": null,
+      "modified": null
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "אור הוא החומר היחיד בבית שאי אפשר לגעת בו, והוא משנה את כל השאר. אותו משטח אבן נראה שטוח תחת ספוט שמכוון אליו ישר מלמעלה, ומקבל עומק כשאור רך מחליק עליו מהצד. אותו חדר שינה מרגיש כמו משרד תחת תקרה זרועה בספוטים, וכמו מקום מנוחה כשהאור יורד נמוך, לגובה המיטה. לכן תכנון תאורה לבית איננו בחירת גופים מקטלוג. זו החלטה על מה רואים, מתי ובאיזו אווירה.",
+        "en": "Light is the one material in a home you cannot touch, and it changes everything else. The same stone worktop looks flat under a spotlight aimed straight down at it, and gains depth when soft light slides across it from the side. The same bedroom feels like an office under a ceiling full of downlights, and like a place to rest when the light drops low, to the height of the bed. So home lighting design is not choosing fittings from a catalog. It is deciding what you see, when, and in what mood."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "במדריך הזה נעבור על שלוש שכבות התאורה, על גוון האור ועל מדד מסירת הצבע, על תאורה נסתרת בנישות ומאחורי מראות, ועל האופן שבו אור פוגש אבן ועץ. נעבור גם על השאלה המעשית ביותר: מתי מתכננים את כל זה, ביחס לחשמלאי ולנגר. בסוף תמצאו הערות קצרות לכל חדר.",
+        "en": "This guide covers the three layers of light, color temperature and color rendering (CRI), concealed lighting in niches and behind mirrors, and how light meets stone and wood. It also covers the most practical question of all: when to plan all of this relative to the electrician and the carpenter. At the end you’ll find short notes for each room."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מהן שכבות התאורה?",
+        "en": "What are the layers of lighting?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חדר מואר היטב לא נשען על מקור אור אחד. הוא בנוי משלוש שכבות, שכל אחת מהן עונה על צורך אחר ונשלטת בנפרד.",
+        "en": "A well-lit room never relies on a single source. It is built from three layers, each answering a different need and each controlled separately."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "תאורה כללית: הבסיס השקט",
+        "en": "Ambient light: the quiet base"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "זה האור שמאפשר לנוע בחלל בביטחון. ברוב הבתים הוא מגיע מגופים שקועים בתקרה או מתאורה עקיפה שמכוונת אל התקרה ואל הקירות. המטרה היא אור אחיד ורך, בלי כתמים חזקים ובלי סנוור. גוף שקוע עמוק, שהמקור שלו נסוג פנימה, מאיר את החדר בלי שהעין תיתקל בנקודת אור חשופה.",
+        "en": "This is the light that lets you move through a space with confidence. In most homes it comes from recessed ceiling fittings, or from indirect light aimed at the ceiling and walls. The aim is even, soft light, without hot spots or glare. A deep-recessed downlight, with its source set well back, lights the room without the eye catching a bare point of light."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "תאורת משימה: אור במקום שבו עובדים",
+        "en": "Task light: light where the work happens"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מעל משטח העבודה במטבח, מול המראה, ליד הכורסה שבה קוראים. תאורת משימה ממוקמת כך שמי שעומד או יושב שם לא מטיל צל על משטח העבודה. לכן במטבח מעדיפים פס אור מתחת לארונות העליונים על פני ספוט בתקרה שנמצא מאחורי הגב.",
+        "en": "Above the kitchen worktop, at the mirror, beside the armchair where you read. Task light is placed so that whoever is standing or sitting there doesn’t cast a shadow over the work surface. That’s why, in a kitchen, a strip under the wall cabinets beats a ceiling spot that sits behind your back."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "תאורת הדגשה ואווירה: מה שנותן לחדר עומק",
+        "en": "Accent and mood light: what gives a room depth"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "נישה מוארת, קיר אבן שאור מחליק עליו, מנורה נמוכה בפינה. השכבה הזאת כמעט לא נחוצה לתפקוד, אבל היא זו שהופכת חדר לבית. בערב, כשהאור הכללי יורד, היא נשארת.",
+        "en": "A lit niche, a stone wall with light sliding across it, a low lamp in a corner. This layer is barely needed for function, but it’s the one that turns a room into a home. In the evening, when the ambient light goes down, it stays on."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הכלל שמחבר את השלוש: כל שכבה על מעגל משלה, ועדיף עם עמעום. כך אותו חדר יכול להיות מואר ומעשי בצהריים, ורך ושקט בלילה.",
+        "en": "The rule that ties all three together: each layer on its own circuit, ideally dimmable. That way the same room can be bright and practical at midday, and soft and quiet at night."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "גוון האור: למה 2700K מרגיש כמו בית",
+        "en": "Color temperature: why 2700K feels like home"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "גוון האור נמדד בקלווין (K). ככל שהמספר נמוך יותר, האור צהוב וחם יותר. תאורה חמה 2700K קרובה לאור של נורת להט ישנה ולשעת ערב, ולכן היא הבחירה הנפוצה לסלון ולחדר השינה. 3000K עדיין חם, מעט נקי יותר, ומתאים לרוב למטבח ולחדר הרחצה. 4000K כבר נייטרלי, ובחללי מגורים הוא נוטה להרגיש משרדי.",
+        "en": "Color temperature is measured in kelvin (K). The lower the number, the warmer and more amber the light. Warm 2700K light is close to an old incandescent bulb and to early evening, which is why it’s the common choice for living rooms and bedrooms. 3000K is still warm, slightly crisper, and usually suits kitchens and bathrooms. 4000K is already neutral, and in living spaces it tends to feel like an office."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מה שחשוב יותר מהמספר עצמו הוא העקביות. בחלל פתוח, שבו המטבח, פינת האוכל והסלון נראים יחד, כדאי לבחור גוון אחד, או לכל היותר הפרש קטן, למשל 2700K בסלון ו-3000K במטבח. שני גוונים שונים מדי באותו מבט יוצרים תחושה של טלאים, גם כשכל גוף לחוד נראה נכון.",
+        "en": "More important than the number itself is consistency. In an open-plan space, where the kitchen, dining area and living room are seen together, choose one temperature, or at most a small difference, for example 2700K in the living room and 3000K in the kitchen. Two temperatures that are too far apart in one view look patchy, even when each fitting on its own looks right."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מדד מסירת צבע (CRI): האור שמראה את החומר כמו שהוא",
+        "en": "Color rendering (CRI): light that shows a material as it is"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המדד הזה מתאר עד כמה הצבעים שרואים תחת הנורה נאמנים למציאות. תחת נורה עם מדד נמוך, עץ אלון מאבד את החום שלו, אבן בהירה נראית אפרפרה ועור הפנים חיוור. לבית שבנוי מחומרים טבעיים כדאי לבקש CRI של 90 ומעלה, במיוחד במטבח, בחדר הרחצה ובכל מקום שבו האור נופל על אבן או על עץ. הפער בין נורה טובה לבינונית לא נראה בקטלוג, ורואים אותו מיד על הקיר.",
+        "en": "This index describes how true to life colors look under a light source. Under a low-CRI source, oak loses its warmth, pale stone turns grayish and skin looks pallid. For a home built from natural materials, ask for a CRI of 90 or above, especially in the kitchen, the bathroom and anywhere light falls on stone or wood. The gap between a good source and an average one doesn’t show in a catalog. It shows on the wall straight away."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "תאורה נסתרת: רואים את האור, לא את המקור",
+        "en": "Concealed lighting: you see the light, not the source"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תאורה נסתרת היא פס לד שמוסתר בתוך פרופיל, בנישה, מתחת למדף או מאחורי מראה, כך שהעין קולטת את הזוהר ולא את הנורה. כשהיא מתוכננת נכון, היא נראית כאילו החומר עצמו מאיר.",
+        "en": "Concealed lighting is an LED strip hidden in a profile, in a niche, under a shelf or behind a mirror, so the eye takes in the glow and not the lamp. Planned well, it looks as though the material itself is giving off light."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "תאורת נישה במטבח",
+        "en": "Backlit niche lighting in the kitchen"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בנישה שבתמונה, פס האור מוסתר בתקרת הנישה ושוטף את חיפוי האבן מלמעלה למטה. העורקים באבן בולטים ומשטח העבודה מקבל אור נקי. כשהנישה על מעגל נפרד, היא יכולה להישאר מוארת גם כשכל המטבח כבוי. כדי שזה יעבוד, את התעלה לפרופיל חורצים בנגרות או באבן כבר בשלב התוכניות. פס שמודבק אחר כך לא נותן את אותו קו אור. את הפרויקט המלא אפשר לראות ב<a href=\"/projects/stone-oak-kitchen/\">מטבח האבן ועץ האלון</a>.",
+        "en": "In the niche pictured, the strip is hidden in the niche head and washes the stone splashback from top to bottom. The veining stands out and the worktop gets clean light. On its own circuit, a niche like this can stay lit even when the rest of the kitchen is off. For this to work, the channel for the profile is cut into the joinery or the stone at the drawing stage. A strip stuck on afterwards doesn’t give the same line of light. You can see the full project in <a href=\"/projects/stone-oak-kitchen/\">the stone and oak kitchen</a>."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מראות עם תאורה אחורית",
+        "en": "Backlit mirrors"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מראה שמוארת מאחור נראית כאילו היא מנותקת מהקיר, והאור שבורח מסביבה מבליט את מרקם האבן שמאחוריה. אבל תאורה אחורית לבדה לא מספיקה לגילוח או לאיפור. היא שכבת אווירה, ולצידה צריך אור פנים מלפנים או מהצדדים. ב<a href=\"/projects/travertine-bathroom/\">חדר הרחצה מטרוורטין</a> שתי מראות צרות וגבוהות מוארות מאחור. בהשתקפות שלהן נראים גופים שקועים בתקרה, וזו השכבה הכללית שמשלימה אותן.",
+        "en": "A mirror lit from behind looks detached from the wall, and the light escaping around it brings out the texture of the stone behind it. But backlighting alone isn’t enough for shaving or make-up. It is a mood layer, and it needs face light beside it, from the front or the sides. In <a href=\"/projects/travertine-bathroom/\">the travertine bathroom</a>, two tall, slim mirrors are lit from behind. Recessed downlights show in the ceiling reflected in them, and they are the ambient layer that completes the mirrors."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bath-01",
+      "alt": {
+        "he": "ארון אמבטיה כפול מטרוורטין עם שתי מראות גבוהות בתאורה אחורית, ברזי קיר בגוון ברונזה מוברשת ומגירות עץ אגוז, הדמיה",
+        "en": "Double travertine vanity with two tall backlit mirrors, brushed-bronze wall taps and walnut drawers, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "מראות בתאורה אחורית על קיר טרוורטין.",
+        "en": "Backlit mirrors on a travertine wall."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "הפרטים שעושים את ההבדל",
+        "en": "The details that make the difference"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>פס רציף, בלי נקודות.</strong> פס שבו רואים נקודות אור נפרדות משתקף באבן מלוטשת ובזכוכית כשורה של נקודות. פס עם פיזור רציף, או פרופיל עם מפזר, נותן קו אור אחד ורך.",
+          "en": "<strong>A continuous line, no dots.</strong> A strip where you can see individual LED points reflects in polished stone and glass as a row of dots. A continuous-emission strip, or a profile with a diffuser, gives one soft line of light."
+        },
+        {
+          "he": "<strong>מוסתר מכל זווית.</strong> בודקים את קו הראייה בעמידה, בישיבה ומהכניסה לחדר. פס שמוסתר ממבט של מי שעומד יכול להיחשף למי שיושב על הספה.",
+          "en": "<strong>Hidden from every angle.</strong> Check the sightline standing, seated and from the doorway. A strip that’s hidden from someone standing can be exposed to someone sitting on the sofa."
+        },
+        {
+          "he": "<strong>גישה לספק.</strong> לכל פס יש ספק כוח (שנאי) שעלול להתחמם ולדרוש החלפה. הוא צריך מקום מאוורר ונגיש, ולא מאחורי לוח אבן מודבק.",
+          "en": "<strong>Access to the driver.</strong> Every strip has a power supply (driver) that can run warm and may need replacing. It needs a ventilated, accessible spot, not one behind a bonded stone panel."
+        },
+        {
+          "he": "<strong>עמעום תואם.</strong> הספק והמעמעם צריכים להתאים זה לזה, אחרת האור מהבהב או מזמזם בעוצמות נמוכות.",
+          "en": "<strong>Matched dimming.</strong> The driver and the dimmer have to be compatible, or the light flickers or hums at low levels."
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך מאירים אבן ועץ",
+        "en": "How to light stone and wood"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אבן ועץ הם חומרים עם מרקם, ואור שמגיע מהזווית הנכונה הוא שחושף אותו. אור שמחליק לאורך משטח, מלמעלה או מלמטה ובזווית חדה, מבליט עורקים, נקבוביות של טרוורטין וסיבים של עץ. אור שמגיע בניצב פוגע במשטח ישר ומשטיח אותו.",
+        "en": "Stone and wood are textured materials, and light from the right angle is what reveals that texture. Light that grazes along a surface, from above or below at a steep angle, brings out veining, the pores of travertine and the grain of wood. Light that hits a surface head-on flattens it."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-02",
+      "alt": {
+        "he": "קיר חיפוי עץ אלון בהיר עם טלוויזיה, ופס אור נסתר שמאיר בסיס אבן עם עורקים מתחתיו, וילונות שקופים ואור שמש, הדמיה",
+        "en": "Light-oak paneled wall with a TV and a concealed light line grazing the veined stone plinth below, sheer curtains and sunlight, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "אור שמחליק על האבן חושף את העורקים שלה.",
+        "en": "Light grazing the stone brings out its veining."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בתמונה, פס אור מוסתר בתחתית חיפוי העץ ויורד אל בסיס האבן שמתחתיו. שני החומרים נפגשים בקו של אור, והקיר כולו מקבל עומק. כמה עקרונות:",
+        "en": "In the picture, a light line is tucked under the base of the wood paneling and falls onto the stone plinth below. The two materials meet in a line of light, and the whole wall gains depth. A few principles:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>גימור האבן משנה את התאורה.</strong> אבן מלוטשת מחזירה כל ספוט כנקודה בוהקת. בגימור מט או מוברש האור נבלע ברכות. מעל משטח מלוטש כדאי להעדיף אור מפוזר על פני ספוטים ממוקדים.",
+          "en": "<strong>The stone’s finish changes the lighting.</strong> Polished stone throws back every spotlight as a glaring point. On a honed or brushed finish, light is absorbed softly. Over a polished surface, prefer diffuse light to focused spots."
+        },
+        {
+          "he": "<strong>עץ כהה בולע אור.</strong> קיר אלון כהה או אגוז צריך יותר אור ממה שנדמה, אחרת הוא נראה כמו חור. עץ בהיר מחזיר אור ומרכך את החדר כולו.",
+          "en": "<strong>Dark wood absorbs light.</strong> A dark oak or walnut wall needs more light than you’d expect, or it reads as a hole. Light wood bounces light back and softens the whole room."
+        },
+        {
+          "he": "<strong>גוון חם מחמיא לשניהם.</strong> עץ ואבן טבעית מגיבים יפה ל-2700K–3000K עם מסירת צבע גבוהה. אור קר מאפיר אותם.",
+          "en": "<strong>Warm light flatters both.</strong> Wood and natural stone respond well to 2700K–3000K with high color rendering. Cool light turns them gray."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "על בחירת החומרים עצמם כתבנו במדריכים <a href=\"/journal/choosing-kitchen-stone/\">איך לבחור אבן למטבח</a> ו<a href=\"/journal/travertine-guide/\">המדריך לטרוורטין</a>.",
+        "en": "We cover choosing the materials themselves in <a href=\"/journal/choosing-kitchen-stone/\">how to choose kitchen stone</a> and <a href=\"/journal/travertine-guide/\">our travertine guide</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מתי מתכננים את התאורה: לפני החשמלאי, לא אחריו",
+        "en": "When to plan the lighting: before the electrician, not after"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "רוב הטעויות בתאורה לא נובעות מבחירת גוף לא נכון, אלא מתזמון. כשהתאורה נקבעת רק אחרי שהקירות נסגרו, כבר אין מקום לפרופיל, לספק או לנקודת חשמל במקום הנכון. הסדר הנכון בשיפוץ נראה בדרך כלל כך:",
+        "en": "Most lighting mistakes don’t come from choosing the wrong fitting. They come from timing. When lighting is decided only after the walls are closed, there’s no room left for a profile, a driver or a power point in the right place. In a renovation, the right order usually looks like this:"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>תוכנית העמדה.</strong> קודם יודעים איפה המיטה, האי, הספה ושולחן האוכל. בלי זה אין על מה לכוון את האור.",
+          "en": "<strong>Layout plan.</strong> First you know where the bed, the island, the sofa and the dining table go. Without that, there’s nothing to aim the light at."
+        },
+        {
+          "he": "<strong>תוכנית תאורה.</strong> השכבות, הגופים, המעגלים והמתגים מסומנים על התוכנית, יחד עם גובה ההנמכות בתקרה.",
+          "en": "<strong>Lighting plan.</strong> Layers, fittings, circuits and switches are marked on the plan, together with the depth of any dropped ceilings."
+        },
+        {
+          "he": "<strong>תוכניות נגרות ואבן.</strong> התעלות לפסי האור, המקום לספקים ונקודות החשמל בתוך הארונות נכנסים לשרטוטים לפני שהם יוצאים לייצור.",
+          "en": "<strong>Joinery and stone drawings.</strong> Channels for light strips, space for drivers and power points inside the cabinets go into the drawings before they go to fabrication."
+        },
+        {
+          "he": "<strong>סימון בשטח.</strong> לפני שהחשמלאי מתחיל, עוברים יחד על הנקודות בקירות ובתקרה. זה הרגע האחרון שבו תיקון הוא עניין של טוש.",
+          "en": "<strong>Marking on site.</strong> Before the electrician starts, walk the wall and ceiling points together. It’s the last moment when a correction is a matter of a marker pen."
+        },
+        {
+          "he": "<strong>בדיקה לפני סגירה.</strong> לפני הטיח וסגירת הגבס מוודאים שכל נקודה במקום ושהחוטים לפסים מגיעים עד המקום הנכון.",
+          "en": "<strong>Check before closing.</strong> Before plaster and plasterboard go up, confirm every point is in place and the cables for the strips reach the right spot."
+        },
+        {
+          "he": "<strong>התקנת גופים וכיוון.</strong> אחרי הצבע והנגרות מתקינים, מכוונים ספוטים ובודקים עמעום, בערב ולא רק באור יום.",
+          "en": "<strong>Installation and aiming.</strong> After paint and joinery, fittings are installed, spots are aimed and dimming is tested, in the evening and not just in daylight."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "את ביצוע החשמל עצמו עושה תמיד חשמלאי מוסמך. תפקיד התכנון הוא לתת לו תוכנית ברורה, כדי שלא יצטרך לנחש. <a href=\"/services/3d-visualization/\">הדמיה בתלת־ממד</a> מאפשרת לראות את האור על החומרים עוד לפני שמשהו נקבע בקיר.",
+        "en": "The electrical work itself is always done by a licensed electrician. The job of design is to hand them a clear plan, so nothing has to be guessed. <a href=\"/services/3d-visualization/\">A 3D render</a> lets you see the light on the materials before anything is fixed in a wall.",
+        "variants": [
+          {
+            "requires": "siteSupport",
+            "he": "את ביצוע החשמל עצמו עושה תמיד חשמלאי מוסמך. תפקיד התכנון הוא לתת לו תוכנית ברורה, כדי שלא יצטרך לנחש. <a href=\"/services/3d-visualization/\">הדמיה בתלת־ממד</a> מאפשרת לראות את האור על החומרים עוד לפני שמשהו נקבע בקיר. התיאום הזה בין החשמלאי, הנגר והספקים הוא חלק מרכזי ב<a href=\"/services/renovation-management/\">ליווי שיפוץ ותיאום בין בעלי המקצוע</a>.",
+            "en": "The electrical work itself is always done by a licensed electrician. The job of design is to hand them a clear plan, so nothing has to be guessed. <a href=\"/services/3d-visualization/\">A 3D render</a> lets you see the light on the materials before anything is fixed in a wall. Coordinating the electrician, the carpenter and the suppliers in this way is a central part of <a href=\"/services/renovation-management/\">renovation support and trade coordination</a>."
+          }
+        ]
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "הערות לפי חדר",
+        "en": "Notes by room"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מטבח",
+        "en": "Kitchen"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תאורה למטבח מתחילה במשטח העבודה: פס אור מתחת לארונות העליונים, מוסתר מאחורי חזית או בתוך פרופיל. מעל האי, מנורות תלויות או גופים שקועים. כנקודת פתיחה, מנורות תלויות תולים בדרך כלל כ-75 עד 90 ס\"מ מעל המשטח, ומכוונים לפי גובה היושבים ולפי קו המבט על פני החלל. כך מתכננים את <a href=\"/services/kitchen-design/\">המטבח כולו, מהאי ועד הנישה</a>.",
+        "en": "Kitchen lighting starts at the worktop: a strip under the wall cabinets, hidden behind a lip or inside a profile. Above the island, pendants or recessed fittings. As a starting point, pendants usually hang about 75 to 90 cm above the worktop, adjusted to the height of the people seated and to the sightline across the space. This is how we plan <a href=\"/services/kitchen-design/\">the whole kitchen, from the island to the niche</a>."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "סלון ופינת אוכל",
+        "en": "Living and dining"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בסלון השכבה הכללית משנית, והאווירה היא העיקר: אור עקיף, מנורת רצפה, נישה או מדף מוארים. כדאי להימנע מספוטים שנמצאים ישר מעל הראש של מי שיושב על הספה, ולהעדיף אור שמגיע מהקירות. גם הצפייה בטלוויזיה נעימה יותר כשיש אור רך מאחורי המסך או לצידו, כך שהמסך לא בוהק מול קיר חשוך. מעל שולחן האוכל ממרכזים את המנורה לשולחן ולא לחדר. אם מיקום השולחן עוד לא ידוע, כדאי להשאיר בתקרה אפשרות להזזה.",
+        "en": "In the living room the ambient layer is secondary and mood is what matters: indirect light, a floor lamp, a lit niche or shelf. Avoid downlights directly above the heads of people on the sofa, and favor light that comes off the walls. Watching TV is easier on the eyes with soft light behind or beside the screen, so it doesn’t glare against a dark wall. Over the dining table, center the pendant on the table, not on the room. If the table’s position isn’t settled yet, leave room in the ceiling to move it."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חדר רחצה",
+        "en": "Bathroom"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אור פנים מלפנים או מהצדדים, בגובה העיניים, כדי למנוע צללים מתחת לעיניים. מסביב, תאורה כללית שקועה בגופים שמתאימים לסביבה רטובה, לפי הנחיות החשמלאי. פס נמוך מתחת לארון אמבטיה תלוי משמש אור לילה עדין. עוד על <a href=\"/services/bathroom-design/\">ההחלטות שמעצבות חדר רחצה</a>.",
+        "en": "Face light from the front or the sides, at eye level, to avoid shadows under the eyes. Around it, recessed ambient light in fittings suitable for a wet environment, as the electrician specifies. A low strip under a wall-hung vanity works as a gentle night light. More on <a href=\"/services/bathroom-design/\">the decisions that shape a bathroom</a>."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חדר שינה",
+        "en": "Bedroom"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bedroom-01",
+      "alt": {
+        "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מעץ אלון כהה, מנורות תלויות דקות משני צידי המיטה ושידות לילה מטרוורטין, הדמיה",
+        "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, slim pendant lights on both sides of the bed and travertine side tables, render"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "מנורות תלויות משחררות את השידה ומורידות את האור לגובה הקריאה.",
+        "en": "Pendants free the side table and bring light down to reading height."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מנורות תלויות משני צידי המיטה משחררות את השידה ומורידות את האור לגובה הקריאה. מתגים ליד המיטה חוסכים קימה בחושך. עדיף להימנע מספוט שמכוון ישר אל הכרית, ולבחור אור חם ונמוך שנעים לפני השינה. חדר השינה שבתמונה מופיע ב<a href=\"/projects/dark-oak-bedroom/\">פרויקט חדר השינה מעץ אלון כהה</a>.",
+        "en": "Pendants on either side of the bed free up the side table and bring light down to reading height. Switches by the bed save getting up in the dark. Avoid a spot aimed straight at the pillow, and choose warm, low light that’s pleasant before sleep. The bedroom pictured is part of <a href=\"/projects/dark-oak-bedroom/\">the dark-oak bedroom project</a>."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "כניסה ומסדרונות",
+        "en": "Entrance and hallways"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כאן נקבע הרושם הראשון של הבית. מתג ליד הדלת שמדליק אור רך באזור הכניסה, ולא את כל התקרה, מקבל בנחת את מי שחוזר הביתה בערב. אור נמוך, למשל פס מתחת לארון הכניסה עם חיישן תנועה, מאפשר לעבור בלילה בלי להדליק את כל הבית. במסדרון, אור ששוטף קיר אחד רגוע יותר משורת ספוטים לאורך התקרה, שמסמנת את המסדרון כמו מסלול נחיתה.",
+        "en": "This is where the first impression of a home is set. A switch by the door that brings up soft light in the entrance, not the whole ceiling, gives a calm welcome to whoever comes home in the evening. Low light, for example a strip under the entrance cabinet on a motion sensor, lets you walk through at night without lighting up the whole house. In a hallway, light washing one wall is calmer than a row of downlights along the ceiling, which marks out the corridor like a landing strip."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תאורה טובה לא מתבלטת. מרגישים אותה, ולא רואים אותה. כשהיא מתוכננת יחד עם החומרים, היא הפרט שמחבר את כל השאר.",
+        "en": "Good lighting doesn’t draw attention to itself. You feel it rather than see it. Planned together with the materials, it’s the detail that ties everything else together."
+      }
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "מתכננים שיפוץ או דירה חדשה?",
+        "en": "Planning a renovation or a new apartment?"
+      },
+      "p": {
+        "he": "הזמן הנכון לתכנן את האור הוא לפני שהחשמלאי מסמן את הקירות. ספרו לנו על הבית ועל השלב שבו אתם נמצאים, ונחזור אליכם.",
+        "en": "The right time to plan the light is before the electrician marks the walls. Tell us about your home and the stage you’re at, and we’ll get back to you."
+      },
+      "button": {
+        "he": "לתיאום פגישת היכרות",
+        "en": "Book an introductory meeting"
+      },
+      "href": "/contact/"
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "Frequently asked questions"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "איזה גוון תאורה מתאים לבית: 2700K או 3000K?",
+            "en": "Which color temperature suits a home: 2700K or 3000K?"
+          },
+          "a": {
+            "he": "שניהם גוונים חמים שמתאימים לבית. 2700K חם ורך יותר, ונפוץ בסלון ובחדר השינה. 3000K מעט נקי יותר, ונוח במטבח ובחדר הרחצה. בחלל פתוח כדאי לשמור על גוון אחד, או לכל היותר על הפרש קטן, כמו 2700K בסלון ו-3000K במטבח.",
+            "en": "Both are warm and suit a home. 2700K is warmer and softer, and common in living rooms and bedrooms. 3000K is slightly crisper and comfortable in kitchens and bathrooms. In an open-plan space, keep to one temperature, or at most a small difference, such as 2700K in the living room and 3000K in the kitchen."
+          }
+        },
+        {
+          "q": {
+            "he": "מה זה תאורה נסתרת ואיפה היא מתאימה?",
+            "en": "What is concealed lighting, and where does it work?"
+          },
+          "a": {
+            "he": "פס לד שמוסתר בפרופיל, בנישה, מתחת למדף או מאחורי מראה, כך שרואים את האור ולא את המקור. היא מתאימה לנישות במטבח, למראות, לקירות אבן ועץ ולאור לילה במסדרון. היא שכבת אווירה, ולצידה צריך גם תאורה כללית ותאורת משימה.",
+            "en": "An LED strip hidden in a profile, a niche, under a shelf or behind a mirror, so you see the light and not the source. It works in kitchen niches, on mirrors, on stone and wood walls and as a hallway night light. It’s a mood layer, so it still needs ambient and task light beside it."
+          }
+        },
+        {
+          "q": {
+            "he": "מתי צריך לתכנן את התאורה בשיפוץ?",
+            "en": "When should lighting be planned in a renovation?"
+          },
+          "a": {
+            "he": "לפני שהחשמלאי מתחיל לסמן נקודות, ולפני שתוכניות הנגרות והאבן יוצאות לייצור. התעלות לפסי האור, המקום לספקים וגובה ההנמכות בתקרה נקבעים בשלב הזה. אחרי שהקירות נסגרים, כל שינוי כרוך בפתיחה ובתיקון.",
+            "en": "Before the electrician starts marking points, and before the joinery and stone drawings go to fabrication. Channels for light strips, space for drivers and the depth of dropped ceilings are all set at that stage. Once the walls are closed, every change means opening them up again."
+          }
+        },
+        {
+          "q": {
+            "he": "מה זה CRI ולמה הוא חשוב?",
+            "en": "What is CRI, and why does it matter?"
+          },
+          "a": {
+            "he": "מדד מסירת הצבע מתאר עד כמה הצבעים שרואים תחת הנורה נאמנים למציאות. בבית עם עץ ואבן טבעית כדאי לבחור CRI של 90 ומעלה, כדי שהחומרים, האוכל וגוון העור ייראו כמו שהם באמת ולא יאפירו.",
+            "en": "The color rendering index describes how true to life colors look under a light source. In a home with wood and natural stone, choose a CRI of 90 or above, so materials, food and skin tones look as they really are and don’t turn gray."
+          }
+        },
+        {
+          "q": {
+            "he": "כמה גבוה תולים מנורות מעל אי במטבח?",
+            "en": "How high should pendants hang over a kitchen island?"
+          },
+          "a": {
+            "he": "כנקודת פתיחה מקובלת, בערך 75 עד 90 ס\"מ מעל המשטח. הגובה המדויק תלוי בגודל המנורה, בגובה התקרה ובקו המבט של מי שיושב ליד האי ושל מי שמסתכל על החלל מהסלון.",
+            "en": "A common starting point is about 75 to 90 cm above the worktop. The exact height depends on the size of the pendant, the ceiling height, and the sightlines of people seated at the island and of anyone looking across from the living room."
+          }
+        }
+      ]
+    }
+  ]
+}

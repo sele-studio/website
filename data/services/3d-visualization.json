@@ -1,0 +1,736 @@
+{
+  "meta": {
+    "id": "service-3d-visualization",
+    "path": "/services/3d-visualization/",
+    "type": "service",
+    "crumb": {
+      "he": "הדמיות תלת מימד",
+      "en": "3D visualization"
+    },
+    "title": {
+      "he": "הדמיות תלת מימד לעיצוב פנים: לראות לפני שבונים | SELÈ STUDIO",
+      "en": "3D Interior Renders & Visualization, Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "הדמיות תלת מימד לעיצוב פנים כחלק מתהליך התכנון: חומר, אור ופרופורציות נבחנים לפני שמזמינים ובונים. SELÈ STUDIO — קבעו פגישת היכרות.",
+      "en": "3D interior renders inside the design process: material, light and proportion tested before anything is ordered or built. Book a first meeting."
+    },
+    "h1": {
+      "he": "לראות את הבית לפני שבונים — הדמיות תלת מימד לעיצוב פנים",
+      "en": "See your home before it is built — 3D interior renders and visualization"
+    },
+    "latin": "VISUALIZATION",
+    "hero": {
+      "img": "kitchen-stone-01",
+      "alt": {
+        "he": "מטבח עם אי אבן מונוליתי אפור עם גידים, ארונות אלון בהיר עד התקרה ונישת אבן מוארת",
+        "en": "Kitchen with a monolithic gray-veined stone island, full-height light-oak cabinetry and a backlit stone niche"
+      },
+      "caption": {
+        "he": "מבט חזיתי על המטבח: אי אבן, נגרות אלון ונישה מוארת.",
+        "en": "A frontal view of the kitchen: stone island, oak joinery and a lit niche."
+      },
+      "kind": "render"
+    },
+    "og": "/assets/img/og/og-service-3d-visualization.jpg",
+    "ogAlt": {
+      "he": "מטבח עם אי אבן מונוליתי אפור עם גידים, ארונות אלון בהיר עד התקרה ונישת אבן מוארת",
+      "en": "Kitchen with a monolithic gray-veined stone island, full-height light-oak cabinetry and a backlit stone niche"
+    },
+    "service": {
+      "name": {
+        "he": "הדמיות תלת מימד לעיצוב פנים",
+        "en": "3D visualization"
+      }
+    },
+    "requires": [
+      "renderStages"
+    ],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "תוכנית על דף מספרת איפה יעמוד כל דבר. היא לא מספרת איך ירגיש החדר כשנכנסים אליו: באיזה גובה המבט פוגש את המדף, איך נופל אור אחר הצהריים על משטח האבן, אם גוון הנגרות מתחמם או מתקרר ליד הטיח. הדמיות תלת מימד לעיצוב פנים סוגרות את הפער הזה. הן מאפשרות לעמוד בתוך הבית עוד לפני שהוזמן הלוח הראשון, לבחון החלטות כשהן עדיין קלות לשינוי, ולהגיע לביצוע עם תמונה אחת משותפת: לכם, לנו ולכל בעלי המקצוע.",
+        "en": "A plan on paper tells you where everything will stand. It does not tell you how the room will feel when you walk in: the height at which your eye meets the shelf, how afternoon light falls across the stone counter, whether the joinery turns warmer or cooler next to the plaster. 3D interior renders close that gap. They let you stand inside your home before the first panel is ordered, test decisions while they are still easy to change, and arrive on site with one shared picture for you, for us and for every trade."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ב-SELÈ STUDIO ההדמיה היא כלי עבודה בתוך תהליך העיצוב, לא תמונת מכירה. כל התמונות בעמוד הזה הן הדמיות מתוך עבודת הסטודיו, וכל אחת מהן מסומנת ככזאת.",
+        "en": "At SELÈ STUDIO a render is a working tool inside the design process, not a sales image. Every image on this page is a render from the studio’s work, and each one is labeled as such."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "למה הדמיה חוסכת טעויות יקרות?",
+        "en": "Why does a render prevent costly mistakes?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הדמיה חוסכת טעויות כי היא מקדימה את רגע הגילוי. מה שנראה נכון בתוכנית ובקטלוג עלול להתגלות כצפוף, כהה או לא מתואם רק כשהוא כבר בנוי. על המסך, שינוי הוא תיקון במודל. בשטח, אחרי שהנגרות יוצרה והאבן נחתכה, אותו שינוי עולה זמן, כסף, ולפעמים גם חומר שהולך לפח.",
+        "en": "A render prevents mistakes by bringing the moment of discovery forward. What looks right on a plan or in a catalog can turn out cramped, dark or mismatched only once it is built. On screen, a change is an edit to the model. On site, after the joinery has been made and the stone cut, the same change costs time, money and sometimes material that ends up in a skip."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "פרופורציות וגבהים",
+        "en": "Proportion and height"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ארון עד התקרה, אי באורך מסוים, מדף בגובה העיניים: בתוכנית אלה מספרים שנשמעים סבירים. בהדמיה רואים אם האי משאיר מעבר נוח, ואם ספריית העץ מאזנת את קיר הטלוויזיה או מכבידה עליו.",
+        "en": "A cabinet to the ceiling, an island of a certain length, a shelf at eye level: on a plan these are numbers that sound reasonable. In a render you see whether the island leaves a comfortable passage, and whether the timber shelving balances the TV wall or weighs it down."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מפגשי חומרים",
+        "en": "Where materials meet"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "רוב הטעויות קורות במקום שבו שני חומרים נפגשים: איפה נגמר חיפוי האבן ומתחילה הנגרות, איך ממשיכים הגידים מהמשטח אל קיר הנישה, מה קורה בפינה. בהדמיות המטבח שבעמוד הזה רואים החלטה כזאת בדיוק: אותה אבן עוטפת את האי ומחפה את הנישה שמאחוריו, והגידים יוצרים רצף ביניהם.",
+        "en": "Most mistakes happen where two materials meet: where the stone cladding ends and the joinery begins, how the veining carries from the counter onto the back of the niche, what happens at the corner. The kitchen renders on this page show exactly that kind of decision: the same stone wraps the island and lines the niche behind it, and the veining is what ties the two together."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-02",
+      "alt": {
+        "he": "מבט אלכסוני על אי האבן והנישה המוארת במטבח, ענפי זית ואור שמש נמוך",
+        "en": "Angled view of the stone island and lit niche, with olive branches and low sunlight"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "אותה אבן על האי ובנישה: הגידים קושרים בין השניים.",
+        "en": "The same stone on the island and in the niche, tied together by the veining."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "אור",
+        "en": "Light"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לא רק כמה אור, אלא מאיפה הוא מגיע. פס תאורה נסתר בנישה, מראה עם תאורה אחורית, כתמי שמש שנכנסים מהחלון. הדמיה מאפשרת לבדוק שהתאורה מבליטה את החומר ולא מסנוורת, ושהאווירה החמה נשמרת גם כשהשמש יורדת. על השכבות השונות של האור כתבנו במדריך <a href=\"/journal/home-lighting-design/\">תכנון תאורה לבית</a>.",
+        "en": "Not only how much light, but where it comes from. A concealed strip in a niche, a backlit mirror, patches of sun from the window. A render lets you check that the lighting brings out the material rather than glaring, and that the warmth holds once the sun goes down. We cover the layers of light in our guide to <a href=\"/journal/home-lighting-design/\">home lighting design</a>."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bath-01",
+      "alt": {
+        "he": "חדר רחצה עם משטח כפול מטרוורטין, שתי מראות מוארות, ברזי קיר בגוון ברונזה ומגירות אגוז",
+        "en": "Bathroom with a double travertine vanity, two backlit mirrors, bronze wall taps and walnut drawers"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "תאורה אחורית במראות ומשטח טרוורטין כפול.",
+        "en": "Backlit mirrors and a double travertine vanity."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "רצף בין החללים",
+        "en": "Continuity between spaces"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מטבח שנפתח לסלון, מסדרון שמוביל לחדר הרחצה. ההדמיה מראה אם הבית מדבר בשפה אחת, או שכל חדר תוכנן לבדו.",
+        "en": "A kitchen that opens onto the living room, a corridor leading to the bathroom. A render shows whether the home speaks one language, or whether each room was designed on its own."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה הדמיה יכולה להראות, ומה היא לא יכולה?",
+        "en": "What can a render show, and what can’t it?"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מה רואים בבירור",
+        "en": "What you see clearly"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "חלוקה, נפחים ופרופורציות.",
+          "en": "Layout, volumes and proportion."
+        },
+        {
+          "he": "היררכיית החומרים: מה מוביל ומה שקט.",
+          "en": "The hierarchy of materials: what leads and what stays quiet."
+        },
+        {
+          "he": "כיוון האור והאווירה בחלל.",
+          "en": "The direction of light and the mood of the space."
+        },
+        {
+          "he": "הקשר בין החללים וקווי המבט ביניהם.",
+          "en": "How spaces connect, and the sightlines between them."
+        },
+        {
+          "he": "פרטים שקשה לדמיין מתוך תוכנית: נישות, מפגשי חיפוי, חלוקת חזיתות הנגרות.",
+          "en": "Details that are hard to picture from a plan: niches, cladding junctions, how joinery fronts are divided."
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מה הדמיה לא מחליפה",
+        "en": "What a render does not replace"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>אבן טבעית.</strong> כל לוח שונה. בשיש ובטרוורטין הגידים והגוון משתנים מלוח ללוח, וההדמיה מציגה טקסטורה מייצגת בלבד. את האבן בוחרים מול הלוח עצמו או מול דוגמה ממנו. במדריך <a href=\"/journal/choosing-kitchen-stone/\">איך לבחור אבן למטבח</a> פירטנו על מה להסתכל.",
+          "en": "<strong>Natural stone.</strong> Every slab is different. In marble and travertine the veining and tone change from slab to slab, and a render shows a representative texture only. Stone is chosen by looking at the slab itself, or a sample cut from it. Our guide on <a href=\"/journal/choosing-kitchen-stone/\">choosing stone for a kitchen</a> explains what to look for."
+        },
+        {
+          "he": "<strong>צבע וגימור.</strong> המסך מציג צבע לפי הכיול שלו. גוון של עץ, לכה או טיח ייראה אחרת באור היום של הבית, וההבדל בין גימור מט, מוברש או מבריק מורגש יותר ביד מאשר בתמונה.",
+          "en": "<strong>Color and finish.</strong> A screen shows color according to its own calibration. A timber, lacquer or plaster tone will look different in your home’s daylight, and the difference between a matte, brushed or polished finish is felt in the hand more than seen in a picture."
+        },
+        {
+          "he": "<strong>מגע ותחושה.</strong> איך נסגרת מגירה, איך מרגישה האבן מתחת לכף היד, איך נשמע החדר.",
+          "en": "<strong>Touch and feel.</strong> How a drawer closes, how the stone feels under your palm, how the room sounds."
+        },
+        {
+          "he": "<strong>המציאות היומיומית.</strong> הדמיה היא גרסה מוקפדת של הבית: אור מדויק, סטיילינג מסודר, בלי חפצים של יום רגיל.",
+          "en": "<strong>Everyday life.</strong> A render is a composed version of the home: precise light, careful styling, none of the things of an ordinary day."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לכן הכלל פשוט: ההדמיה מאשרת כיוון, ודוגמת החומר מאשרת בחירה.",
+        "en": "So the rule is simple: the render approves a direction, and the material sample approves a choice."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-03",
+      "alt": {
+        "he": "נישת הקפה במטבח: חיפוי אבן עם גידים, ברז פלדה מוברשת, כיור שקוע ומכונת קפה",
+        "en": "The kitchen coffee niche: veined stone splashback, brushed-steel tap, undermount sink and coffee machine"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "בהדמיה, טקסטורה מייצגת. באבן אמיתית, כל לוח שונה.",
+        "en": "In a render, a representative texture. In real stone, every slab differs."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מה פירוש \"הדמיה פוטוריאליסטית\"?",
+        "en": "What does “photorealistic render” mean?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הדמיה פוטוריאליסטית מחשבת אור, השתקפויות וטקסטורות כך שהתוצאה נראית כמו צילום. זה הכוח שלה: קל להבין אותה גם בלי לדעת לקרוא תוכניות. וזו גם הסכנה שבה: ככל שהתמונה משכנעת יותר, קל יותר לשכוח שהיא קירוב. כדאי לצפות בה לצד התוכנית והדוגמאות, ולא במקומן.",
+        "en": "A photorealistic render calculates light, reflections and textures so that the result looks like a photograph. That is its strength: it is easy to understand without reading drawings. It is also its risk: the more convincing the image, the easier it is to forget it is an approximation. It is best viewed alongside the plans and the samples, not instead of them."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך הדמיות משתלבות בתהליך העיצוב",
+        "en": "How renders fit into the design process"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הדמיה טובה נשענת על תכנון טוב. בלי תוכנית העמדה מדויקת היא רק תמונה יפה, ולכן היא מגיעה אחרי <a href=\"/services/space-planning/\">תכנון הדירה וחלוקת החללים</a>, ומתפתחת יחד עם הפרויקט:",
+        "en": "A good render rests on good planning. Without an accurate furniture layout it is only a pretty picture, so it comes after <a href=\"/services/space-planning/\">planning the apartment and dividing its spaces</a>, and develops with the project:"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>בדיקת נפחים.</strong> כשהחלוקה מתגבשת, מודל פשוט בוחן גבהים, מעברים וקווי מבט, עוד לפני שנבחרו חומרים.",
+          "en": "<strong>Massing check.</strong> Once the layout takes shape, a simple model tests heights, passages and sightlines, before any materials are chosen.",
+          "requires": "renderStages"
+        },
+        {
+          "he": "<strong>חומר ואור.</strong> ההדמיות המלאות: אבן, עץ, טיח ותאורה. כאן מתקבלות רוב ההחלטות האסתטיות, וכאן שינוי עדיין זול: הוא נעשה במודל, לא בחומר.",
+          "en": "<strong>Material and light.</strong> The full renders: stone, timber, plaster and lighting. Most aesthetic decisions are made here, and change is still cheap here, because it happens in the model, not in material.",
+          "requires": "renderStages"
+        },
+        {
+          "he": "<strong>מהדמיה לפרט.</strong> מה שאושר בהדמיה מתורגם לתוכניות עבודה ולפרטי נגרות. ההדמיה נשארת תמונת ייחוס לנגר, לספק האבן ולחשמלאי.",
+          "en": "<strong>From render to detail.</strong> What is approved in the render is translated into working drawings and joinery details. The render stays as a reference image for the carpenter, the stone supplier and the electrician.",
+          "requires": "workingDrawings"
+        },
+        {
+          "he": "<strong>בזמן הביצוע.</strong> תמונה משותפת שמולה בודקים את מה שנבנה בשטח, כחלק מ<a href=\"/services/renovation-management/\">ליווי השיפוץ</a>.",
+          "en": "<strong>During the build.</strong> A shared picture to check the work on site against, as part of <a href=\"/services/renovation-management/\">renovation support</a>.",
+          "requires": "siteSupport"
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "הדמיה לדירה שלמה או לחדר אחד?",
+        "en": "A render of the whole apartment, or of one room?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לא כל פינה בבית צריכה הדמיה. ההחלטות היקרות מתרכזות בדרך כלל במטבח, בחדר הרחצה ובקירות הנגרות הגדולים של הסלון, כי שם יש הכי הרבה מפגשי חומרים ופרטים שמיוצרים לפי מידה. בחללים פשוטים יותר, תוכנית ולוח חומרים מספיקים לא פעם. את ההיקף קובעים לפי הבית, ולא לפי תבנית קבועה, וההחלטה הזאת מתקבלת כחלק מ<a href=\"/services/interior-design/\">עיצוב הפנים של הבית כולו</a>, לא בנפרד ממנו.",
+        "en": "Not every corner of a home needs a render. The expensive decisions usually concentrate in the kitchen, the bathroom and the large joinery walls of the living room, because that is where most material junctions and made-to-measure details are. In simpler spaces, a plan and a material board are often enough. The scope is set by the home, not by a fixed template, and the decision is made as part of <a href=\"/services/interior-design/\">interior design for the whole home</a>, not separately from it."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-01",
+      "alt": {
+        "he": "סלון עם טלוויזיה משולבת בקיר טיח, ספריית אלון בהיר עם קרמיקה וספרים ושולחן קפה מאלון כהה",
+        "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and a dark-oak coffee table"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "קיר נגרות בסלון: מקום שבו הדמיה חוסכת טעויות יקרות.",
+        "en": "A joinery wall in the living room: where a render prevents costly mistakes."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "הדמיה של מטבח: איפה היא שווה הכי הרבה",
+        "en": "Kitchen renders: where they are worth the most"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המטבח הוא החלל הצפוף ביותר בהחלטות: האי והמעברים סביבו, מיקום הכיריים והכיור, שילוב המכשירים בנגרות, נישות, רציפות האבן והתאורה שבתוך הארונות. בהדמיות שבעמוד רואים שתי גישות, משני פרויקטים נפרדים: באחד, אי אבן מונוליתי עם כיריים מול קיר ארונות מאלון בהיר עד התקרה ונישת קפה מוארת; בשני, מטבח כהה יותר, באלון כהה ולכה בגוון גרייג', עם כיור אבן אינטגרלי ומדפי מתכת מוארים. אם אתם בשלב הזה, כדאי לקרוא גם על <a href=\"/services/kitchen-design/\">תכנון ועיצוב המטבח</a> בסטודיו. באותו אופן, גם ב<a href=\"/services/bathroom-design/\">עיצוב חדר הרחצה</a> ההדמיה בוחנת מראות, תאורה ומפגשי אבן לפני שמזמינים.",
+        "en": "The kitchen is the space densest with decisions: the island and the passages around it, the position of the hob and sink, appliances integrated into the joinery, niches, the continuity of the stone and the lighting inside the cabinetry. The renders on this page show two approaches, from two separate projects: in one, a monolithic stone island with a hob in front of a full-height wall of light-oak cabinetry and a lit coffee niche; in the other, a darker kitchen in dark oak and greige lacquer, with an integrated stone sink and backlit metal shelving. If you are at this stage, it is worth reading about <a href=\"/services/kitchen-design/\">kitchen planning and design</a> at the studio. In the same way, in <a href=\"/services/bathroom-design/\">bathroom design</a> a render tests mirrors, lighting and stone junctions before anything is ordered."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-dark-01",
+      "alt": {
+        "he": "פינת מטבח באלון כהה ולכה בגוון גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
+        "en": "Kitchen corner in dark oak and greige lacquer with an integrated stone sink, matte-black tap and backlit metal shelving"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "גישה אחרת למטבח, בפרויקט אחר: אלון כהה, גרייג' ומתכת מוארת.",
+        "en": "Another approach to the kitchen, from another project: dark oak, greige and lit metal."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "גלריה: הדמיות מתוך עבודת הסטודיו",
+        "en": "Gallery: renders from the studio’s work"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כל התמונות כאן הן הדמיות תלת מימד מתוך עבודת הסטודיו, מסודרות לפי חלל. שם הפרויקט מוביל לעמוד שלו, ו<a href=\"/projects/\">כל הפרויקטים</a> מרוכזים בעמוד אחד.",
+        "en": "Every image here is a 3D render from the studio’s work, grouped by space. Each project name leads to its page, and <a href=\"/projects/\">all projects</a> are collected on one page."
+      }
+    },
+    {
+      "t": "h3",
+      "id": "stone-and-oak-kitchen",
+      "text": {
+        "he": "<a href=\"/projects/stone-oak-kitchen/\">מטבח מאבן ועץ אלון</a>",
+        "en": "<a href=\"/projects/stone-oak-kitchen/\">Stone and oak kitchen</a>"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שלוש הדמיות: מבט חזיתי על המטבח, מבט אלכסוני על האי, ותקריב של נישת הקפה.",
+        "en": "Three renders: a frontal view of the kitchen, an angled view of the island, and a close-up of the coffee niche."
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "kitchen-stone-01",
+          "alt": {
+            "he": "מטבח עם אי אבן מונוליתי אפור עם גידים, ארונות אלון בהיר עד התקרה ונישת אבן מוארת",
+            "en": "Kitchen with a monolithic gray-veined stone island, full-height light-oak cabinetry and a backlit stone niche"
+          },
+          "caption": {
+            "he": "מטבח מאבן ועץ אלון",
+            "en": "Stone and oak kitchen"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "kitchen-stone-02",
+          "alt": {
+            "he": "מבט אלכסוני על אי האבן והנישה המוארת במטבח, ענפי זית ואור שמש נמוך",
+            "en": "Angled view of the stone island and lit niche, with olive branches and low sunlight"
+          },
+          "caption": {
+            "he": "מטבח מאבן ועץ אלון",
+            "en": "Stone and oak kitchen"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "kitchen-stone-03",
+          "alt": {
+            "he": "נישת הקפה במטבח: חיפוי אבן עם גידים, ברז פלדה מוברשת, כיור שקוע ומכונת קפה",
+            "en": "The kitchen coffee niche: veined stone splashback, brushed-steel tap, undermount sink and coffee machine"
+          },
+          "caption": {
+            "he": "מטבח מאבן ועץ אלון",
+            "en": "Stone and oak kitchen"
+          },
+          "kind": "render"
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "id": "light-oak-and-stone-living-room",
+      "text": {
+        "he": "<a href=\"/projects/oak-living-room/\">סלון באלון בהיר ואבן</a>",
+        "en": "<a href=\"/projects/oak-living-room/\">Light oak and stone living room</a>"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ארבע הדמיות: קיר הטלוויזיה והספרייה, קיר חיפוי האלון, ושני פרטי סטיילינג.",
+        "en": "Four renders: the TV wall and shelving, the oak-paneled wall, and two styling details."
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "living-01",
+          "alt": {
+            "he": "סלון עם טלוויזיה משולבת בקיר טיח, ספריית אלון בהיר עם קרמיקה וספרים ושולחן קפה מאלון כהה",
+            "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and a dark-oak coffee table"
+          },
+          "caption": {
+            "he": "סלון באלון בהיר ואבן",
+            "en": "Light oak and stone living room"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "living-02",
+          "alt": {
+            "he": "קיר חיפוי אלון בהיר עם טלוויזיה ומדף אבן מואר, וילונות שקופים וכתמי אור",
+            "en": "Light-oak paneled wall with a TV and a backlit stone plinth, sheer curtains and patches of sunlight"
+          },
+          "caption": {
+            "he": "סלון באלון בהיר ואבן",
+            "en": "Light oak and stone living room"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "living-03",
+          "alt": {
+            "he": "פרט סטיילינג בספריית אלון: כלי קרמיקה, נר וספרים באור שמש",
+            "en": "Styling detail on oak shelving: ceramics, a candle and books in sunlight"
+          },
+          "caption": {
+            "he": "סלון באלון בהיר ואבן",
+            "en": "Light oak and stone living room"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "living-04",
+          "alt": {
+            "he": "שולחן קפה מאלון כהה עם ספרים ופסל עץ, ובסיס אבן ברקע",
+            "en": "Dark-oak coffee table with books and a wooden sculpture, a stone plinth behind"
+          },
+          "caption": {
+            "he": "סלון באלון בהיר ואבן",
+            "en": "Light oak and stone living room"
+          },
+          "kind": "render"
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "id": "travertine-bathroom",
+      "text": {
+        "he": "<a href=\"/projects/travertine-bathroom/\">חדר רחצה בטרוורטין</a>",
+        "en": "<a href=\"/projects/travertine-bathroom/\">Travertine bathroom</a>"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שתי הדמיות: משטח הרחצה הכפול, ומבט אליו מבעד לפתח הדלת.",
+        "en": "Two renders: the double vanity, and a view of it through the doorway."
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "bath-01",
+          "alt": {
+            "he": "חדר רחצה עם משטח כפול מטרוורטין, שתי מראות מוארות, ברזי קיר בגוון ברונזה ומגירות אגוז",
+            "en": "Bathroom with a double travertine vanity, two backlit mirrors, bronze wall taps and walnut drawers"
+          },
+          "caption": {
+            "he": "חדר רחצה בטרוורטין",
+            "en": "Travertine bathroom"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "bath-02",
+          "alt": {
+            "he": "מבט דרך פתח הדלת אל משטח הטרוורטין בחדר הרחצה, באור חם",
+            "en": "View through a doorway to the travertine vanity in warm light"
+          },
+          "caption": {
+            "he": "חדר רחצה בטרוורטין",
+            "en": "Travertine bathroom"
+          },
+          "kind": "render"
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "id": "dark-oak-and-linen-bedroom",
+      "text": {
+        "he": "<a href=\"/projects/dark-oak-bedroom/\">חדר שינה באלון כהה ופשתן</a>",
+        "en": "<a href=\"/projects/dark-oak-bedroom/\">Dark oak and linen bedroom</a>"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שתי הדמיות: מבט חזיתי על החדר, ופרט ליד המיטה.",
+        "en": "Two renders: a frontal view of the bedroom, and a bedside detail."
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "bedroom-01",
+          "alt": {
+            "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מאלון כהה, מנורות תלויות ושידות טרוורטין",
+            "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, pendant lights and travertine side tables"
+          },
+          "caption": {
+            "he": "חדר שינה באלון כהה ופשתן",
+            "en": "Dark oak and linen bedroom"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "bedroom-02",
+          "alt": {
+            "he": "פרט ליד המיטה: ראש מיטה מפשתן, פאנל אלון כהה מעוגל ושידת טרוורטין עם ספר ונר",
+            "en": "Bedside detail: linen headboard, curved dark-oak panel and a travertine side table with a book and candle"
+          },
+          "caption": {
+            "he": "חדר שינה באלון כהה ופשתן",
+            "en": "Dark oak and linen bedroom"
+          },
+          "kind": "render"
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "id": "dark-oak-kitchen",
+      "text": {
+        "he": "<a href=\"/projects/dark-oak-kitchen/\">מטבח באלון כהה</a>",
+        "en": "<a href=\"/projects/dark-oak-kitchen/\">Dark oak kitchen</a>"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הדמיה אחת: פינת הכיור והמדפים המוארים.",
+        "en": "One render: the sink corner and the lit shelving."
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "kitchen-dark-01",
+          "alt": {
+            "he": "פינת מטבח באלון כהה ולכה בגוון גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
+            "en": "Kitchen corner in dark oak and greige lacquer with an integrated stone sink, matte-black tap and backlit metal shelving"
+          },
+          "caption": {
+            "he": "מטבח באלון כהה",
+            "en": "Dark oak kitchen"
+          },
+          "kind": "render"
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "חמש שאלות לשאול לפני שמאשרים הדמיה",
+        "en": "Five questions to ask before you approve a render"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>האם היא מבוססת על המידות העדכניות?</strong> הדמיה של גרסה קודמת של התוכנית מראה בית שכבר לא קיים.",
+          "en": "<strong>Is it based on the latest dimensions?</strong> A render of an earlier version of the plan shows a home that no longer exists."
+        },
+        {
+          "he": "<strong>האם החומרים בה הם אלה שנבחרו?</strong> בשם, בגוון ובגימור, ולא \"משהו דומה\".",
+          "en": "<strong>Are the materials the ones you chose?</strong> By name, tone and finish, not “something similar”."
+        },
+        {
+          "he": "<strong>מאיזה גובה נלקח המבט?</strong> מבט מגובה העיניים הוא הקרוב ביותר לחוויה האמיתית בחדר. זווית רחבה מאוד גורמת לחללים להיראות גדולים מכפי שהם.",
+          "en": "<strong>From what height is the view taken?</strong> A view from eye level is the closest to how you will actually experience the room. A very wide angle makes spaces look larger than they are."
+        },
+        {
+          "he": "<strong>איך נראה החלל בשעה אחרת?</strong> אור בוקר, אור אחר הצהריים ותאורה מלאכותית בערב.",
+          "en": "<strong>What does the space look like at another time of day?</strong> Morning light, afternoon light and artificial light in the evening."
+        },
+        {
+          "he": "<strong>מה לא מופיע בתמונה?</strong> מזגנים, שקעים, מפסקים ופתחי אוורור. גם הם חלק מהבית.",
+          "en": "<strong>What is missing from the picture?</strong> Air-conditioning units, sockets, switches and vents. They are part of the home too."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ואם אתם עוד בשלב מוקדם יותר ומחפשים מעצבת שתלווה אתכם, ריכזנו את השאלות לפגישה הראשונה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
+        "en": "And if you are at an earlier stage, still looking for a designer to guide you, we have gathered the questions for a first meeting in our guide <a href=\"/journal/how-to-choose-interior-designer/\">how to choose an interior designer</a>."
+      }
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות על הדמיות תלת מימד",
+        "en": "Frequently asked questions about 3D renders"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "האם הבית ייראה בדיוק כמו בהדמיה?",
+            "en": "Will my home look exactly like the render?"
+          },
+          "a": {
+            "he": "ההדמיה מדויקת בחלוקה, בפרופורציות ובשפת החומרים, אבל היא לא צילום של העתיד. אבן טבעית משתנה מלוח ללוח, גוונים נראים אחרת באור היום, וההדמיה מציגה אור וסטיילינג מוקפדים. ככל שהתכנון והפרטים מדויקים יותר, והחומרים נבחרים מול דוגמאות אמיתיות, הפער מצטמצם.",
+            "en": "A render is accurate in layout, proportion and material language, but it is not a photograph of the future. Natural stone varies from slab to slab, colors look different in daylight, and a render shows composed light and styling. The more precise the planning and details, and the more materials are chosen from real samples, the smaller the gap becomes."
+          }
+        },
+        {
+          "q": {
+            "he": "מה ההבדל בין הדמיה פוטוריאליסטית לסקיצה או לתוכנית?",
+            "en": "What is the difference between a photorealistic render, a sketch and a plan?"
+          },
+          "a": {
+            "he": "תוכנית מראה מידות ומיקומים במבט מלמעלה. סקיצה מעבירה כוונה ואווירה. הדמיה פוטוריאליסטית מחשבת אור, חומר והשתקפות, כך שהחלל נראה כמו בצילום. כל אחת עונה על שאלה אחרת, ובתהליך עיצוב טוב הן עובדות יחד ולא מחליפות זו את זו.",
+            "en": "A plan shows dimensions and positions from above. A sketch conveys intent and mood. A photorealistic render calculates light, material and reflection so the space looks photographed. Each answers a different question, and in a good design process they work together rather than replace one another."
+          }
+        },
+        {
+          "q": {
+            "he": "אפשר לשנות את העיצוב אחרי שראינו הדמיה?",
+            "en": "Can we change the design after seeing a render?"
+          },
+          "a": {
+            "he": "זו בדיוק המטרה. שינוי בשלב ההדמיה הוא תיקון במודל, ואותו שינוי אחרי שהנגרות יוצרה או שהאבן נחתכה יקר בהרבה. היקף סבבי התיקונים נקבע בדרך כלל בהסכם העבודה, ולכן כדאי לשאול עליו כבר בפגישה הראשונה.",
+            "en": "That is exactly the point. At the render stage a change is an edit to the model; the same change after the joinery is made or the stone is cut costs far more. The number of revision rounds is usually set in the design agreement, so it is worth asking about it at the first meeting."
+          }
+        },
+        {
+          "q": {
+            "he": "מה צריך להיות מוכן לפני שמתחילים בהדמיות?",
+            "en": "What needs to be ready before renders can start?"
+          },
+          "a": {
+            "he": "הדמיה טובה רק כמו המידע שנכנס אליה. היא נשענת על מידות מדויקות של החלל, ממדידה בשטח או מתוכניות קיימות; על תוכנית העמדה שקובעת איפה עומד כל רהיט וכל ארון; על כיוון ראשוני של חומרים וגימורים; ועל מיקום החלונות וכיוונם, שקובעים איך נכנס אור היום. תמונות השראה עוזרות להגדיר אווירה, אבל לא מחליפות את המידות.",
+            "en": "A render is only as good as the information that goes into it. It relies on accurate dimensions of the space, from an on-site survey or existing plans; on a furniture layout that fixes where every piece and every cabinet stands; on an initial direction for materials and finishes; and on the position and orientation of the windows, which decide how daylight comes in. Inspiration images help define the mood, but they do not replace the dimensions."
+          }
+        },
+        {
+          "q": {
+            "he": "למה ההדמיה מגיעה אחרי התכנון ולא לפניו?",
+            "en": "Why does the render come after planning, not before?"
+          },
+          "a": {
+            "he": "כי הדמיה בלי תוכנית היא תמונת השראה. המידות, המעברים והמיקום של נקודות המים, החשמל והנגרות קובעים מה אפשר לבנות בפועל. רק כשהם מוגדרים, ההדמיה מראה את הבית שלכם, ולא בית שנראה טוב בתמונה.",
+            "en": "Because a render without a plan is an inspiration image. Dimensions, passages and the positions of plumbing, electrics and joinery determine what can actually be built. Only once they are defined does the render show your home, rather than a home that looks good in a picture."
+          }
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "href": "/contact/",
+      "h": {
+        "he": "מתחילים מתוכנית, רואים את הבית.",
+        "en": "Start with a plan, see the home."
+      },
+      "p": {
+        "he": "יש לכם דירה או בית שאתם רוצים לראות לפני שבונים? ספרו לנו על הפרויקט, ונחזור אליכם לתיאום פגישת היכרות.",
+        "en": "Have an apartment or a house you want to see before it is built? Tell us about the project and we will get back to you to arrange a first meeting.",
+        "variants": [
+          {
+            "requires": "singleRoomProjects",
+            "he": "יש לכם דירה, בית או חדר שאתם רוצים לראות לפני שבונים? ספרו לנו על הפרויקט, ונחזור אליכם לתיאום פגישת היכרות.",
+            "en": "Have an apartment, a house or a room you want to see before it is built? Tell us about the project and we will get back to you to arrange a first meeting."
+          }
+        ]
+      },
+      "button": {
+        "he": "לתיאום פגישת היכרות",
+        "en": "Arrange a first meeting"
+      }
+    }
+  ]
+}

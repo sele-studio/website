@@ -1,0 +1,109 @@
+/* SELÈ STUDIO — /film/ watch page (Addendum A7.6). Owner: P5. Prefix fm-. Logical properties only.
+   One native <video> (controls, no autoplay, preload="none"); no page JS, no reveals, no night band. */
+
+/* ------------------------------------------------------------------ head: crumbs · FILM + H1 · lead */
+.fm-head{
+  padding-block-start:calc(var(--header-h) + var(--s-6));
+  align-items:end;
+}
+.fm-head__crumbs{ grid-column:1 / -1; margin-block-end:var(--s-5) }
+.fm-head__title{ grid-column:1 / -1 }
+.fm-latin{ font-size:var(--t-mega) }
+.fm-h1{
+  font-size:var(--t-d1);
+  line-height:1.06;
+  margin-block-start:var(--s-4);
+}
+.fm-lead{
+  grid-column:1 / -1;
+  margin-block-start:var(--s-4);
+  max-inline-size:var(--measure);
+  font-family:var(--f-display);
+  font-weight:400;
+  font-size:var(--t-lead);
+  line-height:1.75;
+  color:var(--fg-2);
+}
+html[lang="en"] .fm-lead{ font-family:var(--f-lat-text); font-weight:300 }
+
+@media (min-width:1100px){
+  .fm-head{ padding-block-start:calc(var(--header-h) + var(--s-5)) }
+  .fm-latin{ font-size:min(var(--t-mega), 14vh) }
+  .fm-head__title{ grid-column:1 / span 7 }
+  .fm-lead{ grid-column:8 / -1; margin-block-start:0; padding-block-end:.35em }
+}
+
+/* ------------------------------------------------------------------ the film */
+.fm-film{
+  --ar:16/9;
+  margin-block-start:var(--s-6);
+  margin-inline:auto;              /* .frame resets margin; keep the .l-wrap centring */
+}
+.fm-film__video{ background:var(--stone) }
+.fm-film > .caption{ max-inline-size:var(--measure) }
+/* desktop: cap the film by the viewport height so it and its native controls sit inside the first screens */
+@media (min-width:1100px){
+  .fm-film{ inline-size:min(calc(100% - 2 * var(--margin)), calc((100svh - var(--header-h) - 72px) * 16 / 9), var(--maxw)) }
+}
+/* phones: the film bleeds edge to edge (images may bleed, text may not) */
+@media (max-width:767px){
+  .fm-film{ inline-size:100% }
+  .fm-film > .caption{ margin-inline:var(--margin) }
+}
+
+/* ------------------------------------------------------------------ the spaces in the film */
+.fm-spaces{
+  padding-block:clamp(64px, 8vw, 104px) var(--section);
+  align-items:start;
+}
+.fm-spaces__label{ grid-column:1 / -1; margin-block-end:var(--s-4) }
+.fm-spaces__list{ grid-column:1 / -1; border-block-start:1px solid var(--line) }
+.fm-spaces__list > li{ border-block-end:1px solid var(--line) }
+
+.fm-space{
+  display:grid;
+  grid-template-columns:auto minmax(0, 1fr) auto;
+  align-items:center;
+  column-gap:var(--s-4);
+  min-block-size:44px;
+  padding-block:var(--s-3);
+  color:inherit;
+  text-decoration:none;
+}
+.fm-space__thumb{ display:block; inline-size:72px }
+.fm-space__thumb{ --ar:1/1; --pos:50% 55% }
+.fm-space__thumb > .frame__clip{ display:block }   /* span: needs a block box for aspect-ratio */
+.fm-space__name{
+  font-family:var(--f-display);
+  font-weight:300;
+  font-size:var(--t-d3);
+  line-height:1.2;
+  text-decoration:underline;
+  text-decoration-color:transparent;
+  text-decoration-thickness:1px;
+  text-underline-offset:.22em;
+  transition:text-decoration-color var(--d-ui) var(--ease-paper);
+}
+html[lang="en"] .fm-space__name{ font-weight:400 }
+.fm-space__arrow{
+  inline-size:24px; block-size:24px;
+  color:var(--fg-2);
+  transition:translate var(--d-ui) var(--ease-paper), color var(--d-micro) var(--ease-paper);
+}
+.fm-space:hover .fm-space__name, .fm-space:focus-visible .fm-space__name{ text-decoration-color:currentColor }
+.fm-space:hover .fm-space__arrow, .fm-space:focus-visible .fm-space__arrow{ color:var(--fg); translate:6px 0 }
+[dir="rtl"] .fm-space:hover .fm-space__arrow, [dir="rtl"] .fm-space:focus-visible .fm-space__arrow{ translate:-6px 0 }
+
+.fm-spaces__note{
+  grid-column:1 / -1;
+  margin-block-start:var(--s-4);
+  font-size:var(--t-small);
+  line-height:1.6;
+  color:var(--fg-3);
+}
+
+@media (min-width:1100px){
+  .fm-spaces__label{ grid-column:1 / span 3; margin-block-end:0; padding-block-start:var(--s-3) }
+  .fm-spaces__list, .fm-spaces__note{ grid-column:4 / -1 }
+  .fm-space__thumb{ inline-size:96px }
+}

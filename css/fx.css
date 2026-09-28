@@ -1,0 +1,234 @@
+/* SELÈ STUDIO — signature moments (SPEC §1.3, §5.1). Owner: P6. Loaded on Home only.
+   W1 Aperture (the intro), W2 The Frame (hero), W4 Vein Cut (materials). W6 Letterpress needs no CSS of its own:
+   the static emboss lives in chrome.css and letterpress.js only moves --lp-x / --lp-y.
+   Governing rule 8: nothing here hides or repositions content unless the effect's own *-ready class is on <html>
+   (frame-ready, vein-ready), which its module adds on mount and removes on unmount. The intro is keyed on
+   .show-intro (set by the inline boot script) and removes itself in CSS even if every script dies.
+   Logical properties only; the brand corner and the physical scrim/gradient directions are marked phys-ok. */
+
+/* ================================================================== W1 — Aperture (≤ 1.5 s, CSS-driven)
+   0.00–0.50 press: the mark settles 1.03 → 1 while its deboss shadow grows 0 → 1 px (ease-paper)
+   0.45–0.70 the seal, ESTD / 2024 and the wordmark fade out
+   0.50–1.35 the seal's inner oval opens as an aperture: a hole in the ground grows from the inner oval
+             (rx .413 × seal, ry .483 × seal, centred on the seal) to 150vmax (ease-leaf)
+   1.35–1.50 the layer fades out and ends visibility:hidden; aperture.js then sets display:none
+   Safety: whatever happens, the layer is hidden 4 s after it first styles. */
+@property --ap-rx{ syntax:'<length>'; inherits:false; initial-value:0px }
+@property --ap-ry{ syntax:'<length>'; inherits:false; initial-value:0px }
+@property --ap-sh{ syntax:'<length>'; inherits:true; initial-value:0px }
+
+.intro{ display:none }
+.show-intro .intro{
+  --ap-seal:160px;
+  display:grid; place-items:center;
+  position:fixed; inset:0; z-index:var(--z-intro);
+  pointer-events:auto;
+  animation:fx-intro-out 150ms linear 1350ms forwards, fx-intro-safety 0s linear 4s forwards;
+}
+.intro-skip .intro, html.intro-skip.show-intro .intro{ display:none }
+
+.intro__ground{
+  --ap-cy:50%;                        /* the seal is centred in the mark, and the mark in the viewport (see .intro__mark) */
+  position:absolute; inset:0;
+  background:var(--bordeaux-deep);
+  -webkit-mask:radial-gradient(ellipse var(--ap-rx) var(--ap-ry) at 50% var(--ap-cy), transparent calc(100% - 1px), #000 100%);
+          mask:radial-gradient(ellipse var(--ap-rx) var(--ap-ry) at 50% var(--ap-cy), transparent calc(100% - 1px), #000 100%);
+  animation:fx-intro-aperture 850ms var(--ease-leaf) 500ms forwards;
+}
+
+/* Lockup geometry: ESTD · seal · 2024 on one row, the wordmark under it. An empty first row of the same height as the
+   wordmark row keeps the SEAL (not the whole mark) at the exact centre, so the aperture opens from the inner oval.
+   The mark is decorative Latin (aria-hidden), set left-to-right in both languages like the brand lockup. */
+.intro__mark{
+  position:relative;
+  display:grid; justify-items:center; align-items:center;
+  grid-template-columns:1fr auto 1fr;
+  grid-template-rows:56px auto 56px;
+  grid-template-areas:". . ." "estd seal year" ". word .";
+  column-gap:28px;
+  direction:ltr;
+  color:var(--bordeaux-deep);        /* same colour as the ground: the mark exists only as its deboss */
+  filter:
+    drop-shadow(calc(-1 * var(--ap-sh)) calc(-1 * var(--ap-sh)) 0 rgba(0,0,0,.72))
+    drop-shadow(var(--ap-sh) var(--ap-sh) 0 rgba(255,236,226,.4));
+  animation:
+    fx-intro-press 500ms var(--ease-paper) both,
+    fx-intro-mark-out 250ms linear 450ms forwards;
+  will-change:transform, opacity;
+}
+.intro__seal{ grid-area:seal; inline-size:var(--ap-seal); block-size:auto; aspect-ratio:182 / 210 }
+.intro__estd, .intro__year{ font-family:var(--f-lat-text); font-weight:400; font-size:11px; line-height:1; letter-spacing:.3em }
+.intro__estd{ grid-area:estd; justify-self:end; padding-inline-start:.3em }
+.intro__year{ grid-area:year; justify-self:start; padding-inline-start:.3em }
+.intro__word{
+  grid-area:word; align-self:end;
+  font-family:var(--f-lat-text); font-weight:400; font-size:15px; line-height:1; letter-spacing:.38em;
+  padding-inline-start:.38em;         /* optical centring: tracking adds space after the last letter */
+  white-space:nowrap;
+}
+
+@keyframes fx-intro-press{
+  from{ transform:scale(1.03); --ap-sh:0px }
+  to{ transform:scale(1); --ap-sh:1px }
+}
+@keyframes fx-intro-mark-out{ to{ opacity:0 } }
+@keyframes fx-intro-aperture{
+  from{ --ap-rx:calc(.413 * var(--ap-seal, 160px)); --ap-ry:calc(.483 * var(--ap-seal, 160px)) }
+  to{ --ap-rx:150vmax; --ap-ry:150vmax }
+}
+/* hidden from 98 %: Chrome can end a delayed animation at an iteration progress of 0.9999…, where a discrete
+   visible → hidden step would still read "visible" */
+@keyframes fx-intro-out{ 98%, to{ opacity:0; visibility:hidden } }
+@keyframes fx-intro-safety{ to{ opacity:0; visibility:hidden } }
+
+
+/* ================================================================== W2 — The Frame (desktop pin +120vh)
+   Everything below is keyed on html.frame-ready (frame.js adds it once its ScrollTrigger exists and removes it,
+   with every inline style, .is-flat, .is-inked and .is-header-over-media, on unmount). Without it the static split
+   hero of home.css shows. Z-order inside the stage: film clip 1 < scrim 2 < shutters 3 < copy 4 < film toggle 5.
+   --mount (0 → 1, set by frame.js on the stage) is the 360 ms mount cross-fade.
+   The ground behind the copy and the copy's colour are ONE time-based step, never a scroll-linked blend (a blend left
+   the copy mid-grey on a half-paper ground, ≈ 1.3:1, at scroll positions a reader can rest on). frame.js puts
+   .is-inked on the stage when the timeline crosses p .25; --ground then runs 0 → 1 in 320 ms and drives the start
+   shutter (film → paper), the scrim (out) and the copy (paper → ink) together. So at rest the copy is either paper on
+   film + scrim (the p = 0 ground) or ink on paper (the p = 1 ground). --g-scroll (start shutter) and --scrim (scrim)
+   are the scroll-bound floor, p .30 → .42, so the shutter is opaque before the film slides at p .45 even on a fling.
+   Without @property support the step is instant, which is just as legible. */
+@property --ground{ syntax:'<number>'; inherits:true; initial-value:0 }
+html.frame-ready .home-hero__stage{
+  position:relative; z-index:0;
+  block-size:100svh; min-block-size:0;
+  overflow:hidden;
+  --ground:0;
+  transition:--ground 320ms linear;
+}
+html.frame-ready .home-hero__stage.is-inked{ --ground:1 }
+html.frame-ready .home-hero__grid{ position:static; z-index:auto; transform:none }
+html.frame-ready .home-hero__film{
+  position:absolute; inset:0;
+  inline-size:auto; max-inline-size:none;
+  grid-area:auto;                     /* the stage is itself a grid: auto lines = its padding edges, so inset:0 is the whole stage */
+  justify-self:stretch; align-self:stretch;   /* abspos boxes honour self-alignment: anything but stretch would shrink it to 0 */
+  margin:0;
+  grid-template-rows:minmax(0, 1fr);
+  container-type:normal;             /* no containment here: it would make the figure a stacking context and trap the toggle under the shutters */
+}
+html.frame-ready .home-hero__film > .frame__clip{
+  position:relative; z-index:1;
+  block-size:100%; aspect-ratio:auto;
+  opacity:var(--mount, 1);
+  will-change:transform;
+}
+html.frame-ready .home-hero__film > .film__toggle{
+  position:absolute; z-index:5;
+  margin:0;                           /* frame.js places it at the plate's bottom inline-end corner, 16 px in */
+  opacity:var(--mount, 1);
+}
+html.frame-ready .home-hero__target{ visibility:hidden }
+
+html.frame-ready .home-hero__scrim{
+  display:block;
+  position:absolute; inset:0; z-index:2;
+  pointer-events:none;
+  opacity:calc(min(var(--scrim, 1), 1 - var(--ground, 0)) * var(--mount, 1));
+  background:linear-gradient(to right, rgba(32,23,21,.55), rgba(32,23,21,.22) 42%, rgba(32,23,21,0) 68%);   /* phys-ok: LTR copy sits on the left */
+}
+html[dir="rtl"].frame-ready .home-hero__scrim{
+  background:linear-gradient(to left, rgba(32,23,21,.55), rgba(32,23,21,.22) 42%, rgba(32,23,21,0) 68%);    /* phys-ok: RTL copy sits on the right */
+}
+
+html.frame-ready .home-hero__shutters{
+  display:block;
+  position:absolute; inset:0; z-index:3;
+  pointer-events:none;
+  overflow:hidden;
+}
+html.frame-ready .home-hero__shutters > span{
+  position:absolute; display:block;
+  inline-size:0; block-size:0;        /* frame.js sets the physical geometry (left/top/width/height) on every refresh */
+  background:var(--paper);
+  will-change:transform;
+}
+html.frame-ready .home-hero__shutters > span:last-child{ background:none }   /* the corner piece: frame.js paints its concave arc */
+html.frame-ready .home-hero__shutters > [data-shutter="start"]{ opacity:max(var(--ground, 0), var(--g-scroll, 0)) }
+
+html.frame-ready .home-hero__copy{
+  position:relative; z-index:4;
+  color:var(--paper);
+  --copy-ink:var(--ground, 0);        /* the copy crosses with its ground (see the block comment above) */
+}
+@supports (color:color-mix(in srgb, red 50%, blue)){
+  /* ink share = 1 − mount × (1 − copy-ink): ink before the mount cross-fade, paper over the film, ink again as the
+     door closes. Each line lands on its static colour (display ink, what-line ink-2), so p = 1 equals home.css. */
+  html.frame-ready .home-hero__copy{
+    --ink-share:calc(1 - var(--mount, 1) * (1 - var(--copy-ink, 0)));
+    color:color-mix(in srgb, var(--ink) calc(var(--ink-share) * 100%), var(--paper));
+  }
+  html.frame-ready .home-hero__what{ color:color-mix(in srgb, var(--fg-2) calc(var(--ink-share) * 100%), var(--paper)) }
+  /* A soft halo of the scrim's own near-black hugs the paper glyphs while they sit on the film, so the brightest
+     linen frames stay ≥ 3:1 right at the glyph edges (the literal SPEC scrim alone measured 2.7–2.9:1 there at the
+     95th percentile, 1100–1920 px). It is part of the text, not a paint over the render, and it fades out with the
+     paper colour (gone once the copy is ink). */
+  html.frame-ready .home-hero__display, html.frame-ready .home-hero__what{
+    text-shadow:
+      0 0 .1em rgb(32 23 21 / calc(.6 * (1 - var(--ink-share)))),
+      0 0 .45em rgb(32 23 21 / calc(.45 * (1 - var(--ink-share))));
+  }
+}
+html.frame-ready .home-hero__what{ font-size:max(1.5rem, var(--t-brand)) }
+/* The ghost button's small paper label needs 4.5:1 on the brightest film frame: while the copy is paper it carries a
+   40 % tint of the scrim's own near-black. Label, border (currentColor) and tint all take the ground step with the
+   rest of the copy, so the ink label only ever rests on paper. */
+@supports (color:color-mix(in srgb, red 50%, blue)){
+  html.frame-ready .home-hero__copy .btn--ghost:not(:hover){ background:rgb(32 23 21 / calc(.4 * (1 - var(--ink-share)))) }
+}
+html.frame-ready .home-hero__display{ color:inherit }
+html.frame-ready .home-hero__manifesto{ opacity:0 }
+
+/* ================================================================== W4 — Vein Cut (desktop; sticky, never pinned)
+   Keyed on html.vein-ready (vein-cut.js adds it once its ScrollTrigger exists, removes it on unmount): the four
+   pictures stack in one sticky doorway frame beside the list; the list items' own figures step aside. Without the
+   class the static list with its figures shows (home.css). Mode B (CSS wipe) is driven by inline clip-paths from
+   vein-cut.js; Mode A (WebGL) draws into a canvas inside the same clip, so it inherits the arch. */
+html.vein-ready .home-materials__stage{ align-items:start }
+html.vein-ready .home-materials__frame{
+  display:block;
+  grid-column:7 / 13; grid-row:1;
+  justify-self:end; align-self:start;
+  position:sticky; inset-block-start:calc(var(--header-h) + 8vh);
+  block-size:76vh; inline-size:auto; aspect-ratio:4 / 5;
+  margin:0;
+}
+html.vein-ready .home-materials__frame > .frame__clip{ block-size:100%; aspect-ratio:auto; isolation:isolate }
+html.vein-ready .home-materials__frame picture:not(:first-child){ clip-path:polygon(100% 0, 100% 0, 100% 0) }
+html.vein-ready .home-materials__frame .fx-vein-canvas{
+  position:absolute; inset:0; z-index:1;
+  inline-size:100%; block-size:100%;
+  display:block;
+  pointer-events:none;
+}
+html.vein-ready .home-materials__list{ grid-column:1 / 6; grid-row:1; display:block }
+html.vein-ready .home-materials__item{
+  display:flex; flex-direction:column; justify-content:center; align-items:flex-start;
+  min-block-size:64vh;
+  margin:0; padding-block:var(--s-5);
+}
+html.vein-ready .home-materials__fig{ display:none }
+
+/* the active material: a 24 px bordeaux-to-glow rule hangs in the margin before its name (no dimming of the rest) */
+html.vein-ready .home-materials__name{ position:relative }
+html.vein-ready .home-materials__name::before{
+  content:"";
+  position:absolute;
+  inset-inline-start:-40px; inset-block-start:.62em;
+  inline-size:24px; block-size:1px;
+  background:linear-gradient(to right, var(--bordeaux), var(--glow));   /* phys-ok: LTR, bordeaux at inline-start */
+  transform:scaleX(0);
+  transform-origin:0 50%;             /* phys-ok */
+  transition:transform var(--d-ui) var(--ease-paper);
+}
+html[dir="rtl"].vein-ready .home-materials__name::before{
+  background:linear-gradient(to left, var(--bordeaux), var(--glow));    /* phys-ok: RTL, bordeaux at inline-start */
+  transform-origin:100% 50%;          /* phys-ok */
+}
+html.vein-ready .home-materials__item.is-active .home-materials__name::before{ transform:scaleX(1) }

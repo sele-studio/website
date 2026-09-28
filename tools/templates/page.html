@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- @seo -->
+  <title>SELÈ STUDIO</title>
+  <!-- /@seo -->
+  <!-- @partial:head -->
+  <!-- /@partial:head -->
+  <link rel="stylesheet" href="/css/pages/PAGE.css?v=dev">
+  <!-- page-owned: LCP preload (optional), /css/fx.css (Home only) -->
+</head>
+<body data-page="PAGE" data-module="MODULE" data-i18n-dict="DICT" data-nav="NAV">
+  <!-- prose pages also carry data-i18n-build="<page-id>" (Addendum A3.5); data-module is omitted when a page has no module -->
+  <!-- @partial:header -->
+  <!-- /@partial:header -->
+  <!-- @partial:menu -->
+  <!-- /@partial:menu -->
+  <main id="main" tabindex="-1">
+    <nav class="crumbs label" aria-label="מיקום באתר" data-i18n-attr="aria-label:common.breadcrumb.aria">
+      <ol class="crumbs__list">
+        <li class="crumbs__item"><a href="/" data-i18n="common.crumb.home">ראשי</a></li>
+        <!-- section level (optional): <li class="crumbs__item"><a href="/services/" data-i18n="common.nav.services">שירותים</a></li> -->
+        <li class="crumbs__item"><span aria-current="page" data-i18n="PAGE_KEY">…</span></li>
+      </ol>
+    </nav>
+    <!-- page content: exactly one <h1>; Hebrew written directly in the HTML; every translatable node carries
+         data-i18n / data-i18n-html / data-i18n-attr / data-i18n-tpl (SPEC §4.8) -->
+
+    <!-- Home, Projects index, Studio, Services hub, Film only: keep the two cta markers below as the last child of main.
+         Every other page: delete both lines. -->
+    <!-- @partial:cta -->
+    <!-- /@partial:cta -->
+  </main>
+  <!-- @partial:footer -->
+  <!-- /@partial:footer -->
+  <!-- @partial:a11y -->
+  <!-- /@partial:a11y -->
+  <!-- @partial:sprite -->
+  <!-- /@partial:sprite -->
+  <!-- @partial:scripts -->
+  <!-- /@partial:scripts -->
+</body>
+</html>

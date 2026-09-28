@@ -1,0 +1,36 @@
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-{{bootHash}}'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self'; font-src 'self'; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co; base-uri 'self'; object-src 'none'; worker-src 'self' blob:">
+<meta name="theme-color" content="#F2EFE9">
+<meta name="color-scheme" content="light">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<script>(function(w,d){var h=d.documentElement,c=h.classList,l=location,p=l.pathname,T=setTimeout,S={},x,
+M=function(q){return !!(w.matchMedia&&matchMedia(q).matches)},H=p==='/'||p==='/en/';
+c.add('js');
+if(p==='/'){x={'#about':'/studio/','#services':'/services/','#process':'/services/#process','#projects':'/projects/','#contact':'/contact/'}[l.hash];if(x){l.replace(x);return}}
+if(h.hasAttribute('data-bilingual')&&/^\/en(\/|$)/.test(p)){h.lang='en';h.dir='ltr';c.add('i18n-pending');T(function(){c.remove('i18n-pending')},2500)}
+try{S=JSON.parse(localStorage.getItem('sele-a11y'))||{}}catch(e){}
+if(S.text==115||S.text==130)h.setAttribute('data-a11y-text',S.text);
+if(S.contrast)c.add('a11y-contrast');if(S.links)c.add('a11y-links');if(S.font)c.add('a11y-font');
+var off=S.still||M('(prefers-reduced-motion: reduce)');
+if(off)c.add('motion-off');else{c.add('will-animate');T(function(){c.contains('can-animate')||c.remove('will-animate')},3e3)}
+x=navigator.connection;var sd=!!(x&&x.saveData);if(sd)c.add('save-data');
+if(!('CSSViewTransitionRule' in w))c.add('no-vt');
+if(!off&&M('(min-width:1100px) and (pointer:fine)')){c.add('fx-desktop');if(H){c.add('fx-frame');T(function(){c.contains('frame-ready')||c.remove('fx-frame')},3e3)}}
+if(H&&!off&&!sd&&!l.hash){var s=1,o=0;try{s=sessionStorage.getItem('sele-intro')}catch(e){}
+try{o=!!d.referrer&&new URL(d.referrer).origin===l.origin}catch(e){}
+if(!s&&!o){c.add('show-intro');try{sessionStorage.setItem('sele-intro','1')}catch(e){}
+var V=['keydown','pointerdown','wheel','touchstart'],F=function(){c.add('intro-skip');V.forEach(function(v){removeEventListener(v,F,true)})};
+V.forEach(function(v){addEventListener(v,F,{capture:true,once:true,passive:true})})}}
+addEventListener('pagereveal',function(e){if(e.viewTransition&&c.contains('motion-off'))e.viewTransition.skipTransition()});
+try{sessionStorage.getItem('sele-landing')||sessionStorage.setItem('sele-landing',p)}catch(e){}
+})(window,document)</script>
+<link rel="preload" href="/assets/fonts/frank-ruhl-libre-hebrew.woff2" as="font" type="font/woff2" crossorigin data-font-en="/assets/fonts/bodoni-moda-latin.woff2">
+<link rel="preload" href="/assets/fonts/assistant-hebrew.woff2" as="font" type="font/woff2" crossorigin data-font-en="/assets/fonts/jost-latin.woff2">
+<link rel="stylesheet" href="/css/core.css?v={{v}}">
+<link rel="modulepreload" href="/js/core/i18n.js">
+<link rel="modulepreload" href="/js/i18n/common.js">
+<link rel="modulepreload" href="/js/i18n/{{dict}}.js">
+<script type="module" async src="/js/core/i18n-boot.js?v={{v}}"></script>

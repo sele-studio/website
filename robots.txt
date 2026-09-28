@@ -1,3 +1,6 @@
+# SELÈ STUDIO — everything public is crawlable, including by AI answer engines
+# (OAI-SearchBot, ChatGPT-User, GPTBot, ClaudeBot, Claude-SearchBot, PerplexityBot,
+#  Google-Extended, Applebot-Extended): the owner's goal is to be found and cited.
 User-agent: *
 Allow: /
 

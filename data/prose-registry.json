@@ -1,0 +1,703 @@
+[
+  {
+    "id": "service-interior-design",
+    "file": "services/interior-design/index.html",
+    "path": "/services/interior-design/",
+    "type": "service",
+    "crumbs": [
+      "home",
+      "services"
+    ],
+    "crumb": {
+      "he": "עיצוב פנים",
+      "en": "Interior design"
+    },
+    "title": {
+      "he": "עיצוב פנים לדירה ולבית — מקצה לקצה | SELÈ STUDIO",
+      "en": "Interior Design Services in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "עיצוב פנים לדירה ולבית פרטי, מהתכנון ובחירת החומרים ועד הפרט האחרון: אבן, עץ אלון ואור. סטודיו בוטיק בהובלת שוהם סלע, בוגרת שנקר. קבעו פגישת היכרות.",
+      "en": "Luxury home interior design in Israel, from layout and materials to the final detail: stone, oak and light. Led by Shoham Sela. Book a first meeting."
+    },
+    "h1": {
+      "he": "עיצוב פנים לדירה ולבית, מהשרטוט הראשון ועד הפרט האחרון",
+      "en": "Interior design for apartments and homes, from the first sketch to the final detail"
+    },
+    "latin": "INTERIORS",
+    "hero": {
+      "img": "living-01",
+      "kind": "render",
+      "alt": {
+        "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון בהיר עם כלי קרמיקה וספרים, בסיס אבן אפורה ושולחן סלון מאלון כהה, הדמיה",
+        "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and books, a gray stone plinth and a dark-oak coffee table, render"
+      },
+      "width": 1122,
+      "height": 1402
+    },
+    "og": "/assets/img/og/og-service-interior-design.jpg",
+    "ogAlt": {
+      "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון בהיר עם כלי קרמיקה וספרים, בסיס אבן אפורה ושולחן סלון מאלון כהה, הדמיה",
+      "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and books, a gray stone plinth and a dark-oak coffee table, render"
+    },
+    "index": true,
+    "service": {
+      "name": {
+        "he": "עיצוב פנים לדירה ולבית",
+        "en": "Interior design"
+      }
+    },
+    "words": 1164
+  },
+  {
+    "id": "service-space-planning",
+    "file": "services/space-planning/index.html",
+    "path": "/services/space-planning/",
+    "type": "service",
+    "crumbs": [
+      "home",
+      "services"
+    ],
+    "crumb": {
+      "he": "תכנון דירה",
+      "en": "Space planning"
+    },
+    "title": {
+      "he": "תכנון דירה ואדריכלות פנים — חלוקת חללים נכונה | SELÈ STUDIO",
+      "en": "Apartment Space Planning in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים — קבעו פגישת היכרות.",
+      "en": "Apartment space planning before a renovation or a move: layout, circulation, storage and light, led by interior designer Shoham Sela. Book a first meeting."
+    },
+    "h1": {
+      "he": "תכנון דירה שמתחיל מהאופן שבו אתם חיים",
+      "en": "Space planning that starts with how you live"
+    },
+    "latin": "PLANNING",
+    "hero": {
+      "img": "living-01",
+      "kind": "render",
+      "alt": {
+        "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון עד התקרה ובסיס אבן נמוך לאורך הקיר כולו, הדמיה",
+        "en": "Living room with a TV recessed into a plaster wall, oak shelving up to the ceiling and a low stone plinth running the length of the wall, render"
+      },
+      "width": 1122,
+      "height": 1402
+    },
+    "og": "/assets/img/og/og-service-space-planning.jpg",
+    "ogAlt": {
+      "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מאלון כהה, מנורות תלויות ושידות טרוורטין",
+      "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, pendant lights and travertine side tables"
+    },
+    "index": true,
+    "service": {
+      "name": {
+        "he": "תכנון דירה ואדריכלות פנים",
+        "en": "Space planning"
+      }
+    },
+    "words": 1023
+  },
+  {
+    "id": "service-kitchen-design",
+    "file": "services/kitchen-design/index.html",
+    "path": "/services/kitchen-design/",
+    "type": "service",
+    "crumbs": [
+      "home",
+      "services"
+    ],
+    "crumb": {
+      "he": "עיצוב מטבח",
+      "en": "Kitchen design"
+    },
+    "title": {
+      "he": "עיצוב מטבח — אבן, עץ ואור בתכנון מדויק | SELÈ STUDIO",
+      "en": "Kitchen Design in Israel — Stone, Oak & Light | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "עיצוב ותכנון מטבח בהתאמה אישית: אי אבן, נגרות עץ אלון עד התקרה ותאורה משולבת בנישות. סטודיו בוטיק בהובלת שוהם סלע, בוגרת שנקר. ספרו לנו על המטבח שלכם.",
+      "en": "Kitchen design and planning in Israel: stone islands, full-height oak joinery, lit niches. Boutique studio led by Shenkar graduate Shoham Sela. Get in touch."
+    },
+    "h1": {
+      "he": "עיצוב מטבח שמתחיל בהרגלים שלכם ונגמר בפרט האחרון",
+      "en": "Kitchen design that starts with how you live and ends with the last detail"
+    },
+    "latin": "KITCHEN",
+    "hero": {
+      "img": "kitchen-stone-01",
+      "kind": "render",
+      "alt": {
+        "he": "מטבח ובו אי אבן מונוליתי בגוון אפור-חמים וכיריים גז, קיר נגרות מעץ אלון בהיר עד התקרה ונישת אבן מוארת עם כיור ומכונת קפה, הדמיה",
+        "en": "Kitchen with a monolithic warm-gray stone island and gas cooktop, full-height light-oak cabinetry and a backlit stone niche with sink and coffee machine, render"
+      },
+      "width": 1312,
+      "height": 1199
+    },
+    "og": "/assets/img/og/og-service-kitchen-design.jpg",
+    "ogAlt": {
+      "he": "מטבח ובו אי אבן מונוליתי בגוון אפור-חמים וכיריים גז, קיר נגרות מעץ אלון בהיר עד התקרה ונישת אבן מוארת עם כיור ומכונת קפה, הדמיה",
+      "en": "Kitchen with a monolithic warm-gray stone island and gas cooktop, full-height light-oak cabinetry and a backlit stone niche with sink and coffee machine, render"
+    },
+    "index": true,
+    "service": {
+      "name": {
+        "he": "עיצוב מטבח",
+        "en": "Kitchen design"
+      }
+    },
+    "words": 1345
+  },
+  {
+    "id": "service-bathroom-design",
+    "file": "services/bathroom-design/index.html",
+    "path": "/services/bathroom-design/",
+    "type": "service",
+    "crumbs": [
+      "home",
+      "services"
+    ],
+    "crumb": {
+      "he": "עיצוב חדר רחצה",
+      "en": "Bathroom design"
+    },
+    "title": {
+      "he": "עיצוב חדר רחצה — טרוורטין, אור ושקט | SELÈ STUDIO",
+      "en": "Bathroom Design in Israel — Travertine & Light | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "עיצוב חדר רחצה בהתאמה אישית: ארון אמבטיה כפול מאבן טבעית, ברזי קיר, אור רך ואחסון שקט. סטודיו בוטיק בהובלת שוהם סלע — ספרו לנו על החלל.",
+      "en": "Bespoke bathroom design in Israel: a double vanity in natural stone, wall-mounted taps, soft light and quiet storage. A boutique studio led by Shoham Sela."
+    },
+    "h1": {
+      "he": "עיצוב חדר רחצה: אבן טבעית, אור רך ושקט של סדר",
+      "en": "Bathroom design: natural stone, soft light and a quiet kind of order"
+    },
+    "latin": "BATH",
+    "hero": {
+      "img": "bath-01",
+      "kind": "render",
+      "alt": {
+        "he": "ארון אמבטיה כפול מטרוורטין עם שני כיורים מגולפים באבן, שתי מראות בתאורה אחורית, ברזי קיר בגוון ברונזה מוברשת ומגירות עץ אגוז, הדמיה",
+        "en": "Double travertine vanity with two basins carved into the stone, two backlit mirrors, brushed-bronze wall taps and walnut drawers, render"
+      },
+      "width": 1132,
+      "height": 1390
+    },
+    "og": "/assets/img/og/og-service-bathroom-design.jpg",
+    "ogAlt": {
+      "he": "ארון אמבטיה כפול מטרוורטין עם שני כיורים מגולפים באבן, שתי מראות בתאורה אחורית, ברזי קיר בגוון ברונזה מוברשת ומגירות עץ אגוז, הדמיה",
+      "en": "Double travertine vanity with two basins carved into the stone, two backlit mirrors, brushed-bronze wall taps and walnut drawers, render"
+    },
+    "index": true,
+    "service": {
+      "name": {
+        "he": "עיצוב חדר רחצה",
+        "en": "Bathroom design"
+      }
+    },
+    "words": 1291
+  },
+  {
+    "id": "service-renovation-management",
+    "file": "services/renovation-management/index.html",
+    "path": "/services/renovation-management/",
+    "type": "service",
+    "crumbs": [
+      "home",
+      "services"
+    ],
+    "crumb": {
+      "he": "ליווי שיפוץ דירה",
+      "en": "Renovation support"
+    },
+    "title": {
+      "he": "ליווי שיפוץ דירה — מהמדידה ועד הסטיילינג | SELÈ STUDIO",
+      "en": "Apartment Renovation Support in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "ליווי שיפוץ דירה עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
+      "en": "Renovation support in Israel with an interior designer: measured survey, layout, working drawings, site visits and styling. One calm, precise process."
+    },
+    "h1": {
+      "he": "ליווי שיפוץ דירה, מהמדידה הראשונה ועד הספר האחרון על המדף",
+      "en": "Renovation support, from the first measurement to the last book on the shelf"
+    },
+    "latin": "RENOVATION",
+    "hero": {
+      "img": "built-01",
+      "kind": "photo",
+      "alt": {
+        "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
+        "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
+      },
+      "width": 1023,
+      "height": 1537
+    },
+    "og": "/assets/img/og/og-service-renovation-management.jpg",
+    "ogAlt": {
+      "he": "קיר חיפוי אלון בהיר עם טלוויזיה ומדף אבן מואר, וילונות שקופים וכתמי אור",
+      "en": "Light-oak paneled wall with a TV and a backlit stone plinth, sheer curtains and patches of sunlight"
+    },
+    "index": true,
+    "service": {
+      "name": {
+        "he": "ליווי שיפוץ דירה",
+        "en": "Renovation support"
+      }
+    },
+    "words": 1126
+  },
+  {
+    "id": "journal",
+    "file": "journal/index.html",
+    "path": "/journal/",
+    "type": "journal",
+    "crumbs": [
+      "home"
+    ],
+    "crumb": {
+      "he": "מגזין",
+      "en": "Journal"
+    },
+    "title": {
+      "he": "מגזין עיצוב פנים – מדריכים לבית ולשיפוץ | SELÈ STUDIO",
+      "en": "Interior Design Journal – Practical Guides | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "מדריכים מעשיים לעיצוב הבית מתוך עבודת SELÈ STUDIO: אבן למטבח, טרוורטין, תאורה ונגרות, וכל מה שכדאי לדעת לפני שבוחרים מעצבת פנים.",
+      "en": "Practical home design guides from SELÈ STUDIO: kitchen stone, travertine, lighting and joinery, and what to know before you hire an interior designer."
+    },
+    "h1": {
+      "he": "מגזין עיצוב פנים",
+      "en": "Interior design journal"
+    },
+    "latin": "JOURNAL",
+    "hero": null,
+    "og": "/assets/img/og/og-journal.jpg",
+    "ogAlt": {
+      "he": "פרט סטיילינג בספריית אלון: כלי קרמיקה, נר וספרים באור שמש",
+      "en": "Styling detail on oak shelving: ceramics, a candle and books in sunlight"
+    },
+    "index": true,
+    "collection": [
+      "journal-how-to-choose-interior-designer",
+      "journal-interior-designer-vs-architect",
+      "journal-interior-design-cost",
+      "journal-choosing-kitchen-stone",
+      "journal-travertine-guide",
+      "journal-home-lighting-design",
+      "journal-custom-carpentry-guide",
+      "journal-warm-minimalism"
+    ]
+  },
+  {
+    "id": "journal-how-to-choose-interior-designer",
+    "file": "journal/how-to-choose-interior-designer/index.html",
+    "path": "/journal/how-to-choose-interior-designer/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "איך בוחרים מעצבת פנים",
+      "en": "Choosing a designer"
+    },
+    "title": {
+      "he": "איך בוחרים מעצבת פנים: השאלות לפגישה הראשונה | SELÈ STUDIO",
+      "en": "How to Choose an Interior Designer: A Guide | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ'קליסט להדפסה לפגישה הראשונה.",
+      "en": "How to choose an interior designer: what to check in a portfolio, which deliverables to ask for, who runs the site, and what to ask about the proposal."
+    },
+    "h1": {
+      "he": "איך בוחרים מעצבת פנים, ומה כדאי לשאול בפגישה הראשונה",
+      "en": "How to choose an interior designer, and what to ask at the first meeting"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-02",
+      "kind": "render",
+      "alt": {
+        "he": "אי מטבח מאבן אפורה עם גידים בהירים ודופן אבן שיורדת עד הרצפה, כיריים גז משולבות, נישה מוארת מאבן וארונות עץ אלון בהיר עד התקרה. הדמיה של SELÈ STUDIO",
+        "en": "Gray stone kitchen island with pale veining and a stone side that runs down to the floor, an integrated gas cooktop, a backlit stone niche and full-height light-oak cabinetry. Render by SELÈ STUDIO"
+      },
+      "width": 1312,
+      "height": 1199
+    },
+    "og": "/assets/img/og/og-journal-how-to-choose-interior-designer.jpg",
+    "ogAlt": {
+      "he": "אי מטבח מאבן אפורה עם גידים בהירים ודופן אבן שיורדת עד הרצפה, כיריים גז משולבות, נישה מוארת מאבן וארונות עץ אלון בהיר עד התקרה. הדמיה של SELÈ STUDIO",
+      "en": "Gray stone kitchen island with pale veining and a stone side that runs down to the floor, an integrated gas cooktop, a backlit stone niche and full-height light-oak cabinetry. Render by SELÈ STUDIO"
+    },
+    "index": true,
+    "article": {
+      "section": "hiring",
+      "service": "interior-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1797
+  },
+  {
+    "id": "journal-interior-designer-vs-architect",
+    "file": "journal/interior-designer-vs-architect/index.html",
+    "path": "/journal/interior-designer-vs-architect/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "אדריכל או מעצב פנים",
+      "en": "Architect vs designer"
+    },
+    "title": {
+      "he": "מה ההבדל בין אדריכל למעצב פנים, ומי עושה מה | SELÈ STUDIO",
+      "en": "Architect vs Interior Designer in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל. מדריך ברור עם טבלת השוואה מ-SELÈ STUDIO.",
+      "en": "Architect or interior designer? Who signs permit applications, when a renovation in Israel needs an architect or engineer, and what a designer leads."
+    },
+    "h1": {
+      "he": "מה ההבדל בין אדריכל למעצב פנים, ומתי צריך את שניהם",
+      "en": "Architect vs interior designer: what’s the difference, and when do you need both?"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "living-01",
+      "kind": "render",
+      "alt": {
+        "he": "סלון בגוונים חמים: קיר טיח עם נישה שקועה לטלוויזיה, ספריית עץ אלון בגובה מלא ובסיס אבן לאורך הקיר, הדמיה של SELÈ STUDIO",
+        "en": "Warm-toned living room: a plaster wall with a recessed TV niche, full-height light-oak shelving and a stone plinth along the wall, a SELÈ STUDIO render"
+      },
+      "width": 1122,
+      "height": 1402
+    },
+    "og": "/assets/img/og/og-journal-interior-designer-vs-architect.jpg",
+    "ogAlt": {
+      "he": "פרט ליד המיטה: ראש מיטה מפשתן, פאנל אלון כהה מעוגל ושידת טרוורטין עם ספר ונר",
+      "en": "Bedside detail: linen headboard, curved dark-oak panel and a travertine side table with a book and candle"
+    },
+    "index": true,
+    "article": {
+      "section": "hiring",
+      "service": "space-planning",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1623
+  },
+  {
+    "id": "journal-interior-design-cost",
+    "file": "journal/interior-design-cost/index.html",
+    "path": "/journal/interior-design-cost/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "כמה עולה מעצבת פנים",
+      "en": "Designer fees"
+    },
+    "title": {
+      "he": "כמה עולה מעצבת פנים? מדריך לשיטות התמחור | SELÈ STUDIO",
+      "en": "Interior Designer Cost in Israel: Fee Models | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה. מדריך מאת SELÈ STUDIO.",
+      "en": "How much does an interior designer cost in Israel? The four fee models, what makes the work cost more or less, and how to compare proposals line by line."
+    },
+    "h1": {
+      "he": "כמה עולה מעצבת פנים, ואיך משווים בין הצעות מחיר",
+      "en": "What an interior designer costs in Israel, and how to compare proposals"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-01",
+      "kind": "render",
+      "alt": {
+        "he": "מטבח עם אי אבן מונוליתי בגוון אפור, נגרות עץ אלון בהיר עד התקרה ונישה מוארת עם כיור, הדמיה",
+        "en": "Kitchen with a monolithic gray stone island, full-height light-oak cabinetry and a backlit stone niche with a sink, render"
+      },
+      "width": 1312,
+      "height": 1199
+    },
+    "og": "/assets/img/og/og-journal-interior-design-cost.jpg",
+    "ogAlt": {
+      "he": "מטבח עם אי אבן מונוליתי בגוון אפור, נגרות עץ אלון בהיר עד התקרה ונישה מוארת עם כיור, הדמיה",
+      "en": "Kitchen with a monolithic gray stone island, full-height light-oak cabinetry and a backlit stone niche with a sink, render"
+    },
+    "index": true,
+    "article": {
+      "section": "hiring",
+      "service": "renovation-management",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1503
+  },
+  {
+    "id": "journal-choosing-kitchen-stone",
+    "file": "journal/choosing-kitchen-stone/index.html",
+    "path": "/journal/choosing-kitchen-stone/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "אבן למטבח",
+      "en": "Kitchen stone"
+    },
+    "title": {
+      "he": "איך לבחור אבן למטבח: שיש, קוורץ או פורצלן | SELÈ STUDIO",
+      "en": "Choosing Kitchen Countertop Stone, Explained | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "איך לבחור אבן למטבח? שיש ואבן טבעית, קוורץ ופורצלן זה מול זה: כתמים, חום, שריטות ותחזוקה, וגם גימור, אי מאבן, חיפוי וכיור. מדריך לפני הבחירה.",
+      "en": "Choosing kitchen countertop stone: marble and natural stone, quartz and porcelain compared on stains, heat and care, plus finishes, islands and sinks."
+    },
+    "h1": {
+      "he": "איך לבחור אבן למטבח: החומר, הגימור והפרטים שקובעים את המראה",
+      "en": "Choosing kitchen countertop stone: the material, finish and details that shape the look"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-02",
+      "kind": "render",
+      "alt": {
+        "he": "אי מטבח מאבן אפורה־חמימה עם עורקים, שהאבן שלו יורדת מהמשטח אל הדופן, כיריים גז ונישת אבן מוארת מאחור, הדמיה",
+        "en": "Warm-gray veined stone kitchen island where the stone runs from the worktop down the side, with a gas cooktop and a backlit stone niche behind, render"
+      },
+      "width": 1312,
+      "height": 1199
+    },
+    "og": "/assets/img/og/og-journal-choosing-kitchen-stone.jpg",
+    "ogAlt": {
+      "he": "אי מטבח מאבן אפורה־חמימה עם עורקים, שהאבן שלו יורדת מהמשטח אל הדופן, כיריים גז ונישת אבן מוארת מאחור, הדמיה",
+      "en": "Warm-gray veined stone kitchen island where the stone runs from the worktop down the side, with a gas cooktop and a backlit stone niche behind, render"
+    },
+    "index": true,
+    "article": {
+      "section": "materials",
+      "service": "kitchen-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1696
+  },
+  {
+    "id": "journal-travertine-guide",
+    "file": "journal/travertine-guide/index.html",
+    "path": "/journal/travertine-guide/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "טרוורטין",
+      "en": "Travertine"
+    },
+    "title": {
+      "he": "טרוורטין בעיצוב הבית: יתרונות, חסרונות ותחזוקה | SELÈ STUDIO",
+      "en": "Travertine in Home Design: Pros, Cons & Care | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "טרוורטין ממולא או פתוח, מט או מבריק, ואיפה הוא מתאים: ארון אמבטיה, חיפוי, רצפה ורהיטים. מדריך לבחירה, לשילוב עם עץ ומתכת ולתחזוקה. כדאי לקרוא לפני שמזמינים.",
+      "en": "Travertine in interior design: filled or unfilled, honed or polished, where it suits a home and how to care for it. A designer’s guide to read before you order."
+    },
+    "h1": {
+      "he": "טרוורטין בעיצוב הבית: איפה הוא מתאים, ואיך שומרים עליו",
+      "en": "Travertine in interior design: where to use it, and how to care for it"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "bath-01",
+      "kind": "render",
+      "alt": {
+        "he": "ארון אמבטיה כפול מטרוורטין עם שני כיורים מגולפים באבן, ברזי קיר בגוון ברונזה מוברשת, מגירות עץ אגוז ושתי מראות עם תאורה אחורית, הדמיה",
+        "en": "Double travertine vanity with two carved basins, brushed-bronze wall taps, walnut drawers and two backlit mirrors, render"
+      },
+      "width": 1132,
+      "height": 1390
+    },
+    "og": "/assets/img/og/og-journal-travertine-guide.jpg",
+    "ogAlt": {
+      "he": "ארון אמבטיה כפול מטרוורטין עם שני כיורים מגולפים באבן, ברזי קיר בגוון ברונזה מוברשת, מגירות עץ אגוז ושתי מראות עם תאורה אחורית, הדמיה",
+      "en": "Double travertine vanity with two carved basins, brushed-bronze wall taps, walnut drawers and two backlit mirrors, render"
+    },
+    "index": true,
+    "article": {
+      "section": "materials",
+      "service": "bathroom-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1851
+  },
+  {
+    "id": "journal-home-lighting-design",
+    "file": "journal/home-lighting-design/index.html",
+    "path": "/journal/home-lighting-design/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "תכנון תאורה",
+      "en": "Lighting design"
+    },
+    "title": {
+      "he": "תכנון תאורה לבית: שכבות, גוונים ותאורה נסתרת | SELÈ STUDIO",
+      "en": "Home Lighting Design Guide: Light in Layers | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "תכנון תאורה לבית בשלוש שכבות: גוון חם ומסירת צבע, תאורה נסתרת בנישות ומאחורי מראות, איך מאירים אבן ועץ ומתי מתכננים את האור ביחס לחשמלאי ולנגר.",
+      "en": "A home lighting design guide: three layers, warm light and CRI, concealed light in niches and behind mirrors, lighting stone and wood, and when to plan it."
+    },
+    "h1": {
+      "he": "תכנון תאורה לבית: אור בשכבות, חם ומדויק",
+      "en": "Home lighting design: light in layers, warm and precise"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-03",
+      "kind": "render",
+      "alt": {
+        "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
+        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+      },
+      "width": 1312,
+      "height": 1199
+    },
+    "og": "/assets/img/og/og-journal-home-lighting-design.jpg",
+    "ogAlt": {
+      "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
+      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+    },
+    "index": true,
+    "article": {
+      "section": "materials",
+      "service": "kitchen-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1712
+  },
+  {
+    "id": "journal-custom-carpentry-guide",
+    "file": "journal/custom-carpentry-guide/index.html",
+    "path": "/journal/custom-carpentry-guide/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "נגרות בהתאמה אישית",
+      "en": "Custom joinery"
+    },
+    "title": {
+      "he": "נגרות בהתאמה אישית: ארונות, ספריות וקירות עץ | SELÈ STUDIO",
+      "en": "Custom Joinery Design: A Designer’s Guide | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "נגרות בהתאמה אישית בעין של מעצבת: פורניר או עץ מלא, אלון בהיר או כהה, חריצי צל, ידיות שקועות, אוורור ותאורה, ואיך התוכניות מגיעות לנגר.",
+      "en": "Custom joinery design guide: veneer or solid wood, light or dark oak, shadow gaps, integrated handles, vents, lighting and drawings for the joiner."
+    },
+    "h1": {
+      "he": "נגרות בהתאמה אישית: איך מתכננים ארונות, ספריות וקירות עץ שנראים חלק מהבית",
+      "en": "Custom joinery: how to design wardrobes, bookcases and wood walls that belong to the home"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "living-01",
+      "kind": "render",
+      "alt": {
+        "he": "ספרייה בהתאמה אישית מעץ אלון לצד טלוויזיה שקועה בקיר טיח, על בסיס אבן רציף, בסלון עם שולחן אלון כהה, הדמיה",
+        "en": "Custom oak bookcase beside a TV recessed into a plaster wall, on a continuous stone plinth, in a living room with a dark-oak coffee table, render"
+      },
+      "width": 1122,
+      "height": 1402
+    },
+    "og": "/assets/img/og/og-journal-custom-carpentry-guide.jpg",
+    "ogAlt": {
+      "he": "ספרייה בהתאמה אישית מעץ אלון לצד טלוויזיה שקועה בקיר טיח, על בסיס אבן רציף, בסלון עם שולחן אלון כהה, הדמיה",
+      "en": "Custom oak bookcase beside a TV recessed into a plaster wall, on a continuous stone plinth, in a living room with a dark-oak coffee table, render"
+    },
+    "index": true,
+    "article": {
+      "section": "materials",
+      "service": "interior-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1627
+  },
+  {
+    "id": "journal-warm-minimalism",
+    "file": "journal/warm-minimalism/index.html",
+    "path": "/journal/warm-minimalism/",
+    "type": "article",
+    "crumbs": [
+      "home",
+      "journal"
+    ],
+    "crumb": {
+      "he": "מינימליזם חם",
+      "en": "Warm minimalism"
+    },
+    "title": {
+      "he": "עיצוב פנים מינימליסטי חם: אבן, עץ ואור שקט | SELÈ STUDIO",
+      "en": "Warm Minimalist Interior Design: Stone & Oak | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "עיצוב פנים מינימליסטי חם: פלטה מאופקת, אבן עם גידים, אלון ואגוז, פשתן ואור רך. במה הוא שונה ממינימליזם קר ומג'פנדי, ואיך מיישמים אותו חדר אחר חדר.",
+      "en": "Warm minimalist interior design: stone, oak, linen and soft light. How it differs from cold minimalism and Japandi, and how to apply it room by room."
+    },
+    "h1": {
+      "he": "עיצוב פנים מינימליסטי חם: פחות דברים, יותר חומר",
+      "en": "Warm minimalist interior design: fewer things, more material"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "living-01",
+      "kind": "render",
+      "alt": {
+        "he": "סלון בגוונים חמים: טלוויזיה משולבת בקיר טיח בהיר, ספרייה פתוחה מעץ אלון עם כלי קרמיקה וספרים, בסיס אבן אפורה לאורך הקיר, שולחן סלון מעץ אלון כהה וספה בבד טבעי. הדמיה של SELÈ STUDIO",
+        "en": "Warm-toned living room: a TV set into a pale plaster wall, open oak shelving with ceramics and books, a gray stone plinth along the wall, a dark-oak coffee table and a sofa in natural fabric. Render by SELÈ STUDIO"
+      },
+      "width": 1122,
+      "height": 1402
+    },
+    "og": "/assets/img/og/og-journal-warm-minimalism.jpg",
+    "ogAlt": {
+      "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מאלון כהה, מנורות תלויות ושידות טרוורטין",
+      "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, pendant lights and travertine side tables"
+    },
+    "index": true,
+    "article": {
+      "section": "style",
+      "service": "interior-design",
+      "author": "org",
+      "published": "2026-09-28",
+      "modified": null
+    },
+    "words": 1646
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "id": "service-interior-design",
+    "path": "/services/interior-design/",
+    "type": "service",
+    "crumb": {
+      "he": "עיצוב פנים",
+      "en": "Interior design"
+    },
+    "title": {
+      "he": "עיצוב פנים לדירה ולבית — מקצה לקצה | SELÈ STUDIO",
+      "en": "Interior Design Services in Israel | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "עיצוב פנים לדירה ולבית פרטי, מהתכנון ובחירת החומרים ועד הפרט האחרון: אבן, עץ אלון ואור. סטודיו בוטיק בהובלת שוהם סלע, בוגרת שנקר. קבעו פגישת היכרות.",
+      "en": "Luxury home interior design in Israel, from layout and materials to the final detail: stone, oak and light. Led by Shoham Sela. Book a first meeting."
+    },
+    "h1": {
+      "he": "עיצוב פנים לדירה ולבית, מהשרטוט הראשון ועד הפרט האחרון",
+      "en": "Interior design for apartments and homes, from the first sketch to the final detail"
+    },
+    "latin": "INTERIORS",
+    "hero": {
+      "img": "living-01",
+      "alt": {
+        "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון בהיר עם כלי קרמיקה וספרים, בסיס אבן אפורה ושולחן סלון מאלון כהה, הדמיה",
+        "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and books, a gray stone plinth and a dark-oak coffee table, render"
+      },
+      "caption": {
+        "he": "סלון באלון ואבן, פרויקט מגורים פרטי.",
+        "en": "Oak and stone living room, private residence."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "og": "/assets/img/og/og-service-interior-design.jpg",
+    "ogAlt": {
+      "he": "סלון עם טלוויזיה שקועה בקיר טיח, ספריית עץ אלון בהיר עם כלי קרמיקה וספרים, בסיס אבן אפורה ושולחן סלון מאלון כהה, הדמיה",
+      "en": "Living room with a TV set into a plaster wall, light-oak shelving with ceramics and books, a gray stone plinth and a dark-oak coffee table, render"
+    },
+    "service": {
+      "name": {
+        "he": "עיצוב פנים לדירה ולבית",
+        "en": "Interior design"
+      }
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "בית טוב לא נבנה מרשימת קניות. הוא נבנה מהחלטות קטנות שמתחברות זו לזו: איפה נופל האור בבוקר, כמה מקום צריך בין האי לארונות, איזה עץ יפגוש איזו אבן, ואיפה יונח הספר שאתם קוראים לפני השינה. ב־SELÈ STUDIO, עיצוב פנים לדירה או לבית פרטי הוא תהליך רציף שמחבר את כל ההחלטות האלה לשפה אחת.",
+        "en": "A good home isn’t built from a shopping list. It is built from small decisions that connect to one another: where the morning light falls, how much room you need between the island and the cabinets, which wood meets which stone, and where the book you read before sleep will rest. At SELÈ STUDIO, interior design for an apartment or a private house is one continuous process that brings all of those decisions into a single language."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הסטודיו, בהובלת <a href=\"/studio/\">שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות</a>, מלווה כל פרויקט מהתכנון וחלוקת החללים, דרך בחירת חומרים וגמרים ותוכניות העבודה, ועד הרגע שבו החלל מתמלא בחפצים ובחיים. המטרה קלה לניסוח וקשה לביצוע: בית נקי, מדויק ונכון, שנעים לחיות בו גם הרבה אחרי שריח הצבע התפוגג.",
+        "en": "The studio, led by <a href=\"/studio/\">Shoham Sela, an interior designer who graduated from Shenkar with honors</a>, takes every project from space planning, through the selection of materials and finishes and the working drawings, to the moment the space fills with objects and life. The goal is simple to describe and hard to achieve: a home that is clean, precise and right, and that still feels good to live in long after the smell of fresh paint has gone."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "למי מתאים עיצוב פנים מקצה לקצה?",
+        "en": "Who is end-to-end interior design for?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "עיצוב דירה שלמה, או בית פרטי, מתאים למי שרוצים שכל החדרים ידברו באותה שפה, ולא ייראו כמו אוסף של החלטות שהתקבלו בנפרד. בדרך כלל אלה:",
+        "en": "Designing a whole apartment or a private house suits people who want every room to speak the same language, rather than look like a collection of decisions made separately. Usually that means:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "מי שקנו דירה חדשה ורוצים להיכנס לבית שנבנה סביבם, ולא סביב המפרט הסטנדרטי של הקבלן.",
+          "en": "People who have bought a new apartment and want to move into a home built around them, not around the developer’s standard specification."
+        },
+        {
+          "he": "מי שמתכננים שיפוץ מלא של דירה קיימת, ומעדיפים לקבל את ההחלטות פעם אחת ובסדר הנכון.",
+          "en": "People planning a full renovation of an existing apartment who would rather make the decisions once, and in the right order."
+        },
+        {
+          "he": "בעלי בית פרטי שמחפשים שפה חומרית אחת שעוברת בין הקומות, החדרים והמעברים.",
+          "en": "Owners of a private house looking for one material language that runs through floors, rooms and passages."
+        },
+        {
+          "he": "מי שיודעים בדיוק מה הם אוהבים כשהם רואים את זה, אבל לא יודעים איך לתרגם את זה לתוכניות.",
+          "en": "People who know exactly what they like when they see it, but not how to turn it into plans."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אם הפרויקט מתמקד בחלל אחד, יש עמודים ייעודיים ל<a href=\"/services/kitchen-design/\">עיצוב מטבח</a> ול<a href=\"/services/bathroom-design/\">עיצוב חדר רחצה</a>.",
+        "en": "If your project centers on a single space, see our dedicated pages for <a href=\"/services/kitchen-design/\">kitchen design</a> and <a href=\"/services/bathroom-design/\">bathroom design</a>."
+      },
+      "requires": "singleRoomProjects"
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה כולל עיצוב פנים לבית?",
+        "en": "What does home interior design include?"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>אפיון והיכרות:</strong> שיחה על ההרגלים, הצרכים והתקציב, ומדידה ותיעוד של המצב הקיים.",
+          "en": "<strong>Brief and first meeting:</strong> a conversation about habits, needs and budget, and a survey and measurement of the existing space."
+        },
+        {
+          "he": "<strong><a href=\"/services/space-planning/\">תכנון וחלוקת חללים</a>:</strong> תוכנית העמדה, זרימה נוחה בין החדרים ומיקום הריהוט הקבוע.",
+          "en": "<strong><a href=\"/services/space-planning/\">Space planning</a>:</strong> a furniture layout, easy flow between rooms, and the position of built-in pieces.",
+          "requires": "workingDrawings"
+        },
+        {
+          "he": "<strong>קונספט והדמיה:</strong> כיוון עיצובי, לוח חומרים וצבעוניות, ו<a href=\"/services/3d-visualization/\">הדמיות תלת מימד</a> שמאפשרות לראות את הבית לפני שבונים אותו.",
+          "en": "<strong>Concept and visualization:</strong> a design direction, a material and color board, and <a href=\"/services/3d-visualization/\">3D renders</a> that let you see the home before it is built."
+        },
+        {
+          "he": "<strong>בחירת חומרים וגמרים:</strong> ריצוף, חיפויים, משטחי אבן, עץ, ברזים, פרזול ותאורה.",
+          "en": "<strong>Materials and finishes:</strong> flooring, wall cladding, stone surfaces, wood, taps, hardware and lighting."
+        },
+        {
+          "he": "<strong>תוכניות עבודה:</strong> חשמל ותאורה, תקרות ופרטי נגרות.",
+          "en": "<strong>Working drawings:</strong> electrical and lighting, ceilings and joinery details.",
+          "variants": [
+            {
+              "requires": "drawingsPlumbingFlooring",
+              "he": "<strong>תוכניות עבודה:</strong> חשמל ותאורה, אינסטלציה, ריצוף וחיפוי, תקרות ופרטי נגרות.",
+              "en": "<strong>Working drawings:</strong> electrical and lighting, plumbing, flooring and cladding, ceilings and joinery details."
+            }
+          ],
+          "requires": "workingDrawings"
+        },
+        {
+          "he": "<strong>נגרות בהתאמה אישית:</strong> ספריות, ארונות עד התקרה, קירות עץ ופתרונות אחסון.",
+          "en": "<strong>Custom joinery:</strong> shelving, floor-to-ceiling cabinets, wood walls and storage.",
+          "requires": "workingDrawings"
+        },
+        {
+          "he": "<strong><a href=\"/services/renovation-management/\">ליווי שיפוץ</a></strong> בזמן הביצוע.",
+          "en": "<strong><a href=\"/services/renovation-management/\">Renovation support</a></strong> during construction.",
+          "variants": [
+            {
+              "requires": "formalSupervision",
+              "he": "<strong><a href=\"/services/renovation-management/\">ליווי שיפוץ ופיקוח עליון</a></strong> בזמן הביצוע.",
+              "en": "<strong><a href=\"/services/renovation-management/\">Renovation guidance and design supervision</a></strong> during construction."
+            }
+          ],
+          "requires": "siteSupport"
+        },
+        {
+          "he": "<strong>סטיילינג לבית:</strong> השכבה האחרונה של טקסטיל, כלים, ספרים ואמנות.",
+          "en": "<strong>Home styling:</strong> the final layer of textiles, ceramics, books and art.",
+          "requires": "styling"
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך נראה התהליך, שלב אחרי שלב",
+        "en": "The process, step by step"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כל בית שונה, ולכן גם הקצב שלו. הסדר, לעומת זאת, כמעט תמיד זהה, כי הוא מה שמונע טעויות יקרות בשטח.",
+        "en": "Every home is different, and so is its pace. The order, though, is almost always the same, because it is what prevents expensive mistakes on site."
+      }
+    },
+    {
+      "t": "steps",
+      "items": [
+        {
+          "title": {
+            "he": "היכרות והקשבה",
+            "en": "Getting to know you"
+          },
+          "text": {
+            "he": "הפגישה הראשונה עוסקת פחות בסגנון ויותר בחיים עצמם: מי מבשל, מי עובד מהבית, מה צריך לאחסן, ומה מפריע לכם בבית הנוכחי. זה גם הזמן לדבר בגלוי על תקציב ועל סדרי עדיפויות. מה כדאי להביא לפגישה כזו ואילו שאלות לשאול בה, ריכזנו ב<a href=\"/journal/how-to-choose-interior-designer/\">מדריך לבחירת מעצבת פנים</a>.",
+            "en": "The first meeting is less about style and more about life itself: who cooks, who works from home, what needs storing, and what bothers you in your current home. It is also the time to talk openly about budget and priorities. What to bring to that meeting, and which questions to ask, is in our <a href=\"/journal/how-to-choose-interior-designer/\">guide to choosing an interior designer</a>."
+          }
+        },
+        {
+          "title": {
+            "he": "מדידה ותכנון",
+            "en": "Survey and planning"
+          },
+          "text": {
+            "he": "מדידה מדויקת של המצב הקיים, ואחריה חלופות העמדה. זה השלב שבו קירות זזים על הנייר ולא באתר, ושבו מתקבלות ההחלטות שהכי קשה לשנות אחר כך.",
+            "en": "An accurate measurement of the existing space, followed by layout options. This is the stage where walls move on paper rather than on site, and where the decisions that are hardest to change later are made."
+          }
+        },
+        {
+          "title": {
+            "he": "קונספט, חומרים והדמיה",
+            "en": "Concept, materials and visualization"
+          },
+          "text": {
+            "he": "בוחרים פלטה מצומצמת, רואים דוגמאות אמיתיות באור טבעי, ובודקים פרופורציות בהדמיה. הדמיה טובה חושפת בעיות של קנה מידה, צבע ואור עוד לפני שמזמינים משהו.",
+            "en": "We choose a restrained palette, look at real samples in daylight, and test proportions in a render. A good render reveals problems of scale, color and light before anything has been ordered."
+          }
+        },
+        {
+          "title": {
+            "he": "תוכניות עבודה ופרטים",
+            "en": "Working drawings and details"
+          },
+          "text": {
+            "he": "כל נקודת חשמל, כל גוף תאורה וכל מידה של ארון מקבלים מקום על הנייר. כשהקבלן, החשמלאי והנגר עובדים מאותן תוכניות, גם הצעות המחיר שלהם ניתנות להשוואה.",
+            "en": "Every electrical point, every light fitting and every cabinet dimension gets its place on paper. When the contractor, the electrician and the carpenter all work from the same drawings, their quotes also become comparable."
+          }
+        },
+        {
+          "title": {
+            "he": "ביצוע ומעקב",
+            "en": "Construction and follow-through"
+          },
+          "text": {
+            "he": "גם תוכנית מצוינת מעוררת שאלות בשטח. מעצבת שמכירה כל פרט בתוכנית יכולה לענות עליהן מהר, ולשמור שהפתרון שנבחר באתר יתאים לשאר הבית.",
+            "en": "Even an excellent plan raises questions on site. A designer who knows every detail of the plan can answer them quickly, and make sure the solution chosen on site fits the rest of the home."
+          },
+          "requires": "siteSupport"
+        },
+        {
+          "title": {
+            "he": "גימור וסטיילינג",
+            "en": "Finishing and styling"
+          },
+          "text": {
+            "he": "ברגע שהעבודות מסתיימות, מוסיפים את מה שהופך חלל לבית: וילונות, טקסטיל, כלים וספרים.",
+            "en": "Once the works are done, we add what turns a space into a home: curtains, textiles, ceramics and books."
+          },
+          "requires": "styling"
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "משך כל שלב תלוי בגודל הבית, במספר החללים, בהיקף הנגרות ובזמני האספקה של הספקים. על הגורמים שמשפיעים על לוח הזמנים בשיפוץ, ראו <a href=\"/services/renovation-management/\">ליווי שיפוץ דירה</a>.",
+        "en": "How long each stage takes depends on the size of the home, the number of spaces, the amount of joinery and supplier lead times. For what affects a renovation timeline, see <a href=\"/services/renovation-management/\">renovation guidance</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "השפה החומרית: אבן, עץ, טרוורטין ואור",
+        "en": "The material language: stone, oak, travertine and light"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bedroom-02",
+      "alt": {
+        "he": "פינת מיטה עם ראש מיטה מרופד בפשתן, קיר מעוגל מאלון כהה ושידת לילה מטרוורטין עם ספר ונר, הדמיה",
+        "en": "Bedside with a linen-upholstered headboard, a curved dark-oak wall and a travertine side table with a book and a candle, render"
+      },
+      "caption": {
+        "he": "פשתן, אלון כהה וטרוורטין.",
+        "en": "Linen, dark oak and travertine."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "עיצוב פנים יוקרתי לא נמדד בכמות החומרים אלא בדיוק שבו משתמשים בכל אחד מהם. הסטודיו חוזר לקבוצה קטנה של חומרים, ונותן לכל אחד תפקיד ברור.",
+        "en": "Luxury home interior design isn’t measured by the number of materials, but by the precision with which each one is used. The studio returns to a small group of materials and gives each a clear role."
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>אבן:</strong> אי מטבח או בסיס בסלון שנראים כגוש אחד. כשהעורקים ממשיכים ברצף מהמשטח אל הדופן, האשליה שלמה. באבן למשטח עבודה חשוב לבדוק נקבוביות וגימור, מבריק או מט, כי הם קובעים איך האבן תתנהג עם השנים. עוד על כך ב<a href=\"/journal/choosing-kitchen-stone/\">מדריך לבחירת אבן למטבח</a>.",
+          "en": "<strong>Stone:</strong> a kitchen island or a living-room plinth that reads as a single block. When the veining runs on from the top down the side, the illusion is complete. For a worktop, check the stone’s porosity and finish, polished or honed, because they decide how it will age. More in our <a href=\"/journal/choosing-kitchen-stone/\">guide to choosing kitchen stone</a>."
+        },
+        {
+          "he": "<strong>עץ אלון:</strong> אלון בהיר למשטחים גדולים, כמו ארונות עד התקרה וספריות; אלון כהה לפריטים מרכזיים שהעין נחה עליהם, כמו קיר ראש מיטה או שולחן סלון.",
+          "en": "<strong>Oak:</strong> light oak for large surfaces such as floor-to-ceiling cabinetry and shelving; dark oak for the central pieces the eye rests on, such as a headboard wall or a coffee table."
+        },
+        {
+          "he": "<strong>טרוורטין:</strong> מרקם רך וגוון חם. זו אבן נקבובית מטבעה, ולכן בחללים רטובים נהוג למלא ולאטום אותה. ראו <a href=\"/journal/travertine-guide/\">המדריך לטרוורטין</a>.",
+          "en": "<strong>Travertine:</strong> a soft texture and a warm tone. It is naturally porous, so in wet areas it is usually filled and sealed. See the <a href=\"/journal/travertine-guide/\">travertine guide</a>."
+        },
+        {
+          "he": "<strong>אגוז:</strong> גוון חום עמוק למגירות ולפרטים קטנים, שמחמם את האבן הבהירה שלצדו.",
+          "en": "<strong>Walnut:</strong> a deep brown for drawers and small details that warms the pale stone beside it."
+        },
+        {
+          "he": "<strong>פשתן:</strong> וילונות שמסננים את השמש, ראש מיטה מרופד, בדים שמרככים את האקוסטיקה.",
+          "en": "<strong>Linen:</strong> curtains that filter the sun, an upholstered headboard, fabrics that soften the acoustics."
+        },
+        {
+          "he": "<strong>אור:</strong> בשכבות. תאורה כללית, תאורת עבודה ותאורה נסתרת בנישות, מאחורי מראות ומתחת למדפים. גוון חם, סביב 2700K, מתאים לרוב לחללי מגורים. הרחבה ב<a href=\"/journal/home-lighting-design/\">מדריך לתכנון תאורה לבית</a>.",
+          "en": "<strong>Light:</strong> in layers. General light, task light and concealed light in niches, behind mirrors and under shelves. A warm color temperature, around 2700K, usually suits living spaces. More in our <a href=\"/journal/home-lighting-design/\">home lighting design guide</a>."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "את הגישה כולה – מעט חומרים, הרבה אור ושקט חזותי – פירטנו ב<a href=\"/journal/warm-minimalism/\">מינימליזם חם: איך עושים את זה נכון</a>. ואם הבית שלכם מתחיל מקיר עץ או מספרייה, כדאי לקרוא את <a href=\"/journal/custom-carpentry-guide/\">המדריך לנגרות בהתאמה אישית</a>.",
+        "en": "We describe the whole approach (few materials, plenty of light, visual calm) in <a href=\"/journal/warm-minimalism/\">warm minimalism, done right</a>. And if your home starts with a wood wall or a bookcase, read our <a href=\"/journal/custom-carpentry-guide/\">guide to custom carpentry</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "חדר אחרי חדר",
+        "en": "Room by room"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מטבח",
+        "en": "Kitchen"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-stone-01",
+      "alt": {
+        "he": "מטבח עם אי מונוליתי מאבן אפורה עם עורקים, ארונות אלון בהיר עד התקרה ונישת אבן מוארת עם כיור ומכונת קפה, הדמיה",
+        "en": "Kitchen with a monolithic gray veined stone island, floor-to-ceiling light-oak cabinets and a lit stone niche with sink and coffee machine, render"
+      },
+      "caption": {
+        "he": "מטבח עם אי אבן ועץ אלון.",
+        "en": "Stone island and oak kitchen."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המטבח הוא החדר שבו החלטות התכנון והחומר תלויות זו בזו יותר מבכל מקום אחר בבית. בפרויקט <a href=\"/projects/stone-oak-kitchen/\">מטבח עם אי אבן ועץ אלון</a> האי עשוי אבן אפורה עם עורקים, והארונות מאלון בהיר עולים עד התקרה. נישה מוארת מאבן מרכזת את הכיור ואת מכונת הקפה, וכך שאר הקיר נשאר רצף שקט של חזיתות עץ.",
+        "en": "The kitchen is the room where planning and material decisions depend on each other more than anywhere else in the home. In the <a href=\"/projects/stone-oak-kitchen/\">stone and oak kitchen</a>, the island is gray veined stone and the light-oak cabinetry rises to the ceiling. A lit stone niche gathers the sink and the coffee machine, so the rest of the wall stays a quiet run of wood fronts.",
+        "variants": [
+          {
+            "requires": "singleRoomProjects",
+            "he": "המטבח הוא החדר שבו החלטות התכנון והחומר תלויות זו בזו יותר מבכל מקום אחר בבית. בפרויקט <a href=\"/projects/stone-oak-kitchen/\">מטבח עם אי אבן ועץ אלון</a> האי עשוי אבן אפורה עם עורקים, והארונות מאלון בהיר עולים עד התקרה. נישה מוארת מאבן מרכזת את הכיור ואת מכונת הקפה, וכך שאר הקיר נשאר רצף שקט של חזיתות עץ. אם מתכננים מטבח בלבד, ראו <a href=\"/services/kitchen-design/\">עיצוב מטבח</a>.",
+            "en": "The kitchen is the room where planning and material decisions depend on each other more than anywhere else in the home. In the <a href=\"/projects/stone-oak-kitchen/\">stone and oak kitchen</a>, the island is gray veined stone and the light-oak cabinetry rises to the ceiling. A lit stone niche gathers the sink and the coffee machine, so the rest of the wall stays a quiet run of wood fronts. If you are planning a kitchen on its own, see <a href=\"/services/kitchen-design/\">kitchen design</a>."
+          }
+        ]
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "סלון",
+        "en": "Living room"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-04",
+      "alt": {
+        "he": "שולחן סלון מרובע מאלון כהה עם פינות מעוגלות, ספרים ופסל עץ, ומאחוריו בסיס אבן וספריית אלון, הדמיה",
+        "en": "Square dark-oak coffee table with rounded corners, books and a wooden sculpture, with a stone plinth and oak shelving behind, render"
+      },
+      "caption": {
+        "he": "שולחן סלון מאלון כהה.",
+        "en": "Dark-oak coffee table."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בסלון, הטלוויזיה שקועה בקיר טיח ולא תלויה עליו, לצדה ספריית אלון בהיר עם מדפים בגבהים משתנים, ומתחת לשניהם בסיס אבן אחד שמחבר ביניהם. שולחן סלון מאלון כהה נותן לחדר משקל. ראו <a href=\"/projects/oak-living-room/\">סלון בעץ אלון</a>.",
+        "en": "In the living room, the TV is set into a plaster wall instead of hanging on it. Beside it is light-oak shelving at varying heights, and beneath both runs a single stone plinth that ties them together. A dark-oak coffee table gives the room weight. See the <a href=\"/projects/oak-living-room/\">oak living room</a>."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חדר רחצה",
+        "en": "Bathroom"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bath-01",
+      "alt": {
+        "he": "ארון רחצה כפול מטרוורטין עם שתי מראות בתאורה אחורית, ברזי קיר בגוון ברונזה מוברשת ומגירות עץ אגוז, הדמיה",
+        "en": "Double travertine vanity with two backlit mirrors, brushed-bronze wall-mounted taps and walnut drawers, render"
+      },
+      "caption": {
+        "he": "ארון רחצה כפול מטרוורטין.",
+        "en": "Double travertine vanity."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ארון רחצה כפול מטרוורטין, שתי מראות עם תאורה אחורית, ברזים שיוצאים מהקיר ומגירות אגוז. הברזים בקיר משאירים את המשטח פנוי וקל לניקוי. ראו <a href=\"/projects/travertine-bathroom/\">ארון רחצה כפול מטרוורטין</a> ואת השירות <a href=\"/services/bathroom-design/\">עיצוב חדר רחצה</a>.",
+        "en": "A double travertine vanity, two backlit mirrors, wall-mounted taps and walnut drawers. Taps set in the wall keep the counter clear and easy to clean. See the <a href=\"/projects/travertine-bathroom/\">travertine double vanity</a> and our <a href=\"/services/bathroom-design/\">bathroom design</a> service."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חדר שינה",
+        "en": "Bedroom"
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bedroom-01",
+      "alt": {
+        "he": "חדר שינה עם מיטה מרופדת, קיר ראש מיטה מעוגל מאלון כהה, מנורות תלויות ושידות לילה מטרוורטין, באור שמש רך, הדמיה",
+        "en": "Bedroom with an upholstered bed, a curved dark-oak headboard wall, pendant lights and travertine side tables in soft sunlight, render"
+      },
+      "caption": {
+        "he": "חדר שינה באלון כהה.",
+        "en": "Dark oak bedroom."
+      },
+      "kind": "render"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "קיר ראש מיטה מעוגל מאלון כהה עוטף את המיטה, ראש מיטה מרופד בפשתן, ושידות לילה מטרוורטין. גופי תאורה תלויים משחררים את השידות לספר ולכוס מים. ראו <a href=\"/projects/dark-oak-bedroom/\">חדר שינה באלון כהה</a>.",
+        "en": "A curved dark-oak headboard wall wraps the bed, with a linen-upholstered headboard and travertine side tables. Pendant lights free the side tables for a book and a glass of water. See the <a href=\"/projects/dark-oak-bedroom/\">dark oak bedroom</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "סטיילינג וגימור: השכבה האחרונה",
+        "en": "Styling and finishing: the final layer"
+      },
+      "id": "styling",
+      "requires": "styling"
+    },
+    {
+      "t": "figure",
+      "img": "living-03",
+      "alt": {
+        "he": "ספריית עץ אלון בהיר מעוצבת בכלי קרמיקה לבנים, נר, ספרים ויצירת אמנות, על בסיס אבן באור שמש, הדמיה",
+        "en": "Light-oak shelving styled with white ceramics, a candle, books and an artwork, on a stone plinth in sunlight, render"
+      },
+      "caption": {
+        "he": "סטיילינג בספריית אלון.",
+        "en": "Styled oak shelving."
+      },
+      "kind": "render",
+      "requires": "styling"
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "סטיילינג לבית איננו קישוט. זו עבודה של עריכה: פחות פריטים, גדולים יותר, עם מקום לנשום ביניהם. כמה כלי קרמיקה בגוון אחד, ספרים שבאמת קוראים, בד אחד עם מרקם, ויצירה אחת שנבחרה בקפידה. מדף שנשאר חצי ריק הוא החלטה, לא שכחה.",
+        "en": "Home styling isn’t decoration. It is editing: fewer, larger pieces, with room to breathe between them. A few ceramics in one tone, books you actually read, one textured fabric, and a single carefully chosen artwork. A shelf left half empty is a decision, not an oversight."
+      },
+      "requires": "styling"
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות על עיצוב פנים לדירה ולבית",
+        "en": "Frequently asked questions about home interior design"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "איך שומרים על שפה אחידה כשמעצבים את הבית בשלבים?",
+            "en": "How do you keep one design language when you design the home in stages?"
+          },
+          "a": {
+            "he": "מגדירים מראש פלטה קצרה: אבן אחת או שתיים, גוון עץ מוביל, גוון תאורה אחד וסגנון אחד של ידיות וברזים. כל חדר שמתוכנן אחר כך נבחר מתוך אותה פלטה, גם אם הוא ייעשה רק בעוד כמה שנים. כך המטבח החדש לא ייראה זר לסלון, וחדר הרחצה הבא ימשיך את מה שכבר קיים.",
+            "en": "Set a short palette in advance: one or two stones, a leading wood tone, one light temperature and one style of handles and taps. Every room planned later is chosen from that same palette, even if it is only done years from now. That way the new kitchen won’t feel foreign to the living room, and the next bathroom will carry on what is already there."
+          }
+        },
+        {
+          "q": {
+            "he": "אפשר לשלב בעיצוב החדש רהיטים ופריטים שכבר יש לנו?",
+            "en": "Can we bring furniture and pieces we already own into the new design?"
+          },
+          "a": {
+            "he": "כן, ולעתים קרובות זה אפילו רצוי. ספה אהובה, שולחן אוכל שעבר במשפחה או יצירת אמנות יכולים להיות נקודת המוצא של הפלטה כולה. כדאי למדוד ולצלם אותם כבר בהתחלה, כדי שהתוכנית תשאיר להם מקום נכון, ושהחומרים החדשים ייבחרו לצדם ולא יתחרו בהם.",
+            "en": "Yes, and it is often a good idea. A much-loved sofa, a dining table handed down in the family or an artwork can become the starting point for the whole palette. Measure and photograph them at the very start, so the plan leaves them the right place, and the new materials are chosen to sit beside them rather than compete with them."
+          }
+        },
+        {
+          "q": {
+            "he": "האם עיצוב פנים יוקרתי מחייב תקציב גבוה במיוחד?",
+            "en": "Does luxury interior design require an especially large budget?"
+          },
+          "a": {
+            "he": "לא בהכרח. תחושת יוקרה נבנית בעיקר מפרופורציות נכונות, מפלטה מצומצמת ומדיוק בפרטים: מפגש נקי בין אבן לעץ, תאורה נסתרת, ידיות שקטות. נכון יותר להשקיע בכמה נקודות שנוגעים בהן כל יום, ולהשאיר את השאר פשוט ואיכותי. משטח, ברז וידית שמחזיקים שנים שווים יותר מפריט ראוותני אחד.",
+            "en": "Not necessarily. A sense of luxury comes mainly from the right proportions, a restrained palette and precise details: a clean meeting of stone and wood, concealed lighting, quiet hardware. It is wiser to invest in the few things you touch every day and keep the rest simple and well made. A worktop, a tap and a handle that last for years are worth more than one showy piece."
+          }
+        },
+        {
+          "q": {
+            "he": "איך מוצאים סגנון כשאוהבים הרבה דברים שונים?",
+            "en": "How do you find a style when you love many different things?"
+          },
+          "a": {
+            "he": "אספו תמונות של חללים שאהבתם בלי לסנן, ואז חפשו מה חוזר בהן: גוון עץ, סוג האור, כמות החפצים, המרקם של האבן או הבד. המכנה המשותף הזה חשוב יותר משם הסגנון. התפקיד של מעצבת הפנים הוא לזהות אותו ולתרגם אותו לפלטה אחת שמתאימה לבית ולחיים שלכם.",
+            "en": "Collect pictures of spaces you have loved without filtering them, then look for what repeats: a wood tone, the kind of light, how many objects there are, the texture of the stone or fabric. That common thread matters more than the name of a style. The interior designer’s job is to spot it and translate it into one palette that suits your home and your life."
+          }
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "רוצים לראות איך זה יכול להיראות אצלכם?",
+        "en": "Want to see how it could look in your home?"
+      },
+      "p": {
+        "he": "ספרו לנו על הבית, על מה שאתם אוהבים ועל מה שחסר לכם, ונקבע פגישת היכרות.",
+        "en": "Tell us about your home, what you love and what is missing, and we’ll set up a first meeting."
+      },
+      "button": {
+        "he": "לקביעת פגישת היכרות",
+        "en": "Book a first meeting"
+      },
+      "href": "/contact/"
+    }
+  ]
+}

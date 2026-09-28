@@ -1,0 +1,254 @@
+{
+  "service-renovation-management.hero.alt": {
+    "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
+    "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
+  },
+  "service-renovation-management.hero.caption": {
+    "he": "צילום ולא הדמיה. הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.",
+    "en": "a photograph, not a render. It is not presented here as the built version of any visualization on this site."
+  },
+  "service-renovation-management.crumb": {
+    "he": "ליווי שיפוץ דירה",
+    "en": "Renovation support"
+  },
+  "service-renovation-management.h1": {
+    "he": "ליווי שיפוץ דירה, מהמדידה הראשונה ועד הספר האחרון על המדף",
+    "en": "Renovation support, from the first measurement to the last book on the shelf"
+  },
+  "service-renovation-management.b0.text": {
+    "he": "רוב השיפוצים לא משתבשים בגדול. הם משתבשים בפרטים הקטנים: נקודת חשמל שזזה עשרה סנטימטרים, ברז קיר שהגוף הסמוי שלו לא הוזמן בזמן, ארון שנמדד לפני שהריצוף הונח. ליווי שיפוץ דירה הוא העבודה שסוגרת את הפערים האלה: בין הרעיון לתוכנית, בין התוכנית לקבלן, ובין הקבלן לבית שתגורו בו.",
+    "en": "Most renovations don’t go wrong in a big way. They go wrong in the small details: an electrical point that moved ten centimeters, a wall-mounted tap whose concealed body wasn’t ordered in time, a cabinet measured before the floor was laid. Renovation support is the work that closes those gaps: between the idea and the plan, between the plan and the contractor, and between the contractor and the home you will actually live in."
+  },
+  "service-renovation-management.b1.text": {
+    "he": "ב-<bdi lang=\"en\">SELÈ STUDIO</bdi> אנחנו רואים בשיפוץ תהליך אחד רצוף. כל החלטה נקבעת על הנייר לפני שהיא עולה כסף באתר, וכל שלב נבנה על זה שלפניו. בעמוד הזה נפרט את שלבי שיפוץ הדירה כפי שהם מתנהלים כשמעצבת פנים מלווה את התהליך, מה משפיע על לוח הזמנים, ומה בדיוק המשמעות של פיקוח עליון.",
+    "en": "At SELÈ STUDIO we treat a renovation as one continuous process. Every decision is made on paper before it costs money on site, and every stage builds on the one before it. This page sets out the stages of an apartment renovation when an interior designer guides it, what shapes the timeline, and what design supervision really means."
+  },
+  "service-renovation-management.b2.text": {
+    "he": "למי מתאים ליווי שיפוץ",
+    "en": "Who renovation support is for"
+  },
+  "service-renovation-management.b3.text": {
+    "he": "ליווי שיפוץ מתאים לדירה ישנה שעוברת שיפוץ מקיף, לדירה חדשה לפני הכניסה אליה ולבית פרטי שבו חלק מהחללים משתנים. המשותף לכולם הוא הרצון להחליט פעם אחת, בשקט ובזמן, ולא לאלתר באתר תחת לחץ.",
+    "en": "It suits an older apartment undergoing a full renovation, a new apartment before you move in, and a private house where some of the spaces are changing. What they share is the wish to decide once, calmly and on time, rather than improvise on site under pressure."
+  },
+  "service-renovation-management.b4.text": {
+    "he": "ומי שמחפש מעצבת פנים לשיפוץ צריך לדעת מראש: היא לא מחליפה את הקבלן ואת בעלי המקצוע. התפקיד שלה הוא לוודא שכולם עובדים לפי אותה תוכנית, ושהתוכנית הזו טובה.",
+    "en": "And if you’re looking for an interior designer for a renovation, know this from the start: she doesn’t replace the contractor or the trades. Her role is to make sure everyone is working from the same plan, and that the plan is a good one."
+  },
+  "service-renovation-management.b5.text": {
+    "he": "שלבי שיפוץ דירה, אחד אחרי השני",
+    "en": "The stages of an apartment renovation, one after the other"
+  },
+  "service-renovation-management.b6.i0.title": {
+    "he": "מדידה ותיעוד של המצב הקיים",
+    "en": "Measured survey of the existing space"
+  },
+  "service-renovation-management.b6.i0.text": {
+    "he": "הדירה נמדדת במלואה: קירות, גבהים, פתחים, קורות, מיקום הצנרת ונקודות החשמל הקיימות. כל קיר מצולם. טעות של סנטימטרים בשלב הזה מתגלגלת לכל תוכנית שאחריו.",
+    "en": "The apartment is measured in full: walls, heights, openings, beams, the position of existing plumbing and electrical points. Every wall is photographed. An error of a few centimeters here carries into every drawing after it."
+  },
+  "service-renovation-management.b6.i1.title": {
+    "he": "תכנון החלל",
+    "en": "Space planning"
+  },
+  "service-renovation-management.b6.i1.text": {
+    "he": "תוכנית העמדה קובעת איך הבית יעבוד: תנועה בין החדרים, אחסון, אור טבעי, פרטיות ומקום לאנשים שגרים בו. בשלב הזה בוחנים כמה חלופות ובוחרים אחת. מי שעדיין לא בטוח מה אפשר להוציא מהדירה יכול להתחיל ב<a href=\"/services/space-planning/\">תכנון החלל וחלוקת הדירה</a>, עוד לפני שמחליטים על היקף השיפוץ.",
+    "en": "The layout plan decides how the home will work: movement between rooms, storage, daylight, privacy and room for the people who live there. Several options are tested and one is chosen. If you’re not yet sure what the apartment can give you, you can start with <a href=\"/services/space-planning/\">space planning and layout</a> before deciding how far the renovation should go."
+  },
+  "service-renovation-management.b6.i2.title": {
+    "he": "תוכניות עבודה ופרטים",
+    "en": "Working drawings and details"
+  },
+  "service-renovation-management.b6.i2.text": {
+    "he": "זה השלב שבו הרעיון הופך להוראות ביצוע: תוכנית בינוי והריסה, חשמל ותקשורת, תאורה, תקרות ותוכניות נגרות מפורטות, ולצידן מפרט חומרים וגמרים. ככל שהתוכניות שלמות יותר, כך נשאר פחות מקום לפרשנות באתר, ופחות הפתעות בחשבון.",
+    "en": "This is where the idea becomes construction instructions: demolition and construction plans, electrical and data, lighting, ceilings, and detailed joinery drawings, together with a specification of materials and finishes. The more complete the drawings, the less room is left for interpretation on site, and the fewer surprises on the invoice."
+  },
+  "service-renovation-management.b6.i4.title": {
+    "he": "ביקורים באתר",
+    "en": "Site visits"
+  },
+  "service-renovation-management.b6.i4.text": {
+    "he": "הביקורים מתוכננים סביב הרגעים שבהם תיקון עדיין פשוט, ורגע אחר כך כבר יחייב לפרק: סימון הקירות לפני הבנייה, בדיקת נקודות החשמל והאינסטלציה לפני שהן נסגרות בטיח, פריסת האריחים לפני ההדבקה, ומדידות לנגרות אחרי הריצוף.",
+    "en": "Visits are planned around the moments when a fix is still simple, and a moment later would mean taking something apart: marking out the walls before they are built, checking electrical and plumbing points before they disappear under plaster, laying out tiles before they are fixed, and measuring for joinery once the floor is down."
+  },
+  "service-renovation-management.b6.i5.title": {
+    "he": "סטיילינג והלבשת הבית",
+    "en": "Styling and dressing the home"
+  },
+  "service-renovation-management.b6.i5.text": {
+    "he": "וילונות, תאורה דקורטיבית, שטיחים, רהיטים, ספרים וקרמיקה על המדף. זה השלב שהופך דירה משופצת לבית. גם הוא מתוכנן מההתחלה, כדי שהשקעים, המדפים והקירות יהיו מוכנים לו.",
+    "en": "Curtains, decorative lighting, rugs, furniture, books and ceramics on the shelf. This is the stage that turns a renovated apartment into a home. It is planned from the start too, so the sockets, shelves and walls are ready for it."
+  },
+  "service-renovation-management.b7.i0.alt": {
+    "he": "נישת מטבח מחופה אבן אפורה עם עורקים בהירים, כיור שקוע, ברז נירוסטה מוברש ותאורה נסתרת בתקרת הנישה מעל ארונות עץ אלון בהיר, הדמיה",
+    "en": "Kitchen niche clad in gray veined stone with an undermount sink, brushed-steel tap and hidden lighting in the niche ceiling above light-oak cabinets, render"
+  },
+  "service-renovation-management.b7.i0.caption": {
+    "he": "פרט אחד, ארבעה בעלי מקצוע: אבן, נגרות, אינסטלציה ותאורה",
+    "en": "One detail, four trades: stone, joinery, plumbing and lighting"
+  },
+  "service-renovation-management.b7.i1.alt": {
+    "he": "ספריית עץ אלון בהיר מעל ספסל אבן, מעוצבת בכלי קרמיקה לבנים, נר, ספרים ותמונה ממוסגרת, באור שמש רך, הדמיה",
+    "en": "Light-oak shelving above a stone plinth, styled with white ceramics, a candle, books and a framed print in soft sunlight, render"
+  },
+  "service-renovation-management.b7.i1.caption": {
+    "he": "ההלבשה: השלב שהופך דירה משופצת לבית",
+    "en": "Styling: the stage that turns a renovated apartment into a home"
+  },
+  "service-renovation-management.b8.text": {
+    "he": "כמה זמן לוקח שיפוץ דירה?",
+    "en": "How long does an apartment renovation take?"
+  },
+  "service-renovation-management.b9.text": {
+    "he": "התשובה הכנה היא שזה תלוי, ושאין מספר אמין לפני שהתוכניות סגורות וההצעות על השולחן. מה שכן אפשר לומר מראש הוא מה מאריך את הדרך ומה מקצר אותה:",
+    "en": "The honest answer is that it depends, and that no reliable number exists until the drawings are final and the quotes are on the table. What can be said in advance is what lengthens the road and what shortens it:"
+  },
+  "service-renovation-management.b10.i0": {
+    "he": "<strong>היקף העבודה.</strong> שיפוץ קוסמטי שונה מהותית משיפוץ שמזיז קירות ומחליף צנרת וחשמל.",
+    "en": "<strong>Scope of work.</strong> A cosmetic refresh is fundamentally different from a renovation that moves walls and replaces plumbing and wiring."
+  },
+  "service-renovation-management.b10.i1": {
+    "he": "<strong>מה שמסתתר בקירות.</strong> בדירות ישנות, פתיחה של קירות ורצפות חושפת לעיתים ממצאים שמחייבים החלטה חדשה.",
+    "en": "<strong>What’s hidden in the walls.</strong> In older apartments, opening walls and floors sometimes reveals conditions that call for a new decision."
+  },
+  "service-renovation-management.b10.i2": {
+    "he": "<strong>אישורים.</strong> עבודות שנוגעות ברכוש המשותף או בשלד עשויות לחייב הסכמת שכנים, חוות דעת של מהנדס או היתר, ולכל אחד מהם לוח זמנים משלו.",
+    "en": "<strong>Approvals.</strong> Work that touches shared building property or the structure may need neighbors’ consent, an engineer’s opinion or a permit, and each has its own timetable."
+  },
+  "service-renovation-management.b10.i3": {
+    "he": "<strong>זמני אספקה.</strong> נגרות בהתאמה אישית, אבן טבעית, ברזים וגופי תאורה מיובאים מוזמנים מראש. לא פעם דווקא הם שקובעים מתי הפרויקט כולו יסתיים.",
+    "en": "<strong>Lead times.</strong> Custom joinery, natural stone, and imported taps and light fittings are ordered in advance. Often it is they that decide when the whole project will finish."
+  },
+  "service-renovation-management.b10.i4": {
+    "he": "<strong>קצב ההחלטות.</strong> כל החלטה שנדחית לאתר עוצרת מישהו. לכן אנחנו מעדיפים לסגור בחירות כבר בשלב התכנון.",
+    "en": "<strong>The pace of decisions.</strong> Every decision postponed to the site stops someone from working. That’s why we prefer to settle choices during design."
+  },
+  "service-renovation-management.b10.i5": {
+    "he": "<strong>סדר העבודה.</strong> חשמלאי, אינסטלטור, רצף, נגר וצבעי תלויים זה בזה. תיאום טוב חוסך ימי המתנה, ותיאום רופף מוסיף אותם.",
+    "en": "<strong>Sequence of trades.</strong> Electrician, plumber, tiler, joiner and painter each depend on the one before. Good coordination saves days of waiting; loose coordination adds them."
+  },
+  "service-renovation-management.b11.text": {
+    "he": "לוח זמנים אמיתי נבנה יחד עם הקבלן, אחרי שהוא מכיר את התוכניות, ולא לפני.",
+    "en": "A real schedule is built with the contractor, once they know the drawings, and not before."
+  },
+  "service-renovation-management.b12.text": {
+    "he": "מה זה פיקוח עליון, ומה הוא לא",
+    "en": "What design supervision is, and what it isn’t"
+  },
+  "service-renovation-management.b13.text": {
+    "he": "בעולם השיפוצים, \"פיקוח עליון\" של מעצבת פנים הוא פיקוח עיצובי: ביקורים באתר כדי לוודא שהביצוע תואם את התוכניות, את המידות ואת החומרים שנבחרו, ומענה כשעולה שאלה בשטח. זה לא ניהול עבודה יומיומי, לא נוכחות קבועה באתר, וזה לא מחליף את אחריות הקבלן לטיב העבודה.",
+    "en": "In renovation, an interior designer’s supervision is design supervision: visiting the site to confirm that the work matches the drawings, the dimensions and the chosen materials, and answering questions that come up on site. It is not day-to-day site management, not a constant presence on site, and it doesn’t replace the contractor’s responsibility for the quality of the work."
+  },
+  "service-renovation-management.b14.text": {
+    "he": "וחשוב לדייק. כשהשיפוץ כולל עבודות שטעונות היתר או נוגעות בשלד, הפיקוח על אותן עבודות שייך למהנדס או לאדריכל הרשום שחתום עליהן. אם אתם לא בטוחים באיזה צד של הקו נמצא השיפוץ שלכם, כדאי לקרוא <a href=\"/journal/interior-designer-vs-architect/\">מתי צריך אדריכל רשום ומתי מעצבת פנים</a>. היקף הביקורים ותדירותם נקבעים מראש, בהצעת העבודה, כך שברור לכולם מה כלול.",
+    "en": "And an important distinction: when a renovation includes work that needs a building permit or touches the structure, supervision of that work belongs to the registered engineer or architect who signs for it. If you’re not sure which side of that line your project falls on, read <a href=\"/journal/interior-designer-vs-architect/\">when you need a registered architect and when an interior designer</a>. The number and timing of visits are agreed in advance, in the proposal, so everyone knows what is included."
+  },
+  "service-renovation-management.b15.text": {
+    "he": "החלטות שחייבות להתקבל לפני שהקיר נסגר",
+    "en": "Decisions that have to be made before the wall is closed"
+  },
+  "service-renovation-management.b16.text": {
+    "he": "שלוש דוגמאות, שכל אחת מהן נראית בתמונות שבעמוד הזה, וממחישות למה התכנון קודם לאתר:",
+    "en": "Three examples, each visible in the images on this page, that show why planning comes before the site:"
+  },
+  "service-renovation-management.b17.i0": {
+    "he": "<strong>ברזי קיר.</strong> הגוף הסמוי של ברז קיר מותקן בשלב האינסטלציה, הרבה לפני שהאבן מגיעה, ולכן המיקום, הגובה ועובי החיפוי צריכים להיות ידועים כבר אז. על שאר השיקולים של ברז קיר, כמו אורך הפיה ועומק הכיור, תמצאו פירוט <a href=\"/services/bathroom-design/\">בתכנון חדר הרחצה</a>.",
+    "en": "<strong>Wall-mounted taps.</strong> The concealed body of a wall-mounted tap is installed at the plumbing stage, long before the stone arrives, so its position, height and the thickness of the cladding have to be known at that point. The other wall-tap considerations, such as spout length and basin depth, are covered <a href=\"/services/bathroom-design/\">in planning the bathroom</a>."
+  },
+  "service-renovation-management.b17.i1": {
+    "he": "<strong>תאורה משולבת.</strong> פס תאורה לאורך ספסל אבן או בתקרה של נישה דורש נקודת חשמל, מקום לספק ותעלה, והם מתוכננים יחד עם הנגרות והאבן ולא אחריהן.",
+    "en": "<strong>Integrated lighting.</strong> A light strip along a stone bench or in the ceiling of a niche needs an electrical point, room for the driver and a channel, and these are planned together with the joinery and stone, not after them."
+  },
+  "service-renovation-management.b17.i2": {
+    "he": "<strong>נגרות עד התקרה.</strong> ארונות גובה מתוכננים יחד עם התקרה, המיזוג ופתחי האוורור. בצילום שבראש העמוד רואים תריסי אוורור שמשולבים בחזית הנגרות, פרט מהסוג שנקבע בתוכנית ולא מאולתר באתר.",
+    "en": "<strong>Floor-to-ceiling joinery.</strong> Tall cabinets are planned together with the ceiling, air conditioning and ventilation openings. In the photograph at the top of this page you can see vent grilles built into the joinery front, the kind of detail that is decided in the drawings, not improvised on site."
+  },
+  "service-renovation-management.b18.i0.alt": {
+    "he": "חדר רחצה עם כיור כפול מטרוורטין, ברזי קיר בגוון ברונזה מוברשת, מראות עם תאורה אחורית ומגירות עץ אגוז, הדמיה",
+    "en": "Bathroom with a double travertine vanity, brushed-bronze wall-mounted taps, backlit mirrors and walnut drawers, render"
+  },
+  "service-renovation-management.b18.i0.caption": {
+    "he": "ברזי קיר: הגוף הסמוי מותקן הרבה לפני שהאבן מגיעה",
+    "en": "Wall-mounted taps: the concealed body goes in long before the stone"
+  },
+  "service-renovation-management.b18.i1.alt": {
+    "he": "קיר חיפוי עץ אלון בהיר עם טלוויזיה, ספסל אבן אפורה עם תאורה נסתרת לאורכו ווילון שקוף, הדמיה",
+    "en": "Light-oak paneled wall with a TV, a gray stone plinth with concealed lighting along its length and a sheer curtain, render"
+  },
+  "service-renovation-management.b18.i1.caption": {
+    "he": "תאורה משולבת: נקודת החשמל נקבעת יחד עם האבן והנגרות",
+    "en": "Integrated lighting: the electrical point is decided with the stone and joinery"
+  },
+  "service-renovation-management.b19.text": {
+    "he": "מהתוכנית אל הבית",
+    "en": "From the drawing to the home"
+  },
+  "service-renovation-management.b20.text": {
+    "he": "התמונה בראש העמוד איננה הדמיה. זה צילום מהביצוע: ארונות גובה מעץ כהה עם תריסי אוורור משולבים, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה ותאורת מסילה. היא מראה את מה שליווי טוב אמור להשיג: קווים שנפגשים בדיוק במקום שבו תוכננו, וחומרים שנראים באור אמיתי כמו שנבחרו. עוד עבודות של הסטודיו, רובן הדמיות, מופיעות <a href=\"/projects/\">בעמוד הפרויקטים</a>. מי שמתלבט עם מי לעבור את הדרך הזו ימצא נקודות לבדיקה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
+    "en": "The image at the top of this page is not a render. It is a photograph of finished work: dark-wood tall cabinets with integrated vent grilles, greige lower cabinets, a pale stone-finish island and track lighting. It shows what good support is meant to achieve: lines that meet exactly where they were drawn, and materials that look in real light the way they were chosen. More of the studio’s work, most of it renders, appears on the <a href=\"/projects/\">projects page</a>. If you’re deciding who to take this road with, the guide on <a href=\"/journal/how-to-choose-interior-designer/\">how to choose an interior designer</a> lists what to check."
+  },
+  "service-renovation-management.b21.q0": {
+    "he": "כמה זמן לוקח שיפוץ דירה?",
+    "en": "How long does an apartment renovation take?"
+  },
+  "service-renovation-management.b21.a0": {
+    "he": "אין מספר אחד שנכון לכל דירה. משך השיפוץ תלוי בהיקף העבודה, במצב הקיים של הקירות והתשתיות, באישורים שנדרשים, בזמני האספקה של נגרות, אבן ומוצרים מיובאים, ובקצב קבלת ההחלטות. לוח זמנים אמין אפשר לבנות רק אחרי שהתוכניות סגורות והקבלן תמחר אותן.",
+    "en": "There’s no single figure that fits every apartment. The duration depends on the scope of work, the existing condition of walls and services, the approvals required, lead times for joinery, stone and imported products, and how quickly decisions are made. A reliable schedule can only be built once the drawings are final and the contractor has priced them."
+  },
+  "service-renovation-management.b21.q1": {
+    "he": "מה ההבדל בין ליווי שיפוץ לניהול פרויקט?",
+    "en": "What’s the difference between renovation support and project management?"
+  },
+  "service-renovation-management.b21.a1": {
+    "he": "ליווי שיפוץ של מעצבת פנים מתמקד בתכנון, בבחירת החומרים ובפיקוח עיצובי: וידוא שהביצוע תואם את התוכניות. ניהול פרויקט עוסק בניהול היומיומי של האתר, של בעלי המקצוע ושל לוח הזמנים, ולעיתים הוא באחריות הקבלן הראשי. חשוב לראות בהצעת העבודה מה בדיוק כלול ומי אחראי על מה.",
+    "en": "An interior designer’s renovation support focuses on design, material selection and checking that the work matches the drawings. Project management covers the day-to-day running of the site, the trades and the schedule, and is sometimes the main contractor’s responsibility. It’s important to see exactly what a proposal includes and who is responsible for what."
+  },
+  "service-renovation-management.b21.q2": {
+    "he": "מתי כדאי לפנות למעצבת פנים, לפני או אחרי שבוחרים קבלן?",
+    "en": "Should I bring in an interior designer before or after choosing a contractor?"
+  },
+  "service-renovation-management.b21.a2": {
+    "he": "לפני. כשהתוכניות והמפרט מוכנים לפני שמבקשים הצעות מחיר, כל הקבלנים מתמחרים אותה עבודה בדיוק, וההשוואה ביניהם הוגנת. התוכניות גם הופכות לבסיס של ההסכם עם הקבלן, כך שברור מה הוא התחייב לבנות. וכך נחסכות החלטות שמתקבלות בלחץ באתר, שהן בדרך כלל היקרות ביותר.",
+    "en": "Before. When the drawings and specification are ready before you ask for quotes, every contractor prices exactly the same work, and comparing them is fair. The drawings also become the basis of the contract with the builder, so it is clear what they have committed to build. And it avoids decisions made under pressure on site, which are usually the most expensive ones."
+  },
+  "service-renovation-management.b21.q3": {
+    "he": "האם אפשר לשפץ בלי מעצבת פנים?",
+    "en": "Can I renovate without an interior designer?"
+  },
+  "service-renovation-management.b21.a3": {
+    "he": "כן, בעיקר בשיפוץ קוסמטי ומצומצם. ככל שהשיפוץ מזיז קירות, משנה נקודות חשמל ומים, או כולל נגרות בהתאמה אישית ואבן, גדל מספר ההחלטות התלויות זו בזו, ואיתו הערך של תוכנית אחת שמחברת את כולן.",
+    "en": "Yes, especially for a small cosmetic renovation. The more a renovation moves walls, changes electrical and water points, or includes custom joinery and stone, the more decisions depend on each other, and the more valuable one plan that connects them all becomes."
+  },
+  "service-renovation-management.b21.q4": {
+    "he": "כמה עולה ליווי שיפוץ?",
+    "en": "How much does renovation support cost?"
+  },
+  "service-renovation-management.b21.a4": {
+    "he": "המחיר תלוי בהיקף: מספר החללים, כמות התוכניות, היקף הנגרות ומספר הביקורים באתר. אנחנו לא מפרסמים מחירון, כי כל פרויקט מתומחר לפי מה שהוא דורש. על שיטות התמחור המקובלות בענף אפשר לקרוא במדריך <a href=\"/journal/interior-design-cost/\">כמה עולה מעצבת פנים</a>.",
+    "en": "It depends on scope: the number of spaces, the number of drawings, the amount of joinery and the number of site visits. We don’t publish a price list, because each project is priced by what it requires. For the pricing models common in the field, see <a href=\"/journal/interior-design-cost/\">how much an interior designer costs</a>."
+  },
+  "service-renovation-management.b21.q5": {
+    "he": "האם צריך לגור מחוץ לדירה בזמן השיפוץ?",
+    "en": "Do I need to move out during the renovation?"
+  },
+  "service-renovation-management.b21.a5": {
+    "he": "זה תלוי בהיקף. כשהשיפוץ כולל את המטבח, את חדרי הרחצה או החלפה של החשמל, המגורים בדירה בדרך כלל לא מעשיים. בשיפוץ חלקי אפשר לפעמים לעבוד בשלבים, חלל אחרי חלל, וכדאי לקבוע זאת כבר בתכנון.",
+    "en": "It depends on scope. When the renovation includes the kitchen, the bathrooms or rewiring, living in the apartment is usually impractical. In a partial renovation it’s sometimes possible to work in phases, one space at a time. It’s worth settling this during design."
+  },
+  "service-renovation-management.b21.h": {
+    "he": "שאלות נפוצות",
+    "en": "Frequently asked questions"
+  },
+  "service-renovation-management.b22.h": {
+    "he": "לפני שהפטיש הראשון יורד",
+    "en": "Before the first hammer falls"
+  },
+  "service-renovation-management.b22.p": {
+    "he": "ספרו לנו על הדירה: מה קיים, מה חסר, ומה הייתם רוצים להרגיש כשתיכנסו הביתה. נחזור אליכם לתיאום פגישת היכרות.",
+    "en": "Tell us about the apartment: what’s there, what’s missing, and how you’d like to feel when you walk in. We’ll get back to you to arrange an introductory meeting."
+  },
+  "service-renovation-management.b22.button": {
+    "he": "לתיאום פגישת היכרות",
+    "en": "Arrange an introductory meeting"
+  }
+}

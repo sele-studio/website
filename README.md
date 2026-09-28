@@ -1,67 +1,128 @@
 # SELÈ STUDIO — sele-studio.com
 
-אתר תדמית לסטודיו **SELÈ STUDIO** — אדריכלות ועיצוב פנים, בהובלת שוהם סלע.
+אתר הסטודיו **SELÈ STUDIO**, סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע.
+Static, bilingual: Hebrew at the root (RTL) and English as real pages under `/en/` (LTR). No framework, no runtime CDN requests.
+GitHub Pages publishes it from `main`.
 
-A boutique architecture & interior-design studio site. Static, dependency-free build
-(vanilla HTML/CSS/JS + GSAP/Lenis from CDN) — deployable on any static host.
+---
 
-## Structure
+## Owner to-do
 
-```
-sele-studio/
-├── index.html          One-page site, bilingual HE (default, RTL) / EN
-├── css/style.css       Design system (bone / charcoal / taupe / bordeaux)
-├── js/main.js          GSAP + ScrollTrigger + Lenis, i18n, lightbox, cursor
-├── assets/
-│   ├── brand/          Logo vectors extracted from the official branding PDF
-│   │   ├── seal.svg            The oval-S seal (currentColor)
-│   │   ├── logo-lockup.svg     Full lockup: seal + ESTD 2024 + wordmark
-│   │   ├── favicon.svg
-│   │   └── apple-touch-icon.png
-│   └── img/            Project renders (also og.jpg 1200×630)
-├── CNAME               sele-studio.com (for GitHub Pages)
-├── robots.txt
-└── sitemap.xml
-```
+1. **Mailbox and form activation.** The contact form posts to FormSubmit, which delivers to `office@sele-studio.com`.
+   - [ ] Create the mailbox `office@sele-studio.com`.
+   - [ ] Send one test from the live contact page (or the local server). FormSubmit emails an **activation link** to office@. Click it.
+   - [ ] Send a second test and confirm that it arrives.
+   - [ ] Send the random alias FormSubmit gives you, so the plain address can come out of the page source.
+   - [ ] Confirm that the old site's `hello@…` address is retired.
+   Until then the form shows its "activation pending" state and offers email and an Instagram DM instead.
+2. **Accessibility coordinator**: name, phone and email, plus the statement's publication date (`/accessibility/`).
+3. **Legal entity**: name and business ID for the privacy notice (`/privacy/`), and approval of the retention wording.
+4. **WhatsApp or phone number** to publish (none is shown until one is provided).
+5. **`data/site.json`** is the one owner-fillable file: service area, Search Console / Bing tokens, launch date and the confirmation flags (`renderStages`, `shohamByline`, …). `null` / `false` means "show nothing", never a placeholder.
+6. The remaining questions (the `built-01` photograph, materials, services, wording approvals, Google Business Profile) are in the design spec §11 and the addendum A15.
 
-## Brand
+Hidden `[[OWNER: …]]` placeholders mark facts that are still missing. `node tools/check.mjs --launch` lists them and fails while any remain. Once items 1–4 are done, change the CI gate in `.github/workflows/deploy.yml` to `node tools/check.mjs --launch`.
 
-- **Logo**: "first option" from `SELE STUDIO - Branding.pdf` — the oval S seal + SELÈ STUDIO wordmark
-  (vectors extracted from the PDF itself, so they are exact).
-- **Palette**: bone `#F2EFE9` · charcoal `#211D19` · taupe `#B7AA9B` · deep bordeaux `#4A1F27`.
-- **Type** (web equivalents of the brand fonts found embedded in the PDF):
-  - Gallient → **Italiana** (EN display)
-  - FuturaPT / Caviar Dreams → **Jost** (wordmark, labels)
-  - Afek (HE) → **Assistant** (HE body) + **Frank Ruhl Libre** (HE display)
+---
 
-## Local preview
+## Tools
 
-Any static server works:
+Node ≥ 20. The repo itself has **no dependencies**. Two build tools, `tools/gen-en.mjs` and `tools/seo.mjs`, use **cheerio** from the media toolbox outside the repo (`SCR/tools/node_modules`, i.e. `../../tools` from the repo root). Point elsewhere with `SELE_TOOLS=/abs/path/to/tools`; reinstall with `npm i --prefix "$SELE_TOOLS" cheerio@1.2.0`.
 
 ```bash
-python3 -m http.server 8123 --directory sele-studio
+node tools/serve.mjs                 # http://localhost:8080 — /x/ → /x/index.html, misses → 404.html (status 404), Range for video
+node tools/sync-partials.mjs         # fill the shared partials into every Hebrew page
+node tools/check.mjs                 # the lint gate CI runs (strict)
 ```
 
-## Deploying to sele-studio.com
+### The full build (run in this order, from the repo root)
 
-**GitHub Pages — automatic.** `.github/workflows/deploy.yml` publishes the repo root
-to GitHub Pages on every push to `main` (it also enables Pages on the first run).
-After the first successful run the site is live at
-`https://sele-studio.github.io/website/`.
+```bash
+export SELE_TOOLS=/abs/path/to/tools
+node tools/gen-projects.mjs                                  # case pages from data/projects.mjs
+node tools/gen-prose.mjs --validate data/services/*.json data/journal/*.json
+node tools/gen-prose.mjs                                     # services + journal pages, data/i18n/*.json
+node tools/sync-partials.mjs                                 # partials, per-file ?v= hashes, CSP hash, language links
+node tools/gen-en.mjs                                        # the English mirror under en/
+node tools/seo.mjs                                           # @seo blocks, JSON-LD, sitemap.xml, llms.txt
+node tools/check.mjs                                         # 0 errors required
+# idempotency: every generator also has --check (exit 0 = nothing would change)
+"$SELE_TOOLS/node_modules/.bin/html-validate" --preset recommended <every shipped .html, HE + en/>   # 0 errors required
+```
 
-To attach the custom domain:
-1. Repo **Settings → Pages → Custom domain** → `sele-studio.com` → Save
-   (then tick *Enforce HTTPS* once the certificate is issued).
-2. At the domain registrar (DNS for `sele-studio.com`):
-   - Apex `A` records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `www` `CNAME` → `sele-studio.github.io`
-3. Note: the repo must be **public** for Pages on a free plan.
+`html-validate` picks up `.htmlvalidate.mjs` from the repo root (not deployed). It allows exactly the patterns the spec mandates, each scoped as narrowly as the rule permits: per-image custom properties and native-width caps in `style` (`--ar --pos --w --h --max-w width`), `role="list"` on unstyled lists, and the three ARIA widgets the spec requires (the no-JS menu link upgraded to a button, the projects view radiogroup, the scrollable table region). Everything else in the `recommended` preset stays an error.
 
-Alternative — **Netlify / Vercel / Cloudflare Pages**: import the repo, publish
-directory = root, attach the domain. No build step.
+### Folder layout
 
-## Content TODOs
+```
+/index.html /projects/ /services/ /journal/ /studio/ /contact/ /film/ /accessibility/ /privacy/ /404.html   Hebrew pages
+/en/…                     English mirror — GENERATED by tools/gen-en.mjs, never hand-edited
+/partials/                head, header, menu, footer, a11y, sprite, scripts, cta   (never edit them inside a page)
+/css/                     fonts, tokens, base, chrome, motion  +  pages/<page>.css  +  fx.css
+/js/core/                 app.js (entry), i18n, lang, motion, reveal, video, header, menu, a11y …
+/js/pages/, /js/fx/       page modules and the signature moments
+/js/i18n/                 runtime dictionaries: ES modules  { "key": { he, en } }  (node-importable)
+/data/                    build data: projects, prose JSON, data/i18n/*.json (build dictionaries), site.json   — not published
+/assets/                  brand, fonts, vendor (GSAP 3.13.0, Lenis 1.3.8 — self-hosted), img, video
+/tools/                   build + QA tools, lib/, templates, demo                                      — not published
+```
 
-- [ ] Confirm the studio email (site currently uses `hello@sele-studio.com`).
-- [ ] Optional: add a phone/WhatsApp number to the contact section.
-- [ ] Swap/extend project galleries as new renders and photos arrive.
+### Pages and partials
+
+Every page starts from `tools/templates/page.html`. The regions between `<!-- @partial:NAME -->` / `<!-- /@partial:NAME -->` and `<!-- @seo -->` / `<!-- /@seo -->` belong to the tools: never hand-edit them. Edit `partials/NAME.html` and re-run `sync-partials`.
+
+`sync-partials` (Hebrew pages only; `en/**` is never synced) writes, per page:
+- `?v=<hash>` on every `/css/…` and `/js/…` URL — the hash of **that file**, so editing one file only makes the pages that use it stale;
+- the page dictionary's modulepreload (`<body data-i18n-dict>`), the CSP hash of the inline boot script, `aria-current="page"` from `<body data-nav>`;
+- the language links (`[data-lang-switch]`, toggle and pill): `/en` + the page's path (`/studio/` → `/en/studio/`; `404.html` and other non-index files → `/en/`).
+
+After editing the boot script in `partials/head.html`, re-run `sync-partials` (the CSP carries its hash). Shared code: `tools/lib/pages.mjs` (the one page-set definition) and `tools/lib/dict.mjs` (dictionary resolution: `common` → page runtime dictionary → `data/i18n/<data-i18n-build>.json`; a key defined twice is an error).
+
+Parallel package work uses only the scoped forms:
+
+```bash
+node tools/sync-partials.mjs --only "<your globs>"
+node tools/check.mjs --package --allow-missing-media --only "<your globs>"
+```
+
+### Languages
+
+The language is the URL: `/x/` is Hebrew, `/en/x/` is English. There is no in-place translation, no `?lang=` and no automatic redirect. Clicking the toggle stores `localStorage['sele-lang']`; it is only used to offer a small "English version →" / "לגרסה העברית ←" suggestion. `404.html` is bilingual: under `/en/…` it switches itself to English.
+
+### The check gate — `tools/check.mjs`
+
+Strict by default (CI), over Hebrew pages and `en/**`. Rules: 1 physical CSS properties · 2 image attributes · 3 visible placeholders · 4 external origins · 5 broken internal links · 6 i18n keys · 7 i18n drift (Hebrew text on Hebrew pages, English on `en/**`) · 8 page structure · 9 partials in sync · 10 the legacy address · 11 frame radius outside `base.css` · 12 `u-lat` on block elements · 13 `data-i18n` on an element with children · 14 `data-i18n-tpl` with shipped text but no `data-i18n-init` · 15 missing or stale English mirror · 16 banned strings · 17 missing `data-font-en` target.
+
+| Flag | Effect |
+|---|---|
+| `--launch` | also fails on any `[[OWNER:` / `TODO-OWNER` (use once the owner to-dos are done) |
+| `--package --only "<globs>"` | parallel-work mode: pages, `@seo` blocks and `/en/` pages other packages have not produced yet are warnings; rule 15 is skipped |
+| `--allow-missing-media` | missing new media (`/assets/video/`, `img/og/`, `story/`, `fx/`, `light/`, `materials/tile-*`) are warnings |
+| `--allow-missing-pages` / `--allow-missing-seo` / `--allow-missing-en` | the individual downgrades |
+| `--skip-sync` | skip rule 9 |
+| `--root <dir>` | check another tree (fixtures) |
+
+### Enabling the 3D visualization page later
+
+When the owner confirms `renderStages` in `data/site.json`:
+1. add `<li><a href="/services/3d-visualization/" data-i18n="common.svc.visualization">הדמיות תלת מימד</a></li>` as the 6th item of the service list in `partials/menu.html`;
+2. add the same `<li>` as the 6th item of the service list in `partials/footer.html`;
+3. add the services-hub row (`services/index.html`, addendum A5);
+4. add the Home row (`index.html`, addendum A7.1);
+5. add the case-page link (`data/projects.mjs`, addendum A7.2), then run the full build above.
+
+### Component demo
+
+`tools/demo/components.html` (Hebrew) and `tools/demo/components-en.html` (English) show every shared component, partial and animation attribute. Neither is published (`tools/` is excluded from `_site`).
+
+---
+
+## Deploy
+
+`.github/workflows/deploy.yml` runs on every push to `main`: checkout → node 20 → `node tools/check.mjs` (the deploy stops on any error) → guard that the generated files exist (`en/index.html`, `sitemap.xml`, `llms.txt`, `favicon.ico`, `CNAME`) → copy the repo into `_site/` without `tools/`, `data/`, `partials/`, `.github/`, `.htmlvalidate.mjs` and this README → publish to GitHub Pages. Pushing to `main` is a release. There is no `redesign`-branch launch gate: the redesign goes to `main` as soon as integration QA passes, and owner to-do 1 (mailbox + FormSubmit activation) is completed after launch — until then the form shows its "activation pending" state.
+
+Domain: `CNAME` holds `sele-studio.com`. DNS: apex `A` records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; `www` `CNAME` → `sele-studio.github.io`. In **Settings → Pages**, keep *Enforce HTTPS* on.
+
+## Truthfulness
+
+The site never shows testimonials, client names, awards, press, counts, years of experience, addresses, phone numbers, prices, sizes or project locations. Renders are captioned "הדמיה / Render"; the one photograph of built work is captioned "מהביצוע / Built". Shoham is "מעצבת פנים / interior designer".

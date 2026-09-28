@@ -1,0 +1,24 @@
+<button class="a11y-btn" type="button" aria-controls="a11y-panel" aria-expanded="false" data-a11y-toggle>
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><use href="#i-a11y"/></svg>
+  <span class="u-visually-hidden" data-i18n="common.a11y.open">תפריט נגישות</span>
+</button>
+<div class="a11y-panel slab" id="a11y-panel" role="dialog" aria-modal="true" aria-labelledby="a11y-title" hidden data-a11y-panel>
+  <div class="a11y-panel__head">
+    <h2 id="a11y-title" data-i18n="common.a11y.title">נגישות</h2>
+    <button type="button" class="a11y-panel__close" data-a11y-close aria-label="סגירת תפריט הנגישות" data-i18n-attr="aria-label:common.a11y.close"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><use href="#i-close"/></svg></button>
+  </div>
+  <fieldset class="a11y-panel__group">
+    <legend data-i18n="common.a11y.text">גודל טקסט</legend>
+    <label class="chip"><input class="chip__input" type="radio" name="a11y-text" value="100" data-a11y="text"><span class="chip__label" data-i18n="common.a11y.text100">רגיל</span></label>
+    <label class="chip"><input class="chip__input" type="radio" name="a11y-text" value="115" data-a11y="text"><span class="chip__label" data-i18n="common.a11y.text115">גדול</span></label>
+    <label class="chip"><input class="chip__input" type="radio" name="a11y-text" value="130" data-a11y="text"><span class="chip__label" data-i18n="common.a11y.text130">גדול מאוד</span></label>
+  </fieldset>
+  <label class="a11y-panel__opt"><input type="checkbox" data-a11y="contrast"> <span data-i18n="common.a11y.contrast">ניגודיות גבוהה</span></label>
+  <label class="a11y-panel__opt"><input type="checkbox" data-a11y="still"> <span data-i18n="common.a11y.still">עצירת אנימציות וסרטונים</span></label>
+  <label class="a11y-panel__opt"><input type="checkbox" data-a11y="links"> <span data-i18n="common.a11y.links">הדגשת קישורים</span></label>
+  <label class="a11y-panel__opt"><input type="checkbox" data-a11y="font"> <span data-i18n="common.a11y.font">גופן קריא</span></label>
+  <div class="a11y-panel__foot">
+    <button type="button" class="btn btn--ghost" data-a11y-reset data-i18n="common.a11y.reset">איפוס הגדרות</button>
+    <a class="link" href="/accessibility/" data-i18n="common.a11y.statement">להצהרת הנגישות</a>
+  </div>
+</div>

@@ -1,0 +1,421 @@
+/* SELÈ STUDIO — Contact "The Letter" + thank-you (SPEC §5.6, §5.7, §6; Addendum A7.4). Owner: P4. Prefix: ct-.
+   Logical properties only; physical lines end with phys-ok. Frames are rounded by base.css only.
+   Without JS every step is visible and stacked; the stepped layout is keyed on .ct-form.is-stepped (set by contact.js). */
+
+/* ================================================================== page grid */
+.ct-page{
+  padding-block:calc(var(--header-h) + var(--s-6)) var(--section);
+  align-items:start;
+}
+.ct-head{ grid-column:1 / -1 }
+.ct-head .crumbs{ margin-block-end:var(--s-5) }
+.ct-head .opener__latin{ font-size:min(var(--t-mega), 17vw) }
+.ct-h1{
+  margin-block-start:var(--s-4);
+  font-family:var(--f-display); font-weight:300; font-size:var(--t-d1); line-height:1.08;
+  max-inline-size:14ch;
+  text-wrap:balance;   /* §3.3; the HE copy also ties "על" to its noun with a no-break space */
+}
+html[lang="en"] .ct-h1{ font-weight:400; max-inline-size:16ch }
+.ct-sub{
+  margin-block-start:var(--s-4);
+  font-family:var(--f-he-text); font-weight:300; font-size:var(--t-brand); line-height:1.6;
+  color:var(--fg-2);
+  max-inline-size:34ch;
+}
+html[lang="en"] .ct-sub{ font-family:var(--f-lat-text); font-weight:300; max-inline-size:40ch }
+
+.ct-sheet{ grid-column:1 / -1; margin-block-start:var(--s-6) }
+.ct-aside{ display:none }               /* the aside image is not shown below 1100 px (§5.6) */
+.ct-after{ grid-column:1 / -1 }         /* "what happens next" + direct channels: after the form below 1100 px */
+
+@media (min-width:768px){
+  .ct-sheet{ grid-column:1 / -1 }
+}
+@media (min-width:1100px){
+  .ct-head{ grid-column:1 / 8; grid-row:1 }
+  .ct-sheet{ grid-column:1 / 8; grid-row:2; margin-block-start:var(--s-6) }
+  /* The aside holds only the frame's track, spanning opener + sheet, so the frame stays stuck for the whole height of
+     the form (steps 1–3 and the success panel). "What happens next" and the direct channels sit below it in .ct-after. */
+  .ct-aside{
+    display:flex; flex-direction:column;
+    grid-column:9 / 13; grid-row:1 / 3;
+    align-self:stretch;
+  }
+  .ct-aside__track{ flex:1 1 auto }
+  .ct-after{ grid-column:9 / 13; grid-row:3; margin-block-start:var(--s-7) }
+  .ct-aside__stick{
+    position:sticky;
+    inset-block-start:calc(var(--header-h) + 4vh);
+    padding-block-end:var(--s-6);
+  }
+}
+
+/* ================================================================== the sheet (paper-2 letter paper, slab corner) */
+.ct-sheet{
+  position:relative;
+  padding:var(--s-4);
+  padding-block-end:var(--s-5);
+}
+@media (min-width:768px){ .ct-sheet{ padding:var(--s-5) } }
+@media (min-width:1100px){ .ct-sheet{ padding:var(--s-6) } }
+.ct-sheet.is-shake{ animation:ct-shake 300ms var(--ease-paper) 1 }
+@keyframes ct-shake{
+  0%, 100%{ translate:0 0 }
+  20%{ translate:-6px 0 }
+  45%{ translate:6px 0 }
+  70%{ translate:-4px 0 }
+  88%{ translate:2px 0 }
+}
+.ct-body{ position:relative }
+.ct-body.is-tweening{ overflow:clip; overflow-clip-margin:12px }
+
+/* ---- letterhead: debossed seal + progress */
+.ct-letterhead{
+  display:flex; align-items:center; gap:var(--s-3);
+  padding-block-end:var(--s-4);
+  margin-block-end:var(--s-5);
+  border-block-end:1px solid var(--line);
+}
+/* While the progress segments show, they are the letterhead's rule: no second hairline under them. No-JS and the
+   success state (segments hidden) keep the single rule under the seal. */
+.ct-letterhead:has(.ct-segs:not([hidden])){ border-block-end:0; padding-block-end:var(--s-2) }
+.ct-seal{
+  flex:none;
+  inline-size:40px; block-size:auto; aspect-ratio:182 / 210;
+  color:var(--paper-2);
+  filter:drop-shadow(-1px -1px 0 rgba(33,29,25,.42)) drop-shadow(1px 1px 0 rgba(255,255,255,.9));
+  transform-origin:50% 50%;
+}
+.ct-seal.is-sending{ animation:ct-spin 2.4s linear infinite }
+.ct-seal.is-pressed{ animation:ct-press 600ms var(--ease-paper) 1 both }
+@keyframes ct-spin{ to{ rotate:360deg } }
+@keyframes ct-press{
+  from{ scale:1.04; filter:drop-shadow(0 0 0 rgba(33,29,25,.42)) drop-shadow(0 0 0 rgba(255,255,255,.9)) }
+  to{ scale:1; filter:drop-shadow(-1.2px -1.2px 0 rgba(33,29,25,.5)) drop-shadow(1.2px 1.2px 0 rgba(255,255,255,.95)) }
+}
+html.a11y-contrast .ct-seal{ color:#1A1A1A; filter:none }
+
+.ct-progress{ flex:1 1 auto; min-inline-size:0; display:grid; gap:6px }
+html:not(.js) .ct-progress__text{ display:none }   /* no JS = one long form: "step 1 of 3" would be wrong */
+.ct-progress__text{
+  font-family:var(--f-he-text); font-weight:600; font-size:var(--t-label); letter-spacing:.02em; line-height:1.5;
+  color:var(--fg-2);
+}
+html[lang="en"] .ct-progress__text{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.3em; text-transform:uppercase }
+.ct-segs{ display:flex; gap:var(--s-2) }
+.ct-seg{
+  position:relative; flex:1 1 0;
+  block-size:44px; margin-block:-10px;   /* 44 px touch target (§3.5), drawn as a 1 px hairline */
+  cursor:default;
+}
+.ct-seg:not(:disabled){ cursor:pointer }
+.ct-seg__line{
+  position:absolute; inset-inline:0; inset-block-start:50%;
+  block-size:1px; background:var(--line);
+}
+.ct-seg__line::after{
+  content:""; position:absolute; inset:0;
+  background:var(--ink);
+  transform:scaleX(0); transform-origin:0 50%;
+  transition:transform var(--d-ui) var(--ease-paper);
+}
+[dir="rtl"] .ct-seg__line::after{ transform-origin:100% 50% }
+.ct-seg.is-done .ct-seg__line::after, .ct-seg.is-current .ct-seg__line::after{ transform:scaleX(1) }
+.ct-seg.is-current .ct-seg__line{ block-size:2px; margin-block-start:-.5px }
+.ct-seg.is-current .ct-seg__line::after{ background:var(--bordeaux) }
+.ct-seg:not(:disabled):hover .ct-seg__line{ block-size:2px }
+
+/* ---- draft notice */
+.ct-draft{
+  display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-2) var(--s-4);
+  margin-block-end:var(--s-5);
+  padding-block:var(--s-2); padding-inline:var(--s-3);
+  background:var(--paper);
+  border-inline-start:2px solid var(--bordeaux);
+  font-size:var(--t-small); color:var(--fg-2);
+}
+.ct-draft__clear{ font-size:var(--t-small); color:var(--fg); min-block-size:44px; display:inline-flex; align-items:center; background-position:0 calc(100% - 12px) } /* phys-ok: resting hairline under the text */
+.ct-draft__clear::after{ inset-block-end:12px }
+
+/* ================================================================== steps */
+.ct-form.is-stepped .ct-step[hidden]{ display:none !important }
+/* No JS: the steps stack. The rule sits on the legend, not the fieldset: a fieldset's legend is drawn in its border,
+   so a fieldset border/padding would put the rule behind the legend and the gap between the legend and its helper. */
+.ct-form:not(.is-stepped) .ct-step + .ct-step{ margin-block-start:var(--s-7) }
+.ct-form:not(.is-stepped) .ct-step + .ct-step > .ct-step__legend{
+  padding-block-start:var(--s-6);
+  border-block-start:1px solid var(--line);
+}
+.ct-step__legend{
+  display:block; float:none; inline-size:100%;
+  font-family:var(--f-display); font-weight:300; font-size:var(--t-d3); line-height:1.2;
+  color:var(--fg);
+  text-wrap:balance;
+}
+/* Bodoni Moda ships at opsz 96 / 400 only: its hairlines break up below 32 px, so an EN display line is never set
+   smaller than 2rem, and EN H3-level titles below that size use Jost (see .ct-next__t, .ct-state__title). */
+html[lang="en"] .ct-step__legend{ font-weight:400; font-size:max(var(--t-d3), 2rem) }
+.ct-step__legend:focus{ outline:none }
+.ct-step__legend:focus-visible{ outline:2px solid var(--focus); outline-offset:6px }
+.ct-step__help{ margin-block-start:var(--s-2); color:var(--fg-2); font-size:var(--t-small); line-height:1.6 }
+
+/* ---- one question = one fieldset */
+.ct-q{ margin-block-start:calc(var(--s-5) + var(--s-2)) }
+.ct-q:first-of-type{ margin-block-start:var(--s-5) }
+.ct-q__label, .ct-sheet .field > label{
+  font-family:var(--f-he-display); font-weight:400; font-size:1.1875rem; line-height:1.45;
+  letter-spacing:0; text-transform:none;
+  color:var(--fg);
+}
+html[lang="en"] :is(.ct-q__label, .ct-sheet .field > label){ font-family:var(--f-lat-text); font-weight:400; font-size:1.0625rem; letter-spacing:0; text-transform:none }
+.chips.ct-q > .ct-q__label, .ct-tiles > .ct-q__label{ margin-block-end:var(--s-3) }
+.ct-sheet .chip__label{ background:color-mix(in srgb, var(--paper) 55%, transparent) }
+.ct-sheet .chip__input:checked + .chip__label{ background:var(--fg) }
+
+.ct-sheet .field{ margin-block:var(--s-5) 0; gap:var(--s-1) }
+.ct-pair{ display:grid; grid-template-columns:minmax(0, 1fr); column-gap:var(--s-5); align-items:start }   /* an error under one field never stretches its neighbour's input */
+@media (min-width:768px){ .ct-pair{ grid-template-columns:repeat(2, minmax(0, 1fr)) } }
+/* 5 rows, auto-grow (§6.2). The class is needed for specificity: base.css's `.field :is(input:not(…):not(…), textarea, select)`
+   is (0,3,1) and would otherwise pin the textarea to its 48 px input height. */
+.ct-sheet .field textarea.ct-message{ min-block-size:calc(5lh + 20px); field-sizing:content; max-block-size:28rem }
+.ct-message-meta{ display:flex; justify-content:space-between; align-items:baseline; gap:var(--s-3); margin-block-start:var(--s-1) }
+.ct-counter{ flex:none; font-size:var(--t-small); color:var(--fg-2) }
+.ct-counter.is-near{ color:var(--bordeaux) }
+
+/* ---- material tiles (checkbox tiles, 3 × 2 on desktop, 2 × 3 on mobile) */
+.ct-tiles__grid{
+  display:grid; grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:var(--s-4) var(--s-3);
+}
+@media (min-width:768px){ .ct-tiles__grid{ grid-template-columns:repeat(3, minmax(0, 1fr)) } }
+.ct-tile{ position:relative; display:grid; grid-template-columns:minmax(0, 1fr); justify-items:start; align-content:start; gap:var(--s-2); cursor:pointer }
+.ct-tile__input{
+  position:absolute; inset:0; inline-size:100%; block-size:100%;
+  margin:0; opacity:0; z-index:2; cursor:pointer;
+}
+.ct-tile__frame{ display:block; inline-size:min(100%, 176px) }   /* tiles never render wider than the smallest crop (176 px) */
+.ct-tile__frame > .frame__clip{
+  display:block;   /* a span clip is inline: aspect-ratio needs a block box */
+  transition:box-shadow var(--d-micro) var(--ease-paper), outline-color var(--d-micro) var(--ease-paper);
+}
+.ct-tile__frame img{ transition:scale var(--d-ui) var(--ease-paper) }
+.ct-tile:hover .ct-tile__frame img{ scale:1.03 }
+.ct-tile__input:checked ~ .ct-tile__frame > .frame__clip{ box-shadow:0 0 0 3px var(--paper-2), 0 0 0 4.5px var(--ink) }
+.ct-tile__input:focus-visible ~ .ct-tile__frame > .frame__clip{ outline:2px solid var(--focus); outline-offset:7px }
+.ct-tile__mark{
+  position:absolute; z-index:1;
+  inset-block-start:8px; inset-inline-end:8px;
+  inline-size:26px; block-size:26px;
+  display:grid; place-items:center;
+  background:var(--ink); color:var(--paper);
+  opacity:0; scale:.6;
+  transition:opacity var(--d-micro) var(--ease-paper), scale var(--d-micro) var(--ease-paper);
+}
+.ct-tile__mark::before{
+  content:""; inline-size:6px; block-size:11px;
+  border-block-end:1.5px solid currentColor;
+  border-right:1.5px solid currentColor;   /* phys-ok: a tick is the same shape in both languages */
+  transform:rotate(45deg) translate(-1px, -1px);
+}
+.ct-tile__input:checked ~ .ct-tile__frame .ct-tile__mark{ opacity:1; scale:1 }
+.ct-tiles__note{ margin-block-start:var(--s-4); font-size:var(--t-small); line-height:1.6; color:var(--fg-3); max-inline-size:var(--measure) }
+.ct-tile__name{ font-size:var(--t-small); line-height:1.4; color:var(--fg-2) }
+.ct-tile__input:checked ~ .ct-tile__name{ color:var(--fg); font-weight:600 }
+html[lang="en"] .ct-tile__input:checked ~ .ct-tile__name{ font-weight:500 }
+
+/* ---- error summary + state panels */
+.ct-errsum, .ct-state{
+  margin-block:var(--s-4) 0;
+  padding:var(--s-3) var(--s-4);
+  background:var(--paper);
+  border:1px solid var(--rule);
+  border-inline-start:2px solid var(--bordeaux);
+}
+.ct-errsum:focus, .ct-state:focus{ outline:none }
+.ct-errsum:focus-visible, .ct-state:focus-visible{ outline:2px solid var(--focus); outline-offset:3px }
+.ct-errsum__title{ font-weight:600; color:var(--bordeaux) }
+.ct-errsum__list{ margin-block-start:var(--s-1); display:grid; gap:2px }
+.ct-errsum__list a{ display:inline-flex; min-block-size:32px; align-items:center; color:var(--fg); text-decoration-line:underline; text-decoration-color:color-mix(in srgb, currentColor 45%, transparent) }
+.ct-state{ display:grid; gap:var(--s-3); justify-items:start; padding:var(--s-4) }
+.ct-state__title{ font-family:var(--f-display); font-weight:400; font-size:var(--t-d4); line-height:1.3; color:var(--fg) }
+html[lang="en"] .ct-state__title{ font-family:var(--f-lat-text); font-weight:400; letter-spacing:0 }   /* < 32 px: Jost, not Bodoni */
+.ct-state__text{ color:var(--fg-2); max-inline-size:var(--measure) }
+.ct-state__actions{ display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-3) }
+.ct-state__ig{ font-size:var(--t-small) }
+
+/* ---- the letter (step 3, JS only) */
+.ct-letter{
+  margin-block-start:var(--s-6);
+  padding:var(--s-4);
+  background:var(--paper);
+  border:1px solid var(--rule);
+}
+@media (min-width:768px){ .ct-letter{ padding:var(--s-5) } }
+.ct-letter__h{
+  font-family:var(--f-he-text); font-weight:600; font-size:var(--t-label); letter-spacing:.02em; line-height:1.5;
+  color:var(--fg-2);
+  padding-block-end:var(--s-3); margin-block-end:var(--s-4);
+  border-block-end:1px solid var(--rule-soft);
+}
+html[lang="en"] .ct-letter__h{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.3em; text-transform:uppercase }
+.ct-letter__body{
+  font-family:var(--f-he-display); font-weight:400; font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg);
+}
+html[lang="en"] .ct-letter__body{ font-family:var(--f-lat-text); font-weight:300 }
+.ct-letter__body > * + *{ margin-block-start:var(--s-2) }
+.ct-letter__greet{ margin-block-end:var(--s-3) }
+.ct-letter__q{
+  margin-block:var(--s-3);
+  padding-inline-start:var(--s-3);
+  border-inline-start:1px solid var(--rule);
+  font-family:var(--f-he-text); font-size:var(--t-body); line-height:1.8;
+  color:var(--fg-2);
+  white-space:pre-line;
+  overflow-wrap:anywhere;
+}
+html[lang="en"] .ct-letter__q{ font-family:var(--f-lat-text) }
+.ct-letter__contact{ margin-block-start:var(--s-3); font-family:var(--f-lat-text); font-size:var(--t-small); color:var(--fg-2) }
+.ct-letter__s{ overflow-wrap:anywhere }
+.ct-edit{
+  display:inline-flex; align-items:center; gap:4px;
+  min-block-size:44px; margin-block:-12px; margin-inline-start:var(--s-2);
+  padding-inline:4px;
+  vertical-align:middle;
+  font-family:var(--f-he-text); font-weight:600; font-size:var(--t-label); letter-spacing:.02em;
+  color:var(--fg-3);
+  transition:color var(--d-micro) var(--ease-paper);
+}
+html[lang="en"] .ct-edit{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.24em; text-transform:uppercase }
+.ct-edit svg{ inline-size:14px; block-size:14px; fill:none; stroke:currentColor }
+.ct-edit:hover{ color:var(--bordeaux) }
+
+/* ---- notice + actions */
+.ct-notice{
+  margin-block-start:var(--s-6);
+  font-size:var(--t-small); line-height:1.7;
+  color:var(--fg-2);
+  max-inline-size:var(--measure);
+}
+.ct-notice a{ color:var(--fg) }
+.ct-notice .u-lat{ white-space:nowrap }
+.ct-actions{
+  display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-3);
+  margin-block-start:var(--s-5);
+}
+.ct-actions__next, .ct-actions__send{ margin-inline-start:auto }
+.ct-actions .btn{ min-inline-size:9.5rem }
+.ct-actions__send[aria-busy="true"]{ opacity:1; cursor:progress }
+.ct-back-arrow{ scale:-1 1 }
+[dir="rtl"] .ct-back-arrow{ scale:1 1 }
+.ct-actions .btn .icon-arrow{ transition:translate var(--d-micro) var(--ease-paper) }
+.ct-actions__next:hover .icon-arrow{ translate:calc(3px * var(--ct-dir, 1)) 0 }
+[dir="rtl"] .ct-actions{ --ct-dir:-1 }
+@media (max-width:479px){
+  .ct-actions .btn{ flex:1 1 auto; min-inline-size:0 }
+}
+
+/* ---- success panel */
+.ct-success{ padding-block:var(--s-4) var(--s-3) }
+.ct-success__h{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d2); line-height:1.1 }
+html[lang="en"] .ct-success__h{ font-weight:400 }
+.ct-success__h:focus{ outline:none }
+.ct-success__h:focus-visible{ outline:2px solid var(--focus); outline-offset:6px }
+.ct-success__p{
+  margin-block-start:var(--s-4);
+  font-family:var(--f-he-display); font-weight:400; font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2); max-inline-size:36ch;
+}
+html[lang="en"] .ct-success__p{ font-family:var(--f-lat-text); font-weight:300 }
+.ct-success__links{ display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-5); margin-block-start:var(--s-5) }
+.ct-success__links .link{ padding-block:10px }
+
+/* ================================================================== aside (desktop frame, next, direct) */
+.ct-aside__frame > .frame__clip::after{
+  content:""; position:absolute; inset:0; z-index:2; pointer-events:none;
+  background:rgb(32 23 21 / .14);
+  opacity:0;
+}
+.ct-aside__frame.is-lit > .frame__clip::after{ animation:ct-lights 1200ms var(--ease-paper) both }
+@keyframes ct-lights{ from{ opacity:1 } to{ opacity:0 } }
+.ct-buf{ z-index:0; opacity:0 }
+.ct-buf.is-front{ z-index:1; opacity:1 }
+.ct-buf img{ transform-origin:50% 50% }
+.ct-aside__caption{ max-inline-size:none }
+
+.ct-next{ margin-block-start:var(--s-7) }
+@media (min-width:1100px){ .ct-next{ margin-block-start:0 } }
+.ct-next__h{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d3); line-height:1.2; max-inline-size:18ch }
+html[lang="en"] .ct-next__h{ font-weight:400; font-size:max(var(--t-d3), 2rem) }   /* Bodoni ≥ 32 px */
+.ct-next__list{ counter-reset:ct-next; margin-block-start:var(--s-4) }
+.ct-next__item{
+  counter-increment:ct-next;
+  display:grid; grid-template-columns:2.25rem minmax(0, 1fr); column-gap:var(--s-3);
+  padding-block:var(--s-3);
+  border-block-start:1px solid var(--line);
+}
+.ct-next__item:last-child{ border-block-end:1px solid var(--line) }
+.ct-next__item::before{
+  content:counter(ct-next); content:counter(ct-next) / "";
+  grid-row:1 / span 2;
+  font-family:var(--f-lat-display); font-weight:400; font-size:2.5rem; line-height:1;   /* Bodoni ≥ 32 px (40 px) */
+  color:var(--fg-2);
+  font-variant-numeric:lining-nums;
+}
+.ct-next__t{ font-family:var(--f-display); font-weight:400; font-size:var(--t-d4); line-height:1.35 }
+html[lang="en"] .ct-next__t{ font-family:var(--f-lat-text); font-weight:400; letter-spacing:0 }   /* < 32 px: Jost, not Bodoni */
+.ct-next__d{ margin-block-start:2px; color:var(--fg-2); font-size:var(--t-small); line-height:1.6 }
+
+.ct-direct{ margin-block-start:var(--s-6); display:grid; justify-items:start; gap:var(--s-1) }
+.ct-direct__mail{ font-family:var(--f-lat-text); font-size:1.1875rem; letter-spacing:.02em }
+.ct-direct__mail .link{
+  display:inline-flex; align-items:center;
+  min-block-size:44px; padding-block:0;   /* 44 px target (§3.5) */
+  background-position:0 calc(100% - 10px);   /* phys-ok: the resting hairline hugs the text, like .ct-direct__ig */
+}
+.ct-direct__mail .link::after{ inset-block-end:10px }
+.ct-copy, .ct-direct__ig .link{
+  display:inline-flex; align-items:center; gap:var(--s-2);
+  min-block-size:44px;
+  font-size:var(--t-small); color:var(--fg-2);
+}
+.ct-copy{ transition:color var(--d-micro) var(--ease-paper) }
+.ct-copy:hover{ color:var(--fg) }
+.ct-copy svg, .ct-direct__ig svg{ inline-size:18px; block-size:18px; flex:none; fill:none; stroke:currentColor }
+.ct-direct__ig .link{ background-size:0 0; padding-block:0 }
+.ct-direct__ig .link::after{ inset-block-end:10px }
+.ct-direct__ig .link:hover, .ct-direct__ig .link:focus-visible{ color:var(--fg) }
+
+@media (min-width:768px) and (max-width:1099px){
+  .ct-after{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:var(--gap); align-items:start }
+  .ct-direct{ margin-block-start:var(--s-7) }
+}
+
+/* ================================================================== thank-you page (§5.7) */
+.ct-thanks{
+  padding-block:calc(var(--header-h) + var(--s-6)) var(--section);
+  min-block-size:78svh;
+}
+.ct-thanks__body{
+  display:grid; justify-items:center; text-align:center;
+  gap:var(--s-4);
+  margin-block-start:var(--s-6);
+}
+.ct-thanks__seal{
+  inline-size:120px; block-size:auto; aspect-ratio:182 / 210;
+  color:var(--paper);
+  filter:drop-shadow(-1.2px -1.2px 0 rgba(33,29,25,.4)) drop-shadow(1.2px 1.2px 0 rgba(255,255,255,.95));
+  margin-block-end:var(--s-3);
+}
+html.a11y-contrast .ct-thanks__seal{ color:#1A1A1A; filter:none }
+.ct-thanks__h1{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d1); line-height:1.08; max-inline-size:7.83em }   /* = 14ch of FRL 300, in em so it cannot change while the Latin subset loads (CLS) */
+html[lang="en"] .ct-thanks__h1{ font-weight:400; max-inline-size:8.67em }   /* = 14ch of Bodoni Moda */
+.ct-thanks__p{
+  font-family:var(--f-he-display); font-weight:400; font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2); max-inline-size:38ch;
+  text-wrap:balance;
+}
+html[lang="en"] .ct-thanks__p{ font-family:var(--f-lat-text); font-weight:300 }
+.ct-thanks__links{ display:flex; flex-wrap:wrap; justify-content:center; gap:var(--s-2) var(--s-5); margin-block-start:var(--s-2) }
+.ct-thanks__links .link{ padding-block:10px }

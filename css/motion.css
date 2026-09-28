@@ -1,0 +1,56 @@
+/* SELÈ STUDIO — motion: reveal initial states, view transitions (W3), motion-off / reduced motion, boot states,
+   Lenis base CSS (SPEC §4.8, §4.10–§4.12). Owner: P0.
+   Rule of the house: nothing is hidden unless JS is present AND motion is allowed (.will-animate/.can-animate
+   without .motion-off). The boot watchdog removes .will-animate after 3 s if .can-animate never arrives. */
+
+/* ------------------------------------------------------------------ boot states */
+.i18n-pending [data-i18n], .i18n-pending [data-i18n-html]{ visibility:hidden }
+/* intro safety net (P6 owns the real .intro styles in fx.css) */
+html:not(.show-intro) .intro, .intro-skip .intro{ display:none }
+
+/* ------------------------------------------------------------------ reveal initial states (§4.10)
+   reveal.js contract: animate TOWARD the visible state (gsap.to / fromTo), never gsap.from — the CSS below is the
+   "from". Adding .is-revealed to the element when its reveal starts releases the CSS state (optional but preferred:
+   reveal.reset() removes it again). */
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="fade"]:not(.is-revealed){ opacity:0 }
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="stagger"]:not(.is-revealed) > *{ opacity:0 }
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="rule"]:not(.is-revealed){ transform:scaleX(0) }
+[data-reveal="rule"]{ transform-origin:0 50% }
+[dir="rtl"] [data-reveal="rule"]{ transform-origin:100% 50% }
+/* lines: hidden until SplitText has split them (its line/mask wrappers are styled <div>s); the line tween hides them
+   inside their masks from then on. Self-healing even if .is-revealed is never set. */
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="lines"]:not(.is-revealed):not(:has(> div[style])){ opacity:0 }
+/* media: the clip opens from the physical top-right corner (the arch) */
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="media"]:not(.is-revealed) > .frame__clip{ clip-path:inset(0% 0% 100% 100%) }
+
+/* ------------------------------------------------------------------ view transitions (W3, §4.12) */
+@view-transition{ navigation:auto }
+::view-transition-old(root), ::view-transition-new(root){ animation-duration:260ms; animation-timing-function:var(--ease-paper) }
+.site-header{ view-transition-name:site-header }
+::view-transition-group(site-header){ animation:none }
+.case-hero__media{ view-transition-name:hero-media }            /* destination (P2 uses this class on the case hero clip) */
+::view-transition-group(hero-media){ animation-duration:var(--d-vt); animation-timing-function:var(--ease-leaf) }
+::view-transition-old(hero-media){ animation:vt-out 350ms linear both }
+::view-transition-new(hero-media){ animation:vt-arch-open var(--d-vt) var(--ease-leaf) both }
+@keyframes vt-arch-open{ from{ clip-path:inset(0 round 0 42% 0 0) } to{ clip-path:inset(0 round 0) } }
+@keyframes vt-out{ to{ opacity:0 } }
+.no-vt.js:not(.motion-off) body{ animation:page-in 320ms var(--ease-paper) both }
+@keyframes page-in{ from{ opacity:.35 } }
+
+/* ------------------------------------------------------------------ Lenis (self-hosted; its lenis.css, inlined) */
+html.lenis, html.lenis body{ height:auto }
+.lenis:not(.lenis-autoToggle).lenis-stopped{ overflow:clip }
+.lenis [data-lenis-prevent], .lenis [data-lenis-prevent-wheel], .lenis [data-lenis-prevent-touch]{ overscroll-behavior:contain }
+.lenis.lenis-smooth iframe{ pointer-events:none }
+.lenis.lenis-autoToggle{ transition-property:overflow; transition-duration:1ms; transition-behavior:allow-discrete }
+
+/* no global scroll-behavior:smooth — programmatic scrolls (ScrollTrigger, focus moves, Lenis) stay instant */
+
+/* ------------------------------------------------------------------ motion off (§4.11) */
+.motion-off *, .motion-off *::before, .motion-off *::after{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important }
+html.motion-off{ scroll-behavior:auto }
+html.motion-off .film__video{ transition:none }
+@media (prefers-reduced-motion: reduce){
+  @view-transition{ navigation:none }
+  *, *::before, *::after{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important }
+}

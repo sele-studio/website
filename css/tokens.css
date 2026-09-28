@@ -1,0 +1,97 @@
+/* SELÈ STUDIO — design tokens (SPEC §3.1). Literal values; pages read these, never redefine them.
+   Breakpoints (literals; custom properties cannot be used in media queries):
+   xs <480 · s 480–767 · m 768–1099 · l 1100–1439 · xl ≥1440. "Desktop" = (min-width:1100px) and (pointer:fine). "Mobile" = (max-width:767px). */
+:root{
+  /* ---- Grounds ---- */
+  --paper:#F2EFE9;        /* page ground (~78% of pixels) */
+  --paper-2:#EAE6DD;      /* alternate band, footer, fields */
+  --stone:#DFDCD7;        /* brand light warm grey: image placeholders, tiles */
+  /* ---- Ink (contrast on paper / paper-2 / stone) ---- */
+  --ink:#211D19;          /* 14.6 / 13.4 / 12.2 */
+  --ink-2:#57504A;        /* 6.9 / 6.4 / 5.8 */
+  --ink-3:#625950;        /* 6.0 / 5.5 / 5.0  — minimum for small text */
+  --taupe:#B7AA9B;        /* DECORATIVE ONLY: hairlines, aria-hidden numerals >= 64px */
+  --rule:rgba(33,29,25,.16);
+  --rule-soft:rgba(33,29,25,.08);
+  /* ---- Night (max one section per page) ---- */
+  --night:#201715;        /* brand near-black */
+  --night-ink:#EDE7DC;    /* 14.3 on night */
+  --night-ink-2:#B3A89A;  /* 7.5 on night */
+  --night-rule:rgba(237,231,220,.16);
+  /* ---- Accents ---- */
+  --bordeaux:#4A1F27;     /* focus on light, progress rule, selection, active chips, error rule; 12.1 on paper */
+  --bordeaux-deep:#35101A;/* brand bordeaux: intro ground + CTA band ONLY; paper on it 14.8 */
+  --bordeaux-ink:#2C0C15; /* the debossed seal on bordeaux-deep */
+  --rose:#C9A7A0;         /* secondary text on bordeaux-deep; 7.7 */
+  --glow:#E9CFA8;         /* focus ring on night / bordeaux; 11.7 on night */
+  /* ---- Semantic (re-mapped by [data-theme]) ---- */
+  --bg:var(--paper); --fg:var(--ink); --fg-2:var(--ink-2); --fg-3:var(--ink-3);
+  --line:var(--rule); --focus:var(--bordeaux);
+  /* ---- Families (self-hosted; see 3.3) ---- */
+  --f-he-display:"Frank Ruhl Libre","FRL Fallback",serif;
+  --f-he-text:"Assistant","Assistant Fallback",sans-serif;
+  --f-lat-display:"Bodoni Moda","Bodoni Fallback",serif;
+  --f-lat-text:"Jost","Jost Fallback",sans-serif;
+  --f-display:var(--f-he-display);
+  --f-text:var(--f-he-text);
+  /* ---- Type scale ---- */
+  --t-mega:clamp(3.25rem, 9.5vw, 9rem);        /* Latin opener word — Bodoni 400, lh .86 */
+  --t-hero:clamp(3rem, 8vw, 7.5rem);           /* Home display line — FRL 300 lh 1.02 / Bodoni lh .95 */
+  --t-d1:clamp(2.5rem, 5.6vw, 5rem);           /* page H1 */
+  --t-d2:clamp(2rem, 4vw, 3.5rem);             /* section H2 */
+  --t-d3:clamp(1.5rem, 2.4vw, 2.25rem);        /* index rows, service names, step titles */
+  --t-d4:clamp(1.25rem, 1.6vw, 1.5rem);        /* card titles, H3 */
+  --t-brand:clamp(1.25rem, 1.9vw, 1.75rem);    /* brand lines — Assistant 200 (>=24px) / 300 (<24px), lh 1.75 */
+  --t-lead:clamp(1.1875rem, 1.45vw, 1.4375rem);/* leads, story — FRL 400 HE / Jost 300 EN, lh 1.75 */
+  --t-body:1.0625rem;                          /* 17px — Assistant 400 lh 1.85 (HE) / Jost 400 1rem lh 1.7 (EN) */
+  --t-small:.9375rem;                          /* captions, legal small — lh 1.6 */
+  --t-label:.8125rem;                          /* HE labels — Assistant 600, letter-spacing .02em */
+  --t-label-lat:.6875rem;                      /* Latin labels — Jost 400 UPPERCASE, letter-spacing .3em */
+  /* ---- Space (8px base, ~phi) ---- */
+  --s-1:4px; --s-2:8px; --s-3:16px; --s-4:24px; --s-5:40px; --s-6:64px; --s-7:104px; --s-8:168px; --s-9:272px;
+  --section:clamp(104px, 11vw, 168px);
+  /* ---- Layout (overridden per breakpoint) ---- */
+  --cols:4; --gap:16px; --margin:20px; --maxw:1600px; --header-h:52px; --measure-he:58ch; --measure-en:62ch;
+  /* ---- Motion ---- */
+  --ease-paper:cubic-bezier(.22,1,.36,1);   /* reveals, hovers */
+  --ease-leaf:cubic-bezier(.65,0,.35,1);    /* aperture, frame, view transitions, menu */
+  --ease-ink:cubic-bezier(.3,0,.1,1);       /* line rises */
+  --d-micro:180ms; --d-ui:420ms; --d-reveal:1000ms; --d-media:1100ms; --d-vt:700ms;
+  /* ---- Arch ---- */
+  --arch:min(50cqi, 40vh);
+  --arch-door:min(80cqi, 60vh);
+  --arch-ui:14px;
+  /* ---- Z ---- */
+  --z-media:2; --z-float:40; --z-header:50; --z-menu:60; --z-header-over-menu:70; --z-cursor:80; --z-a11y:90; --z-intro:100;
+  /* ---- P0 additions (not in the SPEC block; used by base/chrome) ---- */
+  --measure:var(--measure-he);
+  /* static paper grain (old site's noise, desaturated, alpha .04, NOT animated) — painted under the ground color, never over content */
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E");
+}
+@media (min-width:480px){ :root{ --margin:24px } }
+@media (min-width:768px){ :root{ --cols:8; --gap:24px; --margin:40px } }
+@media (min-width:1100px){ :root{ --cols:12; --gap:24px; --margin:clamp(48px,5vw,72px); --header-h:64px } }
+@media (min-width:1440px){ :root{ --gap:32px; --margin:clamp(72px,6vw,112px) } }
+
+html[lang="en"]{ --f-display:var(--f-lat-display); --f-text:var(--f-lat-text); --measure:var(--measure-en) }
+
+[data-theme]{ background:var(--bg); color:var(--fg) }
+[data-theme="paper"]{ --bg:var(--paper) }
+[data-theme="paper-2"]{ --bg:var(--paper-2) }
+[data-theme="stone"]{ --bg:var(--stone) }
+[data-theme="night"]{ --bg:var(--night); --fg:var(--night-ink); --fg-2:var(--night-ink-2); --fg-3:var(--night-ink-2); --line:var(--night-rule); --focus:var(--glow) }
+[data-theme="bordeaux"]{ --bg:var(--bordeaux-deep); --fg:var(--paper); --fg-2:var(--rose); --fg-3:var(--rose); --line:rgba(242,239,233,.18); --focus:var(--glow) }
+/* Themes that only re-point --bg must also reset the ink, so a paper band nested in night reads correctly */
+[data-theme="paper"], [data-theme="paper-2"], [data-theme="stone"]{ --fg:var(--ink); --fg-2:var(--ink-2); --fg-3:var(--ink-3); --line:var(--rule); --focus:var(--bordeaux) }
+
+/* Accessibility menu: high contrast */
+html.a11y-contrast{
+  --paper:#FFFFFF; --paper-2:#FFFFFF; --stone:#F0F0F0;
+  --ink:#000000; --ink-2:#1A1A1A; --ink-3:#1A1A1A; --rule:rgba(0,0,0,.55);
+  --night:#000000; --night-ink:#FFFFFF; --night-ink-2:#FFFFFF; --bordeaux-deep:#000000; --rose:#FFFFFF;
+}
+html[data-a11y-text="115"]{ font-size:115% }
+html[data-a11y-text="130"]{ font-size:130% }
+html.a11y-links a{ text-decoration:underline !important; text-underline-offset:.2em }
+html.a11y-font{ --f-he-display:var(--f-he-text); --f-lat-display:var(--f-lat-text) }
+html.a11y-font *{ letter-spacing:normal !important }

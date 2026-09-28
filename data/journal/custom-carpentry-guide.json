@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "id": "journal-custom-carpentry-guide",
+    "path": "/journal/custom-carpentry-guide/",
+    "type": "article",
+    "crumb": {
+      "he": "נגרות בהתאמה אישית",
+      "en": "Custom joinery"
+    },
+    "title": {
+      "he": "נגרות בהתאמה אישית: ארונות, ספריות וקירות עץ | SELÈ STUDIO",
+      "en": "Custom Joinery Design: A Designer’s Guide | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "נגרות בהתאמה אישית בעין של מעצבת: פורניר או עץ מלא, אלון בהיר או כהה, חריצי צל, ידיות שקועות, אוורור ותאורה, ואיך התוכניות מגיעות לנגר.",
+      "en": "Custom joinery design guide: veneer or solid wood, light or dark oak, shadow gaps, integrated handles, vents, lighting and drawings for the joiner."
+    },
+    "h1": {
+      "he": "נגרות בהתאמה אישית: איך מתכננים ארונות, ספריות וקירות עץ שנראים חלק מהבית",
+      "en": "Custom joinery: how to design wardrobes, bookcases and wood walls that belong to the home"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "living-01",
+      "alt": {
+        "he": "ספרייה בהתאמה אישית מעץ אלון לצד טלוויזיה שקועה בקיר טיח, על בסיס אבן רציף, בסלון עם שולחן אלון כהה, הדמיה",
+        "en": "Custom oak bookcase beside a TV recessed into a plaster wall, on a continuous stone plinth, in a living room with a dark-oak coffee table, render"
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "thumb": "living-03",
+    "og": "/assets/img/og/og-journal-custom-carpentry-guide.jpg",
+    "ogAlt": {
+      "he": "ספרייה בהתאמה אישית מעץ אלון לצד טלוויזיה שקועה בקיר טיח, על בסיס אבן רציף, בסלון עם שולחן אלון כהה, הדמיה",
+      "en": "Custom oak bookcase beside a TV recessed into a plaster wall, on a continuous stone plinth, in a living room with a dark-oak coffee table, render"
+    },
+    "article": {
+      "section": "materials",
+      "service": "interior-design",
+      "author": "org",
+      "published": null,
+      "modified": null
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "ארון, ספרייה או קיר עץ הם כמעט הדברים היחידים בבית שלא קונים מוכנים, אלא מתכננים. הם נבנים למידות של קיר מסוים, פוגשים את הריצוף, את התקרה, את החשמל ואת האור, ונשארים שם שנים. לכן נגרות בהתאמה אישית היא אחת ההחלטות שהכי משפיעות על האופן שבו בית נראה ומרגיש. כשהיא מתוכננת נכון, היא נבלעת באדריכלות של החלל. כשלא, רואים כל פס השלמה, כל ידית וכל כבל.",
+        "en": "A wardrobe, a bookcase or a wood-paneled wall is almost the only thing in a home you don’t buy ready-made; you design it. It is built to the dimensions of one particular wall, it meets the floor, the ceiling, the wiring and the light, and it stays there for years. That makes custom joinery one of the decisions that most shapes how a home looks and feels. Planned well, it disappears into the architecture of the room. Planned badly, you see every filler strip, every handle and every cable."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המדריך הזה עובר על ההחלטות שקובעות את איכות הנגרות, מהחומר ועד הפרט הקטן: פורניר, עץ מלא או לכה; אלון בהיר או כהה; פרופורציות וחריצי צל; ידיות, אוורור ותאורה; ואיך כל זה מגיע לנגר כתוכנית שאפשר לבנות ממנה. הוא נכתב למי שמתכננים שיפוץ או דירה חדשה ורוצים להגיע לפגישה עם הנגר כשהם יודעים מה לשאול. חשוב לזכור שנגרות היא חלק מ<a href=\"/services/interior-design/\">עיצוב הבית כולו</a>, ולא פרויקט נפרד שמתחיל אחרי שהכול כבר נקבע.",
+        "en": "This guide walks through the decisions that determine the quality of joinery, from the material to the smallest detail: veneer, solid wood or lacquer; light or dark oak; proportions and shadow gaps; handles, ventilation and lighting; and how all of it reaches the joiner as a drawing that can actually be built. It is written for anyone planning a renovation or a new apartment who wants to arrive at the meeting with the joiner knowing what to ask. Remember that joinery is part of <a href=\"/services/interior-design/\">designing the whole home</a>, not a separate project that starts after everything else has been decided."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "למה את הנגרות מתכננים ולא קונים",
+        "en": "Why joinery is designed, not bought"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ארון מוכן נבנה למידות ממוצעות, וקיר אמיתי אף פעם לא ממוצע. התקרה לא ישרה לגמרי, יש קורה, יש חלון קרוב לפינה ושקע באמצע הקיר. נגרות בהתאמה אישית פותרת את כל אלה, אבל רק אם מישהו החליט מראש מה היא צריכה לעשות. שלוש שאלות קודמות לכל בחירת חומר:",
+        "en": "Ready-made cabinets are built to average dimensions, and a real wall is never average. The ceiling isn’t perfectly level, there is a beam, a window close to the corner and a socket in the middle of the wall. Custom joinery solves all of that, but only if someone has decided in advance what it needs to do. Three questions come before any choice of material:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>מה נכנס פנימה.</strong> ספרים, מגבות, מעילים, מקרר, מזגן, ראוטר. החלוקה הפנימית נגזרת מהרשימה הזאת, והיא קובעת עומק, גובה מדפים ומספר מגירות.",
+          "en": "<strong>What goes inside.</strong> Books, towels, coats, a fridge, an air-conditioning unit, a router. The internal layout follows from this list, and it sets the depth, the shelf heights and the number of drawers."
+        },
+        {
+          "he": "<strong>איך משתמשים בה.</strong> ארון שנפתח עשר פעמים ביום צריך מנגנון ואחיזה אחרים מארון שנפתח פעם בעונה.",
+          "en": "<strong>How it is used.</strong> A cabinet opened ten times a day needs different hardware and a different grip from one opened once a season."
+        },
+        {
+          "he": "<strong>מה התפקיד שלה בחלל.</strong> רקע שקט, קיר שמחזיק את הסלון, או אלמנט שמושך את העין. ספרייה בסלון וארון בחדר השינה יכולים להיות מאותו עץ ועדיין למלא תפקידים שונים לגמרי.",
+          "en": "<strong>What role it plays in the room.</strong> A quiet backdrop, a wall that anchors the living room, or a piece that draws the eye. A living-room bookcase and a bedroom wardrobe can be made from the same wood and still play entirely different roles."
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "פורניר או עץ מלא? ומה עם לכה",
+        "en": "Veneer or solid wood? And what about lacquer"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "פורניר",
+        "en": "Veneer"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "פורניר הוא פרוסה דקה של עץ אמיתי, לרוב פחות ממילימטר, שמודבקת על לוח יציב. מקבלים את המראה והמגע של עץ טבעי בלי התנועה של עץ מלא, ולכן זו הבחירה הנפוצה לחזיתות גדולות, לחיפוי קירות ולארונות גבוהים. יתרון שפחות מדברים עליו: אפשר לסדר את הסיבים ברצף על פני כמה דלתות, כך שקיר שלם נקרא כמשטח אחד. החיסרון הוא שאפשר לחדש פורניר רק במידה מוגבלת, ופגיעה עמוקה קשה לתקן.",
+        "en": "Veneer is a thin slice of real wood, usually under a millimeter thick, bonded to a stable board. You get the look and feel of natural wood without the movement of solid timber, which is why it is the usual choice for large fronts, wall paneling and tall cabinets. An advantage people rarely mention: the grain can be laid out in sequence across several doors, so a whole wall reads as one surface. The drawback is that veneer can only be refinished to a limited extent, and deep damage is hard to repair."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "עץ מלא",
+        "en": "Solid wood"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "עץ מלא חי: הוא מתרחב ומתכווץ עם הלחות, ומשטחים רחבים ממנו עלולים להתעקם. לכן בנגרות קבועה משתמשים בו בעיקר היכן שהוא מצטיין: קנטים, ידיות, מדפים עבים ומשטחים שנוגעים בהם. אפשר לשייף ולחדש אותו לאורך שנים, ויש לו עומק שאין לשום חיקוי.",
+        "en": "Solid wood is alive: it expands and contracts with humidity, and wide panels of it can warp. In built-in joinery it is therefore used mainly where it excels: edges, handles, thick shelves and surfaces you touch. It can be sanded and refinished for years, and it has a depth no imitation matches."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "לכה",
+        "en": "Lacquer"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חזית צבועה מאפשרת כל גוון, מט או מבריק, ומראה מונוליתי שקט. היא מתאימה במיוחד לחזיתות שרוצים שייעלמו לתוך הקיר. מנגד, היא רגישה יותר למכות בפינות, ובגוון כהה או מבריק רואים עליה טביעות אצבע.",
+        "en": "A painted front can take any color, matte or gloss, and gives a quiet, monolithic look. It is especially suited to fronts you want to dissolve into the wall. On the other hand, it is more vulnerable to knocks on the corners, and dark or glossy lacquer shows fingerprints."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "ופורמייקה?",
+        "en": "And laminate?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לוחות למינציה (פורמייקה, HPL) עמידים ונגישים יותר במחיר, ויש דגמים שמחקים עץ היטב. מקרוב חסר בהם העומק של סיב אמיתי. פתרון נפוץ הוא שילוב: למינציה בפנים הארונות ובחלקים מוסתרים, ופורניר או לכה בחזיתות שרואים.",
+        "en": "Laminate boards (HPL, often called formica in Israel) are durable and more affordable, and some decors imitate wood well. Up close they lack the depth of real grain. A common solution is a mix: laminate for cabinet interiors and hidden parts, veneer or lacquer for the fronts you see."
+      }
+    },
+    {
+      "t": "table",
+      "head": [
+        {
+          "he": "חומר",
+          "en": "Material"
+        },
+        {
+          "he": "היכן הוא מצטיין",
+          "en": "Where it excels"
+        },
+        {
+          "he": "על מה לשים לב",
+          "en": "What to watch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "he": "פורניר",
+            "en": "Veneer"
+          },
+          {
+            "he": "חזיתות גדולות, חיפוי קירות, ארונות עד התקרה",
+            "en": "Large fronts, wall paneling, floor-to-ceiling wardrobes"
+          },
+          {
+            "he": "רצף סיבים בין דלתות; חידוש מוגבל",
+            "en": "Grain continuity across doors; limited refinishing"
+          }
+        ],
+        [
+          {
+            "he": "עץ מלא",
+            "en": "Solid wood"
+          },
+          {
+            "he": "קנטים, ידיות, מדפים, משטחים",
+            "en": "Edges, handles, shelves, work surfaces"
+          },
+          {
+            "he": "תנועה עם לחות במשטחים רחבים",
+            "en": "Movement with humidity on wide panels"
+          }
+        ],
+        [
+          {
+            "he": "לכה",
+            "en": "Lacquer"
+          },
+          {
+            "he": "חזיתות שקטות בכל גוון",
+            "en": "Quiet fronts in any color"
+          },
+          {
+            "he": "פינות וטביעות אצבע",
+            "en": "Corners and fingerprints"
+          }
+        ],
+        [
+          {
+            "he": "למינציה",
+            "en": "Laminate"
+          },
+          {
+            "he": "פנים ארונות, אזורים עמוסי שימוש",
+            "en": "Cabinet interiors, heavy-use areas"
+          },
+          {
+            "he": "פחות עומק מקרוב",
+            "en": "Less depth up close"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "אלון בהיר או כהה, ומתי אגוז",
+        "en": "Light or dark oak, and when to choose walnut"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אלון הוא מהעצים הנפוצים ביותר בנגרות מעוצבת, בזכות סיב אחיד ושקט שמשתלב כמעט עם כל אבן. הגוון הוא ההחלטה הגדולה:",
+        "en": "Oak is one of the most common woods in designed joinery, thanks to an even, calm grain that sits well with almost any stone. The tone is the big decision:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>אלון בהיר</strong> מחזיר אור, מרחיב את החלל ויוצר רקע רגוע. הוא מתאים לחללים המשותפים ולדירות עם אור מוגבל, ועובד יפה לצד אבן אפורה-חמה וטיח בהיר, כמו בספרייה של <a href=\"/projects/oak-living-room/\">הסלון באלון בהיר</a>.",
+          "en": "<strong>Light oak</strong> reflects light, opens up the room and creates a calm backdrop. It suits shared living spaces and apartments with limited daylight, and works beautifully beside warm-gray stone and pale plaster, as in the bookcase of <a href=\"/projects/oak-living-room/\">the light-oak living room</a>."
+        },
+        {
+          "he": "<strong>אלון כהה</strong> יוצר עומק, מסגרת ותחושת שקט. הוא עובד טוב כקיר אחד או כמסה של ארונות, לצד חזיתות בהירות ומשטח אבן בהיר. בחלל חשוך, או כשכל הקירות כהים, הוא עלול להכביד, ועל משטחים אופקיים רואים בו אבק יותר.",
+          "en": "<strong>Dark oak</strong> creates depth, a frame and a sense of quiet. It works well as a single wall or as one mass of cabinetry, beside light fronts and a pale stone worktop. In a dark room, or when every wall is dark, it can feel heavy, and dust shows more on its horizontal surfaces."
+        },
+        {
+          "he": "<strong>אגוז</strong> כהה מטבעו, חם יותר מאלון, עם סיב חי ובולט. בגלל האופי החזק שלו הוא מצטיין במינונים: מגירות, קיר ראש מיטה, ארון אחד שמרכז את המבט.",
+          "en": "<strong>Walnut</strong> is naturally dark, warmer than oak, with a lively, pronounced grain. Because of its strong character it is best in measured doses: drawers, a headboard wall, one cabinet that holds the eye."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שתי עצות מעשיות. ראשית, בקשו דוגמה של הגמר הסופי ולא רק של העץ, כי השמן או הלכה משנים את הגוון. שנית, בדקו אותה בחדר עצמו, באור יום ובתאורת ערב חמה. עץ הוא חומר טבעי: הגוון שלו משתנה בין סדרות ייצור, וגם עם הזמן ובחשיפה לשמש. לכן כדאי שהדוגמה תגיע מאותה סדרת חומר שממנה תיוצר הנגרות.",
+        "en": "Two practical tips. First, ask for a sample of the final finish, not just of the wood, because oil or lacquer changes the tone. Second, look at it in the room itself, in daylight and under warm evening light. Wood is a natural material: its tone varies from one production batch to the next, and also changes over time and with sun exposure. So the sample should come from the same batch of material the joinery will be made from."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bedroom-01",
+      "alt": {
+        "he": "קיר ראש מיטה רחב מחופה עץ אלון כהה, עם שקעים משולבים, מנורות תלויות ושידות לילה מטרוורטין, הדמיה",
+        "en": "Wide dark-oak headboard wall with integrated sockets, pendant lights and travertine bedside tables, render"
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "הפרטים שעושים את ההבדל",
+        "en": "The details that make the difference"
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "ספריה מעץ אלון: קצב ולא רק מדפים",
+        "en": "An oak bookcase: rhythm, not just shelves"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "קיר נגרות נקרא קודם כל כקצב של קווים. דלתות ברוחב דומה, קו עליון אחד שממשיך מחלל לחלל, ומפגש מחושב עם חלונות, עם הריצוף ועם בסיס אבן יוצרים שקט. בספרייה, מחיצות אנכיות במרווחים קבועים ומדפים בגבהים משתנים נותנים קצב חי בלי לאבד סדר. בסיס רציף מתחת לספרייה, מאבן או מעץ, מחבר אותה לקיר כולו.",
+        "en": "A wall of joinery reads first as a rhythm of lines. Doors of similar width, one top line that carries from room to room, and a considered meeting with windows, flooring and a stone base all create calm. In a bookcase, vertical dividers at regular intervals and shelves at varying heights give a lively rhythm without losing order. A continuous base beneath the bookcase, in stone or wood, ties it to the whole wall."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-03",
+      "alt": {
+        "he": "ספריה מעץ אלון בהיר עם מחיצות אנכיות ומדפים בגבהים משתנים, כלי קרמיקה וספרים, מעל בסיס אבן, הדמיה",
+        "en": "Light-oak bookcase with vertical dividers and staggered shelves, ceramics and books, above a stone base, render"
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "ארונות קיר עד התקרה",
+        "en": "Floor-to-ceiling wardrobes"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "ארון שמגיע עד התקרה נראה כמו קיר ולא כמו רהיט, ולא נשאר מעליו מדף אבק. מאחר שתקרות לא ישרות לגמרי, מתכננים פס השלמה או חריץ צל עליון שבולע את ההפרשים. דלתות גבוהות מאוד נוטות להתעקם עם השנים, ולכן מתכננים להן מיישר דלת, או מפצלים אותן לשתי דלתות, בקו שמתיישר עם אלמנט אחר בחדר. בחלק העליון, הרחוק מהיד, מאחסנים את מה שמשתמשים בו פעם בעונה.",
+        "en": "A wardrobe that reaches the ceiling reads as a wall rather than a piece of furniture, and leaves no dust shelf on top. Because ceilings are never perfectly level, a filler strip or a top shadow gap is designed to absorb the difference. Very tall doors tend to warp over the years, so they are given a door straightener, or split into two doors on a line that aligns with something else in the room. The top section, out of easy reach, is for what you use once a season."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "חריצי צל",
+        "en": "Shadow gaps"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "חריץ צל הוא רווח צר ושקוע בין שני משטחים: בין פנלים, בין הנגרות לקיר או לתקרה, או בבסיס. הוא מסתיר אי-דיוקים קטנים ומפריד בין חומרים בלי פס או מסגרת. סוקל שקוע בתחתית גורם לגוף הנגרות להיראות מרחף. בקיר עץ, חריצים אנכיים דקים בין הפנלים הם מה שהופך חיפוי לקיר מתוכנן.",
+        "en": "A shadow gap is a narrow recessed space between two surfaces: between panels, between the joinery and the wall or ceiling, or at the base. It hides small inaccuracies and separates materials without a trim or frame. A recessed plinth at the bottom makes the body of the joinery appear to float. On a wood wall, thin vertical gaps between the panels are what turn cladding into a designed wall."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-02",
+      "alt": {
+        "he": "קיר טלוויזיה מעץ: פנלים מאלון בהיר עם חריצי צל אנכיים, מסך על קיר הפנלים ופס תאורה נסתר מעל בסיס אבן, הדמיה",
+        "en": "Wooden TV wall: light-oak panels with vertical shadow gaps, a screen mounted on the paneling and a concealed light line above a stone base, render"
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "ידיות משולבות",
+        "en": "Integrated handles"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הידית היא הפרט שנוגעים בו הכי הרבה. האפשרויות העיקריות: פרופיל שקוע לאורך החזית, ידית חרוטה בקצה הדלת, ידית דקה מעץ מלא, או פתיחה בלחיצה. פתיחה בלחיצה נקייה במראה, אבל פחות נוחה למגירות כבדות ולדלתות שנפתחות כל הזמן, ועל לכה כהה נשארים סימני אצבעות במקום הלחיצה. בארון שמשתמשים בו כל יום, פרופיל שקוע הוא לרוב הפשרה הנכונה בין ניקיון לנוחות.",
+        "en": "The handle is the detail you touch most. The main options are a recessed profile running along the front, a routed grip at the edge of the door, a slim solid-wood pull, or push-to-open. Push-to-open looks clean, but it is less comfortable for heavy drawers and doors in constant use, and on dark lacquer it leaves fingerprints where you press. For a cabinet used every day, a recessed profile is usually the right balance between cleanliness and comfort."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "פתחי אוורור",
+        "en": "Ventilation"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מקרר, תנור או מזגן בתוך נגרות צריכים זרימת אוויר לפי הוראות היצרן, ומזגן מוסתר צריך גם גישה לשירות. כשלא מתכננים את זה מראש, הפתרון מגיע בסוף כחור או כרשת שמנותקת מהקווים. כשמתכננים, סבכה ליניארית נכנסת בדיוק בחלק העליון של הארון או בקו של חריץ, והופכת לחלק מהשפה העיצובית של הנגרות. במטבח, שבו הנגרות פוגשת מים, חום ואבן, התיאום הזה קריטי במיוחד, ולכן הוא חלק מרכזי ב<a href=\"/services/kitchen-design/\">תכנון מטבח</a>.",
+        "en": "A fridge, an oven or an air-conditioning unit inside joinery needs airflow according to the manufacturer’s instructions, and a concealed air-conditioning unit also needs service access. When this isn’t planned in advance, the solution arrives at the end as a hole or a mesh that ignores the lines. When it is planned, a linear grille sits exactly in the top of the cabinet or on the line of a gap, and becomes part of the joinery’s design language. In the kitchen, where joinery meets water, heat and stone, this coordination is especially critical, which is why it is central to <a href=\"/services/kitchen-design/\">kitchen planning</a>."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "built-01",
+      "alt": {
+        "he": "מטבח מהביצוע: ארונות עץ אלון כהה עד התקרה ללא ידיות, עם סבכות אוורור ליניאריות בחלק העליון, וארונות תחתונים בגוון גרייג', צילום",
+        "en": "Built kitchen: handleless full-height dark-oak cabinets with linear vent grilles at the top and greige lower cabinets, photograph"
+      },
+      "kind": "photo"
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "תאורה משולבת",
+        "en": "Integrated lighting"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "פס לד בתוך נגרות יושב בתעלה שנחתכת בעץ כבר בייצור, ולכן המקום שלו נקבע בתוכניות ולא באתר. המיקום קובע את האפקט: בחזית המדף הפס מאיר את מה שמונח עליו, ובגב המדף הוא מאיר את הקיר ויוצר עומק. בספרייה עם מחיצות, פס אנכי לאורך המחיצה מאיר כל תא בצורה אחידה, בלי שהמדפים מטילים צל זה על זה. את הצד הטכני, מפזר, ספק כוח וגוון אור, ואת שכבות האור בבית כולו פירטנו ב<a href=\"/journal/home-lighting-design/\">מדריך לתכנון תאורה</a>.",
+        "en": "An LED strip inside joinery sits in a channel that is cut into the wood during manufacture, so its place is set in the drawings, not on site. Its position sets the effect: at the front of a shelf the strip lights what sits on it, at the back it washes the wall and creates depth. In a bookcase with dividers, a vertical strip along each divider lights every compartment evenly, without the shelves casting shadows on each other. We cover the technical side (diffuser, power supply, light color) and the layers of light across the whole home in our <a href=\"/journal/home-lighting-design/\">guide to home lighting design</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "קיר טלוויזיה מעץ",
+        "en": "A wooden TV wall"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "קיר טלוויזיה הוא נגרות ומערכת חשמל בו בזמן. לפני הגוון והחומר צריך לתכנן שקע ונקודת תקשורת מאחורי המסך, וצינור רחב מהמסך לארון המדיה, כדי שהכבלים ייעלמו ויהיה אפשר להחליף אותם בעתיד. צריך גם אוורור לממיר ולנגן, וחיזוק בקיר או בפנל שיישא את הזרוע. מסך ששקוע בנישה או משולב בקיר פנלים, בקו אחד עם הספרייה והבסיס, נראה חלק מהקיר ולא מכשיר שנתלה עליו.",
+        "en": "A TV wall is joinery and an electrical system at the same time. Before tone and material, plan a socket and a data point behind the screen, and a wide conduit from the screen to the media cabinet so cables disappear and can be replaced in the future. You also need ventilation for the set-top box and player, and reinforcement in the wall or panel to carry the bracket. A screen recessed into a niche or set into paneling, on one line with the bookcase and the base, reads as part of the wall rather than a device hung on it."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "kitchen-dark-01",
+      "alt": {
+        "he": "פינת מטבח באלון כהה וחזיתות גרייג', עם פרופיל ידית שקוע, כיור אבן אינטגרלי ומדפי מתכת כהים עם תאורה אחורית, הדמיה",
+        "en": "Kitchen corner in dark oak and greige fronts, with a recessed handle profile, an integrated stone sink and backlit dark-metal shelving, render"
+      },
+      "kind": "render"
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך התוכניות מגיעות לנגר",
+        "en": "How the drawings reach the joiner"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "נגר טוב מבצע את מה שכתוב בתוכנית. ככל שהתוכנית מדויקת יותר, נשארות פחות החלטות לשטח. סט תוכניות נגרות מלא כולל בדרך כלל:",
+        "en": "A good joiner builds what the drawing says. The more precise the drawing, the fewer decisions are left for the site. A complete set of joinery drawings usually includes:"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>תוכנית ופריסות</strong> של כל קיר, עם מידות, חלוקת דלתות וכיווני פתיחה.",
+          "en": "<strong>Plans and elevations</strong> of every wall, with dimensions, door divisions and opening directions."
+        },
+        {
+          "he": "<strong>חתכים ופרטים</strong> בנקודות שבהן הנגרות פוגשת אבן, תקרה, רצפה או תאורה.",
+          "en": "<strong>Sections and details</strong> wherever the joinery meets stone, ceiling, floor or lighting."
+        },
+        {
+          "he": "<strong>רשימת חומרים וגמרים</strong> עם דוגמאות מאושרות, ורשימת פרזול: צירים, מסילות, מנגנונים וידיות.",
+          "en": "<strong>A materials and finishes schedule</strong> with approved samples, and a hardware list: hinges, runners, mechanisms and handles."
+        },
+        {
+          "he": "<strong>תיאום חשמל:</strong> מיקום שקעים, פסי לד, ספקי כוח וחיישנים, כדי שהחשמלאי יכין אותם בזמן.",
+          "en": "<strong>Electrical coordination:</strong> positions of sockets, LED strips, power supplies and sensors, so the electrician prepares them in time."
+        },
+        {
+          "he": "<strong><a href=\"/services/3d-visualization/\">הדמיה</a></strong>, כשרוצים לראות את הקצב ואת הגוונים לפני ההחלטה.",
+          "en": "<strong><a href=\"/services/3d-visualization/\">A render</a></strong>, when you want to see the rhythm and the tones before deciding."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מכאן התהליך המקובל: הנגר מודד בשטח אחרי שהקירות, הריצוף והתקרה מוכנים, מכין תוכניות ייצור, והמעצבת בודקת אותן מול התכנון לפני שמתחילים לחתוך. משטחי אבן נמדדים בדרך כלל רק אחרי שגופי הארונות הותקנו. הסדר הזה חוסך את רוב ההפתעות. היקף הנגרות בבית הוא גם אחד הגורמים שמשפיעים על <a href=\"/journal/interior-design-cost/\">עלות התכנון</a>, ולכן כדאי להגדיר אותו כבר בשיחה הראשונה.",
+        "en": "From there, the usual sequence is this: the joiner measures on site once the walls, floor and ceiling are finished, prepares shop drawings, and the designer checks them against the design before any cutting begins. Stone worktops are usually templated only after the cabinet carcasses are installed. This order prevents most surprises. The amount of joinery in a home is also one of the factors that shape <a href=\"/journal/interior-design-cost/\">the cost of design</a>, so it is worth defining in the very first conversation."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "נגרות טובה לא צועקת. היא מחזיקה את מה שצריך, נפתחת בקלות, ומשאירה את החלל נקי, מדויק ונכון.",
+        "en": "Good joinery doesn’t shout. It holds what it needs to, opens easily, and leaves the room clean, precise and right."
+      }
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "Frequently asked questions"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "מה ההבדל בין פורניר לעץ מלא בנגרות?",
+            "en": "What is the difference between veneer and solid wood in joinery?"
+          },
+          "a": {
+            "he": "פורניר הוא שכבה דקה של עץ אמיתי שמודבקת על לוח יציב, ולכן הוא לא זז עם הלחות ומתאים לחזיתות גדולות ולחיפוי קירות. עץ מלא עשוי כולו מעץ, ואפשר לשייף ולחדש אותו, אבל הוא מתרחב ומתכווץ, ולכן מתאים יותר לקנטים, ידיות, מדפים ומשטחים.",
+            "en": "Veneer is a thin layer of real wood bonded to a stable board, so it doesn’t move with humidity and suits large fronts and wall paneling. Solid wood is wood all the way through; it can be sanded and refinished, but it expands and contracts, so it is better suited to edges, handles, shelves and work surfaces."
+          }
+        },
+        {
+          "q": {
+            "he": "כדאי לבנות ארונות קיר עד התקרה?",
+            "en": "Are floor-to-ceiling wardrobes worth it?"
+          },
+          "a": {
+            "he": "ברוב המקרים כן. ארון עד התקרה נראה כחלק מהקיר, מנצל את כל הגובה ולא אוסף אבק מעליו. כדי שייראה נקי, מתכננים פס השלמה או חריץ צל עליון שמסתיר את חוסר הישרות של התקרה, ומגדירים מראש מה יאוחסן בחלק העליון.",
+            "en": "In most cases, yes. A wardrobe to the ceiling reads as part of the wall, uses the full height and collects no dust on top. To keep it clean-looking, plan a filler strip or top shadow gap that hides an uneven ceiling, and decide in advance what will be stored in the top section."
+          }
+        },
+        {
+          "q": {
+            "he": "אלון בהיר או כהה לדירה עם מעט אור?",
+            "en": "Light or dark oak for an apartment with little daylight?"
+          },
+          "a": {
+            "he": "אלון בהיר מחזיר יותר אור ומרגיש מרווח יותר, ולכן הוא בחירה בטוחה בחלל חשוך. אלון כהה יכול לעבוד גם שם, אבל במינון: קיר אחד או גוש ארונות לצד חזיתות, קירות ומשטחים בהירים. בדקו דוגמת גמר בחדר עצמו, ביום ובערב.",
+            "en": "Light oak reflects more light and feels more spacious, so it is the safe choice in a dark room. Dark oak can work there too, but in measured doses: one wall or one block of cabinets beside light fronts, walls and surfaces. Check a finish sample in the room itself, by day and in the evening."
+          }
+        },
+        {
+          "q": {
+            "he": "אפשר להזמין נגרות ישירות מנגר, בלי מעצבת?",
+            "en": "Can I order joinery directly from a joiner, without a designer?"
+          },
+          "a": {
+            "he": "אפשר, והרבה נגרים מציעים גם תכנון של היחידה עצמה. ההבדל הוא בנקודת המבט: מעצבת מתכננת את הנגרות יחד עם החלל, התאורה, החשמל, האבן והקווים של שאר הבית. כשיש בבית הרבה נגרות, או כשהיא מורכבת, התיאום הזה הוא בדרך כלל מה שמבדיל בין ארון טוב לבין נגרות שנראית חלק מהבית.",
+            "en": "You can, and many joiners also offer design of the unit itself. The difference is the point of view: a designer plans the joinery together with the room, the lighting, the wiring, the stone and the lines of the rest of the home. When a home has a lot of joinery, or the joinery is complex, that coordination is usually what separates a good cabinet from joinery that looks like part of the home."
+          }
+        },
+        {
+          "q": {
+            "he": "מתי בשיפוץ צריך לתכנן את הנגרות?",
+            "en": "When in a renovation should joinery be designed?"
+          },
+          "a": {
+            "he": "מוקדם, לפני העבודות על החשמל. שקעים, פסי לד, אוורור וחיזוקים לקיר טלוויזיה צריכים להיות מוכנים לפני שסוגרים קירות ותקרות. המדידה הסופית של הנגר נעשית בדרך כלל רק אחרי שהקירות, הריצוף והתקרה גמורים.",
+            "en": "Early, before the electrical work. Sockets, LED strips, ventilation and TV-wall reinforcement must be ready before walls and ceilings are closed. The joiner’s final measurement is usually taken only once the walls, floor and ceiling are finished."
+          }
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "יש לכם קיר שמחכה לנגרות?",
+        "en": "Have a wall waiting for joinery?"
+      },
+      "p": {
+        "he": "ספרו לנו על החלל, על מה שצריך להיכנס אליו ועל מה שחשוב לכם, ונחזור אליכם לתיאום שיחת היכרות.",
+        "en": "Tell us about the space, what needs to go into it and what matters to you, and we’ll get back to you to arrange an introductory call."
+      },
+      "button": {
+        "he": "לתיאום שיחת היכרות",
+        "en": "Book an introductory call"
+      },
+      "href": "/contact/"
+    }
+  ]
+}

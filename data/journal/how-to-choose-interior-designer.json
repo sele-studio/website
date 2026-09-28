@@ -1,0 +1,577 @@
+{
+  "meta": {
+    "id": "journal-how-to-choose-interior-designer",
+    "path": "/journal/how-to-choose-interior-designer/",
+    "type": "article",
+    "crumb": {
+      "he": "איך בוחרים מעצבת פנים",
+      "en": "Choosing a designer"
+    },
+    "title": {
+      "he": "איך בוחרים מעצבת פנים: השאלות לפגישה הראשונה | SELÈ STUDIO",
+      "en": "How to Choose an Interior Designer: A Guide | SELÈ STUDIO"
+    },
+    "desc": {
+      "he": "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ'קליסט להדפסה לפגישה הראשונה.",
+      "en": "How to choose an interior designer: what to check in a portfolio, which deliverables to ask for, who runs the site, and what to ask about the proposal."
+    },
+    "h1": {
+      "he": "איך בוחרים מעצבת פנים, ומה כדאי לשאול בפגישה הראשונה",
+      "en": "How to choose an interior designer, and what to ask at the first meeting"
+    },
+    "latin": "JOURNAL",
+    "hero": {
+      "img": "kitchen-stone-02",
+      "alt": {
+        "he": "אי מטבח מאבן אפורה עם גידים בהירים ודופן אבן שיורדת עד הרצפה, כיריים גז משולבות, נישה מוארת מאבן וארונות עץ אלון בהיר עד התקרה. הדמיה של SELÈ STUDIO",
+        "en": "Gray stone kitchen island with pale veining and a stone side that runs down to the floor, an integrated gas cooktop, a backlit stone niche and full-height light-oak cabinetry. Render by SELÈ STUDIO"
+      },
+      "caption": {
+        "he": "פינה של אי אבן נראית פשוטה. כדי שתיראה כך, מישהו צריך לשרטט אותה.",
+        "en": "The corner of a stone island looks simple. For it to look like this, someone has to draw it."
+      },
+      "kind": "render",
+      "pos": "50% 50%"
+    },
+    "thumb": "living-04",
+    "og": "/assets/img/og/og-journal-how-to-choose-interior-designer.jpg",
+    "ogAlt": {
+      "he": "אי מטבח מאבן אפורה עם גידים בהירים ודופן אבן שיורדת עד הרצפה, כיריים גז משולבות, נישה מוארת מאבן וארונות עץ אלון בהיר עד התקרה. הדמיה של SELÈ STUDIO",
+      "en": "Gray stone kitchen island with pale veining and a stone side that runs down to the floor, an integrated gas cooktop, a backlit stone niche and full-height light-oak cabinetry. Render by SELÈ STUDIO"
+    },
+    "article": {
+      "section": "hiring",
+      "service": "interior-design",
+      "author": "org",
+      "published": null,
+      "modified": null
+    },
+    "requires": [],
+    "index": true
+  },
+  "body": [
+    {
+      "t": "lead",
+      "text": {
+        "he": "בחירת מעצבת פנים היא לא רק בחירה בסגנון. אתם בוחרים שותפה לחודשים של החלטות, תוכניות, ספקים ואתר עבודה, ומישהי שתעמוד מאחורי כל פרט שייבנה בבית שלכם. תמונות יפות הן נקודת פתיחה טובה, אבל הן לא עונות על השאלות שיקבעו איך תיראה העבודה המשותפת בפועל: מה תקבלו ביד, מי יהיה באתר כשצריך, איך מתקבלות החלטות ומה בדיוק כלול במחיר.",
+        "en": "Choosing an interior designer is not only about style. You are choosing a partner for months of decisions, drawings, suppliers and a building site, and the person who will stand behind every detail that gets built in your home. Beautiful pictures are a good starting point, but they don’t answer the questions that decide what working together will actually be like: what you will receive, who will be on site when it matters, how decisions are made, and what exactly the fee covers."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בקצרה: בחרו מעצבת שהעבודות שהיא כבר <strong>ביצעה</strong> דומות למה שאתם מחפשים. היא צריכה לדעת להסביר את התהליך ואת התוצרים במילים פשוטות, והצעת המחיר שלה צריכה לפרט מה כלול ומה לא. ובעיקר, אתם צריכים לצאת מהפגישה בתחושה שהקשיבו לכם. במדריך ריכזנו את השאלות לפגישה הראשונה ואת מה שכדאי לשמוע בתשובה, ובסופו יש צ'קליסט שאפשר להדפיס ולקחת איתכם.",
+        "en": "In short: choose a designer whose work she has already <strong>built</strong> resembles what you are looking for. She should be able to explain her process and its deliverables in plain words, and her proposal should spell out what is included and what is not. Above all, you should leave the meeting feeling that you were listened to. This guide gathers the questions for the first meeting and what a good answer sounds like, and ends with a checklist you can print and take along."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "אם כבר ברור לכם מה אתם מחפשים, אפשר לקרוא על <a href=\"/services/interior-design/\">שירות עיצוב הפנים לדירה ולבית</a> שלנו.",
+        "en": "If you already know what you are looking for, you can read about our <a href=\"/services/interior-design/\">interior design service for apartments and homes</a>."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מה באמת מראה תיק העבודות: הדמיות או עבודות שבוצעו?",
+        "en": "What does the portfolio really show: renders or built work?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תיק עבודות טוב מבחין בין הדמיה לבין צילום מהביצוע. הדמיה מראה כוונה עיצובית ויכולת לחשוב על חלל. צילום של עבודה גמורה מראה שהכוונה הזו עמדה במבחן של קבלנים, נגרים ותקציב אמיתי. בקשו לראות את שניהם, ועל כל תמונה שאלו אם היא הדמיה או ביצוע, ומה היה חלקה של המעצבת בפרויקט.",
+        "en": "A good portfolio separates renders from photographs of finished work. A render shows design intent and the ability to think through a space. A photograph of a finished project shows that the intent held up against contractors, joiners and a real budget. Ask to see both, and for every image ask whether it is a render or built, and what the designer’s role was."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "<a href=\"/services/3d-visualization/\">הדמיות תלת מימד</a> הן כלי עבודה מצוין. הן מאפשרות לראות חומרים, אור ופרופורציות לפני שמזמינים משהו, ולתקן על המסך טעות שבקיר בנוי הייתה עולה ביוקר. אבל הדמיה היא עדיין הבטחה. היא לא מראה איך נסגר החיבור בין אבן לעץ, אם פס הלד באמת מוסתר, או איך נראה ארון שנבנה אחרי שהנגר מדד בפעם השנייה. באתר הזה, למשל, כל תמונה מסומנת כהדמיה או כצילום מהביצוע, כי ההבדל חשוב.",
+        "en": "<a href=\"/services/3d-visualization/\">3D renders</a> are an excellent working tool. They let you see materials, light and proportion before anything is ordered, and fix on screen a mistake that would be expensive in a finished wall. But a render is still a promise. It doesn’t show how stone meets wood, whether the LED strip is really hidden, or what a cabinet looks like after the joiner has measured for the second time. On this site, for example, every image is marked as a render or as built work, because the difference matters."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מה לבקש לראות",
+        "en": "What to ask to see"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>צילומים מפרויקטים שהסתיימו</strong>, רצוי גם תקריבים: פינות, חיבורים, ידיות, מעברים בין חומרים.",
+          "en": "<strong>Photographs of completed projects</strong>, ideally close-ups too: corners, joints, handles, the places where one material meets another."
+        },
+        {
+          "he": "<strong>דוגמה לתוכנית עבודה או לפרט נגרות</strong>, גם אם הפרטים האישיים הושחרו. מתוכנית אחת אפשר ללמוד הרבה על רמת הדיוק.",
+          "en": "<strong>A sample working drawing or joinery detail</strong>, even with the personal details blacked out. One drawing tells you a lot about precision."
+        },
+        {
+          "he": "<strong>פרויקט אחד מההתחלה ועד הסוף</strong>: מה היה הבריף, מה השתנה בדרך ולמה.",
+          "en": "<strong>One project from start to finish:</strong> what the brief was, what changed along the way, and why."
+        }
+      ]
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "עקביות חשובה יותר מסגנון",
+        "en": "Consistency matters more than style"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "תיק שכולו בסגנון אחד לא אומר שהמעצבת לא יכולה לעבוד בשפה אחרת, ותיק מגוון לא מבטיח גמישות. חפשו רמת פירוט עקבית: האם הפרטים הקטנים מקבלים אותה הקפדה בסלון ובחדר הרחצה, בפרויקט גדול ובפרויקט קטן.",
+        "en": "A portfolio in a single style doesn’t mean the designer can’t work in another language, and a varied one doesn’t guarantee flexibility. Look for a consistent level of detail: do the small things get the same care in the living room and the bathroom, in a large project and a small one?"
+      }
+    },
+    {
+      "t": "gallery",
+      "items": [
+        {
+          "img": "kitchen-stone-03",
+          "alt": {
+            "he": "תקריב של נישת מטבח מוארת: חיפוי אבן אפורה עם גידים, כיור שקוע, ברז נירוסטה מוברשת ומכונת קפה, וענף זית בחזית. הדמיה",
+            "en": "Close-up of a backlit kitchen niche: veined gray stone splashback, undermount sink, brushed-steel faucet and coffee machine, with an olive branch in the foreground. Render"
+          },
+          "kind": "render"
+        },
+        {
+          "img": "built-01",
+          "alt": {
+            "he": "צילום של מטבח שבוצע: ארונות עץ כהה עד התקרה עם סבכות אוורור, ארונות בגוון שמנת בהיר, אי בהיר עם כיריים גז ומסילת תאורה שחורה בתקרה",
+            "en": "Photograph of a built kitchen: full-height dark-wood cabinetry with vent grilles, pale cream cabinets, and a pale island with a gas cooktop under black ceiling track lighting"
+          },
+          "kind": "photo"
+        }
+      ],
+      "caption": {
+        "he": "הדמיה: נישת אבן מוארת במטבח. מהביצוע: מטבח עם ארונות עץ כהה עד התקרה ואי בהיר. שני סוגי תמונות, משני פרויקטים שונים, שעונים על שתי שאלות שונות. שתיהן חשובות.",
+        "en": "Render: a backlit stone niche in a kitchen. Built: a kitchen with full-height dark-wood cabinetry and a pale island. Two kinds of image, from two different projects, answering two different questions. Both matter."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך נראה התהליך, ומה תקבלו ביד בסוף כל שלב?",
+        "en": "What does the process look like, and what will you receive at the end of each stage?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שאלו על התהליך במונחים של תוצרים: אילו תוכניות תקבלו, באיזה סדר, וכמה סבבי תיקונים כלולים בכל שלב. מעצבת מנוסה תפרט את זה בלי להסתבך: מדידה ותוכנית מצב קיים, תוכנית העמדה, תוכניות עבודה לבעלי המקצוע, פרטי נגרות ומפרט חומרים. ככל שהרשימה מוגדרת יותר, כך קל יותר להשוות בין מעצבות.",
+        "en": "Ask about the process in terms of deliverables: which drawings you will receive, in what order, and how many rounds of revisions each stage includes. An experienced designer will set this out without fuss: a survey and existing-conditions plan, a layout plan, working drawings for the trades, joinery details and a materials specification. The more clearly that list is defined, the easier it is to compare designers."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כל סטודיו קורא לשלבים בשם אחר, ולכן כדאי לשאול לא \"מה השלבים\" אלא \"מה אקבל בסוף כל שלב\". כך בערך נראית רשימה מוגדרת היטב:",
+        "en": "Every studio names its stages differently, so the useful question is not “what are the stages” but “what will I receive at the end of each one”. A well-defined list looks roughly like this:"
+      }
+    },
+    {
+      "t": "ol",
+      "items": [
+        {
+          "he": "<strong>מדידה:</strong> תוכנית מצב קיים.",
+          "en": "<strong>Survey:</strong> an existing-conditions plan."
+        },
+        {
+          "he": "<strong>תכנון:</strong> תוכנית העמדה של החלל והרהיטים, לרוב ביותר מחלופה אחת.",
+          "en": "<strong>Planning:</strong> a layout plan for the space and the furniture, usually in more than one option."
+        },
+        {
+          "he": "<strong>קונספט וחומרים:</strong> לוח השראה, דוגמאות חומר, ולעיתים הדמיות.",
+          "en": "<strong>Concept and materials:</strong> a mood board, material samples and sometimes renders."
+        },
+        {
+          "he": "<strong>תוכניות עבודה:</strong> סט לבעלי המקצוע, כמו חשמל ותאורה, אינסטלציה, ריצוף וחיפוי, תקרות, בינוי והריסה, ופרטי נגרות.",
+          "en": "<strong>Working drawings:</strong> a set for the trades, such as electrical and lighting, plumbing, flooring and cladding, ceilings, construction and demolition, and joinery details."
+        },
+        {
+          "he": "<strong>ליווי בביצוע:</strong> ביקורים באתר, מענה לשאלות של בעלי המקצוע ורשימות בחירה מול ספקים.",
+          "en": "<strong>Support during construction:</strong> site visits, answers to the trades’ questions and selection lists for suppliers."
+        },
+        {
+          "he": "<strong>סטיילינג:</strong> רשימת רכש לריהוט, טקסטיל ואביזרים.",
+          "en": "<strong>Styling:</strong> a purchasing list for furniture, textiles and accessories."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מעבר לרשימה עצמה, שאלו כמה חלופות תקבלו, כמה סבבי שינויים כלולים, והאם תוכניות העבודה מפורטות מספיק כדי שקבלן יוכל לתמחר ולבנות לפיהן בלי לנחש. הרבה מהטעויות נולדות בתוכנית חשמל שמסמנת נקודה בלי גובה, או בארון שמופיע רק בהדמיה.",
+        "en": "Beyond the list itself, ask how many options you will get, how many rounds of changes are included, and whether the working drawings are detailed enough for a contractor to price and build from without guessing. Many mistakes are born in an electrical plan that marks a point without a height, or in a cabinet that exists only in a render."
+      }
+    },
+    {
+      "t": "h3",
+      "text": {
+        "he": "מתי צריך גם אדריכל?",
+        "en": "When do you also need an architect?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כשהפרויקט כולל עבודות שדורשות היתר בנייה, כמו תוספת שטח, שינוי במעטפת או התערבות בקונסטרוקציה, יידרשו גם אדריכל או מהנדס רשומים. כדאי לשאול כבר בפגישה הראשונה איך המעצבת עובדת מול אנשי מקצוע כאלה. הרחבנו על כך במאמר <a href=\"/journal/interior-designer-vs-architect/\">מה ההבדל בין אדריכל למעצב פנים</a>.",
+        "en": "When the project includes work that needs a building permit, such as added floor area, changes to the building envelope or structural work, you will also need a registered architect or engineer. It’s worth asking at the first meeting how the designer works with those professionals. We cover this in more depth in <a href=\"/journal/interior-designer-vs-architect/\">what is the difference between an architect and an interior designer</a>."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "bath-01",
+      "alt": {
+        "he": "ארון רחצה כפול מטרוורטין עם שני כיורים, ברזי קיר בגוון ברונזה מוברשת, שתי מראות עם תאורה אחורית ומגירות מעץ אגוז. הדמיה של SELÈ STUDIO",
+        "en": "Double travertine vanity with two basins, brushed-bronze wall-mounted taps, two backlit mirrors and walnut drawers. Render by SELÈ STUDIO"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "ברזי קיר, מראות עם תאורה אחורית ומגירות בקו אחד. כל אלה נקבעים בתוכנית לפני שהם נבנים בקיר.",
+        "en": "Wall-mounted taps, backlit mirrors and drawers on a single line. All of it is decided on the drawing before it is built into the wall."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "מי עושה מה באתר?",
+        "en": "Who does what on site?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "עיצוב וביצוע הם שני תפקידים שונים. בררו מראש מי מנהל את הקבלנים, מי מתאם את הספקים, כמה ביקורי פיקוח עליון כלולים ומה קורה כשמשהו נבנה אחרת מהתוכנית. תשובה ברורה לשאלות האלה, כתובה בהסכם, חוסכת הרבה מאי ההבנות שמתגלות באמצע שיפוץ.",
+        "en": "Design and construction are two different roles. Find out in advance who manages the contractors, who coordinates suppliers, how many design-supervision visits are included, and what happens when something is built differently from the drawings. A clear answer to these questions, written into the agreement, prevents many of the misunderstandings that surface halfway through a renovation."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שלושה תפקידים נוטים להתבלבל כאן. פיקוח עליון הוא ביקורים של המעצבת באתר כדי לוודא שהביצוע תואם את התוכניות, ולא נוכחות יומיומית. ניהול פרויקט הוא תיאום לוחות זמנים, בעלי מקצוע והזמנות, ולפעמים הוא שירות נפרד, לפעמים הוא באחריות הקבלן הראשי ולפעמים הוא נופל עליכם. הקבלן הראשי אחראי לביצוע עצמו ולאיכות שלו. הרחבנו על ההבדלים ועל השלבים באתר בעמוד <a href=\"/services/renovation-management/\">ליווי שיפוץ דירה</a>.",
+        "en": "Three roles tend to get confused here. Design supervision means the designer’s site visits to check that the work matches the drawings, not a daily presence. Project management means coordinating schedules, trades and orders; sometimes it is a separate service, sometimes it is the main contractor’s job, and sometimes it falls to you. The main contractor is responsible for the construction itself and for its quality. We go into the differences, and the stages on site, on the <a href=\"/services/renovation-management/\">renovation support</a> page."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בפגישה עצמה, שאלו אם המעצבת עובדת עם בעלי מקצוע קבועים או שאתם מביאים קבלן משלכם. שתי הדרכים לגיטימיות, בתנאי שברור מי אחראי על מה ושזה כתוב בהסכם.",
+        "en": "At the meeting itself, ask whether the designer works with a regular team of trades or whether you bring your own contractor. Both are legitimate, as long as it is clear who is responsible for what and it is written into the agreement."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך תתנהל התקשורת לאורך הפרויקט?",
+        "en": "How will communication work throughout the project?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "שאלו מי יהיה איש הקשר שלכם, באיזה ערוץ מתנהלת העבודה ואיך מתועדות החלטות. בפרויקט עיצוב מתקבלות מאות החלטות קטנות. כשכל החלטה נרשמת במקום אחד, כמו סיכום פגישה, מסמך משותף או רשימת בחירות, קל יותר לחזור אליה, לתמחר אותה ולוודא שהיא אכן נבנתה.",
+        "en": "Ask who your point of contact will be, which channel the work runs through, and how decisions are recorded. A design project involves hundreds of small decisions. When each one is written down in a single place, such as a meeting summary, a shared document or a selections list, it is easier to go back to it, price it and check that it was actually built."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "בסטודיו גדול יכולים לעבוד מולכם כמה אנשים, ובסטודיו בוטיק הקשר לרוב ישיר יותר. אין כאן נכון ולא נכון, רק צריך לדעת מראש. כדאי לתאם גם ציפיות לגבי זמני תגובה ולגבי מה עושים כשמשהו דחוף באתר. ושימו לב לפגישה הראשונה עצמה: האם קיבלתם סיכום? האם התשובות לשאלות שלכם הגיעו כמו שסוכם? זה בדרך כלל מעיד על מה שיבוא.",
+        "en": "In a large studio several people may work with you, while in a boutique studio the contact is usually more direct. Neither is right or wrong; you just need to know in advance. It’s worth agreeing on expectations about response times and about what happens when something on site is urgent. And pay attention to the first meeting itself: did you get a summary afterwards? Did the answers to your questions arrive as agreed? That usually tells you what is to come."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך בנויה הצעת המחיר, ומה לא כלול בה?",
+        "en": "How is the proposal structured, and what does it leave out?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הצעת מחיר טובה מפרטת את היקף העבודה ולא רק סכום: אילו חללים, אילו תוכניות, כמה סבבי תיקונים, כמה ביקורי פיקוח ומה נחשב לשעות נוספות. השוו בין הצעות לפי מה שכלול בהן ולא רק לפי הסכום הסופי, ובקשו שכל דבר שנאמר בעל פה ייכתב.",
+        "en": "A good proposal describes the scope of work, not just a sum: which spaces, which drawings, how many rounds of revisions, how many site visits, and what counts as additional hours. Compare proposals by what they include, not only by the final figure, and ask for anything that was said out loud to be put in writing."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "את שיטות התמחור, את מה שמשפיע על העלות ואת טבלת ההשוואה בין כמה הצעות, שורה מול שורה, פירטנו במדריך <a href=\"/journal/interior-design-cost/\">כמה עולה מעצבת פנים</a>. כאן נתמקד בשאלות שכדאי לשאול כשההצעה כבר מונחת מולכם:",
+        "en": "We set out the fee models, what drives the cost, and a line-by-line table for comparing several proposals in the guide <a href=\"/journal/interior-design-cost/\">how much does an interior designer cost</a>. Here we focus on the questions to ask once the proposal is in front of you:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>מה קורה אחרי אישור?</strong> כמה עולה שינוי בתוכנית שכבר אושרה, ומי קובע אם בקשה מסוימת נחשבת לשינוי.",
+          "en": "<strong>What happens after approval?</strong> What a change to an approved drawing costs, and who decides whether a request counts as a change."
+        },
+        {
+          "he": "<strong>מה נאמר ולא נכתב?</strong> ביקור נוסף, הדמיה של עוד חלל או ליווי בסיור אצל ספק: אם זה עלה בשיחה, בקשו שזה יופיע בהצעה.",
+          "en": "<strong>What was said but not written?</strong> An extra site visit, a render of one more space, a supplier visit together: if it came up in conversation, ask for it to appear in the proposal."
+        },
+        {
+          "he": "<strong>על מה משלמים?</strong> האם כל תשלום קשור לתוצר שתקבלו, ולא רק לתאריך.",
+          "en": "<strong>What are you paying for?</strong> Whether each payment is tied to a deliverable you will receive, not only to a date."
+        },
+        {
+          "he": "<strong>ומה עם הספקים?</strong> האם המעצבת מקבלת עמלה או הנחה מספקים, ואיך זה משפיע עליכם. זו שאלה לגיטימית לגמרי, ותשובה שקופה היא סימן טוב.",
+          "en": "<strong>And the suppliers?</strong> Whether the designer receives a commission or a discount from suppliers, and how that affects you. It is an entirely legitimate question, and a transparent answer is a good sign."
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך יודעים שמעצבת פנים מתאימה לכם?",
+        "en": "How do you know an interior designer is right for you?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "מעצבת שמתאימה לכם שואלת יותר ממה שהיא מספרת. היא רוצה לדעת איך אתם חיים: מי מבשל, איפה נערמים התיקים, מה מפריע לכם היום. היא לא מסתפקת במה שאהבתם בפינטרסט, אומרת בכנות מה אפשרי בתקציב, ויודעת לומר \"לא\" כשרעיון לא ישרת אתכם.",
+        "en": "A designer who is right for you asks more than she tells. She wants to know how you live: who cooks, where the bags pile up, what bothers you about the home today. She doesn’t settle for what you liked on Pinterest, she is honest about what the budget allows, and she knows how to say “no” when an idea won’t serve you."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כימיה היא יותר מנעימות. זו התחושה שאפשר להביע דעה אחרת בלי מבוכה, ושהמעצבת תקשיב ותסביר את השיקולים שלה במקום להתגונן. בדקו אם ההצעות שהיא מעלה בפגישה נשענות על מה שסיפרתם לה, או על סגנון שהיא מביאה לכל פרויקט. אם אתם זוג, שניכם צריכים להרגיש שמקשיבים לכם.",
+        "en": "Chemistry is more than pleasantness. It is the feeling that you can disagree without awkwardness, and that the designer will listen and explain her reasoning rather than get defensive. Notice whether the ideas she raises in the meeting build on what you told her, or on a style she brings to every project. If you are a couple, both of you need to feel heard."
+      }
+    },
+    {
+      "t": "figure",
+      "img": "living-03",
+      "alt": {
+        "he": "ספריית עץ אלון בהיר מעל בסיס אבן, מסודרת עם כלי קרמיקה, נר, ספרים ויצירת אמנות, באור שמש נמוך. הדמיה של SELÈ STUDIO",
+        "en": "Light-oak shelving on a stone plinth, styled with ceramics, a candle, books and an artwork in low sunlight. Render by SELÈ STUDIO"
+      },
+      "kind": "render",
+      "caption": {
+        "he": "ספרים, קרמיקה ואור של אחר הצהריים. בית נבנה סביב האופן שבו חיים בו, ועל זה צריכה להיות רוב השיחה הראשונה.",
+        "en": "Books, ceramics and late-afternoon light. A home is built around the way it is lived in, and that is what most of the first conversation should be about."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך קוראים המלצות וביקורות על מעצבת פנים?",
+        "en": "How do you read reviews and recommendations of an interior designer?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "המלצה שימושית מספרת מה קרה, לא רק כמה היה נחמד: איך התנהל האתר, מה קרה כשהייתה בעיה, והאם התוכניות היו ברורות לקבלן. חפשו ביקורות מפורטות ועדכניות, שימו לב לאופן שבו המעצבת מגיבה לביקורת, ואם אפשר, דברו עם לקוח קודם או בקרו בפרויקט שהושלם.",
+        "en": "A useful recommendation tells you what happened, not just how pleasant it was: how the site was run, what happened when there was a problem, and whether the drawings were clear to the contractor. Look for detailed, recent reviews, notice how the designer responds to criticism, and if you can, speak to a past client or visit a finished project."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "\"מעצבת פנים מומלצת\" נשמע כמו תשובה, אבל זו רק נקודת התחלה. כמה דברים שכדאי לבדוק:",
+        "en": "“A highly recommended interior designer” sounds like an answer, but it is only a starting point. A few things worth checking:"
+      }
+    },
+    {
+      "t": "ul",
+      "items": [
+        {
+          "he": "<strong>מתי נכתבה ההמלצה ועל איזה פרויקט.</strong> שיפוץ מלא ועיצוב של חדר אחד הם חוויות שונות מאוד.",
+          "en": "<strong>When the recommendation was written, and about which project.</strong> A full renovation and a single-room design are very different experiences."
+        },
+        {
+          "he": "<strong>פרטים מוחשיים:</strong> לוחות זמנים, התמודדות עם תקלה, איכות התוכניות.",
+          "en": "<strong>Concrete details:</strong> schedules, how a problem was handled, the quality of the drawings."
+        },
+        {
+          "he": "<strong>תגובות לביקורת שלילית.</strong> טון ענייני שמסביר ומציע פתרון אומר הרבה.",
+          "en": "<strong>Responses to negative reviews.</strong> A matter-of-fact tone that explains and offers a solution says a lot."
+        },
+        {
+          "he": "<strong>פרופילים ברשתות</strong> טובים להבנת השפה העיצובית, ופחות לבדיקת התהליך.",
+          "en": "<strong>Social media profiles</strong> are good for understanding a design language, and less useful for judging a process."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "לסטודיו חדש יש, מטבע הדברים, פחות המלצות. במקרה כזה שאלו על ההכשרה, בקשו לראות תוכניות ופרטים, ושימו לב איך מתנהל התהליך כבר מהשיחה הראשונה.",
+        "en": "A new studio will, naturally, have fewer recommendations. In that case, ask about training, ask to see drawings and details, and watch how the process runs from the very first conversation."
+      }
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "איך מתכוננים לפגישה הראשונה?",
+        "en": "How do you prepare for the first meeting?"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "הביאו את מה שיעזור להבין את הבית ואת החיים בו: תוכנית הדירה אם יש לכם, צילומים של המצב הקיים, תמונות השראה (גם של מה שלא אהבתם), טווח תקציב עם תקרה ברורה, לוח זמנים רצוי ורשימה של מה שחסר לכם היום.",
+        "en": "Bring whatever will help someone understand the home and the life in it: a floor plan if you have one, photographs of the space as it is, inspiration images (including things you didn’t like), a budget range with a clear ceiling, the timeline you have in mind, and a list of what is missing today."
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "כדאי לחשוב מראש גם על השאלות שקשה לשאול, על כסף, על אחריות ועל מה קורה כשמשהו משתבש. פגישה ראשונה טובה היא פגישה שבה אפשר לשאול את כולן.",
+        "en": "It helps to think in advance about the questions that are hard to ask, about money, about responsibility, and about what happens when something goes wrong. A good first meeting is one where you can ask all of them."
+      }
+    },
+    {
+      "t": "checklist",
+      "level": 3,
+      "h": {
+        "he": "צ'קליסט: הפגישה הראשונה עם מעצבת פנים",
+        "en": "Checklist: the first meeting with an interior designer"
+      },
+      "items": [
+        {
+          "he": "ראינו צילומים מעבודות שבוצעו, לא רק הדמיות",
+          "en": "We have seen photographs of built work, not only renders"
+        },
+        {
+          "he": "קיבלנו רשימה של התוכניות והמסמכים שכלולים בשירות",
+          "en": "We have a list of the drawings and documents the service includes"
+        },
+        {
+          "he": "ברור לנו כמה סבבי שינויים כלולים בכל שלב",
+          "en": "We know how many rounds of changes each stage includes"
+        },
+        {
+          "he": "ברור לנו כמה ביקורים באתר כלולים, ומי מנהל את הקבלנים",
+          "en": "We know how many site visits are included, and who manages the contractors"
+        },
+        {
+          "he": "ברור לנו מי איש הקשר ואיך מתועדות החלטות",
+          "en": "We know who our point of contact is and how decisions are recorded"
+        },
+        {
+          "he": "הצעת המחיר מפרטת היקף, תוצרים, תשלומים ומה לא כלול",
+          "en": "The proposal sets out scope, deliverables, payments and what is not included"
+        },
+        {
+          "he": "שאלנו על עמלות והנחות מספקים",
+          "en": "We asked about supplier commissions and discounts"
+        },
+        {
+          "he": "קראנו המלצות מפורטות ועדכניות, ואם היה אפשר, דיברנו עם לקוח קודם",
+          "en": "We read detailed, recent recommendations and, where possible, spoke to a past client"
+        },
+        {
+          "he": "שאלנו אם הפרויקט דורש גם אדריכל או מהנדס",
+          "en": "We asked whether the project also needs an architect or engineer"
+        },
+        {
+          "he": "הרגשנו שהקשיבו לאופן שבו אנחנו חיים, לא רק לטעם שלנו",
+          "en": "We felt listened to about the way we live, not only about our taste"
+        }
+      ]
+    },
+    {
+      "t": "h2",
+      "text": {
+        "he": "ואם אתם שוקלים לעבוד איתנו",
+        "en": "If you are considering working with us"
+      }
+    },
+    {
+      "t": "p",
+      "text": {
+        "he": "SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. את השפה העיצובית שלנו אפשר לראות ב<a href=\"/projects/\">פרויקטים</a>, ונשמח לענות על כל אחת מהשאלות במדריך הזה בפגישת היכרות, גם על אלה שלא נוח לשאול.",
+        "en": "SELÈ STUDIO is a boutique architecture and interior design studio led by Shoham Sela, an interior designer who graduated from Shenkar with honors. You can see our design language in our <a href=\"/projects/\">projects</a>, and we would be glad to answer any of the questions in this guide at an introductory meeting, including the ones that feel awkward to ask."
+      }
+    },
+    {
+      "t": "faq",
+      "h": {
+        "he": "שאלות נפוצות",
+        "en": "FAQ"
+      },
+      "items": [
+        {
+          "q": {
+            "he": "כמה מעצבות פנים כדאי לפגוש לפני שמחליטים?",
+            "en": "How many interior designers should I meet before deciding?"
+          },
+          "a": {
+            "he": "בדרך כלל שתיים או שלוש פגישות מספיקות כדי להשוות גישות והצעות, בלי שההשוואה תהפוך למבלבלת. השוו לפי ההיקף והתוצרים שבכל הצעה, ולא רק לפי הסכום.",
+            "en": "Two or three meetings are usually enough to compare approaches and proposals without the comparison getting muddled. Compare by the scope and deliverables in each proposal, not only by the fee."
+          }
+        },
+        {
+          "q": {
+            "he": "האם פגישת היכרות עם מעצבת פנים כרוכה בתשלום?",
+            "en": "Is an introductory meeting with an interior designer paid?"
+          },
+          "a": {
+            "he": "זה תלוי בסטודיו. יש שמקיימים שיחת היכרות ללא עלות, ויש שגובים תשלום על פגישת ייעוץ שבה כבר ניתנות המלצות מקצועיות. שאלו מראש כדי שלא יהיו הפתעות.",
+            "en": "It depends on the studio. Some hold a free introductory conversation, while others charge for a consultation in which professional recommendations are already given. Ask in advance so there are no surprises."
+          }
+        },
+        {
+          "q": {
+            "he": "מה ההבדל בין פגישת היכרות לפגישת ייעוץ?",
+            "en": "What is the difference between an introductory meeting and a consultation?"
+          },
+          "a": {
+            "he": "פגישת היכרות נועדה להבין את הפרויקט ולבדוק התאמה. בפגישת ייעוץ המעצבת כבר עובדת בפועל על שאלות מוגדרות, כמו העמדה, חומרים או צבעים, ומשאירה אתכם עם המלצות.",
+            "en": "An introductory meeting is for understanding the project and checking fit. In a consultation the designer is already working on defined questions, such as layout, materials or colors, and leaves you with recommendations."
+          }
+        },
+        {
+          "q": {
+            "he": "האם אפשר לעבוד עם מעצבת פנים על חדר אחד בלבד?",
+            "en": "Can we work with an interior designer on just one room?"
+          },
+          "a": {
+            "he": "בדרך כלל כן. מטבח, חדר רחצה או סלון הם פרויקטים נפוצים גם בפני עצמם. ודאו שהיקף העבודה וההצעה מותאמים לחלל אחד, ולא מתומחרים כמו בית שלם.",
+            "en": "Usually, yes. A kitchen, a bathroom or a living room is a common project on its own. Make sure the scope and the proposal fit a single space and aren’t priced like a whole home."
+          }
+        },
+        {
+          "q": {
+            "he": "מה קורה אם באמצע הדרך מתברר שאין התאמה?",
+            "en": "What happens if it turns out halfway through that the fit isn’t right?"
+          },
+          "a": {
+            "he": "כדאי לשאול על זה עוד לפני החתימה. בהסכם טוב כתוב איך מסיימים את העבודה המשותפת, מה משולם על שלבים שכבר הושלמו, ואילו תוכניות וקבצים עוברים אליכם. כשהתשלומים קשורים לתוצרים ולא רק לתאריכים, קל יותר להיפרד בצורה מסודרת.",
+            "en": "It’s worth asking before you sign. A good agreement says how the collaboration can end, what is paid for stages already completed, and which drawings and files are handed over to you. When payments are tied to deliverables rather than only to dates, it is easier to part in an orderly way."
+          }
+        }
+      ]
+    },
+    {
+      "t": "cta",
+      "h": {
+        "he": "רוצים לשאול אותנו את השאלות האלה?",
+        "en": "Would you like to ask us these questions?"
+      },
+      "p": {
+        "he": "ספרו לנו על הבית ועל מה שאתם מחפשים, ונחזור אליכם לתיאום פגישת היכרות.",
+        "en": "Tell us about your home and what you are looking for, and we’ll get back to you to arrange an introductory meeting."
+      },
+      "button": {
+        "he": "לתיאום פגישת היכרות",
+        "en": "Arrange an introductory meeting"
+      },
+      "href": "/contact/"
+    }
+  ]
+}

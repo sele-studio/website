@@ -1,0 +1,232 @@
+/* SELÈ STUDIO — legal pages (/accessibility/, /privacy/) and the bilingual 404 (SPEC §5.8–§5.10, Addendum A3.8,
+   A7.5). Owner: P5. Prefix lg-. Logical properties only; physical lines end with phys-ok.
+   Quiet reading pages: no reveals, no night band, no motion beyond the shared link/button transitions. */
+
+/* ================================================================== the document (/accessibility/, /privacy/) */
+.lg-doc{
+  align-items:start;
+  padding-block:calc(var(--header-h) + var(--s-6)) var(--section);
+}
+.lg-head{ grid-column:1 / -1 }
+.lg-head .crumbs{ margin-block-end:var(--s-5) }
+
+/* the Latin opener word (decorative). ACCESSIBILITY measures 7.5 em: fill the text column (÷ 7.6) so the word
+   stays one line at 320 px and still out-sizes the H1 on phones; from 768 up it is the plain --t-mega */
+.lg-latin{ font-size:var(--t-mega) }
+.lg-latin--long{ font-size:min(var(--t-mega), calc((100vw - 2 * var(--margin)) / 7.6)) }
+
+.lg-title{
+  font-size:var(--t-d1);
+  line-height:1.06;
+  margin-block-start:var(--s-4);
+}
+/* phones: step the H1 down one size so the Latin opener word stays the dominant line (ACCESSIBILITY at 320) */
+@media (max-width:479px){ .lg-title{ font-size:var(--t-d2) } }
+
+/* the reading column (single column, one measure) */
+.lg-body{
+  grid-column:1 / -1;
+  max-inline-size:var(--measure);
+  margin-block-start:var(--s-6);
+}
+.lg-body p, .lg-body li{ color:var(--fg) }
+
+.lg-body .lg-lead{
+  font-family:var(--f-display);
+  font-weight:400;
+  font-size:var(--t-lead);
+  line-height:1.75;
+  color:var(--fg-2);
+  margin-block-end:var(--s-6);
+}
+html[lang="en"] .lg-lead{ font-family:var(--f-lat-text); font-weight:300 }
+
+.lg-sec{
+  padding-block-start:var(--s-5);
+  border-block-start:1px solid var(--line);
+}
+.lg-sec + .lg-sec{ margin-block-start:var(--s-6) }
+
+.lg-num{
+  display:block;
+  margin-block-end:var(--s-2);
+  font-family:var(--f-lat-display);
+  font-weight:400;
+  font-size:1.25rem;
+  line-height:1;
+  letter-spacing:.04em;
+  color:var(--fg-3);
+  font-variant-numeric:lining-nums;
+}
+.lg-h2{
+  font-size:var(--t-d3);
+  font-weight:300;
+  line-height:1.2;
+  margin-block-end:var(--s-4);
+}
+html[lang="en"] .lg-h2{ font-weight:400 }
+.lg-sec > * + p, .lg-sec > * + ul{ margin-block-start:var(--s-3) }
+.lg-sec > .lg-h2 + p, .lg-sec > .lg-h2 + ul{ margin-block-start:0 }
+
+/* lists: a 16 px hairline dash marker at inline-start */
+.lg-list > li{
+  position:relative;
+  padding-inline-start:32px;
+}
+.lg-list > li + li{ margin-block-start:var(--s-2) }
+.lg-list > li::before{
+  content:"";
+  position:absolute;
+  inset-inline-start:0;
+  inset-block-start:.92em;
+  inline-size:16px;
+  block-size:1px;
+  background:var(--fg-3);
+}
+html[lang="en"] .lg-list > li::before{ inset-block-start:.85em }
+
+/* contact list: label + value */
+.lg-sec > .lg-contact{
+  margin-block-start:var(--s-4);
+  padding-block-start:var(--s-3);
+  display:grid;
+  gap:var(--s-2);
+}
+.lg-contact > li{ display:flex; flex-wrap:wrap; align-items:baseline; column-gap:var(--s-2) }
+.lg-contact__label{
+  font-family:var(--f-he-text);
+  font-weight:600;
+  font-size:var(--t-label);
+  letter-spacing:.02em;
+  color:var(--fg-2);
+}
+html[lang="en"] .lg-contact__label{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.3em; text-transform:uppercase }
+.lg-contact a{ padding-block:10px; margin-block:-10px }   /* 44 px target without moving the line */
+
+/* "on this page" index — desktop only, sticky beside the reading column */
+.lg-toc{ display:none }
+@media (min-width:1100px){
+  .lg-body{ grid-column:1 / span 7; grid-row:2 }
+  .lg-toc{
+    display:block;
+    grid-column:8 / span 4;
+    grid-row:2;
+    position:sticky;
+    inset-block-start:calc(var(--header-h) + 5vh);
+    margin-block-start:calc(var(--s-6) + 6px);
+  }
+}
+@media (min-width:1440px){
+  .lg-toc{ grid-column:8 / span 3 }
+}
+.lg-toc__label{ margin-block-end:var(--s-3) }
+.lg-toc__list{ border-inline-start:1px solid var(--line) }
+.lg-toc__link{
+  position:relative;
+  display:block;
+  padding-block:7px;
+  padding-inline-start:var(--s-3);
+  font-size:var(--t-small);
+  line-height:1.45;
+  color:var(--fg-2);
+  text-decoration:none;
+  transition:color var(--d-micro) var(--ease-paper);
+}
+.lg-toc__link::before{
+  content:"";
+  position:absolute;
+  inset-inline-start:-1px;
+  inset-block:7px;
+  inline-size:1px;
+  background:var(--bordeaux);
+  transform:scaleY(0);
+  transform-origin:50% 0;
+  transition:transform var(--d-ui) var(--ease-paper);
+}
+.lg-toc__link:hover{ color:var(--fg) }
+.lg-toc__link[aria-current]{ color:var(--fg) }
+.lg-toc__link[aria-current]::before{ transform:scaleY(1) }
+
+/* print: the document only */
+@media print{
+  .site-header, .site-menu, .site-footer, .a11y-btn, .a11y-panel, .lang-pill, .skip-link, .lg-toc{ display:none !important }
+  .lg-doc{ padding-block:0 }
+  .lg-body{ max-inline-size:none }
+}
+
+/* ================================================================== 404 — "this door is closed" */
+.lg-nf{
+  min-block-size:100svh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding-block:calc(var(--header-h) + var(--s-6)) var(--s-7);
+}
+
+/* the empty doorway: the brand block with one quarter-arch at the physical top-right, a threshold line under it */
+.lg-door{
+  --door-w:min(64vw, 320px);
+  position:relative;
+  inline-size:var(--door-w);
+  aspect-ratio:4 / 5;
+  display:grid;
+  place-items:end center;
+  padding-block-end:calc(var(--door-w) * .1);
+  border:1px solid var(--rule);
+  border-top-right-radius:calc(var(--door-w) * .8);   /* phys-ok: brand corner never mirrors (arch-door grade) */
+}
+.lg-door::after{
+  content:"";
+  position:absolute;
+  inset-block-start:100%;
+  inset-inline:-22%;
+  block-size:1px;
+  background:linear-gradient(90deg, transparent, var(--rule) 22%, var(--rule) 78%, transparent);
+}
+.lg-door__num{
+  font-family:var(--f-lat-display);
+  font-weight:400;
+  font-size:max(var(--t-mega), calc(var(--door-w) * .36));   /* --t-mega, kept in proportion to the door on phones */
+  line-height:.86;
+  letter-spacing:.01em;
+  color:var(--taupe);
+  font-variant-numeric:lining-nums;
+}
+
+.lg-nf__title{
+  margin-block-start:var(--s-6);
+  font-size:var(--t-d1);
+  line-height:1.06;
+}
+.lg-nf__sub{
+  margin-block-start:var(--s-3);
+  font-family:var(--f-he-text);
+  font-weight:200;
+  font-size:var(--t-brand);
+  line-height:1.6;
+  color:var(--fg-2);
+}
+html[lang="en"] .lg-nf__sub{ font-family:var(--f-lat-text); font-weight:300 }
+@media (max-width:767px){ .lg-nf__sub{ font-weight:300 } }   /* < 24px → Assistant 300 */
+
+.lg-nf__links{
+  margin-block-start:var(--s-5);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:var(--s-2) var(--s-2);
+  max-inline-size:52rem;
+}
+@media (max-width:479px){
+  .lg-nf__links{ display:grid; grid-template-columns:1fr 1fr; inline-size:100%; max-inline-size:22rem }
+  .lg-nf__links > li:first-child{ grid-column:1 / -1 }
+  .lg-nf__links .btn{ inline-size:100%; padding-inline:12px }
+}
+
+@media (max-width:767px){
+  .lg-sec{ padding-block-start:var(--s-4) }
+  .lg-sec + .lg-sec{ margin-block-start:var(--s-5) }
+  .lg-body .lg-lead{ margin-block-end:var(--s-5) }
+}

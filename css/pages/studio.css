@@ -1,0 +1,233 @@
+/* SELÈ STUDIO — Studio page (SPEC §5.4 + Addendum A7.3). Prefix st-. Owner: P3.
+   Logical properties only. Every W5 effect style is keyed on html.threshold-ready (added by js/pages/studio.js
+   once its ScrollTriggers exist, removed in destroy), never on fx-desktop alone. */
+
+/* ------------------------------------------------------------------ shared */
+.h1-sub{
+  display:block;
+  margin-block-start:var(--s-2);
+  font-family:var(--f-display); font-weight:300;
+  font-size:var(--t-d4); line-height:1.4;
+  color:var(--fg-2);
+}
+/* EN: Bodoni's hairlines vanish at --t-d4 (the comma reads as a period), so the sub-line takes the Latin lead face */
+html[lang="en"] .h1-sub{ font-family:var(--f-lat-text); font-weight:300; letter-spacing:.01em; line-height:1.45 }
+/* opener words that sit in a column: never wider than the column (THRESHOLD ≈ 6.02em, SIGNATURE ≈ 5.73em) */
+.st-threshold__text, .st-seal__text{ container-type:inline-size }
+.st-threshold__opener .opener__latin{ font-size:min(var(--t-mega), 16cqi) }
+.st-seal__opener .opener__latin{ font-size:min(var(--t-mega), 16.8cqi) }
+
+/* ------------------------------------------------------------------ S1 opener */
+.st-open{ padding-block:calc(var(--header-h) + var(--s-6)) var(--s-7) }
+.st-open__main, .st-open__aside{ grid-column:1 / -1 }
+.st-open__h1{ font-size:var(--t-d1); line-height:1.06; margin-block-start:var(--s-4) }
+.st-open__h1 > span:first-child{ display:block }
+.st-open__lines{ margin-block-start:var(--s-5) }
+/* one thought per line: a wrap stays tight, the next line gets air, so four voice lines never read as one paragraph */
+.st-open__lines .opener__line{ line-height:1.4 }
+.st-open__lines .opener__line + .opener__line{ margin-block-start:.55em }
+@media (max-width:479px){
+  html[lang="en"] .st-open__lines{ font-size:clamp(1.0625rem, 4.4vw, var(--t-brand)) }
+}
+.st-open__estd{ margin-block-start:var(--s-4) }
+@media (min-width:768px){
+  .st-open__main{ grid-column:1 / 8 }
+  .st-open__aside{ grid-column:1 / 8 }
+}
+@media (min-width:1100px){
+  .st-open{ padding-block-end:var(--s-6) }
+  .st-open__grid{ align-items:end }
+  .st-open__main{ grid-column:1 / 8 }
+  .st-open__aside{ grid-column:8 / 13; padding-block-end:.35em }
+  .st-open__lines{ margin-block-start:0 }
+  /* the English brand lines are ~70% longer: six columns keep each one on one line (the EN H1 wraps anyway) */
+  html[lang="en"] .st-open__main{ grid-column:1 / 7 }
+  html[lang="en"] .st-open__aside{ grid-column:7 / 13 }
+}
+
+/* ------------------------------------------------------------------ S2 Threshold (W5) */
+.st-threshold{ position:relative; padding-block:0 var(--s-7) }
+/* the focused skip chip sits in the gap above the opener, on the l-wrap edge (not over THRESHOLD, not on the viewport edge) */
+.st-threshold > .skip-seq:focus, .st-threshold > .skip-seq:focus-visible{
+  inset-block-start:calc(-1 * (44px + var(--s-2)));
+  inset-inline-start:max(var(--margin), (100% - var(--maxw)) / 2);
+}
+.st-threshold__grid{ row-gap:var(--s-6) }
+.st-threshold__stage, .st-threshold__text{ grid-column:1 / -1 }
+.st-threshold__stage{ display:grid; justify-items:start }
+/* < 1100: full width, never taller than 78svh (definite width, §3.4) */
+.st-threshold__frame{ width:min(100%, calc(78svh * 3 / 4)) }
+.st-threshold__frame .frame__clip{ isolation:isolate }
+.st-threshold__frame [data-layer]{ position:absolute; inset:0 }
+.st-threshold__frame [data-layer="bath"]{ display:none; z-index:1 }
+.st-threshold__frame [data-layer="portrait"] img{ transform-origin:50% 16% }
+.st-threshold__cap{ max-inline-size:none }
+
+.st-threshold__opener{ margin-block-end:var(--s-6) }
+.st-threshold__p{
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg);
+  max-inline-size:var(--measure);
+}
+html[lang="en"] .st-threshold__p{ font-family:var(--f-lat-text); font-weight:300 }
+.st-threshold__p + .st-threshold__p, .st-threshold__p + .st-threshold__bath, .st-threshold__bath + .st-threshold__p,
+.st-rhymes + .st-threshold__p{ margin-block-start:var(--s-5) }
+.st-threshold__bath{ max-inline-size:26rem }
+.st-threshold__end{ display:flex; flex-direction:column; align-items:flex-start; gap:var(--s-4); margin-block-start:var(--s-6) }
+.st-threshold__sign{ color:var(--fg-2) }
+
+@media (min-width:1100px){
+  .st-threshold__grid{ row-gap:0; align-items:start }
+  .st-threshold__text{ grid-column:1 / 6; grid-row:1; padding-block-start:var(--s-4) }
+  .st-threshold__stage{
+    grid-column:7 / 13; grid-row:1;
+    position:sticky; inset-block-start:calc(var(--header-h) + 6vh);
+    justify-items:end;
+  }
+  /* aspect-ratio + a definite height on the .frame itself (§3.4); capped so the caption stays on screen */
+  .st-threshold__frame{ height:min(80vh, calc(94vh - var(--header-h) - 64px)); width:auto; aspect-ratio:3 / 4 }
+  /* each step holds the stage for a while: 60vh while the effect runs, a calmer 36vh in the static layout
+     (the portrait stays sticky beside the text either way) */
+  .st-threshold__p{ min-block-size:36vh }
+  html.threshold-ready .st-threshold__p{ min-block-size:60vh }
+  html.threshold-ready .st-threshold__p[data-step="1"]{ min-block-size:50vh }
+  .st-threshold__p[data-step="4"], html.threshold-ready .st-threshold__p[data-step="4"]{ min-block-size:0 }
+  .st-threshold__p + .st-threshold__p, .st-rhymes + .st-threshold__p{ margin-block-start:0 }
+  .st-threshold__bath{ margin-block-end:var(--s-6) }
+}
+
+/* the effect (keyed on threshold-ready only) */
+html.threshold-ready [data-threshold-inline]{ display:none }
+/* the inline figure's place becomes a pause: the bath holds on the stage before paragraph 3 brings the portrait back */
+html.threshold-ready .st-threshold__p[data-step="2"]{ margin-block-end:45vh }
+html.threshold-ready .st-threshold__frame [data-layer="bath"]{ display:block; opacity:0 }
+html.threshold-ready .st-threshold__cap{ display:grid; grid-template-areas:"rule" "cap" }
+html.threshold-ready .st-threshold__cap::before{ grid-area:rule }
+html.threshold-ready .st-threshold__cap-item{ grid-area:cap }
+html.threshold-ready .st-threshold__cap-item[data-cap="bath"]{ opacity:0 }
+
+/* rhymes: one palette, two places */
+.st-rhymes{
+  display:grid; gap:var(--s-5);
+  margin-block:var(--s-6) var(--s-6);
+  padding-block-start:var(--s-5);
+  border-block-start:1px solid var(--line);
+}
+.st-rhyme{ display:grid; grid-template-columns:auto minmax(0,1fr); align-items:end; gap:var(--s-2) var(--s-4) }
+.st-rhyme__pair{ display:flex; gap:12px; align-items:flex-end }
+.st-rhyme__fig{ flex:none; width:clamp(84px, 9vw, 132px) }   /* definite width (§3.4); ≤ 1.2× every source */
+.st-rhyme__cap{
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-small); line-height:1.6;
+  color:var(--fg-2);
+  padding-block-end:2px;
+}
+html[lang="en"] .st-rhyme__cap{ font-family:var(--f-lat-text); font-weight:300 }
+.st-rhyme__cap::before{ content:""; display:block; inline-size:24px; block-size:1px; background:var(--line); margin-block-end:10px }
+.st-rhyme--wide{ grid-template-columns:minmax(0,1fr) }
+.st-rhyme--wide .st-rhyme__pair{ flex-direction:column; align-items:flex-start; gap:10px }
+.st-rhyme--wide .st-rhyme__fig{ width:min(100%, 360px) }
+@media (min-width:768px){
+  .st-rhymes{ grid-template-columns:repeat(2, auto); justify-content:start; column-gap:var(--s-6); row-gap:var(--s-6) }
+  .st-rhyme{ grid-template-columns:auto; align-items:start }
+  .st-rhyme--wide{ grid-column:1 / -1 }
+}
+@media (min-width:1100px){
+  .st-rhymes{ margin-block:0 var(--s-7); column-gap:var(--s-5); inline-size:max-content; max-inline-size:calc(100% + var(--gap) + (100% - 4 * var(--gap)) / 5) }
+}
+
+/* ------------------------------------------------------------------ S3 in brief */
+.st-facts:focus{ outline:none }
+.st-facts__grid > *{ grid-column:1 / -1 }
+.st-facts__intro{
+  margin-block-start:var(--s-5);
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2);
+  max-inline-size:var(--measure);
+}
+html[lang="en"] .st-facts__intro{ font-family:var(--f-lat-text); font-weight:300 }
+.st-facts__list{ margin-block-start:var(--s-6); border-block-start:1px solid var(--line) }
+.st-facts__row{
+  display:grid; gap:2px;
+  padding-block:14px;
+  border-block-end:1px solid var(--line);
+}
+.st-facts__row dt{
+  font-family:var(--f-he-text); font-weight:600; font-size:var(--t-label); letter-spacing:.02em; line-height:1.5;
+  color:var(--fg-2);
+}
+html[lang="en"] .st-facts__row dt{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.3em; text-transform:uppercase }
+.st-facts__row dd{ font-size:var(--t-body); line-height:1.6; color:var(--fg) }
+.st-facts__row dd a{ text-decoration-line:underline; text-decoration-color:color-mix(in srgb, currentColor 40%, transparent); text-underline-offset:.24em; padding-block:12px; margin-block:-12px }
+.st-facts__row dd a:hover{ text-decoration-color:currentColor }
+.st-facts__sep{ color:var(--fg-3); margin-inline:.35em }
+.st-links{ display:flex; flex-wrap:wrap; gap:var(--s-3) var(--s-5); margin-block-start:var(--s-6) }
+.st-links .link{ font-size:var(--t-body);
+  /* 44px touch target (§9) without moving the layout or the underline: the box grows by padding, the negative margin
+     gives the space back, and both underlines (the resting 1px background and the ::after sweep) are lifted by the same amount */
+  --hit:max(2px, (44px - 1.4em) / 2);
+  padding-block:var(--hit); margin-block:calc(2px - var(--hit));
+  background-position:0 calc(100% - var(--hit) + 2px);
+}
+.st-links .link::after{ inset-block-end:calc(var(--hit) - 2px) }
+@media (min-width:768px){
+  .st-facts__grid > *{ grid-column:1 / 9 }
+  .st-facts__row{ display:flex; align-items:baseline; gap:var(--s-3); padding-block:16px }
+  .st-facts__row dt{ display:flex; align-items:baseline; gap:var(--s-3); flex:1 1 auto; min-inline-size:8em }
+  .st-facts__row dt::after{
+    content:""; flex:1 1 auto; min-inline-size:2em;
+    border-block-end:1px dotted color-mix(in srgb, var(--fg) 34%, transparent);
+    transform:translateY(-.3em);
+  }
+  .st-facts__row dd{ flex:0 1 auto; max-inline-size:62%; text-align:end }
+}
+@media (min-width:1100px){
+  .st-facts__opener{ grid-column:1 / 9 }
+  .st-facts__intro{ grid-column:1 / 8 }
+}
+
+/* ------------------------------------------------------------------ S4 principles */
+.st-principles__list{ display:grid }
+.st-principle{ padding-block:var(--s-5); border-block-start:1px solid var(--line) }
+.st-principle:last-child{ border-block-end:1px solid var(--line) }
+.st-principle__t{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d2); line-height:1.1 }
+html[lang="en"] .st-principle__t{ font-weight:400 }
+.st-principle__d{
+  margin-block-start:var(--s-3);
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2);
+  max-inline-size:34ch;
+}
+html[lang="en"] .st-principle__d{ font-family:var(--f-lat-text); font-weight:300 }
+@media (min-width:1100px){
+  .st-principles__list{ grid-template-columns:repeat(3, minmax(0,1fr)) }
+  .st-principle, .st-principle:last-child{ border-block:0; padding-block:var(--s-2); padding-inline:var(--s-5) }
+  .st-principle:first-child{ padding-inline-start:0 }
+  .st-principle + .st-principle{ border-inline-start:1px solid var(--line) }
+  .st-principle:last-child{ padding-inline-end:0 }
+}
+
+/* ------------------------------------------------------------------ S5 signature (night) */
+.st-seal__grid{ row-gap:var(--s-6); align-items:center }
+.st-seal__text, .st-seal__mark{ grid-column:1 / -1 }
+.st-seal__p{
+  margin-block-start:var(--s-5);
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2);
+  max-inline-size:var(--measure);
+}
+html[lang="en"] .st-seal__p{ font-family:var(--f-lat-text); font-weight:300 }
+.st-seal__mark{ display:grid; justify-items:center; gap:var(--s-5); color:var(--night-ink) }
+.st-seal__svg{ inline-size:min(240px, 60vw); block-size:auto; aspect-ratio:182 / 210; overflow:visible }
+.st-lockup{ display:grid; justify-items:center; gap:var(--s-2); color:var(--fg-2) }
+.st-lockup__row{ display:flex; direction:ltr; align-items:center; gap:14px; font-family:var(--f-lat-text); font-weight:400; font-size:11px; letter-spacing:.3em; line-height:1 }
+.st-lockup__seal{ inline-size:32px; block-size:auto; aspect-ratio:182 / 210; color:var(--fg) }
+.st-lockup__word{ font-family:var(--f-lat-text); font-weight:400; font-size:15px; letter-spacing:.38em; color:var(--fg); text-transform:uppercase; margin-inline-end:-.38em }
+@media (min-width:1100px){
+  .st-seal__text{ grid-column:1 / 7 }
+  .st-seal__mark{ grid-column:8 / 13 }
+}

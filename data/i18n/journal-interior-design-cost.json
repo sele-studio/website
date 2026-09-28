@@ -1,0 +1,398 @@
+{
+  "journal-interior-design-cost.hero.alt": {
+    "he": "מטבח עם אי אבן מונוליתי בגוון אפור, נגרות עץ אלון בהיר עד התקרה ונישה מוארת עם כיור, הדמיה",
+    "en": "Kitchen with a monolithic gray stone island, full-height light-oak cabinetry and a backlit stone niche with a sink, render"
+  },
+  "journal-interior-design-cost.crumb": {
+    "he": "כמה עולה מעצבת פנים",
+    "en": "Designer fees"
+  },
+  "journal-interior-design-cost.h1": {
+    "he": "כמה עולה מעצבת פנים, ואיך משווים בין הצעות מחיר",
+    "en": "What an interior designer costs in Israel, and how to compare proposals"
+  },
+  "journal-interior-design-cost.date.published": {
+    "he": "28 בספטמבר 2026",
+    "en": "September 28, 2026"
+  },
+  "journal-interior-design-cost.b0.text": {
+    "he": "\"כמה עולה מעצבת פנים?\" היא כמעט תמיד השאלה הראשונה, ובצדק. לפני שמתחילים לחלום על אי מאבן או על ספרייה מעץ אלון, רוצים לדעת לאיזו השקעה נכנסים. התשובה הכנה היא שאין מחיר אחד. שכר הטרחה של מעצבת פנים נגזר משני דברים: שיטת התמחור, והיקף העבודה שמוגדר בפועל. כלומר, כמה חללים, כמה עבודות נגרות וכמה תוכניות, והאם התכנון מסתיים בסט תוכניות או ממשיך ל<a href=\"/services/renovation-management/\">ליווי שיפוץ דירה</a> עד שנכנסים הביתה.",
+    "en": "“How much does an interior designer cost?” is almost always the first question, and rightly so. Before you start dreaming about a stone island or an oak library, you want to know what you are committing to. The honest answer is that there is no single price. An interior designer’s fee comes from two things: the pricing model, and the scope of work that is actually defined. That means how many spaces, how much joinery and how many drawings, and whether the design ends with a set of plans or continues with <a href=\"/services/renovation-management/\">renovation support</a> until you move in."
+  },
+  "journal-interior-design-cost.b1.text": {
+    "he": "במאמר הזה לא תמצאו מחירון. תמצאו משהו שימושי יותר: הסבר על ארבע שיטות התמחור הנפוצות, על הגורמים שמזיזים את המחיר למעלה או למטה, ועל הדרך להשוות בין הצעות שנראות שונות. תמצאו גם את מה שעולה, לפעמים הרבה יותר, כשמוותרים על תכנון. עם הכלים האלה משווים בין הצעות באמת, ולא רק בין מספרים.",
+    "en": "You won’t find a price list here. You’ll find something more useful: an explanation of the four common pricing models, the factors that push the fee up or down, and a way to compare proposals that look different. You’ll also find what it costs, sometimes far more, to skip design altogether. With these tools you compare proposals properly, not just numbers."
+  },
+  "journal-interior-design-cost.b2.text": {
+    "he": "ארבע שיטות תמחור נפוצות בעיצוב פנים",
+    "en": "Four common pricing models in interior design"
+  },
+  "journal-interior-design-cost.b3.text": {
+    "he": "מעצבות ומעצבי פנים עובדים בדרך כלל באחת מארבע שיטות, או בשילוב ביניהן. לכל שיטה יש היגיון משלה, ולכל אחת יש שאלה שכדאי לשאול לפני שחותמים.",
+    "en": "Interior designers usually work with one of four models, or a combination of them. Each has its own logic, and each comes with a question worth asking before you sign."
+  },
+  "journal-interior-design-cost.b4.text": {
+    "he": "תמחור לפי מטר רבוע",
+    "en": "Per square meter"
+  },
+  "journal-interior-design-cost.b5.text": {
+    "he": "המחיר נקבע לפי שטח הבית. היתרון ברור: קל להבין וקל להשוות. החיסרון פחות מובן מאליו. מטר רבוע של מטבח או של חדר רחצה דורש הרבה יותר תכנון ממטר רבוע של חדר שינה, ודירה קטנה עם מטבח מורכב ונגרות רבה יכולה לדרוש יותר עבודה מדירה גדולה ופשוטה.",
+    "en": "The fee is set by the size of the home. The advantage is obvious: it is easy to understand and easy to compare. The drawback is less obvious. A square meter of kitchen or bathroom takes far more design work than a square meter of bedroom, and a small apartment with a complex kitchen and a lot of joinery can need more work than a large, simple one."
+  },
+  "journal-interior-design-cost.b6.text": {
+    "he": "<strong>מה לשאול:</strong> אילו שטחים נספרים (ברוטו או נטו, מרפסות, מחסן), ומה בדיוק כלול במחיר למטר.",
+    "en": "<strong>Ask:</strong> which areas are counted (gross or net, balconies, storage), and exactly what is included in the rate."
+  },
+  "journal-interior-design-cost.b7.text": {
+    "he": "מחיר גלובלי לפרויקט",
+    "en": "Fixed fee for the project"
+  },
+  "journal-interior-design-cost.b8.text": {
+    "he": "סכום אחד שמוסכם מראש עבור היקף עבודה מוגדר. השיטה הזאת נותנת את הוודאות הגבוהה ביותר, בתנאי שההיקף באמת מוגדר: אילו חללים, אילו תוכניות, כמה חלופות וכמה ביקורים באתר.",
+    "en": "One sum, agreed in advance, for a defined scope. It gives you the most certainty, provided the scope really is defined: which spaces, which drawings, how many alternatives and how many site visits."
+  },
+  "journal-interior-design-cost.b9.text": {
+    "he": "<strong>מה לשאול:</strong> מה קורה כשמוסיפים חלל או משנים כיוון באמצע, ואיך מתומחרים שינויים שמחוץ להיקף.",
+    "en": "<strong>Ask:</strong> what happens if you add a room or change direction halfway, and how out-of-scope changes are priced."
+  },
+  "journal-interior-design-cost.b10.text": {
+    "he": "תמחור לפי שעה או לפי פגישת ייעוץ",
+    "en": "Hourly or per consultation"
+  },
+  "journal-interior-design-cost.b11.text": {
+    "he": "השיטה מתאימה לעבודה ממוקדת, כמו ייעוץ לפני קניית דירה, בחירת חומרים וגוונים, בדיקה של תוכנית הדירה שהתקבלה מהקבלן או פתרון לחלל אחד. משלמים על הזמן בפועל, ולכן זו דרך טובה להתחיל בקטן.",
+    "en": "This suits focused work, such as advice before buying an apartment, choosing materials and colors, reviewing the plan you received from the developer, or solving a single space. You pay for the time actually spent, which makes it a good way to start small."
+  },
+  "journal-interior-design-cost.b12.text": {
+    "he": "<strong>מה לשאול:</strong> כמה שעות צפויות למשימה, ואיך מתעדים אותן ומדווחים עליהן.",
+    "en": "<strong>Ask:</strong> how many hours the task is expected to take, and how they are logged and reported."
+  },
+  "journal-interior-design-cost.b13.text": {
+    "he": "אחוז מתקציב הביצוע",
+    "en": "Percentage of the build budget"
+  },
+  "journal-interior-design-cost.b14.text": {
+    "he": "שכר הטרחה מחושב כאחוז מעלות הביצוע. השיטה נפוצה בעיקר בפרויקטים גדולים, והיא קושרת את השכר להיקף הכולל של הפרויקט. החיסרון: כשהתקציב עולה, גם שכר הטרחה עולה, גם אם העבודה התכנונית לא השתנתה.",
+    "en": "The fee is calculated as a percentage of construction costs. This model is most common on large projects, and it ties the fee to the overall size of the project. The drawback: when the budget rises, the fee rises too, even if the design work has not changed."
+  },
+  "journal-interior-design-cost.b15.text": {
+    "he": "<strong>מה לשאול:</strong> על מה מחושב האחוז: רק על עבודות השלד והגמר, או גם על ריהוט, מוצרי חשמל ותאורה.",
+    "en": "<strong>Ask:</strong> what the percentage is calculated on: only the shell and finishing work, or also furniture, appliances and lighting."
+  },
+  "journal-interior-design-cost.b16.text": {
+    "he": "ובפועל: שילוב ותמחור לפי שלבים",
+    "en": "In practice: combinations and phased pricing"
+  },
+  "journal-interior-design-cost.b17.text": {
+    "he": "הרבה הצעות מחיר מחולקות לשלבים, וזו גם התשובה המעשית לשאלה מה כולל שירות עיצוב פנים. השלבים הנפוצים הם תכנון (העמדה ותוכניות), פרטים ובחירת חומרים, ליווי בביצוע, ולעיתים גם סטיילינג. חלוקה כזאת מאפשרת להחליט כמה ליווי אתם צריכים, ולראות על מה אתם משלמים בכל שלב.",
+    "en": "Many proposals are divided into phases, and that is also the practical answer to what an interior design service includes. The common phases are design (layout and drawings), detailing and material selection, supervision during the build, and sometimes styling. This lets you decide how much support you need and see what you are paying for at each stage."
+  },
+  "journal-interior-design-cost.b18.h0": {
+    "he": "שיטה",
+    "en": "Model"
+  },
+  "journal-interior-design-cost.b18.h1": {
+    "he": "מתאימה במיוחד ל…",
+    "en": "Best suited to"
+  },
+  "journal-interior-design-cost.b18.h2": {
+    "he": "מה לבדוק",
+    "en": "What to check"
+  },
+  "journal-interior-design-cost.b18.r0c0": {
+    "he": "לפי מ״ר",
+    "en": "Per m²"
+  },
+  "journal-interior-design-cost.b18.r0c1": {
+    "he": "בית שלם, השוואה מהירה",
+    "en": "A whole home, quick comparison"
+  },
+  "journal-interior-design-cost.b18.r0c2": {
+    "he": "אילו שטחים נספרים ומה כלול",
+    "en": "Which areas count and what is included"
+  },
+  "journal-interior-design-cost.b18.r1c0": {
+    "he": "מחיר גלובלי",
+    "en": "Fixed fee"
+  },
+  "journal-interior-design-cost.b18.r1c1": {
+    "he": "פרויקט עם היקף ברור",
+    "en": "A project with a clear scope"
+  },
+  "journal-interior-design-cost.b18.r1c2": {
+    "he": "הגדרת ההיקף ותמחור שינויים",
+    "en": "Scope definition and how changes are priced"
+  },
+  "journal-interior-design-cost.b18.r2c0": {
+    "he": "לפי שעה או ייעוץ",
+    "en": "Hourly or consultation"
+  },
+  "journal-interior-design-cost.b18.r2c1": {
+    "he": "ייעוץ נקודתי, חלל אחד",
+    "en": "One-off advice, a single space"
+  },
+  "journal-interior-design-cost.b18.r2c2": {
+    "he": "הערכת שעות ודיווח",
+    "en": "Estimated hours and reporting"
+  },
+  "journal-interior-design-cost.b18.r3c0": {
+    "he": "אחוז מהביצוע",
+    "en": "Percentage of build"
+  },
+  "journal-interior-design-cost.b18.r3c1": {
+    "he": "פרויקטים גדולים",
+    "en": "Large projects"
+  },
+  "journal-interior-design-cost.b18.r3c2": {
+    "he": "בסיס החישוב",
+    "en": "What the percentage is based on"
+  },
+  "journal-interior-design-cost.b19.text": {
+    "he": "מה משפיע על המחיר של מעצבת פנים?",
+    "en": "What affects the cost of an interior designer?"
+  },
+  "journal-interior-design-cost.b20.text": {
+    "he": "גם באותה שיטת תמחור, שני פרויקטים באותו גודל יכולים להיות שונים מאוד. אלה הגורמים שקובעים את היקף העבודה בפועל.",
+    "en": "Even under the same pricing model, two projects of the same size can be very different. These are the factors that set the actual scope of work."
+  },
+  "journal-interior-design-cost.b21.text": {
+    "he": "מספר החללים, ומה קורה בתוכם",
+    "en": "The number of spaces, and what happens in them"
+  },
+  "journal-interior-design-cost.b22.text": {
+    "he": "מטבח וחדרי רחצה הם החללים הצפופים ביותר בתכנון. אינסטלציה, חשמל, אבן, ריצוף וחיפוי, תאורה ונגרות נפגשים בהם במטרים ספורים. סלון או חדר שינה פשוטים יותר, אלא אם יש בהם קיר נגרות, תקרה מונמכת או תאורה נסתרת. לכן השאלה היא לא רק כמה חדרים יש, אלא כמה מהם מורכבים.",
+    "en": "Kitchens and bathrooms are the densest spaces to design. Plumbing, electrics, stone, flooring and cladding, lighting and joinery all meet within a few square meters. A living room or bedroom is simpler, unless it has a joinery wall, a dropped ceiling or concealed lighting. So the question is not only how many rooms there are, but how many of them are complex."
+  },
+  "journal-interior-design-cost.b23.text": {
+    "he": "היקף הנגרות",
+    "en": "The amount of joinery"
+  },
+  "journal-interior-design-cost.b24.text": {
+    "he": "כל ארון, ספרייה או קיר טלוויזיה בהתאמה אישית דורש תוכנית משלו: חזיתות, חלוקה פנימית, ידיות, המפגש עם האבן ועם התאורה, ומידות מדויקות לנגר. בית עם נגרות מקיר לקיר ועד התקרה דורש הרבה יותר שרטוט ופרטים מבית שבו רוב הריהוט נקנה מוכן. <a href=\"/journal/custom-carpentry-guide/\">תכנון נגרות בהתאמה אישית</a> הוא נושא בפני עצמו, וכדאי להכיר אותו לפני שמשווים הצעות.",
+    "en": "Every custom wardrobe, bookcase or TV wall needs its own drawings: fronts, internal layout, handles, where it meets the stone and the lighting, and exact dimensions for the joiner. A home with wall-to-wall, floor-to-ceiling joinery needs far more drawing and detailing than one furnished mostly with ready-made pieces. <a href=\"/journal/custom-carpentry-guide/\">Planning custom joinery</a> is a subject of its own, and worth understanding before you compare proposals."
+  },
+  "journal-interior-design-cost.b25.alt": {
+    "he": "ספרייה בהתאמה אישית מעץ אלון בהיר על בסיס אבן, עם כלי קרמיקה וספרים באור שמש, הדמיה",
+    "en": "Custom light-oak shelving on a stone plinth, styled with ceramics and books in sunlight, render"
+  },
+  "journal-interior-design-cost.b26.text": {
+    "he": "מספר התוכניות, החלופות וסבבי התיקונים",
+    "en": "The number of drawings, alternatives and revision rounds"
+  },
+  "journal-interior-design-cost.b27.text": {
+    "he": "סט תוכניות מלא יכול לכלול תוכנית מדידה, תוכנית הריסה ובנייה, העמדת ריהוט, חשמל ותקשורת, תאורה, אינסטלציה, ריצוף וחיפוי, תקרות ופרטי נגרות. יש הצעות שכוללות חלופה אחת ל<a href=\"/services/space-planning/\">חלוקת החללים</a>, ויש שכוללות כמה. יש הצעות שכוללות הדמיות תלת־ממד של כל החללים, ויש שמסתפקות במטבח. כל אחד מהרכיבים האלה הוא עבודה, ולכן גם חלק מהמחיר.",
+    "en": "A full drawing set can include a measured survey, demolition and construction plans, a furniture layout, electrical and data, lighting, plumbing, flooring and cladding, ceilings and joinery details. Some proposals include one option for <a href=\"/services/space-planning/\">the layout</a>, and others include several. Some include 3D renders of every space, and others cover only the kitchen. Each of these is work, and so each is part of the price."
+  },
+  "journal-interior-design-cost.b28.alt": {
+    "he": "פרט של נישת מטבח: חיפוי אבן עם עורקים, כיור שקוע, ברז פלדה מוברשת ופס תאורה נסתר מעל, הדמיה",
+    "en": "Kitchen niche detail: veined stone splashback, undermount sink, brushed-steel faucet and a concealed light strip above, render"
+  },
+  "journal-interior-design-cost.b29.text": {
+    "he": "היקף הליווי בשטח",
+    "en": "The scope of on-site support"
+  },
+  "journal-interior-design-cost.b30.text": {
+    "he": "תכנון שמסתיים במסירת תוכניות שונה מאוד מליווי בשטח, שכולל פגישות עם קבלנים וספקים, ביקורים באתר ובדיקת מידות לפני הזמנת אבן ונגרות. זה לרוב הרכיב שמשתנה יותר מכל בין הצעות, ולכן הכי חשוב להגדיר אותו במספרים: כמה ביקורים, באילו שלבים, ומה המחיר של ביקור נוסף.",
+    "en": "A design that ends with handing over drawings is very different from support on site, which includes meetings with contractors and suppliers, site visits, and checking dimensions before stone and joinery are ordered. This is usually the component that varies most between proposals, which is why it matters most to define it in numbers: how many visits, at which stages, and the cost of an extra visit."
+  },
+  "journal-interior-design-cost.b31.text": {
+    "he": "בחירת חומרים, ריהוט וסטיילינג",
+    "en": "Materials, furniture and styling"
+  },
+  "journal-interior-design-cost.b32.text": {
+    "he": "סיורים באולמות תצוגה של אבן, ריצוף ותאורה, רשימות רכש, ובחירת ריהוט וטקסטיל בסוף הדרך יכולים להיות חלק מהשירות, או להישאר באחריותכם. כדאי לדעת מראש מה מהם כלול.",
+    "en": "Showroom visits for stone, tiles and lighting, purchase lists, and choosing furniture and textiles at the end can be part of the service, or they can stay with you. It is worth knowing in advance which of them are included."
+  },
+  "journal-interior-design-cost.b33.text": {
+    "he": "נקודת הפתיחה",
+    "en": "The starting point"
+  },
+  "journal-interior-design-cost.b34.text": {
+    "he": "דירה חדשה מקבלן, שבה אפשר לתכנן שינויים לפני שהקירות נסגרים, שונה מדירה ישנה שבה מגלים הפתעות מאחורי הטיח. גם לוח הזמנים משפיע: תכנון בלחץ זמן דורש יותר שעות בפרק זמן קצר יותר.",
+    "en": "A new-build apartment, where changes can be planned before the walls are closed, is different from an older apartment where surprises wait behind the plaster. Timing matters too: design under time pressure needs more hours in less time."
+  },
+  "journal-interior-design-cost.b35.text": {
+    "he": "איך משווים בין הצעות מחיר של מעצבות פנים",
+    "en": "How to compare interior designer proposals"
+  },
+  "journal-interior-design-cost.b36.text": {
+    "he": "לפני שמשווים סכומים, כדאי להעמיד את ההצעות על אותו בסיס. הדרך הפשוטה: טבלה אחת, שורה לכל סעיף ועמודה לכל הצעה. סעיף שחסר בהצעה אחת הוא לא \"אפס\". זו עלות שתגיע בהמשך, או עבודה שלא תיעשה. אלה השורות שכדאי שיהיו בטבלה:",
+    "en": "Before comparing totals, put the proposals on the same footing. The simple way: one table, a row for each item and a column for each proposal. An item missing from one proposal is not a “zero”. It is a cost that will arrive later, or work that won’t get done. These are the rows worth having in the table:"
+  },
+  "journal-interior-design-cost.b37.i0": {
+    "he": "<strong>היקף:</strong> אילו חללים כלולים, ואילו לא.",
+    "en": "<strong>Scope:</strong> which spaces are included, and which are not."
+  },
+  "journal-interior-design-cost.b37.i1": {
+    "he": "<strong>תוצרים:</strong> רשימת התוכניות שתקבלו, כל אחת בשמה.",
+    "en": "<strong>Deliverables:</strong> the list of drawings you will receive, each named."
+  },
+  "journal-interior-design-cost.b37.i2": {
+    "he": "<strong>חלופות וסבבי תיקונים:</strong> כמה חלופות העמדה, וכמה סבבי שינויים בכל שלב.",
+    "en": "<strong>Alternatives and revisions:</strong> how many layout options, and how many rounds of changes at each stage."
+  },
+  "journal-interior-design-cost.b37.i3": {
+    "he": "<strong>הדמיות:</strong> האם הן כלולות, ולאילו חללים.",
+    "en": "<strong>Renders:</strong> whether they are included, and for which spaces."
+  },
+  "journal-interior-design-cost.b37.i4": {
+    "he": "<strong>חומרים ורכש:</strong> האם יש סיורי בחירה, רשימות רכש וליווי מול ספקים.",
+    "en": "<strong>Materials and procurement:</strong> whether there are selection visits, purchase lists and liaison with suppliers."
+  },
+  "journal-interior-design-cost.b37.i5": {
+    "he": "<strong>ליווי בביצוע:</strong> מספר הביקורים והפגישות, והמחיר של ביקור נוסף.",
+    "en": "<strong>Supervision:</strong> the number of site visits and meetings, and the cost of an extra visit."
+  },
+  "journal-interior-design-cost.b37.i6": {
+    "he": "<strong>מה לא כלול:</strong> יועצים חיצוניים (קונסטרוקציה, מיזוג, חשמל) והיתרים, כשהם נדרשים. כאן כדאי לדעת גם <a href=\"/journal/interior-designer-vs-architect/\">מתי צריך גם אדריכל</a>.",
+    "en": "<strong>Exclusions:</strong> outside consultants (structural, HVAC, electrical) and permits, where required. This is also where it helps to know <a href=\"/journal/interior-designer-vs-architect/\">when you also need an architect</a>."
+  },
+  "journal-interior-design-cost.b37.i7": {
+    "he": "<strong>שינויים מחוץ להיקף:</strong> איך הם מתומחרים.",
+    "en": "<strong>Out-of-scope changes:</strong> how they are priced."
+  },
+  "journal-interior-design-cost.b37.i8": {
+    "he": "<strong>לוח תשלומים:</strong> תשלום לפי שלבים ואבני דרך, ולא הכול מראש.",
+    "en": "<strong>Payment schedule:</strong> payments tied to phases and milestones, not everything upfront."
+  },
+  "journal-interior-design-cost.b37.i9": {
+    "he": "<strong>מע״מ:</strong> האם הסכום כולל מע״מ.",
+    "en": "<strong>VAT:</strong> whether the sum includes VAT."
+  },
+  "journal-interior-design-cost.b38.text": {
+    "he": "שתי הצעות שנראות רחוקות במחיר מתגלות לפעמים כקרובות מאוד כשמשווים שורה מול שורה, ולפעמים להפך. את השאלות לפגישה עצמה, ואת מה שכדאי לשמוע בתשובה, ריכזנו ב<a href=\"/journal/how-to-choose-interior-designer/\">מדריך לבחירת מעצבת פנים</a>.",
+    "en": "Two proposals that look far apart in price sometimes turn out to be very close once you compare them line by line, and sometimes the reverse. The questions for the meeting itself, and what to listen for in the answers, are in our <a href=\"/journal/how-to-choose-interior-designer/\">guide to choosing an interior designer</a>."
+  },
+  "journal-interior-design-cost.b39.text": {
+    "he": "כמה עולה לוותר על תכנון?",
+    "en": "What does it cost to skip design?"
+  },
+  "journal-interior-design-cost.b40.text": {
+    "he": "את שכר הטרחה של מעצבת פנים רואים בהצעת המחיר. את העלות של היעדר תכנון רואים רק בדיעבד, ובדרך כלל בחשבון של מישהו אחר:",
+    "en": "You see an interior designer’s fee in the proposal. You see the cost of no design only in hindsight, and usually on someone else’s invoice:"
+  },
+  "journal-interior-design-cost.b41.i0": {
+    "he": "<strong>תיקונים אחרי שהקיר נסגר.</strong> שקע שנשאר מאחורי ארון, ניקוז שלא מתאים לארון האמבטיה או נקודת תאורה שנשכחה מתגלים אחרי שהחיפוי כבר על הקיר. תיקון בשלב הזה פירושו פירוק, ותשלום שני על אותה עבודה.",
+    "en": "<strong>Fixes after the wall is closed.</strong> A socket stuck behind a cabinet, a drain that doesn’t suit the vanity or a forgotten lighting point is discovered after the cladding is on the wall. Fixing it at that stage means taking things apart, and paying twice for the same work."
+  },
+  "journal-interior-design-cost.b41.i1": {
+    "he": "<strong>הזמנות שלא מתאימות זו לזו.</strong> אבן שנחתכה לפני שהנגרות נמדדה, ספה שלא נכנסת בדלת, ריצוף שלא נגמר נקי מול הפנלים. כל אחת מהן היא הזמנה חוזרת.",
+    "en": "<strong>Orders that don’t fit each other.</strong> Stone cut before the joinery was measured, a sofa that won’t go through the door, flooring that doesn’t finish cleanly against the panels. Each one is a repeat order."
+  },
+  "journal-interior-design-cost.b41.i2": {
+    "he": "<strong>תוספות בחשבון הקבלן.</strong> בלי תוכניות וכתב כמויות, כל קבלן מתמחר בפועל דירה אחרת. מה שלא הוגדר מראש מגיע אחר כך כ\"תוספת\", והפער מתגלה בחשבון הסופי.",
+    "en": "<strong>Extras on the contractor’s bill.</strong> Without drawings and a bill of quantities, each contractor is effectively pricing a different apartment. Whatever wasn’t defined up front arrives later as an “extra”, and the difference shows up in the final bill."
+  },
+  "journal-interior-design-cost.b41.i3": {
+    "he": "<strong>החלטות בלחץ.</strong> כשכל בחירה נעשית ביום שהספק צריך תשובה, קל לשלם יותר ולקבל פחות.",
+    "en": "<strong>Decisions under pressure.</strong> When every choice is made on the day the supplier needs an answer, it is easy to pay more and get less."
+  },
+  "journal-interior-design-cost.b42.text": {
+    "he": "שכר התכנון הוא חלק מתקציב השיפוץ, אבל הוא החלק שקובע איך יתנהג כל השאר. תכנון מדויק לא מונע כל הפתעה. הוא מצמצם את מספרן, ודואג שיהיה מי שיודע לפתור אותן.",
+    "en": "The design fee is part of the renovation budget, but it is the part that decides how the rest behaves. Careful design does not prevent every surprise. It reduces their number, and makes sure someone knows how to solve them."
+  },
+  "journal-interior-design-cost.b43.alt": {
+    "he": "מטבח בביצוע: ארונות עץ אלון כהה עד התקרה עם פתחי אוורור, ארונות תחתונים בגוון גרייג', אי טרוורטין ומסילת תאורה, צילום",
+    "en": "Built kitchen: full-height dark-oak cabinetry with vent grilles, greige lower cabinets, a travertine island and track lighting, photograph"
+  },
+  "journal-interior-design-cost.b43.caption": {
+    "he": "הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.",
+    "en": "It is not presented here as the built version of any visualization on this site."
+  },
+  "journal-interior-design-cost.b44.text": {
+    "he": "איך מקבלים מספר אמיתי לפרויקט שלכם",
+    "en": "How to get a real number for your project"
+  },
+  "journal-interior-design-cost.b45.text": {
+    "he": "המספר המדויק מתחיל בשיחה. כדאי להגיע אליה עם:",
+    "en": "An accurate number starts with a conversation. It helps to come with:"
+  },
+  "journal-interior-design-cost.b46.i0": {
+    "he": "תוכנית של הדירה או הבית, אם יש, ותמונות של המצב הקיים;",
+    "en": "a plan of the apartment or house, if you have one, and photos of how it looks now;"
+  },
+  "journal-interior-design-cost.b46.i1": {
+    "he": "רשימת החללים שרוצים לשנות, ומה חשוב לכם בכל אחד מהם;",
+    "en": "a list of the spaces you want to change, and what matters to you in each;"
+  },
+  "journal-interior-design-cost.b46.i2": {
+    "he": "טווח תקציב לביצוע, כי גם הערכה גסה עוזרת להתאים את היקף התכנון;",
+    "en": "a budget range for the build, since even a rough estimate helps match the scope of design;"
+  },
+  "journal-interior-design-cost.b46.i3": {
+    "he": "לוח זמנים: מתי מקבלים מפתח, ומתי רוצים להיכנס;",
+    "en": "a timeline: when you get the keys, and when you want to move in;"
+  },
+  "journal-interior-design-cost.b46.i4": {
+    "he": "השראה: תמונות, חומרים או בתים שאהבתם.",
+    "en": "inspiration: images, materials or homes you have loved."
+  },
+  "journal-interior-design-cost.b47.text": {
+    "he": "מתוך השיחה הזאת אפשר להגדיר היקף. רק מהיקף מוגדר נולדת הצעת מחיר שמתאימה לבית שלכם, ולא ל\"דירה ממוצעת\".",
+    "en": "From that conversation a scope can be defined. Only a defined scope produces a proposal that fits your home, rather than an “average apartment”."
+  },
+  "journal-interior-design-cost.b48.q0": {
+    "he": "האם מחיר למטר רבוע כולל את כל שטח הדירה?",
+    "en": "Does a per-square-meter price cover the whole apartment?"
+  },
+  "journal-interior-design-cost.b48.a0": {
+    "he": "זה תלוי במעצבת ובהצעה. יש מי שמחשבות לפי שטח ברוטו, יש לפי נטו, ויש שמתמחרות מרפסות ושטחי שירות אחרת. לפני שמשווים שתי הצעות למטר, בקשו לדעת בדיוק אילו שטחים נספרים ואילו תוכניות ושירותים כלולים במחיר.",
+    "en": "It depends on the designer and the proposal. Some calculate on gross area, some on net, and some price balconies and service areas differently. Before comparing two per-meter proposals, ask exactly which areas are counted and which drawings and services are included in the rate."
+  },
+  "journal-interior-design-cost.b48.q1": {
+    "he": "האם כדאי לבחור את ההצעה הזולה ביותר?",
+    "en": "Should I choose the cheapest proposal?"
+  },
+  "journal-interior-design-cost.b48.a1": {
+    "he": "רק אחרי שמשווים מה כלול בה. הצעה זולה יותר חוסכת לפעמים בדיוק את מה שיקר להשלים אחר כך: ביקורים באתר, הדמיות או סבבי שינויים שיתומחרו בנפרד. ולפעמים דווקא ההצעה היקרה כוללת שירותים שאתם לא צריכים. השוו שורה מול שורה, ורק אז את הסכום.",
+    "en": "Only after comparing what it includes. A cheaper proposal sometimes saves on exactly what is expensive to add later: site visits, renders or revision rounds that will be priced separately. And sometimes the more expensive proposal includes services you don’t need. Compare line by line, and only then the totals."
+  },
+  "journal-interior-design-cost.b48.q2": {
+    "he": "האם שכר הטרחה של המעצבת כולל חומרים, ריהוט ועבודת קבלנים?",
+    "en": "Does the designer’s fee include materials, furniture and contractors?"
+  },
+  "journal-interior-design-cost.b48.a2": {
+    "he": "בדרך כלל לא. שכר הטרחה משולם על התכנון ועל הליווי, ועלויות הביצוע, החומרים והריהוט נפרדות ממנו. בשיטת האחוז מהביצוע הן משמשות רק כבסיס לחישוב. אם משהו מזה כלול, הוא צריך להיות כתוב במפורש בהצעה.",
+    "en": "Usually not. The fee pays for design and supervision, and construction, materials and furniture are separate costs. Under the percentage model they serve only as the basis for the calculation. If any of them is included, it should be stated explicitly in the proposal."
+  },
+  "journal-interior-design-cost.b48.q3": {
+    "he": "למה הצעות מחיר של מעצבות שונות כל כך זו מזו?",
+    "en": "Why do proposals from different designers vary so much?"
+  },
+  "journal-interior-design-cost.b48.a3": {
+    "he": "כי לעיתים קרובות הן מתמחרות עבודה שונה. הבדלים במספר התוכניות, בחלופות, בהדמיות ובעיקר בהיקף הליווי בשטח יוצרים פערים גדולים. בקשו פירוט של כל סעיף שלא ברור לכם.",
+    "en": "Often because they are pricing different work. Differences in the number of drawings, the alternatives, the renders and above all the amount of on-site supervision create large gaps. Ask for detail on any item that isn’t clear."
+  },
+  "journal-interior-design-cost.b48.q4": {
+    "he": "מה ההבדל בין תכנון בלבד לתכנון עם ליווי?",
+    "en": "What is the difference between design only and design with supervision?"
+  },
+  "journal-interior-design-cost.b48.a4": {
+    "he": "בתכנון בלבד מקבלים סט תוכניות ומבצעים אותו עם הקבלנים באופן עצמאי. בתכנון עם ליווי המעצבת נמצאת גם בשטח: היא נפגשת עם קבלנים וספקים, בודקת מידות לפני הזמנות ועונה על השאלות שעולות בביצוע. ההבדל ניכר במחיר ובשקט הנפשי.",
+    "en": "With design only, you receive a set of drawings and carry them out with your contractors yourself. With supervision, the designer is also on site: she meets contractors and suppliers, checks dimensions before orders and answers the questions that arise during the build. The difference shows in the price and in your peace of mind."
+  },
+  "journal-interior-design-cost.b48.h": {
+    "he": "שאלות נפוצות",
+    "en": "Frequently asked questions"
+  },
+  "journal-interior-design-cost.b49.h": {
+    "he": "כמה יעלה התכנון של הבית שלכם?",
+    "en": "What would designing your home cost?"
+  },
+  "journal-interior-design-cost.b49.p": {
+    "he": "ספרו לנו על הפרויקט, על החללים, על לוח הזמנים ועל מה שחשוב לכם, ונחזור אליכם עם הצעה שמותאמת להיקף שלו.",
+    "en": "Tell us about the project, the spaces, the timeline and what matters to you, and we’ll come back with a proposal tailored to its scope."
+  },
+  "journal-interior-design-cost.b49.button": {
+    "he": "לקבלת הצעה מותאמת",
+    "en": "Get a tailored proposal"
+  },
+  "journal-interior-design-cost.rel0": {
+    "he": "איך בוחרים מעצבת פנים",
+    "en": "Choosing a designer"
+  },
+  "journal-interior-design-cost.rel1": {
+    "he": "אדריכל או מעצב פנים",
+    "en": "Architect vs designer"
+  }
+}

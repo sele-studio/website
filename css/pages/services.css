@@ -1,0 +1,211 @@
+/* SELÈ STUDIO — Services hub (SPEC-ADDENDUM A5; layout patterns from SPEC's former Approach page and Home H4).
+   Prefix sv-. Owner: P3. Logical properties only. No night section on this page. */
+
+/* ------------------------------------------------------------------ S1 opener */
+.sv-open{ padding-block:calc(var(--header-h) + var(--s-6)) var(--s-7) }
+.sv-open__grid > *{ grid-column:1 / -1 }
+.sv-open__h1{ font-size:var(--t-d1); line-height:1.08 }
+html[lang="en"] .sv-open__h1{ line-height:1.12 }   /* Bodoni descenders (g, y) need the extra lead */
+.sv-open__aside{ margin-block-start:var(--s-6) }
+.sv-open__lead{
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-lead); line-height:1.75;
+  color:var(--fg-2);
+  max-inline-size:var(--measure-he);
+}
+html[lang="en"] .sv-open__lead{ font-family:var(--f-lat-text); font-weight:300; max-inline-size:var(--measure-en) }
+.sv-open__more{ margin-block-start:var(--s-4) }
+.sv-open__more .link, .sv-before__guide .link{ font-size:var(--t-body);
+  /* 44px touch target (§9) without moving the layout or the underline: the box grows by padding, the negative margin
+     gives the space back, and both underlines (the resting 1px background and the ::after sweep) are lifted by the same amount */
+  --hit:max(2px, (44px - 1.4em) / 2);
+  padding-block:var(--hit); margin-block:calc(2px - var(--hit));
+  background-position:0 calc(100% - var(--hit) + 2px);
+}
+:is(.sv-open__more, .sv-before__guide) .link::after{ inset-block-end:calc(var(--hit) - 2px) }
+@media (min-width:768px){
+  .sv-open__h1{ max-inline-size:16ch }
+  html[lang="en"] .sv-open__h1{ max-inline-size:18ch }
+  .sv-open__opener{ grid-column:1 / 8 }
+  .sv-open__aside{ grid-column:2 / 9 }
+}
+@media (min-width:1100px){
+  .sv-open{ padding-block-end:var(--s-8) }
+  .sv-open__opener{ grid-column:1 / 10 }
+  .sv-open__aside{ grid-column:7 / 13; margin-block-start:var(--s-6) }
+}
+
+/* ------------------------------------------------------------------ S2 the services (rows + sticky preview) */
+/* the next section (#process) brings its own --section padding: half here, so the two never stack into a void */
+.sv-services{ padding-block:0 calc(var(--section) * .5) }
+.sv-services__main{ grid-column:1 / -1 }
+.sv-services__h2{ margin-block-end:var(--s-5) }
+.sv-list{ border-block-start:1px solid var(--line) }
+.sv-item{ border-block-end:1px solid var(--line) }
+/* < 768: the title takes the full text width; the line shares its row with the thumbnail (+ its status label) */
+.sv-row{
+  display:grid;
+  grid-template-columns:2.5rem minmax(0,1fr) auto;
+  grid-template-areas:"num title title" "num line media";
+  align-items:start;
+  column-gap:12px;
+  min-block-size:104px;
+  padding-block:var(--s-4);
+  padding-inline:var(--s-2);        /* room for the hover/focus nudges inside the row (and its focus ring) */
+  color:inherit; text-decoration:none;
+}
+.sv-row__body{ display:contents }
+.sv-row__num{ grid-area:num }
+.sv-row__title{ grid-area:title }
+.sv-row__line{ grid-area:line }
+.sv-row__media{ grid-area:media; display:flex; flex-direction:column; align-items:center; gap:6px; margin-block-start:var(--s-2) }
+.sv-row__status{ color:var(--fg-3); white-space:nowrap; line-height:1.2 }
+.sv-row__arrow{ grid-area:arrow }
+.sv-row__num{
+  align-self:start;
+  font-family:var(--f-lat-display); font-weight:400;
+  font-size:var(--t-d3); line-height:1.1;
+  font-variant-numeric:lining-nums;
+  color:var(--fg-2);
+  transition:translate var(--d-ui) var(--ease-paper), color var(--d-ui) var(--ease-paper);
+}
+.sv-row__title{
+  font-family:var(--f-display); font-weight:300;
+  font-size:var(--t-d3); line-height:1.2;
+  color:var(--fg-2);
+  transition:color var(--d-ui) var(--ease-paper);
+}
+html[lang="en"] .sv-row__title{ font-weight:400 }
+.sv-row__line{ margin-block-start:var(--s-2); font-size:var(--t-small); line-height:1.65; color:var(--fg-3); max-inline-size:52ch }
+html[lang="en"] .sv-row__line{ font-size:.9375rem }
+.sv-row__thumb{ display:block; width:72px }       /* definite width (§3.4); a span.frame must be a block */
+.sv-row__thumb > .frame__clip{ display:block }
+.sv-row__arrow{ display:none; inline-size:24px; block-size:24px; stroke-width:1.25; color:var(--fg-2); transition:translate var(--d-ui) var(--ease-paper), color var(--d-ui) var(--ease-paper) }
+.sv-row:hover .sv-row__title, .sv-row:focus-visible .sv-row__title{ color:var(--fg) }
+.sv-row:hover .sv-row__num, .sv-row:focus-visible .sv-row__num{ translate:-8px 0; color:var(--fg-2) }
+[dir="rtl"] .sv-row:hover .sv-row__num, [dir="rtl"] .sv-row:focus-visible .sv-row__num{ translate:8px 0 }
+.sv-row:hover .sv-row__arrow, .sv-row:focus-visible .sv-row__arrow{ translate:6px 0; color:var(--fg) }
+[dir="rtl"] .sv-row:hover .sv-row__arrow, [dir="rtl"] .sv-row:focus-visible .sv-row__arrow{ translate:-6px 0 }
+.sv-row:focus-visible{ outline-offset:-1px }
+
+.sv-preview{ display:none }
+@media (min-width:768px){
+  .sv-row{
+    grid-template-columns:3.5rem minmax(0,1fr) auto auto;
+    grid-template-areas:"num title media arrow" "num line media arrow";
+    column-gap:var(--s-4);
+    padding-inline:var(--s-3);
+  }
+  .sv-row__media{ align-self:center; margin-block-start:0 }
+  .sv-row__arrow{ display:block; align-self:center }
+}
+@media (min-width:1100px){
+  .sv-services__main{ grid-column:1 / 8 }
+  .sv-row{
+    grid-template-columns:4.5rem minmax(0,1fr) auto;
+    grid-template-areas:"num title arrow" "num line arrow";
+    padding-block:var(--s-4) calc(var(--s-4) + 2px);
+  }
+  .sv-row__media{ display:none }   /* the sticky preview (with its caption) takes over */
+  .sv-preview{
+    display:block;
+    grid-column:9 / 13;
+    position:sticky; inset-block-start:20vh;
+    align-self:start;
+    margin-block-start:calc(var(--t-d2) * 1.1 + var(--s-5));   /* level with the first row */
+  }
+  .sv-preview__stack{ display:grid }
+  .sv-prev{ grid-area:1 / 1; visibility:hidden }
+  .sv-prev.is-active, .sv-prev.is-leaving{ visibility:visible }
+  .sv-prev.is-active{ z-index:2 }
+  .sv-prev.is-leaving{ z-index:1 }
+  .sv-prev__cap .caption__status::after{ content:none }
+  /* the row whose image is on the preview reads as current (set by JS from load on) */
+  .sv-row.is-active .sv-row__title{ color:var(--fg) }
+  /* during the wipe both previews share the cell: only the incoming caption shows, fading in after the old one goes */
+  .sv-prev.is-leaving .sv-prev__cap{ visibility:hidden }
+  .sv-prev.is-active .sv-prev__cap{ animation:sv-cap-in var(--d-ui) var(--ease-paper) both }
+}
+@keyframes sv-cap-in{ from{ opacity:0 } }
+
+/* ------------------------------------------------------------------ S3 five steps (vertical timeline) */
+.sv-process:focus{ outline:none }
+.sv-process__h2, .sv-steps-wrap{ grid-column:1 / -1 }
+.sv-process__h2{ margin-block-end:var(--s-6) }
+.sv-steps-wrap{ position:relative }
+.sv-steps__rule{
+  position:absolute; inset-block:0; inset-inline-start:0;
+  inline-size:1px; background:var(--line);
+  transform-origin:50% 0;
+}
+.sv-steps{ display:grid; gap:var(--s-6); padding-inline-start:var(--s-5) }
+.sv-step{ position:relative; display:grid; grid-template-columns:3rem minmax(0,1fr); column-gap:var(--s-3); align-items:start }
+.sv-step::before{
+  content:""; position:absolute;
+  inset-inline-start:calc(-1 * var(--s-5)); inset-block-start:calc(var(--t-d2) * .55);
+  inline-size:var(--s-3); block-size:1px; background:var(--fg-3);
+}
+.sv-step__num{
+  font-family:var(--f-lat-display); font-weight:400;
+  font-size:var(--t-d2); line-height:1.1;
+  font-variant-numeric:lining-nums;
+  color:color-mix(in srgb, var(--taupe) 72%, var(--ink));   /* taupe, deepened just enough that Bodoni's hairlines (the 4) survive */
+}
+.sv-step__t{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d3); line-height:1.25; padding-block-start:.2em }
+html[lang="en"] .sv-step__t{ font-weight:400 }
+.sv-step__d{ margin-block-start:var(--s-2); color:var(--fg-2); max-inline-size:var(--measure) }
+@media (min-width:768px){
+  .sv-steps-wrap{ grid-column:1 / 8 }
+  .sv-steps{ padding-inline-start:var(--s-6); gap:var(--s-6) }
+  .sv-step{ grid-template-columns:5rem minmax(0,1fr); column-gap:var(--s-4) }
+  .sv-step::before{ inset-inline-start:calc(-1 * var(--s-6)); inline-size:var(--s-4) }
+}
+@media (min-width:1100px){
+  .sv-process__h2{ grid-column:1 / 10 }
+  .sv-steps-wrap{ grid-column:2 / 10 }
+}
+
+/* ------------------------------------------------------------------ S4 what to bring (paper-2) */
+.sv-before__h2, .sv-before__body{ grid-column:1 / -1 }
+.sv-before__h2{ max-inline-size:14ch }
+.sv-before__body{ margin-block-start:var(--s-5) }
+.sv-before__intro{ color:var(--fg-2); max-inline-size:var(--measure) }
+.sv-before__list{ margin-block-start:var(--s-4); border-block-start:1px solid var(--line) }
+.sv-before__list > li{
+  display:flex; align-items:baseline; gap:var(--s-3);
+  padding-block:var(--s-3);
+  border-block-end:1px solid var(--line);
+  font-family:var(--f-display); font-weight:400;
+  font-size:var(--t-d4); line-height:1.45;
+}
+html[lang="en"] .sv-before__list > li{ font-family:var(--f-lat-text); font-weight:300 }
+.sv-before__list > li::before{
+  content:""; flex:none;
+  inline-size:16px; block-size:1px;
+  background:var(--fg-2);
+  transform:translateY(-.35em);
+}
+.sv-before__guide{ margin-block-start:var(--s-5) }
+@media (min-width:768px){
+  .sv-before__h2{ grid-column:1 / 8 }
+  .sv-before__body{ grid-column:1 / 8 }
+}
+@media (min-width:1100px){
+  .sv-before__grid{ align-items:start }
+  .sv-before__h2{ grid-column:1 / 6; max-inline-size:none }
+  .sv-before__body{ grid-column:7 / 13; margin-block-start:.6em }
+}
+
+/* ------------------------------------------------------------------ S5 links row */
+.sv-more{ padding-block:var(--s-7) }
+.sv-more__inner{ border-block-start:1px solid var(--line); padding-block-start:var(--s-5) }
+.sv-more__link{
+  display:inline-flex; align-items:center; gap:var(--s-3);
+  font-family:var(--f-display); font-weight:300;
+  font-size:var(--t-d3); line-height:1.3;
+  padding-block:var(--s-1) var(--s-2);
+}
+html[lang="en"] .sv-more__link{ font-weight:400 }
+.sv-more__arrow{ inline-size:28px; block-size:28px; stroke-width:1.1; transition:translate var(--d-ui) var(--ease-paper) }
+.sv-more__link:hover .sv-more__arrow, .sv-more__link:focus-visible .sv-more__arrow{ translate:6px 0 }
+[dir="rtl"] .sv-more__link:hover .sv-more__arrow, [dir="rtl"] .sv-more__link:focus-visible .sv-more__arrow{ translate:-6px 0 }
