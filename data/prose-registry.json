@@ -47,7 +47,7 @@
         "en": "Interior design"
       }
     },
-    "words": 1164
+    "words": 1172
   },
   {
     "id": "service-space-planning",
@@ -147,7 +147,7 @@
         "en": "Kitchen design"
       }
     },
-    "words": 1345
+    "words": 1348
   },
   {
     "id": "service-bathroom-design",
@@ -217,8 +217,8 @@
       "en": "Apartment Renovation Support in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "ליווי שיפוץ דירה עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
-      "en": "Renovation support in Israel with an interior designer: measured survey, layout, working drawings, site visits and styling. One calm, precise process."
+      "he": "ליווי שיפוץ דירה במרכז ובדרום הארץ עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
+      "en": "Renovation support across central and southern Israel with an interior designer: survey, layout, working drawings, site visits and styling. One precise process."
     },
     "h1": {
       "he": "ליווי שיפוץ דירה, מהמדידה הראשונה ועד הספר האחרון על המדף",
@@ -229,7 +229,7 @@
       "img": "built-01",
       "kind": "photo",
       "alt": {
-        "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
+        "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
         "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
       },
       "width": 1023,
@@ -247,7 +247,7 @@
         "en": "Renovation support"
       }
     },
-    "words": 1126
+    "words": 1132
   },
   {
     "id": "journal",
@@ -310,7 +310,7 @@
       "en": "How to Choose an Interior Designer: A Guide | SELÈ STUDIO"
     },
     "desc": {
-      "he": "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ'קליסט להדפסה לפגישה הראשונה.",
+      "he": "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ׳קליסט להדפסה לפגישה הראשונה.",
       "en": "How to choose an interior designer: what to check in a portfolio, which deliverables to ask for, who runs the site, and what to ask about the proposal."
     },
     "h1": {
@@ -667,7 +667,7 @@
       "en": "Warm Minimalist Interior Design: Stone & Oak | SELÈ STUDIO"
     },
     "desc": {
-      "he": "עיצוב פנים מינימליסטי חם: פלטה מאופקת, אבן עם גידים, אלון ואגוז, פשתן ואור רך. במה הוא שונה ממינימליזם קר ומג'פנדי, ואיך מיישמים אותו חדר אחר חדר.",
+      "he": "עיצוב פנים מינימליסטי חם: פלטה מאופקת, אבן עם גידים, אלון ואגוז, פשתן ואור רך. במה הוא שונה ממינימליזם קר ומג׳פנדי, ואיך מיישמים אותו חדר אחר חדר.",
       "en": "Warm minimalist interior design: stone, oak, linen and soft light. How it differs from cold minimalism and Japandi, and how to apply it room by room."
     },
     "h1": {

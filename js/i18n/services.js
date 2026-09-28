@@ -3,7 +3,7 @@
 // The "before" intro and items = SPEC's former approach.before.intro / .1 … .5.
 export default {
   "services.h1": { he: "שירותי עיצוב פנים, מהתכנון ועד הסטיילינג", en: "Interior design services, from planning to styling" },
-  "services.lead": { he: "כל פרויקט מתחיל בהקשבה: איך אתם חיים בבית, מה עובד בו היום ומה לא. משם ממשיכים לתכנון החלל, לעיצוב ולחומרים, לליווי הביצוע ולסטיילינג האחרון, שלב אחרי שלב, באותה שפה נקייה, מדויקת ונכונה.", en: "Every project starts by listening: how you live at home, what works there today and what doesn’t. From there we move to planning the space, design and materials, support through the build and the final styling, step by step, in the same clean, precise and right language." },
+  "services.lead": { he: "כל פרויקט מתחיל בהקשבה: איך אתם חיים בבית, מה עובד בו היום ומה לא. משם ממשיכים לתכנון החלל, לעיצוב ולחומרים, לליווי הביצוע ולסטיילינג האחרון, שלב אחרי שלב, באותה שפה נקייה, מדויקת ונכונה. הסטודיו עובד במרכז ובדרום הארץ.", en: "Every project starts by listening: how you live at home, what works there today and what doesn’t. From there we move to planning the space, design and materials, support through the build and the final styling, step by step, in the same clean, precise and right language. The studio works across central and southern Israel." },
 
   "services.list.h2": { he: "השירותים", en: "Services" },
   "services.list.interior.d": { he: "שפה עיצובית שלמה לבית: חומרים, נגרות, ריהוט, תאורה וטקסטיל, מהקונספט ועד הפרט האחרון.", en: "A complete design language for the home: materials, joinery, furniture, lighting and textiles, from concept to the last detail." },

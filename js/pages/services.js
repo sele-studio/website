@@ -1,6 +1,7 @@
 // Services hub module (SPEC-ADDENDUM A5). Owner: P3.
 //   • Sticky preview (≥ 1100 px): a row's pointerenter or keyboard focus shows its image; the new preview wipes in
-//     from the arch corner (clip-path inset(0 0 100% 100%) → inset(0), 600 ms paper) above the previous one.
+//     as a rectangular curtain rising from its bottom edge (clip-path inset(100% 0 0 0) → inset(0), 600 ms paper)
+//     above the previous one.
 //     Motion off: instant swap. Without JS the first preview (is-active in the HTML) stays.
 //   • Timeline hairline (#process): scales Y 0 → 1 with scroll on desktop fx only (scrub .4); static = full.
 import { motion } from '/js/core/sele.js';
@@ -42,7 +43,7 @@ function activate(map, n) {
     wipe = null;
   };
   if (!g || !motion.on || html.classList.contains('motion-off') || !clip) { finish(); return; }
-  wipe = g.fromTo(clip, { clipPath: 'inset(0% 0% 100% 100%)' }, {
+  wipe = g.fromTo(clip, { clipPath: 'inset(100% 0% 0% 0%)' }, {
     clipPath: 'inset(0% 0% 0% 0%)', duration: 0.6, ease: motion.ease('paper'), onComplete: finish,
   });
 }

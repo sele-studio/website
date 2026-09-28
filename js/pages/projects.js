@@ -6,8 +6,8 @@
 // - A case matches when (space === 'all' || case.spaceKey === space) && (!material || case.materialKeys ∋ material).
 //   Non-matching items fade and scale to .96 and leave; the rest reflow with GSAP Flip (loaded on first use).
 //   Switching views is a Flip matched by data-flip-id (index thumbnail ↔ gallery hero tile). motion-off: instant.
-// - ≥ 1100 px: hovering or focusing an index row wipes its case hero into the sticky preview slot from the arch
-//   corner (Home H4 mechanics; the wipe is CSS, so motion-off swaps instantly).
+// - ≥ 1100 px: hovering or focusing an index row wipes its case hero into the sticky preview slot as a
+//   rectangular curtain rising from the bottom edge (the wipe is CSS, so motion-off swaps instantly).
 // - Count text is interpolated (data-i18n-tpl), rendered with i18n.t; aria-live="polite" announces it.
 import { i18n, motion, loadScript } from '/js/core/sele.js';
 

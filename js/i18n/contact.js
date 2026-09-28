@@ -63,6 +63,7 @@ export default {
 
   "contact.location.label": { he: "איפה הנכס?", en: "Where is the property?" },
   "contact.location.placeholder": { he: "עיר או אזור", en: "City or area" },
+  "contact.location.help": { he: "הסטודיו עובד במרכז ובדרום הארץ.", en: "The studio works across central and southern Israel." },
   "contact.size.label": { he: "גודל משוער (מ״ר)", en: "Approximate size (m²)" },
 
   "contact.timing.label": { he: "מתי תרצו להתחיל?", en: "When would you like to start?" },
@@ -192,6 +193,8 @@ export default {
   "contact.next.2.d": { he: "נתאם שיחה קצרה כדי להכיר אתכם ואת הבית.", en: "We’ll arrange a short call to get to know you and the home." },
   "contact.next.3.t": { he: "פגישה ומסגרת", en: "A meeting and a framework" },
   "contact.next.3.d": { he: "אם יש התאמה, ניפגש ונבנה יחד את המסגרת לפרויקט.", en: "If it’s a good fit, we’ll meet and shape the project’s framework together." },
+  "contact.area.t": { he: "אזור פעילות", en: "Service area" },
+  "contact.area.d": { he: "פרויקטים במרכז ובדרום הארץ", en: "Projects across central and southern Israel" },
   "contact.direct.mail": { he: "מעדיפים מייל?", en: "Prefer email?" },
   "contact.direct.ig": { he: "או הודעה באינסטגרם", en: "Or a message on Instagram" },
 

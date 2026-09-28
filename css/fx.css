@@ -4,40 +4,74 @@
    Governing rule 8: nothing here hides or repositions content unless the effect's own *-ready class is on <html>
    (frame-ready, vein-ready), which its module adds on mount and removes on unmount. The intro is keyed on
    .show-intro (set by the inline boot script) and removes itself in CSS even if every script dies.
-   Logical properties only; the brand corner and the physical scrim/gradient directions are marked phys-ok. */
+   Logical properties only; the physical scrim/gradient directions are marked phys-ok. Every picture here is a clean
+   rectangle with square corners (owner feedback 28/09/2026): no arch, no concave corner piece, no rounded clip. */
 
 /* ================================================================== W1 — Aperture (≤ 1.5 s, CSS-driven)
-   0.00–0.50 press: the mark settles 1.03 → 1 while its deboss shadow grows 0 → 1 px (ease-paper)
-   0.45–0.70 the seal, ESTD / 2024 and the wordmark fade out
-   0.50–1.35 the seal's inner oval opens as an aperture: a hole in the ground grows from the inner oval
-             (rx .413 × seal, ry .483 × seal, centred on the seal) to 150vmax (ease-leaf)
-   1.35–1.50 the layer fades out and ends visibility:hidden; aperture.js then sets display:none
-   Safety: whatever happens, the layer is hidden 4 s after it first styles. */
-@property --ap-rx{ syntax:'<length>'; inherits:false; initial-value:0px }
-@property --ap-ry{ syntax:'<length>'; inherits:false; initial-value:0px }
-@property --ap-sh{ syntax:'<length>'; inherits:true; initial-value:0px }
-
+   Desktop (phones run the same score, shorter — see the media block below):
+   0.00–0.50 press: the mark settles 1.03 → 1 (ease-paper); its 1 px deboss is static
+   0.38–0.63 the seal, ESTD / 2024 and the wordmark fade out (gone before the hole moves: no mark over the film)
+   0.62–1.40 the aperture opens: a square-cornered rectangular hole in the ground grows from the seal's inner box
+             (.826 × .966 of the seal box, centred on the seal) until it clears the viewport (ease-leaf).
+             Rectangular by owner decision 28/09/2026: the film is never seen through an oval or arched window.
+   1.40–1.55 the layer fades out and ends visibility:hidden; aperture.js then sets display:none
+   1.40–1.90 the hero copy fades in (it is never seen inside the aperture)
+   Safety: whatever happens, the layer is hidden 4 s after it first styles.
+   WebKit (iOS Safari) rules this block follows: the ground is a plain opaque colour from the first painted frame (no
+   mask can hide it before the aperture starts); the hole is a standard, non-custom property (mask-size) animated
+   on a two-layer mask, because WebKit does not repaint a mask when a
+   registered custom property animates (both were measured: no ground at 0.3 s, a frozen hole at 0.8 s). */
 .intro{ display:none }
 .show-intro .intro{
   --ap-seal:160px;
+  --ap-t0:620ms;                      /* aperture start: the mark (250 ms fade from --ap-fade-at) is gone by now */
+  --ap-d:780ms;                       /* aperture length */
+  --ap-press:500ms;                   /* press length */
+  --ap-fade-at:380ms;                 /* the mark starts to fade */
+  --ap-out-at:1400ms;                 /* the layer starts its 150 ms fade */
   display:grid; place-items:center;
   position:fixed; inset:0; z-index:var(--z-intro);
   pointer-events:auto;
-  animation:fx-intro-out 150ms linear 1350ms forwards, fx-intro-safety 0s linear 4s forwards;
+  animation:fx-intro-out 150ms linear var(--ap-out-at) forwards, fx-intro-safety 0s linear 4s forwards;
 }
+/* Phones and touch screens: the same moment, shorter and lighter (≈ 1.3 s): a smaller seal, a quicker press, a 640 ms aperture. */
+@media (max-width:767px), (pointer:coarse){
+  .show-intro .intro{ --ap-seal:128px; --ap-t0:500ms; --ap-d:640ms; --ap-press:380ms; --ap-fade-at:260ms; --ap-out-at:1140ms }
+}
+/* Only the film is ever seen through the aperture: the hero copy (H1, what-line, CTAs, film toggle) waits, invisible,
+   until the hole has cleared the viewport, then fades in (500 ms). Pure CSS and time-based like the intro itself, so
+   it can never stay hidden: `backwards` fill only holds opacity 0 during the delay. A skip (any key, tap or wheel)
+   or motion-off cancels the wait at once. */
+html.show-intro{ --ap-copy-at:1400ms }
+@media (max-width:767px), (pointer:coarse){ html.show-intro{ --ap-copy-at:1140ms } }
+html.show-intro:not(.intro-skip):not(.motion-off) :is(.home-hero__h1, .home-hero__actions, .home-hero__film > .film__toggle){
+  animation:fx-intro-copy-in 500ms var(--ease-paper) var(--ap-copy-at) backwards;
+}
+@keyframes fx-intro-copy-in{ from{ opacity:0 } }
 .intro-skip .intro, html.intro-skip.show-intro .intro{ display:none }
 
 .intro__ground{
-  --ap-cy:50%;                        /* the seal is centred in the mark, and the mark in the viewport (see .intro__mark) */
   position:absolute; inset:0;
   background:var(--bordeaux-deep);
-  -webkit-mask:radial-gradient(ellipse var(--ap-rx) var(--ap-ry) at 50% var(--ap-cy), transparent calc(100% - 1px), #000 100%);
-          mask:radial-gradient(ellipse var(--ap-rx) var(--ap-ry) at 50% var(--ap-cy), transparent calc(100% - 1px), #000 100%);
-  animation:fx-intro-aperture 850ms var(--ease-leaf) 500ms forwards;
+  /* two mask layers: the aperture (a solid rectangle filling its own mask box) is EXCLUDED from a full layer. Its
+     box is 0 × 0 until the aperture starts, so the ground is whole; the aperture keyframes grow the box from the
+     seal's inner box to past the viewport's edges. The box is centred on the viewport, which is where the seal sits
+     (see .intro__mark). Square corners, no soft edge: a crisp architectural cut. */
+  -webkit-mask-image:linear-gradient(#000, #000), linear-gradient(#000, #000);
+  -webkit-mask-repeat:no-repeat, no-repeat;
+  -webkit-mask-position:50% 50%, 0 0;
+  -webkit-mask-size:0 0, 100% 100%;
+  -webkit-mask-composite:xor;
+  mask-image:linear-gradient(#000, #000), linear-gradient(#000, #000);
+  mask-repeat:no-repeat, no-repeat;
+  mask-position:50% 50%, 0 0;
+  mask-size:0 0, 100% 100%;
+  mask-composite:exclude, add;
+  animation:fx-intro-aperture var(--ap-d) var(--ease-leaf) var(--ap-t0) forwards;
 }
 
 /* Lockup geometry: ESTD · seal · 2024 on one row, the wordmark under it. An empty first row of the same height as the
-   wordmark row keeps the SEAL (not the whole mark) at the exact centre, so the aperture opens from the inner oval.
+   wordmark row keeps the SEAL (not the whole mark) at the exact centre, so the aperture opens from the seal's inner box.
    The mark is decorative Latin (aria-hidden), set left-to-right in both languages like the brand lockup. */
 .intro__mark{
   position:relative;
@@ -49,11 +83,11 @@
   direction:ltr;
   color:var(--bordeaux-deep);        /* same colour as the ground: the mark exists only as its deboss */
   filter:
-    drop-shadow(calc(-1 * var(--ap-sh)) calc(-1 * var(--ap-sh)) 0 rgba(0,0,0,.72))
-    drop-shadow(var(--ap-sh) var(--ap-sh) 0 rgba(255,236,226,.4));
+    drop-shadow(-1px -1px 0 rgba(0,0,0,.72))
+    drop-shadow(1px 1px 0 rgba(255,236,226,.4));
   animation:
-    fx-intro-press 500ms var(--ease-paper) both,
-    fx-intro-mark-out 250ms linear 450ms forwards;
+    fx-intro-press var(--ap-press) var(--ease-paper) both,
+    fx-intro-mark-out 250ms linear var(--ap-fade-at) forwards;
   will-change:transform, opacity;
 }
 .intro__seal{ grid-area:seal; inline-size:var(--ap-seal); block-size:auto; aspect-ratio:182 / 210 }
@@ -68,13 +102,21 @@
 }
 
 @keyframes fx-intro-press{
-  from{ transform:scale(1.03); --ap-sh:0px }
-  to{ transform:scale(1); --ap-sh:1px }
+  from{ transform:scale(1.03) }
+  to{ transform:scale(1) }
 }
 @keyframes fx-intro-mark-out{ to{ opacity:0 } }
+/* The seal's inner box: .826 × .966 seal widths. The rectangle grows from it to the viewport plus 2 px, so the
+   whole ease is a visible opening and no hairline of ground is left at the edges. */
 @keyframes fx-intro-aperture{
-  from{ --ap-rx:calc(.413 * var(--ap-seal, 160px)); --ap-ry:calc(.483 * var(--ap-seal, 160px)) }
-  to{ --ap-rx:150vmax; --ap-ry:150vmax }
+  from{
+    -webkit-mask-size:calc(.826 * var(--ap-seal)) calc(.966 * var(--ap-seal)), 100% 100%;
+            mask-size:calc(.826 * var(--ap-seal)) calc(.966 * var(--ap-seal)), 100% 100%;
+  }
+  to{
+    -webkit-mask-size:calc(100% + 2px) calc(100% + 2px), 100% 100%;
+            mask-size:calc(100% + 2px) calc(100% + 2px), 100% 100%;
+  }
 }
 /* hidden from 98 %: Chrome can end a delayed animation at an iteration progress of 0.9999…, where a discrete
    visible → hidden step would still read "visible" */
@@ -149,7 +191,6 @@ html.frame-ready .home-hero__shutters > span{
   background:var(--paper);
   will-change:transform;
 }
-html.frame-ready .home-hero__shutters > span:last-child{ background:none }   /* the corner piece: frame.js paints its concave arc */
 html.frame-ready .home-hero__shutters > [data-shutter="start"]{ opacity:max(var(--ground, 0), var(--g-scroll, 0)) }
 
 html.frame-ready .home-hero__copy{
@@ -187,9 +228,10 @@ html.frame-ready .home-hero__manifesto{ opacity:0 }
 
 /* ================================================================== W4 — Vein Cut (desktop; sticky, never pinned)
    Keyed on html.vein-ready (vein-cut.js adds it once its ScrollTrigger exists, removes it on unmount): the four
-   pictures stack in one sticky doorway frame beside the list; the list items' own figures step aside. Without the
+   pictures stack in one sticky rectangular frame beside the list; the list items' own figures step aside. Without the
    class the static list with its figures shows (home.css). Mode B (CSS wipe) is driven by inline clip-paths from
-   vein-cut.js; Mode A (WebGL) draws into a canvas inside the same clip, so it inherits the arch. */
+   vein-cut.js (a rectangular curtain rising from the frame's bottom edge); Mode A (WebGL) draws into a canvas inside
+   the same square-cornered clip. */
 html.vein-ready .home-materials__stage{ align-items:start }
 html.vein-ready .home-materials__frame{
   display:block;
@@ -200,7 +242,7 @@ html.vein-ready .home-materials__frame{
   margin:0;
 }
 html.vein-ready .home-materials__frame > .frame__clip{ block-size:100%; aspect-ratio:auto; isolation:isolate }
-html.vein-ready .home-materials__frame picture:not(:first-child){ clip-path:polygon(100% 0, 100% 0, 100% 0) }
+html.vein-ready .home-materials__frame picture:not(:first-child){ clip-path:inset(100% 0 0 0) }
 html.vein-ready .home-materials__frame .fx-vein-canvas{
   position:absolute; inset:0; z-index:1;
   inline-size:100%; block-size:100%;

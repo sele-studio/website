@@ -249,7 +249,7 @@
     {
       "t": "h3",
       "text": {
-        "he": "מה פירוש \"הדמיה פוטוריאליסטית\"?",
+        "he": "מה פירוש „הדמיה פוטוריאליסטית”?",
         "en": "What does “photorealistic render” mean?"
       }
     },
@@ -336,7 +336,7 @@
     {
       "t": "p",
       "text": {
-        "he": "המטבח הוא החלל הצפוף ביותר בהחלטות: האי והמעברים סביבו, מיקום הכיריים והכיור, שילוב המכשירים בנגרות, נישות, רציפות האבן והתאורה שבתוך הארונות. בהדמיות שבעמוד רואים שתי גישות, משני פרויקטים נפרדים: באחד, אי אבן מונוליתי עם כיריים מול קיר ארונות מאלון בהיר עד התקרה ונישת קפה מוארת; בשני, מטבח כהה יותר, באלון כהה ולכה בגוון גרייג', עם כיור אבן אינטגרלי ומדפי מתכת מוארים. אם אתם בשלב הזה, כדאי לקרוא גם על <a href=\"/services/kitchen-design/\">תכנון ועיצוב המטבח</a> בסטודיו. באותו אופן, גם ב<a href=\"/services/bathroom-design/\">עיצוב חדר הרחצה</a> ההדמיה בוחנת מראות, תאורה ומפגשי אבן לפני שמזמינים.",
+        "he": "המטבח הוא החלל הצפוף ביותר בהחלטות: האי והמעברים סביבו, מיקום הכיריים והכיור, שילוב המכשירים בנגרות, נישות, רציפות האבן והתאורה שבתוך הארונות. בהדמיות שבעמוד רואים שתי גישות, משני פרויקטים נפרדים: באחד, אי אבן מונוליתי עם כיריים מול קיר ארונות מאלון בהיר עד התקרה ונישת קפה מוארת; בשני, מטבח כהה יותר, באלון כהה ולכה בגוון גרייג׳, עם כיור אבן אינטגרלי ומדפי מתכת מוארים. אם אתם בשלב הזה, כדאי לקרוא גם על <a href=\"/services/kitchen-design/\">תכנון ועיצוב המטבח</a> בסטודיו. באותו אופן, גם ב<a href=\"/services/bathroom-design/\">עיצוב חדר הרחצה</a> ההדמיה בוחנת מראות, תאורה ומפגשי אבן לפני שמזמינים.",
         "en": "The kitchen is the space densest with decisions: the island and the passages around it, the position of the hob and sink, appliances integrated into the joinery, niches, the continuity of the stone and the lighting inside the cabinetry. The renders on this page show two approaches, from two separate projects: in one, a monolithic stone island with a hob in front of a full-height wall of light-oak cabinetry and a lit coffee niche; in the other, a darker kitchen in dark oak and greige lacquer, with an integrated stone sink and backlit metal shelving. If you are at this stage, it is worth reading about <a href=\"/services/kitchen-design/\">kitchen planning and design</a> at the studio. In the same way, in <a href=\"/services/bathroom-design/\">bathroom design</a> a render tests mirrors, lighting and stone junctions before anything is ordered."
       }
     },
@@ -344,12 +344,12 @@
       "t": "figure",
       "img": "kitchen-dark-01",
       "alt": {
-        "he": "פינת מטבח באלון כהה ולכה בגוון גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
+        "he": "פינת מטבח באלון כהה ולכה בגוון גרייג׳, כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
         "en": "Kitchen corner in dark oak and greige lacquer with an integrated stone sink, matte-black tap and backlit metal shelving"
       },
       "kind": "render",
       "caption": {
-        "he": "גישה אחרת למטבח, בפרויקט אחר: אלון כהה, גרייג' ומתכת מוארת.",
+        "he": "גישה אחרת למטבח, בפרויקט אחר: אלון כהה, גרייג׳ ומתכת מוארת.",
         "en": "Another approach to the kitchen, from another project: dark oak, greige and lit metal."
       }
     },
@@ -600,7 +600,7 @@
         {
           "img": "kitchen-dark-01",
           "alt": {
-            "he": "פינת מטבח באלון כהה ולכה בגוון גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
+            "he": "פינת מטבח באלון כהה ולכה בגוון גרייג׳, כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת מוארים",
             "en": "Kitchen corner in dark oak and greige lacquer with an integrated stone sink, matte-black tap and backlit metal shelving"
           },
           "caption": {
@@ -626,7 +626,7 @@
           "en": "<strong>Is it based on the latest dimensions?</strong> A render of an earlier version of the plan shows a home that no longer exists."
         },
         {
-          "he": "<strong>האם החומרים בה הם אלה שנבחרו?</strong> בשם, בגוון ובגימור, ולא \"משהו דומה\".",
+          "he": "<strong>האם החומרים בה הם אלה שנבחרו?</strong> בשם, בגוון ובגימור, ולא „משהו דומה”.",
           "en": "<strong>Are the materials the ones you chose?</strong> By name, tone and finish, not “something similar”."
         },
         {

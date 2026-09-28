@@ -24,7 +24,18 @@ html[lang="en"] .skip-link{ font-family:var(--f-lat-text); font-weight:500 }
   background:transparent;
   transition:background-color var(--d-ui) var(--ease-paper);
 }
-.site-header.is-scrolled, html.is-scrolled .site-header{ background:color-mix(in srgb, var(--paper) 92%, transparent) }
+.site-header.is-scrolled, html.is-scrolled .site-header{
+  /* near-opaque paper with a frosted blur: nothing under the bar reads as ghost text behind the seal or the menu icon */
+  background:color-mix(in srgb, var(--paper) 94%, transparent);
+  -webkit-backdrop-filter:blur(14px) saturate(1.1); backdrop-filter:blur(14px) saturate(1.1);
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .site-header.is-scrolled, html.is-scrolled .site-header{ background:var(--paper) }
+}
+/* phones and tablets: solid paper — a 52 px bar over running text must never show the text through it */
+@media (max-width:1099px){
+  .site-header.is-scrolled, html.is-scrolled .site-header{ background:var(--paper); -webkit-backdrop-filter:none; backdrop-filter:none }
+}
 html:not(.js) .site-header{ background:color-mix(in srgb, var(--paper) 92%, transparent) }   /* no JS: no scroll state, so always legible */
 html.is-header-over-media .site-header{
   background:linear-gradient(to bottom, rgba(242,239,233,.78), rgba(242,239,233,0));
@@ -100,6 +111,8 @@ html[lang="en"] .menu-btn{ font-family:var(--f-lat-text); font-weight:500; font-
 .lang-toggle:hover{ text-decoration:underline; text-underline-offset:.35em }
 .lang-toggle:lang(en){ direction:ltr }
 .site-header__cta{ min-block-size:44px; padding-inline:20px }
+/* on the contact page the CTA would link to the page itself (a dead tap): the form is already the page */
+body[data-page="contact"] .site-header__cta{ display:none }
 
 /* language suggestion pill (Addendum A3.4) — lang.js un-hides it; never redirects */
 .lang-pill{
@@ -180,13 +193,13 @@ html:not(.motion-off) .lang-pill:not([hidden]){ animation:lang-pill-in var(--d-m
   padding-block-start:var(--header-h);
 }
 html.a11y-contrast .site-menu{ background:var(--paper) }
-/* one-shot 420 ms clip reveal from the top-right arch corner (§2.2). menu.js adds .is-open on open and
-   .is-closing on close, then sets [hidden] on animationend (or after 320 ms). Physical top-right on purpose:
-   the arch corner is top-right in both languages. Under motion-off: no animation, close is immediate. */
-html:not(.motion-off) .site-menu.is-open{ animation:menu-arch-open var(--d-ui) var(--ease-leaf) both }
+/* one-shot 420 ms rectangular wipe from the top edge (the arch reveal was retired 28/09/2026: square corners
+   everywhere). menu.js adds .is-open on open and .is-closing on close, then sets [hidden] on animationend (or after
+   320 ms). Under motion-off: no animation, close is immediate. */
+html:not(.motion-off) .site-menu.is-open{ animation:menu-open var(--d-ui) var(--ease-leaf) both }
 html:not(.motion-off) .site-menu.is-closing{ animation:menu-out var(--d-micro) var(--ease-paper) both }
 html.motion-off .site-menu.is-closing{ display:none }
-@keyframes menu-arch-open{ from{ clip-path:circle(0% at 100% 0) } to{ clip-path:circle(150% at 100% 0) } }
+@keyframes menu-open{ from{ clip-path:inset(0 0 100% 0) } to{ clip-path:inset(0) } }
 @keyframes menu-out{ to{ opacity:0 } }
 html.is-menu-open{ overflow:hidden }
 /* menu.js makes the a11y button inert while the menu is open; hide it too so it never covers the menu list */
@@ -200,11 +213,13 @@ html.is-menu-open .a11y-btn{ visibility:hidden }
   padding-block:calc(var(--s-5) + 24px) calc(var(--s-5) + 56px);   /* room for the focus-only close chip; clear of the a11y button */
 }
 .site-menu__close{
-  position:absolute; inset-block-start:var(--s-2); inset-inline-start:0;
+  position:absolute; inset-block-start:var(--s-2); inset-inline-start:6px;   /* 6 px in: its focus ring is never clipped by the scroller */
   inline-size:1px; block-size:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap;
 }
-/* keyboard only (SPEC §2.2): Chrome matches :focus-visible for menu.js's script focus after a key press, not after a tap/click */
-.site-menu__close:focus-visible{
+/* keyboard only (SPEC §2.2). Chrome matches :focus-visible for menu.js's script focus only after a key press, but
+   WebKit (iOS Safari) matches it after a tap too, so the chip is also gated on the input modality a11y.js records
+   (html.input-pointer from the last pointerdown / touchstart, removed by the next navigation key). */
+html:not(.input-pointer) .site-menu__close:focus-visible{
   inline-size:auto; block-size:auto; overflow:visible; clip-path:none;
   display:inline-flex; align-items:center; min-block-size:44px; padding-inline:var(--s-3);
   background:var(--paper); color:var(--ink); border:1px solid var(--rule);
@@ -248,6 +263,13 @@ html[lang="en"] .site-menu__sub-list a{ font-family:var(--f-lat-text) }
 }
 .site-menu__foot a{ display:inline-flex; align-items:center; min-block-size:44px; color:var(--ink-2); text-decoration:none }
 .site-menu__foot a:hover{ color:var(--ink); text-decoration:underline; text-underline-offset:.24em }
+/* the accessibility settings entry a11y.js adds to the colophon (the floating button stays tucked over text on phones) */
+.site-menu__a11y{
+  display:inline-flex; align-items:center; gap:10px; min-block-size:44px;
+  color:var(--ink-2); font:inherit; text-align:start; cursor:pointer;
+}
+.site-menu__a11y svg{ inline-size:18px; block-size:18px; fill:none; stroke:currentColor; flex:none }
+.site-menu__a11y:hover{ color:var(--ink); text-decoration:underline; text-underline-offset:.24em }
 
 /* ------------------------------------------------------------------ footer / colophon (§2.2, §4.4) */
 .site-footer{
@@ -295,28 +317,44 @@ html[lang="en"] .site-footer__desc{ font-family:var(--f-lat-text) }
 @media (min-width:1100px){
   .site-footer__legal{ justify-content:space-between }
 }
-/* the a11y button sits over the footer's inline-start corner: keep the last line clear of it */
-.site-footer{ padding-block-end:calc(var(--s-5) + 56px) }
+/* the a11y button sits over the footer's bottom inline-end corner: at the page end the legal row ends above it (a11y.js
+   shows the button at rest only where nothing is under it, so at any other position over the legal row it stays
+   tucked; an inline-end padding here would only break "· All rights reserved" onto a line of its own) */
+.site-footer{ padding-block-end:calc(var(--s-5) + 72px) }
 
-/* ------------------------------------------------------------------ accessibility button + panel (§4.4, §4.11) */
+/* ------------------------------------------------------------------ accessibility button + panel (§4.4, §4.11)
+   Always reachable (legal requirement) but quiet: a small paper tile with an ink icon at the bottom inline-END corner
+   (bottom-left in Hebrew, bottom-right in English), where right-aligned Hebrew lines and the hero CTAs never start.
+   The hit area is always 44 × 44 (SPEC §9); the visible tile is drawn by ::before inside it (40 px below 1100). */
 .a11y-btn{
   position:fixed; z-index:var(--z-a11y);
-  inset-block-end:16px; inset-inline-start:16px;
+  inset-block-end:16px; inset-inline-end:16px;
   display:grid; place-items:center;
   inline-size:48px; block-size:48px;
-  background:var(--ink); color:var(--paper);
-  border-top-right-radius:var(--arch-ui);   /* phys-ok: slab corner */
-  /* paper hairline: keeps the fixed button's boundary ≥ 3:1 when it floats over night / bordeaux bands (WCAG 1.4.11) */
-  box-shadow:0 0 0 1px color-mix(in srgb, var(--paper) 70%, transparent);
-  transition:background-color var(--d-micro) var(--ease-paper);
+  color:var(--ink);
+  -webkit-tap-highlight-color:transparent;
 }
-.a11y-btn:hover, .a11y-btn[aria-expanded="true"]{ background:var(--bordeaux) }
-.a11y-btn svg{ inline-size:24px; block-size:24px; fill:none; stroke:currentColor }
-.a11y-btn:focus-visible{ outline-color:var(--bordeaux); box-shadow:0 0 0 5px color-mix(in srgb, var(--paper) 90%, transparent) }
+.a11y-btn::before{
+  content:""; position:absolute; inset:0; z-index:-1;
+  background:color-mix(in srgb, var(--paper) 94%, transparent);
+  border:1px solid rgb(33 29 25 / .22);
+  box-shadow:0 8px 22px -12px rgb(33 29 25 / .45);
+  transition:background-color var(--d-micro) var(--ease-paper), border-color var(--d-micro) var(--ease-paper);
+}
+.a11y-btn:hover::before, .a11y-btn[aria-expanded="true"]::before{ background:var(--ink); border-color:var(--ink) }
+.a11y-btn:hover, .a11y-btn[aria-expanded="true"]{ color:var(--paper) }
+.a11y-btn svg{ position:relative; inline-size:22px; block-size:22px; fill:none; stroke:currentColor }
+.a11y-btn:focus-visible{ outline-color:var(--bordeaux); outline-offset:2px; box-shadow:0 0 0 5px color-mix(in srgb, var(--paper) 90%, transparent) }
+/* below 1100 px a11y.js tucks it away on a downward scroll and brings it back on a scroll up, on focus, while its panel
+   is open, and at rest only where nothing (text, a control, a small image) is under it */
+.a11y-btn{ transition:opacity 220ms var(--ease-paper), translate 220ms var(--ease-paper) }
+.a11y-btn.is-tucked:not(:focus-visible):not([aria-expanded="true"]){ opacity:0; translate:0 10px; pointer-events:none }
+html.motion-off .a11y-btn{ transition:none; translate:none }
+html.a11y-contrast .a11y-btn::before{ background:var(--paper); border-color:var(--ink) }
 
 .a11y-panel{
   position:fixed; z-index:var(--z-a11y);
-  inset-block-end:76px; inset-inline-start:16px;
+  inset-block-end:76px; inset-inline-end:16px;
   inline-size:min(320px, calc(100vw - 32px));
   max-block-size:calc(100svh - 76px - var(--header-h) - 16px);
   overflow-y:auto; overscroll-behavior:contain;
@@ -328,11 +366,16 @@ html[lang="en"] .site-footer__desc{ font-family:var(--f-lat-text) }
   font-size:15px; line-height:1.5;
   --bg:var(--paper); --fg:var(--ink); --fg-2:var(--ink-2); --fg-3:var(--ink-3); --line:var(--rule); --focus:var(--bordeaux);
 }
-@media (max-width:767px){ .a11y-panel{ inset-inline-end:16px; inline-size:auto } }
-/* keep the button inside the page margin where the margin is narrower than 16 + 48 px (content must never sit under it) */
+@media (max-width:767px){ .a11y-panel{ inset-inline-start:12px; inline-size:auto } }
+/* below 1440 the page margin is narrower than 16 + 48 px: the button tucks into the corner (content never sits under
+   it: its lane is the bottom inline-end corner, which pages keep clear) */
 @media (max-width:1439px){   /* after the base .a11y-panel rule so it wins */
-  .a11y-btn{ inline-size:44px; block-size:44px; inset-block-end:8px; inset-inline-start:8px }
-  .a11y-panel{ inset-block-end:64px; inset-inline-start:8px; max-block-size:calc(100svh - 64px - var(--header-h) - 16px) }
+  .a11y-btn{ inline-size:44px; block-size:44px; inset-block-end:10px; inset-inline-end:10px }
+  .a11y-panel{ inset-block-end:62px; inset-inline-end:12px; max-block-size:calc(100svh - 62px - var(--header-h) - 16px) }
+}
+@media (max-width:1099px){
+  .a11y-btn::before{ inset:2px }     /* a 40 px tile in a 44 px target */
+  .a11y-btn svg{ inline-size:20px; block-size:20px }
 }
 .a11y-panel:not([hidden]){ animation:a11y-open var(--d-ui) var(--ease-paper) both }
 @keyframes a11y-open{ from{ opacity:0; transform:translateY(8px) } }

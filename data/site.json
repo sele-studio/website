@@ -1,5 +1,14 @@
 {
-  "serviceArea": null,
+  "serviceArea": {
+    "he": "המרכז והדרום",
+    "en": "central and southern Israel",
+    "regions": [
+      { "he": "מחוז המרכז", "en": "Central District", "wikidata": "https://www.wikidata.org/wiki/Q188785" },
+      { "he": "מחוז הדרום", "en": "Southern District", "wikidata": "https://www.wikidata.org/wiki/Q188781" }
+    ],
+    "in": { "he": "במרכז ובדרום הארץ", "en": "in central and southern Israel" },
+    "line": { "he": "פרויקטים במרכז ובדרום הארץ", "en": "Projects across central and southern Israel" }
+  },
   "gscToken": null,
   "bingToken": null,
   "launchDate": "2026-09-28",

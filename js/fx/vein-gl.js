@@ -3,7 +3,7 @@
 // a WebGL1 context created with failIfMajorPerformanceCaveat (no software rendering). Returns null when it cannot run.
 //
 // createVeinGL({ clip, pictures, disp, onLost }) → null | { ready: Promise, render(i, f), show(), destroy() }
-//   - a <canvas> absolutely filling the frame's .frame__clip (so the arch clips it), DPR capped at 1.5, low-power;
+//   - a <canvas> absolutely filling the frame's square-cornered .frame__clip, DPR capped at 1.5, low-power;
 //   - textures: each picture's widest WebP candidate ≤ 1024 px wide, plus the displacement map made from
 //     materials/marble.jpg; CLAMP_TO_EDGE + LINEAR, no mipmaps;
 //   - draws only when render() is called (vein-cut.js calls it when P changes) and on resize: no idle loop;

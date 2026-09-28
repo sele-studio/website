@@ -35,6 +35,16 @@ let n = 0;
 const newDir = (name) => path.join(TMP, `${String(++n).padStart(2, '0')}-${name}`);
 
 // ------------------------------------------------------------------ fixture content
+/** data/site.json → serviceArea as the owner set it (28/09/2026) */
+const AREA = {
+  he: 'המרכז והדרום', en: 'central and southern Israel',
+  regions: [
+    { he: 'מחוז המרכז', en: 'Central District', wikidata: 'https://www.wikidata.org/wiki/Q188785' },
+    { he: 'מחוז הדרום', en: 'Southern District', wikidata: 'https://www.wikidata.org/wiki/Q188781' },
+  ],
+  in: { he: 'במרכז ובדרום הארץ', en: 'in central and southern Israel' },
+  line: { he: 'פרויקטים במרכז ובדרום הארץ', en: 'Projects across central and southern Israel' },
+};
 const COMMON = {
   'common.skip': { he: 'דילוג לתוכן', en: 'Skip to content' },
   'common.nav.aria': { he: 'ניווט ראשי', en: 'Main navigation' },
@@ -569,23 +579,61 @@ test('llms.txt lists exactly the sitemap pages, per language, with the A7.3 enti
 
 test('null tokens / area emit nothing; set values are emitted (A8.1)', async () => {
   const home = read(POS, 'index.html');
-  assert.ok(!/google-site-verification|msvalidate|TODO|addressRegion|ובסביבה/.test(home));
+  assert.ok(!/google-site-verification|msvalidate|TODO|addressRegion|ובסביבה|הסטודיו פועל|AdministrativeArea/.test(home));
   const org = ldOf(home)['@graph'].find((x) => x['@type'] === 'ProfessionalService');
   assert.equal(org.areaServed['@type'], 'Country');
-  const dir = buildFixture(newDir('owner-values'), { site: { gscToken: 'gsc-abc', bingToken: 'bing-xyz', serviceArea: { he: 'השרון', en: 'the Sharon', type: 'AdministrativeArea', wikidata: 'https://www.wikidata.org/wiki/Q1195437' }, confirm: { ...core.SITE_DEFAULTS.confirm, englishClients: true } } });
+  assert.ok(!/service area/.test(read(POS, 'llms.txt')));
+  // the owner's real value (28/09/2026): central + southern Israel, two administrative districts
+  const dir = buildFixture(newDir('owner-values'), { site: { gscToken: 'gsc-abc', bingToken: 'bing-xyz', serviceArea: AREA, confirm: { ...core.SITE_DEFAULTS.confirm, englishClients: true } } });
   const r = await pipeline(dir);
   assert.deepEqual(r.s.errors, []);
   const $ = cheerio.load(read(dir, 'index.html'));
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'gsc-abc');
   assert.equal($('meta[name="msvalidate.01"]').attr('content'), 'bing-xyz');
-  assert.equal($('title').text(), 'מעצבת פנים בהשרון – אדריכלות ועיצוב פנים | SELÈ STUDIO');
-  assert.equal(cheerio.load(read(dir, 'en/index.html'))('meta[name="google-site-verification"]').length, 0, 'verification on the Hebrew home only');
+  const heTitle = 'מעצבת פנים במרכז ובדרום – אדריכלות ועיצוב פנים | SELÈ STUDIO';
+  assert.equal($('title').text(), heTitle);
+  assert.ok([...heTitle].length <= 60, 'the area title stays within 60 characters');
+  assert.match($('meta[name="description"]').attr('content'), /במרכז ובדרום הארץ\.$/);
+  const $en = cheerio.load(read(dir, 'en/index.html'));
+  assert.equal($en('meta[name="google-site-verification"]').length, 0, 'verification on the Hebrew home only');
+  assert.equal($en('title').text(), 'Interior Designer in Central & Southern Israel | SELÈ STUDIO');
+  assert.match($en('meta[name="description"]').attr('content'), /central and southern Israel\.$/);
   const g = ldOf(read(dir, 'index.html'))['@graph'];
   const o = g.find((x) => x['@type'] === 'ProfessionalService');
-  assert.equal(o.address.addressRegion, 'השרון');
-  assert.ok(Array.isArray(o.areaServed) && o.areaServed[0].name === 'השרון');
-  assert.ok(o.description.endsWith('ופועל בהשרון ובסביבה.'));
+  assert.equal(o.address.addressRegion, undefined, 'a service area is not the studio address');
+  assert.deepEqual(o.areaServed.map((a) => [a['@type'], a.name, a.sameAs, a.containedInPlace.name]), [
+    ['AdministrativeArea', 'מחוז המרכז', 'https://www.wikidata.org/wiki/Q188785', 'ישראל'],
+    ['AdministrativeArea', 'מחוז הדרום', 'https://www.wikidata.org/wiki/Q188781', 'ישראל'],
+  ]);
+  assert.ok(o.description.startsWith(core.T.orgDesc.he) && o.description.endsWith(' הסטודיו פועל במרכז ובדרום הארץ.'));
+  assert.equal(g.find((x) => x['@type'] === 'WebPage').name, heTitle);
+  const oEn = ldOf(read(dir, 'en/index.html'))['@graph'].find((x) => x['@type'] === 'ProfessionalService');
+  assert.deepEqual(oEn.areaServed.map((a) => a.name), ['Central District', 'Southern District']);
+  assert.ok(oEn.description.endsWith(' The studio works in central and southern Israel.'));
+  // service pages carry the same areaServed
+  const svc = ldOf(read(dir, 'services/kitchen-design/index.html'))['@graph'].find((x) => x['@type'] === 'Service');
+  assert.deepEqual(svc.areaServed.map((a) => a.name), ['מחוז המרכז', 'מחוז הדרום']);
+  const llms = read(dir, 'llms.txt');
+  assert.ok(llms.includes(core.orgDesc('en', { serviceArea: AREA })) && llms.includes('service area: central and southern Israel — המרכז והדרום (Central District / מחוז המרכז, Southern District / מחוז הדרום);'));
+  assert.ok(!/\{in\}|\{he\}|\{en\}|TODO|SERVICE_AREA/.test(llms + read(dir, 'index.html') + read(dir, 'en/index.html')));
   assert.deepEqual(g.find((x) => x['@type'] === 'Person').knowsLanguage, ['he', 'en']);
+});
+
+test('service-area helpers: Hebrew locative, single-area form, owner-stated address region', () => {
+  assert.equal(core.heLocative('המרכז והדרום'), 'במרכז ובדרום');
+  assert.equal(core.heLocative('השרון'), 'בשרון');
+  assert.equal(core.heLocative('תל אביב'), 'בתל אביב');
+  const one = { serviceArea: { he: 'השרון', en: 'the Sharon', type: 'AdministrativeArea', wikidata: 'https://www.wikidata.org/wiki/Q1195437' } };
+  assert.equal(core.orgDesc('he', one), `${core.T.orgDesc.he} הסטודיו פועל בשרון.`);
+  assert.equal(core.orgDesc('en', one), `${core.T.orgDesc.en} The studio works in the Sharon.`);
+  const meta = { type: 'home', path: '/', title: { he: 'ת', en: 'T' }, desc: { he: 'ד', en: 'D' }, titleWithArea: { he: 'מעצבת פנים {in} | SELÈ STUDIO' } };
+  assert.equal(core.titleOf(meta, 'he', one), 'מעצבת פנים בשרון | SELÈ STUDIO');
+  assert.equal(core.titleOf(meta, 'en', one), 'T', 'no EN variant → the plain title');
+  const o = core.graphFor(meta, 'he', {}, { ...core.SITE_DEFAULTS, ...one })['@graph'].find((x) => x['@type'] === 'ProfessionalService');
+  assert.deepEqual(o.areaServed.map((a) => a['@type']), ['AdministrativeArea', 'Country']);
+  assert.equal(o.address.addressRegion, undefined);
+  const stated = { ...core.SITE_DEFAULTS, serviceArea: { ...AREA, addressRegion: { he: 'מחוז המרכז', en: 'Central District' } } };
+  assert.equal(core.graphFor(meta, 'en', {}, stated)['@graph'].find((x) => x['@type'] === 'ProfessionalService').address.addressRegion, 'Central District');
 });
 
 test('positive fixtures pass cleanly: two media preloads + one hero img, fragment/mailto/favicon links, menu h2 before h1, hidden h3 before the first h2, prose p with <bdi lang="he">', () => {

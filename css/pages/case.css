@@ -11,6 +11,19 @@
 @media (min-width:768px){
   .case-hero--full .case-hero__media{ aspect-ratio:auto; block-size:min(82svh, 56vw) }
 }
+/* phones: the first screen must name the project. A full hero is cut closer to its source (≈ 1.1 : 1) so the crumbs,
+   numeral and title rise above the fold; a split hero sets its plate (crumbs, numeral, title) above the picture. */
+@media (max-width:767px){
+  .case-hero--full .case-hero__media{ aspect-ratio:6/5 }
+  /* split: crumbs, numeral and title first, then the picture, then the credits and the synopsis */
+  .case-hero.case-hero--split{ row-gap:0 }   /* out-ranks the base split rule further down */
+  .case-hero--split .case-plate{ display:contents }
+  .case-hero--split .case-plate > *{ grid-column:1 / -1; min-inline-size:0 }
+  .case-hero--split .case-plate > :not(.case-credits){ order:-1 }
+  .case-hero--split .case-plate__h1{ margin-block-end:var(--s-5) }
+  .case-hero--split .case-hero__figure{ margin-block-end:var(--s-5) }
+  .case-hero--split .case-plate > .case-credits{ margin-block:0 var(--s-5) }
+}
 
 /* the plate + synopsis under a full hero */
 .case-intro{ position:relative; z-index:1; row-gap:var(--s-5); padding-block-end:var(--s-6) }
@@ -24,12 +37,7 @@
   .case-intro{ padding-block-end:var(--s-7) }
   .case-intro > .case-plate{
     grid-column:1 / 7;
-    margin-block-start:-96px;                 /* overlaps the image bottom by 96px (SPEC §5.3) */
-    margin-inline-start:calc(-1 * var(--margin));
-    padding-inline-start:var(--margin);       /* the paper tab bleeds to the viewport edge; the text stays on the grid */
-    padding-inline-end:var(--s-5);
-    padding-block-start:var(--s-5);
-    background:var(--grain) repeat, var(--paper);
+    padding-block-start:var(--s-6);           /* sits below the image: the hero stays a clean rectangle (owner feedback 28/09/2026) */
   }
   .case-intro > .case-synopsis{ grid-column:8 / -1; padding-block-start:var(--s-7) }
 }

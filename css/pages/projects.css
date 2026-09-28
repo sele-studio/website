@@ -38,9 +38,10 @@ html[lang="en"] .pj-seg__btn{ font-family:var(--f-lat-text); font-weight:500; fo
 .pj-seg__btn:hover{ color:var(--fg) }
 .pj-seg__btn[aria-checked="true"]{ background:var(--fg); color:var(--bg) }
 
-/* 768–1099 (the bar is sticky there): one line per chip group, scrolling sideways inside the bar instead of growing
-   it. The strip bleeds to the screen edge and fades out at its inline end, so a cut chip reads as "there is more". */
-@media (min-width:768px) and (max-width:1099px){
+/* below 1100: one line per chip group, scrolling sideways inside the bar instead of growing it (on a phone the wrapped
+   groups took four chip rows and pushed the work below the fold). The strip bleeds to the screen edge and fades out at
+   its inline end, so a cut chip reads as "there is more". */
+@media (max-width:1099px){
   .pj-controls__row--filters{ display:grid; gap:10px }
   .pj-controls__row--filters .pj-controls__group{ flex-wrap:nowrap; gap:var(--s-3) }
   .pj-chips{
@@ -58,12 +59,6 @@ html[lang="en"] .pj-seg__btn{ font-family:var(--f-lat-text); font-weight:500; fo
   }
   .pj-chips::-webkit-scrollbar{ display:none }
   .pj-chip{ flex:none }
-}
-/* < 768 (the bar is not sticky): every chip stays visible, the groups wrap onto a second line */
-@media (max-width:767px){
-  .pj-controls__row--filters{ display:grid; gap:12px }
-  .pj-controls__row--filters .pj-controls__group{ flex-wrap:nowrap; align-items:baseline; gap:var(--s-3) }   /* label on the first chip row */
-  .pj-chips{ flex-wrap:wrap; gap:8px; min-inline-size:0 }
 }
 @media (max-width:767px){
   .pj-controls__label{ min-inline-size:2.75rem }
@@ -173,7 +168,7 @@ html[lang="en"] :is(.pj-row__title, .pj-row__num){ font-weight:400 }
   .pj-prev.is-active{ visibility:visible }
   .pj-prev.is-wiping > .frame__clip{ animation:pj-wipe 600ms var(--ease-paper) both }
 }
-@keyframes pj-wipe{ from{ clip-path:inset(0% 0% 100% 100%) } to{ clip-path:inset(0% 0% 0% 0%) } }
+@keyframes pj-wipe{ from{ clip-path:inset(100% 0% 0% 0%) } to{ clip-path:inset(0% 0% 0% 0%) } }
 
 /* ------------------------------------------------------------------ 4. gallery — a contact sheet
    Spans per breakpoint (SPEC §5.2): <768 [2,2,4] · 768–1099 [5,3,3,5] · ≥1100 [5,4,3,4,8]. data-s3/-s4/-s5 hold each

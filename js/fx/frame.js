@@ -1,7 +1,8 @@
 // W2 — The Frame (SPEC §1.3, §5.1 H1–H2). Desktop only (home.js mounts it when html.fx-frame is set).
-// The hero film starts full-bleed behind the copy; as the visitor scrolls (a pin of +120vh with a skip link), five
-// paper "shutters" close around a tall doorway window at the inline-end, the arch grows at its physical top-right,
-// the film slides so the plate shows its centre, the copy turns from paper to ink and the manifesto rises beneath it.
+// The hero film starts full-bleed behind the copy; as the visitor scrolls (a pin of +120vh with a skip link), four
+// paper "shutters" close around a tall rectangular window at the inline-end (square corners: a clean, architectural
+// opening, no arch), the film slides so the plate shows its centre, the copy turns from paper to ink and the manifesto
+// rises beneath it.
 // The end state is the static split hero of home.css, pixel for pixel: the plate IS the static film frame's rectangle
 // (read from [data-frame-target] on every refresh).
 //
@@ -50,7 +51,7 @@ export default function mount(section, ctx = {}) {
   const toggle = film && film.querySelector('[data-video-toggle]');
   const sh = {};
   if (shutterBox) shutterBox.querySelectorAll('[data-shutter]').forEach((s) => { sh[s.getAttribute('data-shutter')] = s; });
-  if (!stage || !copy || !target || !film || !clip || !scrim || !sh.top || !sh.bottom || !sh.start || !sh.end || !sh.corner) return noop;
+  if (!stage || !copy || !target || !film || !clip || !scrim || !sh.top || !sh.bottom || !sh.start || !sh.end) return noop;
 
   const ease = (n) => (motion.ease ? motion.ease(n) : 'none');
   const rtl = (html.getAttribute('dir') || 'rtl') === 'rtl';
@@ -100,12 +101,6 @@ export default function mount(section, ctx = {}) {
     // the start shutter is full stage height, from the start edge to the window
     if (outerLeft) place(sh.start, T.r, 0, W - T.r, H);
     else place(sh.start, 0, 0, T.l, H);
-    // corner piece: R × R at the window's physical top-right, a concave quarter arc of radius R = 0.8 × width
-    // (1 px bleed up and outward, both over paper, so its edges never seam against the neighbours)
-    const Rr = 0.8 * T.w;
-    place(sh.corner, T.r - Rr, T.t - 1, Rr + 1, Rr + 1);
-    sh.corner.style.background = `radial-gradient(circle ${Rr}px at 0 100%, transparent ${Math.max(0, Rr - 0.5)}px, var(--paper) ${Rr}px)`;
-    sh.corner.style.transformOrigin = '100% 0';
     // the film slides so the plate shows its centre
     G.dx = T.l + T.w / 2 - W / 2;
     // the film toggle: the plate's bottom inline-end corner, 16 px in
@@ -222,7 +217,6 @@ export default function mount(section, ctx = {}) {
         .fromTo(sh.end, { xPercent: rtl ? -100 : 100 }, { xPercent: 0, duration: 0.6 }, 0)
         .fromTo(sh.start, { '--g-scroll': 0 }, { '--g-scroll': 1, duration: FLOOR_END - FLOOR_AT }, FLOOR_AT)
         .fromTo(scrim, { '--scrim': 1 }, { '--scrim': 0, duration: FLOOR_END - FLOOR_AT }, FLOOR_AT)
-        .fromTo(sh.corner, { scale: 0 }, { scale: 1, duration: 0.4, ease: leaf }, 0.25)
         .fromTo(clip, { x: 0 }, { x: () => G.dx, duration: 0.17, ease: leaf }, 0.45);
       if (manifesto) tl.fromTo(manifesto, { opacity: 0 }, { opacity: 1, duration: 0.001 }, 0.499);
       tl.set({}, {}, 1); // the timeline is exactly p = 0 … 1

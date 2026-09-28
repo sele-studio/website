@@ -19,7 +19,8 @@
 // Rules (errors): 1 physical CSS · 2 <img> attributes · 3 visible placeholders · 4 external origins ·
 //   5 internal links · 6 i18n keys (common → runtime dict → data/i18n/<build>.json; duplicates are errors) ·
 //   7 i18n drift (he on Hebrew pages, en on en/**; data-i18n-init too) · 8 page structure · 9 partials in sync
-//   (Hebrew pages only) · 10 legacy address · 11 frame radius outside base.css · 12 u-lat on a block ·
+//   (Hebrew pages only) · 10 legacy address · 11 rounded image/film frame (any CSS
+//   file, inline style or JS clip: frames are square-cornered rectangles; only zero radius passes) · 12 u-lat on a block ·
 //   13 data-i18n element with child elements · 14 data-i18n-tpl with text but no data-i18n-init ·
 //   15 (strict) Hebrew page without en/ counterpart, or en/ page whose data-i18n* key sequence differs (stale) ·
 //   16 banned strings in shipped HTML · 17 data-font-en target missing
@@ -351,13 +352,51 @@ function checkCss(rel) {
     if (isExternal(u)) E(4, rel, line, `external origin in CSS: ${u}`);
     else checkLink(rel, line, u, '/' + rel, 'CSS url()');
   }
-  if (rel !== 'css/base.css') {
-    walkCss(css, (sels, decls, start) => {
-      const own = sels.filter((s) => !s.startsWith('@'));
-      if (!own.length || sels.some((s) => /^@(-webkit-)?keyframes/i.test(s))) return;
-      const d = decls.search(/border(-[a-z]+)*-radius\s*:/i);
-      if (d >= 0 && /frame|img|video/i.test(own.join(' '))) E(11, rel, lineAt(css, start + d), `border-radius on "${own[own.length - 1].slice(0, 60)}" (frames/images/video round only via css/base.css)`);
-    });
+  // 11 frames are square-cornered rectangles (owner feedback 28/09/2026 retired the one-corner arch): no rounded
+  //    corner, no round/circle/ellipse clip, no rounded keyframed clip on any image/film frame — base.css included.
+  //    The seal's oval is the logo (its selectors never match FRAME_SEL_RE).
+  const roundedKeyframes = new Set();
+  walkCss(css, (sels, decls) => {
+    const kf = sels.find((s) => /^@(-webkit-)?keyframes/i.test(s));
+    if (kf && ROUND_CLIP_RE.test(decls)) roundedKeyframes.add(kf.replace(/^@(-webkit-)?keyframes\s+/i, '').trim());
+  });
+  walkCss(css, (sels, decls, start) => {
+    const own = sels.filter((s) => !s.startsWith('@'));
+    if (!own.length || sels.some((s) => /^@(-webkit-)?keyframes/i.test(s))) return;
+    // the painted element is each selector's last compound (".film .film__toggle" is a button, not the film)
+    const targets = own.join(',').split(',').map((x) => x.trim().split(/\s*[>+~]\s*|\s+/).pop());
+    if (!targets.some((t) => FRAME_SEL_RE.test(t))) return;
+    const where = (i) => lineAt(css, start + Math.max(0, i));
+    const who = own[own.length - 1].slice(0, 60);
+    const radRe = /border(-[a-z]+)*-radius\s*:\s*([^;]+)/gi;
+    let r;
+    while ((r = radRe.exec(decls))) {
+      if (!ZERO_RADIUS_RE.test(r[2].trim())) E(11, rel, where(r.index), `rounded corner on "${who}" (${r[0].trim().slice(0, 60)}): image/film frames are square-cornered`);
+    }
+    const clip = decls.search(/clip-path\s*:[^;]*(\bround\b|circle\(|ellipse\()/i);
+    if (clip >= 0) E(11, rel, where(clip), `rounded/oval clip-path on "${who}": image/film frames are square-cornered`);
+    const anim = /animation(-name)?\s*:\s*([^;]+)/gi;
+    let a;
+    while ((a = anim.exec(decls))) {
+      const hit = a[2].split(/[\s,]+/).find((w) => roundedKeyframes.has(w));
+      if (hit) E(11, rel, where(a.index), `"${who}" animates a rounded clip (@keyframes ${hit}): image/film frames are square-cornered`);
+    }
+  });
+}
+// selectors that paint an image/film frame (or the W3 view-transition snapshot of one)
+const FRAME_SEL_RE = /frame|img|picture|video|\bfilm\b(?!__)|film__(video|poster|media|clip)|thumb|tile|__fig|figure|arch|poster|__media|view-transition-(old|new|group|image-pair)/i;
+const ROUND_CLIP_RE = /clip-path\s*:[^;]*(\bround\b|circle\(|ellipse\()/i;
+const ZERO_RADIUS_RE = /^(0(px|%|rem|em)?\s*)+(!important)?$/i;
+// 11 in markup and scripts: inline styles on pages, and clip-path / radius values written by JS
+function checkRoundedSource(rel, src, kind) {
+  const re = kind === 'js'
+    ? /[cC]lip-?[pP]ath['"]?\s*[:=,]\s*[`'"][^`'"]*(\bround\b|circle\(|ellipse\()|border[A-Za-z-]*[Rr]adius['"]?\s*[:=,]\s*[`'"]?([^`'",;)}\s]+)/g
+    : /style="[^"]*(clip-path\s*:[^";]*(\bround\b|circle\(|ellipse\()|border(-[a-z]+)*-radius\s*:\s*([^;"]+))/gi;
+  let m;
+  while ((m = re.exec(src))) {
+    const radius = kind === 'js' ? m[2] : m[4];
+    if (radius !== undefined && ZERO_RADIUS_RE.test(radius.trim())) continue;
+    E(11, rel, lineAt(src, m.index), `rounded frame ${kind === 'js' ? 'set from JS' : 'in an inline style'}: ${m[0].slice(0, 70)} (image/film frames are square-cornered)`);
   }
 }
 
@@ -374,6 +413,8 @@ const cssFiles = ALL.filter((f) => /^css\/.*\.css$/.test(f) && f !== sync.CORE_C
 
 for (const rel of pageList) await checkPage(rel);
 for (const rel of cssFiles) checkCss(rel);
+for (const rel of pageList) checkRoundedSource(rel, read(rel), 'html');
+for (const rel of ALL.filter((f) => /^js\/.*\.js$/.test(f) && !/^js\/vendor\//.test(f) && inScope(f))) checkRoundedSource(rel, read(rel), 'js');
 
 // 9 partials in sync (Hebrew set only; en/** is never synced)
 if (!FLAGS.has('--skip-sync')) {

@@ -199,6 +199,7 @@ html[lang="en"] .sv-before__list > li{ font-family:var(--f-lat-text); font-weigh
 /* ------------------------------------------------------------------ S5 links row */
 .sv-more{ padding-block:var(--s-7) }
 .sv-more__inner{ border-block-start:1px solid var(--line); padding-block-start:var(--s-5) }
+@media (max-width:767px){ .sv-more{ padding-block:var(--s-5) var(--s-6) } .sv-more__inner{ padding-block-start:var(--s-4) } }
 .sv-more__link{
   display:inline-flex; align-items:center; gap:var(--s-3);
   font-family:var(--f-display); font-weight:300;

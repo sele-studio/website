@@ -105,12 +105,27 @@ export const ldJson = (o) => JSON.stringify(o).replace(/</g, '\\u003c');
 export const isIndexable = (meta) => meta.index !== false && meta.type !== '404';
 export const isMirrored = (meta) => meta.mirror !== false && meta.type !== '404';
 
-/** the entity statement, with the service-area clause when data/site.json → serviceArea is set (A8.5) */
+// ---------------------------------------------------------------- service area (A8.1, A8.5)
+// data/site.json → serviceArea, when set:
+//   { he, en,                                  the area as a noun phrase ("המרכז והדרום" / "central and southern Israel")
+//     regions?: [{ he, en, wikidata? }],       the administrative areas served → one AdministrativeArea each (in Israel)
+//     type?, wikidata?,                        single-area form (no regions): the area itself is the node
+//     in?: { he, en },                         the locative phrase for running text ("במרכז ובדרום הארץ"); derived when absent
+//     line?: { he, en },                       the short visible copy line (pages use it; SEO only mirrors it)
+//     addressRegion?: { he, en } }             ONLY when the owner states where the studio itself sits — never derived:
+//                                              a service-area business with a hidden address has no addressRegion
+/** "המרכז והדרום" → "במרכז ובדרום": the preposition ב absorbs the definite article of every conjunct */
+export function heLocative(s) {
+  return String(s).split(/ ו(?=\S)/).map((w) => 'ב' + w.replace(/^ה(?=\S)/, '')).join(' ו');
+}
+const areaIn = (a, lang) => (a.in && a.in[lang]) || (lang === 'he' ? heLocative(a.he) : `in ${a.en}`);
+
+/** the entity statement, with the service-area sentence when data/site.json → serviceArea is set (A8.5) */
 export function orgDesc(lang, site) {
   const s = T.orgDesc[lang];
   const a = site && site.serviceArea;
   if (!a || !a[lang]) return s;
-  return lang === 'he' ? `${s.replace(/\.$/, '')}, ופועל ב${a.he} ובסביבה.` : `${s.replace(/\.$/, '')}, working in ${a.en} and the surrounding area.`;
+  return lang === 'he' ? `${s} הסטודיו פועל ${areaIn(a, 'he')}.` : `${s} The studio works ${areaIn(a, 'en')}.`;
 }
 
 function countryNode(lang) {
@@ -119,16 +134,27 @@ function countryNode(lang) {
 function areaServed(lang, site) {
   const a = site && site.serviceArea;
   if (!a) return countryNode(lang);
-  const n = { '@type': a.type || 'AdministrativeArea', name: a[lang] };
-  if (a.wikidata) n.sameAs = a.wikidata;
-  return [n, countryNode(lang)];
+  const node = (r, type) => ({
+    '@type': type, name: r[lang],
+    ...(r.wikidata ? { sameAs: r.wikidata } : {}),
+    containedInPlace: countryNode(lang),
+  });
+  if (Array.isArray(a.regions) && a.regions.length) return a.regions.map((r) => node(r, 'AdministrativeArea'));
+  return [node(a, a.type || 'AdministrativeArea'), countryNode(lang)];
 }
 
-/** page title in a language, honoring the serviceArea home title (A8.5) */
+/** page title in a language, honoring the serviceArea variant (A8.5): {he} = the area, {in} = its locative */
 export function titleOf(meta, lang, site) {
   const a = site && site.serviceArea;
-  if (lang === 'he' && a && a.he && meta.titleWithArea && meta.titleWithArea.he) return meta.titleWithArea.he.replace('{he}', a.he);
+  const t = a && a[lang] && meta.titleWithArea && meta.titleWithArea[lang];
+  if (t) return t.replace('{in}', lang === 'he' ? heLocative(a.he) : a.en).replace('{he}', a.he).replace('{en}', a.en);
   return pick(meta.title, lang);
+}
+/** page description in a language, honoring the serviceArea variant */
+export function descOf(meta, lang, site) {
+  const a = site && site.serviceArea;
+  const d = a && a[lang] && meta.descWithArea && meta.descWithArea[lang];
+  return d || pick(meta.desc, lang);
 }
 
 // ---------------------------------------------------------------- <head> block (A8.3)
@@ -142,7 +168,7 @@ export function headFor(meta, lang, x = {}, site = SITE_DEFAULTS) {
   const is404 = meta.type === '404';
   const indexable = isIndexable(meta);
   const title = titleOf(meta, lang, site);
-  const desc = pick(meta.desc, lang);
+  const desc = descOf(meta, lang, site);
   const self = is404 ? null : urlFor(meta.path, lang);
   const og = abs(meta.og || '/assets/img/og/og-home.jpg');
   const ogAlt = pick(meta.ogAlt, lang) || title;
@@ -242,8 +268,9 @@ export function graphFor(meta, lang, x = {}, site = SITE_DEFAULTS) {
     image: { '@id': ID.logo },
     description: orgDesc(lang, site), slogan: T.slogan[lang], foundingDate: SITE.foundingDate,
     founder: { '@id': ID.person }, email: SITE.email,
-    // country-only address: true (the studio is in Israel), no street, no phone, no geo
-    address: { '@type': 'PostalAddress', addressCountry: 'IL', ...(site.serviceArea && site.serviceArea[lang] ? { addressRegion: site.serviceArea[lang] } : {}) },
+    // country-only address: true (the studio is in Israel), no street, no phone, no geo; the service area goes in
+    // areaServed — it is NOT the studio's own address region
+    address: { '@type': 'PostalAddress', addressCountry: 'IL', ...(site.serviceArea && site.serviceArea.addressRegion && site.serviceArea.addressRegion[lang] ? { addressRegion: site.serviceArea.addressRegion[lang] } : {}) },
     areaServed: areaServed(lang, site),
     knowsAbout: [WD.interiorDesign, WD.interiorArchitecture, ...T.knowsAbout[lang]],
     sameAs: [SITE.instagram.studio],
@@ -275,7 +302,7 @@ export function graphFor(meta, lang, x = {}, site = SITE_DEFAULTS) {
   // ---- the page itself
   const page = {
     '@type': PAGE_TYPE[meta.type] || 'WebPage', '@id': `${pageUrl}#webpage`, url: pageUrl, name: titleOf(meta, lang, site),
-    description: pick(meta.desc, lang), inLanguage: LANG[lang].hreflang,
+    description: descOf(meta, lang, site), inLanguage: LANG[lang].hreflang,
     isPartOf: { '@id': ID.website }, about: { '@id': meta.type === 'about' ? ID.person : ID.org },
     ...(x.lastmod ? { dateModified: x.lastmod } : {}),
   };
@@ -406,10 +433,17 @@ export function sitemapXml(entries) {
 }
 
 // ---------------------------------------------------------------- llms.txt (A8.6)
+/** the llms.txt service-area fact (A8.6), empty while serviceArea is null */
+function areaFact(site) {
+  const a = site && site.serviceArea;
+  if (!a || !a.en) return '';
+  const regions = Array.isArray(a.regions) && a.regions.length ? ` (${a.regions.map((r) => `${r.en} / ${r.he}`).join(', ')})` : '';
+  return ` service area: ${a.en} — ${a.he}${regions};`;
+}
 const LLMS_MAIN = ['home', 'about', 'services-hub', 'service', 'collection', 'project', 'film', 'journal', 'article', 'contact'];
 /** list: [{ lang, meta }] of indexable pages, in registry order */
 export function llmsTxt(list, site = SITE_DEFAULTS) {
-  const line = (e) => `- [${titleOf(e.meta, e.lang, site)}](${urlFor(e.meta.path, e.lang)}): ${pick(e.meta.desc, e.lang)}`;
+  const line = (e) => `- [${titleOf(e.meta, e.lang, site)}](${urlFor(e.meta.path, e.lang)}): ${descOf(e.meta, e.lang, site)}`;
   const section = (types, lang) => list.filter((e) => e.lang === lang && types.includes(e.meta.type)).map(line).join('\n');
   return [
     '# SELÈ STUDIO',
@@ -418,7 +452,7 @@ export function llmsTxt(list, site = SITE_DEFAULTS) {
     '',
     `> ${orgDesc('he', site)}`,
     '',
-    'Facts: studio name "SELÈ STUDIO" (also written SELE STUDIO); founded 2024; country: Israel; founder and lead designer: Shoham Sela (שוהם סלע), interior designer; education: Shenkar – Engineering. Design. Art. (graduated with honors); contact: office@sele-studio.com; Instagram: @sele__studio (studio), @shohamsela__ (Shoham Sela). Website languages: Hebrew (primary, at the root) and English (under /en/). The studio publishes no street address, phone number or prices on the web; enquiries go through the contact page. Project images on this site are the studio\'s own design visualizations unless a caption says otherwise.',
+    `Facts: studio name "SELÈ STUDIO" (also written SELE STUDIO); founded 2024; country: Israel;${areaFact(site)} founder and lead designer: Shoham Sela (שוהם סלע), interior designer; education: Shenkar – Engineering. Design. Art. (graduated with honors); contact: office@sele-studio.com; Instagram: @sele__studio (studio), @shohamsela__ (Shoham Sela). Website languages: Hebrew (primary, at the root) and English (under /en/). The studio publishes no street address, phone number or prices on the web; enquiries go through the contact page. Project images on this site are the studio's own design visualizations unless a caption says otherwise.`,
     '',
     '## עברית (Hebrew — primary)',
     section(LLMS_MAIN, 'he'),

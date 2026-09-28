@@ -20,8 +20,9 @@ html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="rule"]:not(.
 /* lines: hidden until SplitText has split them (its line/mask wrappers are styled <div>s); the line tween hides them
    inside their masks from then on. Self-healing even if .is-revealed is never set. */
 html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="lines"]:not(.is-revealed):not(:has(> div[style])){ opacity:0 }
-/* media: the clip opens from the physical top-right corner (the arch) */
-html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="media"]:not(.is-revealed) > .frame__clip{ clip-path:inset(0% 0% 100% 100%) }
+/* media: a rectangular curtain wipe — the clip rises from its bottom edge (the threshold) to full height.
+   Must equal the "from" in js/core/reveal.js. */
+html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="media"]:not(.is-revealed) > .frame__clip{ clip-path:inset(100% 0% 0% 0%) }
 
 /* ------------------------------------------------------------------ view transitions (W3, §4.12) */
 @view-transition{ navigation:auto }
@@ -30,9 +31,12 @@ html:is(.will-animate, .can-animate):not(.motion-off) [data-reveal="media"]:not(
 ::view-transition-group(site-header){ animation:none }
 .case-hero__media{ view-transition-name:hero-media }            /* destination (P2 uses this class on the case hero clip) */
 ::view-transition-group(hero-media){ animation-duration:var(--d-vt); animation-timing-function:var(--ease-leaf) }
-::view-transition-old(hero-media){ animation:vt-out 350ms linear both }
-::view-transition-new(hero-media){ animation:vt-arch-open var(--d-vt) var(--ease-leaf) both }
-@keyframes vt-arch-open{ from{ clip-path:inset(0 round 0 42% 0 0) } to{ clip-path:inset(0 round 0) } }
+/* a rectangle morph: the group carries the card's box to the hero's box; the card image fades out over the hero,
+   which is square-cornered from the first frame (no rounded or arched clip at any point) */
+::view-transition-image-pair(hero-media){ overflow:hidden }
+::view-transition-old(hero-media), ::view-transition-new(hero-media){ block-size:100%; object-fit:cover; mix-blend-mode:normal }
+::view-transition-old(hero-media){ z-index:1; animation:vt-out 350ms linear both }   /* card on top, fading away */
+::view-transition-new(hero-media){ animation:none }
 @keyframes vt-out{ to{ opacity:0 } }
 .no-vt.js:not(.motion-off) body{ animation:page-in 320ms var(--ease-paper) both }
 @keyframes page-in{ from{ opacity:.35 } }

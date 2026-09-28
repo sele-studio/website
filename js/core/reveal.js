@@ -53,7 +53,7 @@ function setup(el) {
       const { clip, media } = mediaOf(el);
       const endScale = px ? 1 + n / 50 : 1;
       const tl = g.timeline({ delay, scrollTrigger: st, onComplete: done(el) });
-      tl.fromTo(clip, { clipPath: 'inset(0% 0% 100% 100%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.1, ease: motion.ease('paper') }, 0);
+      tl.fromTo(clip, { clipPath: 'inset(100% 0% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.1, ease: motion.ease('paper') }, 0);
       if (media.length) tl.fromTo(media, { scale: 1.12 }, { scale: endScale, duration: 1.1, ease: motion.ease('paper') }, 0);
     } else if (kind === 'lines' && motion.SplitText) {
       entry.split = motion.SplitText.create(el, {

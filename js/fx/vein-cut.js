@@ -1,14 +1,15 @@
 // W4 — Vein Cut (SPEC §1.3, §5.1 H5). Desktop only (home.js mounts it when html.fx-desktop is set).
-// Four close-ups of her renders share one sticky doorway frame on the night ground while their names scroll past.
+// Four close-ups of her renders share one sticky rectangular frame on the night ground while their names scroll past.
 // Sticky, never pinned: the reader's scroll is never captured.
 //   P ∈ [0, 3] = ScrollTrigger progress × 3 on the list (start "top center", end "bottom center").
 //   Art direction: each material is shown whole while its own name and line sit at the centre of the viewport. So the
 //     cut from picture k to k+1 runs over the middle 60 % of the scroll between the centres of items k and k+1
 //     (measured in P on every refresh); `f` below is that cut's progress, 0 → 1, and the rest of the time the
 //     picture rests, untouched. The active item is the one whose centre is nearest.
-//   Mode B (ships first, and the fallback): picture i+1 is revealed by a diagonal front from the frame's physical
-//     top-right corner (the arch) toward the bottom-left: clip-path polygon(100%−K 0, 100% 0, 100% K), K = 200 % ×
-//     fract(P) while floor(P) = i. (A named exception to "no animated clip-path", SPEC §4.10.)
+//   Mode B (ships first, and the fallback): picture i+1 is revealed by a rectangular curtain rising from the frame's
+//     bottom edge (the same wipe as the site's media reveal): clip-path inset(T 0 0 0), T = 100 % × (1 − f).
+//     Square-cornered at every frame (owner feedback 28/09/2026). (A named exception to "no animated clip-path",
+//     SPEC §4.10.)
 //   Mode A (vein-gl.js, imported only when its conditions hold): the same progress drives a WebGL1 dissolve whose
 //     front travels along her own marble veins. Any failure or context loss returns to Mode B.
 // Every fx.css rule is keyed on html.vein-ready, added in the same task the ScrollTrigger is built and removed on
@@ -52,8 +53,8 @@ export default function mount(section, ctx = {}) {
   const clipCache = new Array(pics.length).fill(null);
   const proxy = { P: 0 };
 
-  // ---------------------------------------------------------------- Mode B: the diagonal wipe
-  const HIDDEN = 'polygon(100% 0, 100% 0, 100% 0)';
+  // ---------------------------------------------------------------- Mode B: the rectangular curtain
+  const HIDDEN = 'inset(100% 0 0 0)';   // = the css/fx.css resting state
   function setClip(k, value) {
     if (clipCache[k] === value) return;
     clipCache[k] = value;
@@ -63,8 +64,8 @@ export default function mount(section, ctx = {}) {
     for (let k = 1; k <= LAST; k++) {
       if (k <= i) setClip(k, 'none');
       else if (k === i + 1) {
-        const K = +(200 * f).toFixed(3);
-        setClip(k, f <= 0 ? HIDDEN : `polygon(${+(100 - K).toFixed(3)}% 0, 100% 0, 100% ${K}%)`);
+        const T = +(100 * (1 - f)).toFixed(3);
+        setClip(k, f <= 0 ? HIDDEN : f >= 1 ? 'none' : `inset(${T}% 0 0 0)`);
       } else setClip(k, HIDDEN);
     }
   }

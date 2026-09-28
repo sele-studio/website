@@ -77,11 +77,21 @@ export const PAGES = [
       he: 'מעצבת פנים – סטודיו לאדריכלות ועיצוב פנים | SELÈ STUDIO',
       en: 'Interior Designer in Israel – Design Studio | SELÈ STUDIO',
     },
-    // used instead of title.he while data/site.json → serviceArea is set (A8.5): {he} = serviceArea.he
-    titleWithArea: { he: 'מעצבת פנים ב{he} – אדריכלות ועיצוב פנים | SELÈ STUDIO' },
+    // used instead of title / desc while data/site.json → serviceArea is set (A8.5). In titleWithArea, {in} is the
+    // locative of serviceArea.he ("המרכז והדרום" → "במרכז ובדרום", 60 characters) and of .en; {he}/{en} the plain area.
+    // The EN title and both descriptions are written for the current area (central + southern Israel, owner 28/09/2026):
+    // rewrite them when data/site.json → serviceArea changes.
+    titleWithArea: {
+      he: 'מעצבת פנים {in} – אדריכלות ועיצוב פנים | SELÈ STUDIO',
+      en: 'Interior Designer in Central & Southern Israel | SELÈ STUDIO',
+    },
     desc: {
       he: 'SELÈ STUDIO – סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג.',
       en: 'SELÈ STUDIO is a boutique architecture and interior design studio in Israel, led by Shoham Sela, an interior designer and Shenkar honors graduate.',
+    },
+    descWithArea: {
+      he: 'SELÈ STUDIO – סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג במרכז ובדרום הארץ.',
+      en: 'SELÈ STUDIO is a boutique architecture and interior design studio led by Shoham Sela, a Shenkar honors graduate. Projects across central and southern Israel.',
     },
     og: OG('og-home'), ogAlt: OG_ALT.studio, index: true,
     collection: ['case-stone-oak-kitchen', 'case-oak-living-room', 'case-travertine-bathroom', 'case-dark-oak-bedroom', 'case-dark-oak-kitchen', '@services'],

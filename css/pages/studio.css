@@ -128,6 +128,8 @@ html[lang="en"] .st-rhyme__cap{ font-family:var(--f-lat-text); font-weight:300 }
 .st-rhyme--wide{ grid-template-columns:minmax(0,1fr) }
 .st-rhyme--wide .st-rhyme__pair{ flex-direction:column; align-items:flex-start; gap:10px }
 .st-rhyme--wide .st-rhyme__fig{ width:min(100%, 360px) }
+/* phones: the caption goes under its pair at full width, so each half stays on one line (owner QA 28/09) */
+@media (max-width:767px){ .st-rhyme{ grid-template-columns:minmax(0,1fr); align-items:start } }
 @media (min-width:768px){
   .st-rhymes{ grid-template-columns:repeat(2, auto); justify-content:start; column-gap:var(--s-6); row-gap:var(--s-6) }
   .st-rhyme{ grid-template-columns:auto; align-items:start }

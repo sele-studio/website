@@ -165,7 +165,7 @@ html[lang="en"] .lg-contact__label{ font-family:var(--f-lat-text); font-weight:4
   padding-block:calc(var(--header-h) + var(--s-6)) var(--s-7);
 }
 
-/* the empty doorway: the brand block with one quarter-arch at the physical top-right, a threshold line under it */
+/* the empty doorway: a square-cornered rectangle (the brand's frames are rectangles), a threshold line under it */
 .lg-door{
   --door-w:min(64vw, 320px);
   position:relative;
@@ -175,7 +175,6 @@ html[lang="en"] .lg-contact__label{ font-family:var(--f-lat-text); font-weight:4
   place-items:end center;
   padding-block-end:calc(var(--door-w) * .1);
   border:1px solid var(--rule);
-  border-top-right-radius:calc(var(--door-w) * .8);   /* phys-ok: brand corner never mirrors (arch-door grade) */
 }
 .lg-door::after{
   content:"";

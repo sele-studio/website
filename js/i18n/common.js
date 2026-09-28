@@ -39,7 +39,7 @@ export default {
   "common.cta.sub": { he: "ספרו לנו על הבית, ונחזור אליכם לתיאום פגישת היכרות.", en: "Tell us about your home, and we’ll get back to you to arrange a first meeting." },
   "common.cta.button": { he: "לספר לנו על הבית", en: "Tell us about your home" },
 
-  "common.footer.entity": { he: "<bdi lang=\"en\">SELÈ STUDIO</bdi> הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בישראל, שנוסד ב־2024 בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות.", en: "SELÈ STUDIO is a boutique architecture and interior design studio in Israel, founded in 2024 and led by Shoham Sela, an interior designer who graduated from Shenkar with honors." },
+  "common.footer.entity": { he: "<bdi lang=\"en\">SELÈ STUDIO</bdi> הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בישראל, שנוסד ב־2024 בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. פרויקטים במרכז ובדרום הארץ.", en: "SELÈ STUDIO is a boutique architecture and interior design studio in Israel, founded in 2024 and led by Shoham Sela, an interior designer who graduated from Shenkar with honors. Projects across central and southern Israel." },
   "common.footer.navAria": { he: "ניווט תחתון", en: "Footer navigation" },
   "common.footer.write": { he: "כתבו לנו", en: "Write to us" },
   "common.footer.igStudio": { he: "הסטודיו", en: "The studio" },

@@ -356,7 +356,7 @@ function renderCase(c) {
   const light = [
     '<section class="case-light l-section" data-theme="night" aria-labelledby="case-light-h">',
     '  <div class="case-light__grid l-wrap l-grid">',
-    '    <header class="opener case-light__opener">',
+    '    <header class="opener opener--echo case-light__opener">',
     '      <p class="opener__latin" lang="en" aria-hidden="true">LIGHT</p>',
     `      ${t('h2', 'projects.case.lightH2', 'class="opener__title" id="case-light-h"')}`,
     '    </header>',

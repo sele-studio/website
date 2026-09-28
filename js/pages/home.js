@@ -1,6 +1,6 @@
 // Home page module (SPEC §5.1, §8 P1). Owner: P1.
-// - The works index preview: hovering or focusing a row wipes its image in from the arch corner above the
-//   previous one (instant under reduced motion). The static HTML already shows image 1, so no-JS is complete.
+// - The works index preview: hovering or focusing a row wipes its image in above the previous one with a
+//   rectangular curtain rising from the bottom edge, the site's media wipe (instant under reduced motion). The static HTML already shows image 1, so no-JS is complete.
 // - Mounts the P6 signature moments, each guarded: frame.js (W2) on [data-fx="frame"] when html.fx-frame is set,
 //   vein-cut.js (W4) on [data-fx="vein-cut"] when html.fx-desktop is set. destroy() unmounts both.
 //   aperture.js (W1) is mounted by app.js, never here.
@@ -54,7 +54,7 @@ function setupWorks(root) {
     if (clip && animated() && previewShown()) {
       const g = motion.gsap;
       state.tween = g.fromTo(clip,
-        { clipPath: 'inset(0% 0% 100% 100%)' },
+        { clipPath: 'inset(100% 0% 0% 0%)' },
         {
           clipPath: 'inset(0% 0% 0% 0%)', duration: 0.6, ease: motion.ease('paper'),
           onComplete() { g.set(clip, { clearProps: 'clipPath' }); state.tween = null; settle(n); },

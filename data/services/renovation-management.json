@@ -12,13 +12,13 @@
       "en": "Apartment Renovation Support in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "ליווי שיפוץ דירה עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
-      "en": "Renovation support in Israel with an interior designer: measured survey, layout, working drawings, site visits and styling. One calm, precise process.",
+      "he": "ליווי שיפוץ דירה במרכז ובדרום הארץ עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
+      "en": "Renovation support across central and southern Israel with an interior designer: survey, layout, working drawings, site visits and styling. One precise process.",
       "variants": [
         {
           "requires": "contractorQuotes",
-          "he": "ליווי שיפוץ דירה עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, השוואת הצעות קבלנים, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק. ספרו לנו על הדירה.",
-          "en": "Renovation support in Israel with an interior designer: survey, layout, working drawings, contractor quotes, site visits and styling. One calm, precise process."
+          "he": "ליווי שיפוץ דירה במרכז ובדרום הארץ עם מעצבת פנים: מדידה, תכנון, תוכניות עבודה, השוואת הצעות קבלנים, ביקורים באתר וסטיילינג. תהליך אחד רצוף ומדויק.",
+          "en": "Renovation support across central and southern Israel with an interior designer: survey, layout, working drawings, contractor quotes, site visits and styling."
         }
       ]
     },
@@ -30,7 +30,7 @@
     "hero": {
       "img": "built-01",
       "alt": {
-        "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
+        "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
         "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
       },
       "caption": {
@@ -65,8 +65,8 @@
     {
       "t": "p",
       "text": {
-        "he": "ב-SELÈ STUDIO אנחנו רואים בשיפוץ תהליך אחד רצוף. כל החלטה נקבעת על הנייר לפני שהיא עולה כסף באתר, וכל שלב נבנה על זה שלפניו. בעמוד הזה נפרט את שלבי שיפוץ הדירה כפי שהם מתנהלים כשמעצבת פנים מלווה את התהליך, מה משפיע על לוח הזמנים, ומה בדיוק המשמעות של פיקוח עליון.",
-        "en": "At SELÈ STUDIO we treat a renovation as one continuous process. Every decision is made on paper before it costs money on site, and every stage builds on the one before it. This page sets out the stages of an apartment renovation when an interior designer guides it, what shapes the timeline, and what design supervision really means."
+        "he": "ב-SELÈ STUDIO אנחנו מלווים שיפוצים במרכז ובדרום הארץ, ורואים בכל שיפוץ תהליך אחד רצוף. כל החלטה נקבעת על הנייר לפני שהיא עולה כסף באתר, וכל שלב נבנה על זה שלפניו. בעמוד הזה נפרט את שלבי שיפוץ הדירה כפי שהם מתנהלים כשמעצבת פנים מלווה את התהליך, מה משפיע על לוח הזמנים, ומה בדיוק המשמעות של פיקוח עליון.",
+        "en": "At SELÈ STUDIO we guide renovations across central and southern Israel, and we treat each one as a single continuous process. Every decision is made on paper before it costs money on site, and every stage builds on the one before it. This page sets out the stages of an apartment renovation when an interior designer guides it, what shapes the timeline, and what design supervision really means."
       }
     },
     {
@@ -270,7 +270,7 @@
     {
       "t": "p",
       "text": {
-        "he": "בעולם השיפוצים, \"פיקוח עליון\" של מעצבת פנים הוא פיקוח עיצובי: ביקורים באתר כדי לוודא שהביצוע תואם את התוכניות, את המידות ואת החומרים שנבחרו, ומענה כשעולה שאלה בשטח. זה לא ניהול עבודה יומיומי, לא נוכחות קבועה באתר, וזה לא מחליף את אחריות הקבלן לטיב העבודה.",
+        "he": "בעולם השיפוצים, „פיקוח עליון” של מעצבת פנים הוא פיקוח עיצובי: ביקורים באתר כדי לוודא שהביצוע תואם את התוכניות, את המידות ואת החומרים שנבחרו, ומענה כשעולה שאלה בשטח. זה לא ניהול עבודה יומיומי, לא נוכחות קבועה באתר, וזה לא מחליף את אחריות הקבלן לטיב העבודה.",
         "en": "In renovation, an interior designer’s supervision is design supervision: visiting the site to confirm that the work matches the drawings, the dimensions and the chosen materials, and answering questions that come up on site. It is not day-to-day site management, not a constant presence on site, and it doesn’t replace the contractor’s responsibility for the quality of the work."
       },
       "requires": "siteSupport"
@@ -355,7 +355,7 @@
     {
       "t": "p",
       "text": {
-        "he": "התמונה בראש העמוד איננה הדמיה. זה צילום מהביצוע: ארונות גובה מעץ כהה עם תריסי אוורור משולבים, ארונות תחתונים בגוון גרייג', אי בגימור אבן בהירה ותאורת מסילה. היא מראה את מה שליווי טוב אמור להשיג: קווים שנפגשים בדיוק במקום שבו תוכננו, וחומרים שנראים באור אמיתי כמו שנבחרו. עוד עבודות של הסטודיו, רובן הדמיות, מופיעות <a href=\"/projects/\">בעמוד הפרויקטים</a>. מי שמתלבט עם מי לעבור את הדרך הזו ימצא נקודות לבדיקה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
+        "he": "התמונה בראש העמוד איננה הדמיה. זה צילום מהביצוע: ארונות גובה מעץ כהה עם תריסי אוורור משולבים, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה ותאורת מסילה. היא מראה את מה שליווי טוב אמור להשיג: קווים שנפגשים בדיוק במקום שבו תוכננו, וחומרים שנראים באור אמיתי כמו שנבחרו. עוד עבודות של הסטודיו, רובן הדמיות, מופיעות <a href=\"/projects/\">בעמוד הפרויקטים</a>. מי שמתלבט עם מי לעבור את הדרך הזו ימצא נקודות לבדיקה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
         "en": "The image at the top of this page is not a render. It is a photograph of finished work: dark-wood tall cabinets with integrated vent grilles, greige lower cabinets, a pale stone-finish island and track lighting. It shows what good support is meant to achieve: lines that meet exactly where they were drawn, and materials that look in real light the way they were chosen. More of the studio’s work, most of it renders, appears on the <a href=\"/projects/\">projects page</a>. If you’re deciding who to take this road with, the guide on <a href=\"/journal/how-to-choose-interior-designer/\">how to choose an interior designer</a> lists what to check."
       },
       "requires": "built01Publish"

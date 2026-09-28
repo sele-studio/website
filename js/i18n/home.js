@@ -9,11 +9,11 @@ export default {
   "home.manifesto": { he: "בית טוב מרגישים עוד לפני שרואים אותו: באבן קרירה מתחת ליד, בעץ שמתחמם באור של אחר הצהריים, בצל של וילון שזז לאט על הקיר. את זה אנחנו מתכננים.", en: "You feel a good home before you see it: cool stone under your hand, wood warming in the afternoon light, the shadow of a curtain drifting slowly across a wall. That is what we design." },
 
   "home.about.h2": { he: "על הסטודיו", en: "About the studio" },
-  "home.about.l1": { he: "סטודיו בוטיק לאדריכלות ועיצוב פנים", en: "A boutique studio for architecture and interior design" },
   "home.about.l2": { he: "סטודיו אישי, עם יחס אישי וחם", en: "A personal studio, with a warm, personal touch" },
   "home.about.l3": { he: "מרקע של עיצוב ואסתטיקה אמיתית", en: "Grounded in real design and real aesthetics" },
   "home.about.l4": { he: "נקי, מדויק ונכון", en: "Clean, precise and right" },
   "home.about.p": { he: "את הסטודיו מובילה שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב פנים, ליווי ביצוע וסטיילינג לבתים ולדירות, וכל פרויקט מלווה אישית, מהשרטוט הראשון ועד הסטיילינג האחרון.", en: "The studio is led by Shoham Sela, an interior designer and an honors graduate of Shenkar. Planning, interior design, build support and styling for homes and apartments, with every project guided personally, from the first sketch to the final styling." },
+  "home.about.area": { he: "פרויקטים במרכז ובדרום הארץ", en: "Projects across central and southern Israel" },
   "home.about.link": { he: "להכיר את הסטודיו", en: "Meet the studio" },
 
   "home.works.h2": { he: "עבודות נבחרות", en: "Selected work" },
@@ -87,7 +87,7 @@ export default {
   "home.journal.h2": { he: "מהמגזין", en: "From the journal" },
   "home.journal.1.s": { he: "לפני שבוחרים מעצבת", en: "Hiring a designer" },
   "home.journal.1.t": { he: "איך בוחרים מעצבת פנים, ומה כדאי לשאול בפגישה הראשונה", en: "How to choose an interior designer, and what to ask at the first meeting" },
-  "home.journal.1.d": { he: "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ'קליסט להדפסה לפגישה הראשונה.", en: "How to choose an interior designer: what to check in a portfolio, which deliverables to ask for, who runs the site, and what to ask about the proposal." },
+  "home.journal.1.d": { he: "איך בוחרים מעצבת פנים: מה לבדוק בתיק העבודות, אילו תוצרים לבקש, מי מלווה אתכם באתר ומה לשאול על הצעת המחיר. כולל צ׳קליסט להדפסה לפגישה הראשונה.", en: "How to choose an interior designer: what to check in a portfolio, which deliverables to ask for, who runs the site, and what to ask about the proposal." },
   "home.journal.2.s": { he: "לפני שבוחרים מעצבת", en: "Hiring a designer" },
   "home.journal.2.t": { he: "כמה עולה מעצבת פנים, ואיך משווים בין הצעות מחיר", en: "What an interior designer costs in Israel, and how to compare proposals" },
   "home.journal.2.d": { he: "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה. מדריך מאת <bdi lang=\"en\">SELÈ STUDIO</bdi>.", en: "How much does an interior designer cost in Israel? The four fee models, what makes the work cost more or less, and how to compare proposals line by line." },

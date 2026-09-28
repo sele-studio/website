@@ -57,13 +57,13 @@
     {
       "t": "p",
       "text": {
-        "he": "אנחנו מתכננים מטבחים לדירות ולבתים פרטיים, כחלק מעיצוב הבית כולו. כמה פרטים חוזרים בעבודה שלנו: אי אבן שנקרא כגוש אחד, נגרות עץ שעולה עד התקרה ונבלעת בקיר, ותאורה נסתרת שהופכת נישה או מדף לרגע קטן של אור. נקי, מדויק ונכון.",
-        "en": "We design kitchens for apartments and private homes, as part of a whole-home project. A few details recur in our work: a stone island that reads as a single block, wood joinery that runs to the ceiling and disappears into the wall, and hidden lighting that turns a niche or a shelf into a small moment of light. Clean, precise and right.",
+        "he": "אנחנו מתכננים מטבחים לדירות ולבתים פרטיים במרכז ובדרום הארץ, כחלק מעיצוב הבית כולו. כמה פרטים חוזרים בעבודה שלנו: אי אבן שנקרא כגוש אחד, נגרות עץ שעולה עד התקרה ונבלעת בקיר, ותאורה נסתרת שהופכת נישה או מדף לרגע קטן של אור. נקי, מדויק ונכון.",
+        "en": "We design kitchens for apartments and private homes across central and southern Israel, as part of a whole-home project. A few details recur in our work: a stone island that reads as a single block, wood joinery that runs to the ceiling and disappears into the wall, and hidden lighting that turns a niche or a shelf into a small moment of light. Clean, precise and right.",
         "variants": [
           {
             "requires": "singleRoomProjects",
-            "he": "אנחנו מתכננים מטבחים לדירות ולבתים פרטיים, כחלק מעיצוב הבית כולו או כפרויקט ממוקד. כמה פרטים חוזרים בעבודה שלנו: אי אבן שנקרא כגוש אחד, נגרות עץ שעולה עד התקרה ונבלעת בקיר, ותאורה נסתרת שהופכת נישה או מדף לרגע קטן של אור. נקי, מדויק ונכון.",
-            "en": "We design kitchens for apartments and private homes, as part of a whole-home project or as a focused project of their own. A few details recur in our work: a stone island that reads as a single block, wood joinery that runs to the ceiling and disappears into the wall, and hidden lighting that turns a niche or a shelf into a small moment of light. Clean, precise and right."
+            "he": "אנחנו מתכננים מטבחים לדירות ולבתים פרטיים במרכז ובדרום הארץ, כחלק מעיצוב הבית כולו או כפרויקט ממוקד. כמה פרטים חוזרים בעבודה שלנו: אי אבן שנקרא כגוש אחד, נגרות עץ שעולה עד התקרה ונבלעת בקיר, ותאורה נסתרת שהופכת נישה או מדף לרגע קטן של אור. נקי, מדויק ונכון.",
+            "en": "We design kitchens for apartments and private homes across central and southern Israel, as part of a whole-home project or as a focused project of their own. A few details recur in our work: a stone island that reads as a single block, wood joinery that runs to the ceiling and disappears into the wall, and hidden lighting that turns a niche or a shelf into a small moment of light. Clean, precise and right."
           }
         ]
       }
@@ -92,7 +92,7 @@
     {
       "t": "p",
       "text": {
-        "he": "\"משולש העבודה\" (כיריים, כיור ומקרר במרחק נוח זה מזה) עדיין כלי טוב, אבל במטבח פתוח נכון יותר לחשוב באזורים: אחסון ומקרר, הכנה ושטיפה, בישול, הגשה. המטרה היא שהמסלול הטבעי, מהמקרר לכיור, למשטח ההכנה ולכיריים, יזרום בלי לחצות את מי שיושב ליד האי ואת המעבר לסלון. ליד הכיריים וליד הכיור משאירים משטח פנוי משני הצדדים. בלעדיו אין איפה להניח.",
+        "he": "„משולש העבודה” (כיריים, כיור ומקרר במרחק נוח זה מזה) עדיין כלי טוב, אבל במטבח פתוח נכון יותר לחשוב באזורים: אחסון ומקרר, הכנה ושטיפה, בישול, הגשה. המטרה היא שהמסלול הטבעי, מהמקרר לכיור, למשטח ההכנה ולכיריים, יזרום בלי לחצות את מי שיושב ליד האי ואת המעבר לסלון. ליד הכיריים וליד הכיור משאירים משטח פנוי משני הצדדים. בלעדיו אין איפה להניח.",
         "en": "The “work triangle” (hob, sink and fridge within easy reach of each other) is still a useful tool, but in an open-plan kitchen it is better to think in zones: storage and fridge, prep and washing, cooking, serving. The aim is for the natural route, from fridge to sink to prep surface to hob, to flow without cutting across whoever sits at the island or the path to the living room. Leave clear worktop on both sides of the hob and the sink; without it, there is nowhere to put anything down."
       }
     },
@@ -106,7 +106,7 @@
     {
       "t": "p",
       "text": {
-        "he": "כהנחיה כללית מקובלת, כל מקום ישיבה צריך כ-60 ס\"מ ברוחב, והמשטח בולט כ-25–30 ס\"מ מעבר לארונות כדי שיהיה מקום לברכיים. למשטח בגובה עבודה רגיל, כ-90 ס\"מ, מתאימים כיסאות בר בגובה מושב של כ-65 ס\"מ. אם הכיריים באי, עדיף שהישיבה לא תהיה ממש מולן: אדים, התזות וסירים חמים לא מסתדרים עם קפה של בוקר.",
+        "he": "כהנחיה כללית מקובלת, כל מקום ישיבה צריך כ-60 ס״מ ברוחב, והמשטח בולט כ-25–30 ס״מ מעבר לארונות כדי שיהיה מקום לברכיים. למשטח בגובה עבודה רגיל, כ-90 ס״מ, מתאימים כיסאות בר בגובה מושב של כ-65 ס״מ. אם הכיריים באי, עדיף שהישיבה לא תהיה ממש מולן: אדים, התזות וסירים חמים לא מסתדרים עם קפה של בוקר.",
         "en": "As a common rule of thumb, each seat needs about 60 cm of width, and the worktop overhangs the cabinets by about 25–30 cm to leave room for knees. At a standard working height of around 90 cm, bar stools with a seat height of about 65 cm fit well. If the hob is on the island, avoid seating directly opposite it: steam, splashes and hot pans don’t mix with morning coffee."
       }
     },
@@ -120,7 +120,7 @@
     {
       "t": "p",
       "text": {
-        "he": "המעבר בין האי לחזית הארונות הוא המידה שהכי קל לטעות בה. כנקודת פתיחה מקובלת, מעבר של כ-100–120 ס\"מ מאפשר לפתוח מדיח ומגירות ולעבור מאחורי מי שמבשל. כשעובדים במטבח שניים, או כשהמעבר משמש גם כנתיב תנועה בבית, מכוונים לקצה העליון. המידה הסופית נגזרת מהחלל, מהמכשירים ומכיווני הפתיחה, ולכן אנחנו בודקים אותה בתוכנית ובהדמיה, ולא לפי העין.",
+        "he": "המעבר בין האי לחזית הארונות הוא המידה שהכי קל לטעות בה. כנקודת פתיחה מקובלת, מעבר של כ-100–120 ס״מ מאפשר לפתוח מדיח ומגירות ולעבור מאחורי מי שמבשל. כשעובדים במטבח שניים, או כשהמעבר משמש גם כנתיב תנועה בבית, מכוונים לקצה העליון. המידה הסופית נגזרת מהחלל, מהמכשירים ומכיווני הפתיחה, ולכן אנחנו בודקים אותה בתוכנית ובהדמיה, ולא לפי העין.",
         "en": "The walkway between the island and the cabinet fronts is the measurement people most often get wrong. As a common starting point, about 100–120 cm lets you open the dishwasher and drawers and pass behind the person cooking. With two cooks, or when the walkway is also a route through the house, aim for the upper end. The final dimension depends on the room, the appliances and the way doors open, which is why we check it on the plan and in a render, not by eye."
       }
     },
@@ -183,7 +183,7 @@
     {
       "t": "p",
       "text": {
-        "he": "מטבח מעץ אלון מקבל אופי שונה לפי הגוון. אלון בהיר מכניס אור ורוגע, ומשתלב עם אבן בגוון אפור-חמים. אלון כהה יוצר עומק ושקט, במיוחד לצד חזיתות בגוון גרייג' ומשטח אבן בהיר. על ההחלטות שקובעות את איכות הנגרות, מהחזית ועד המנגנון, כתבנו ב<a href=\"/journal/custom-carpentry-guide/\">מדריך לתכנון נגרות עם מעצבת</a>.",
+        "he": "מטבח מעץ אלון מקבל אופי שונה לפי הגוון. אלון בהיר מכניס אור ורוגע, ומשתלב עם אבן בגוון אפור-חמים. אלון כהה יוצר עומק ושקט, במיוחד לצד חזיתות בגוון גרייג׳ ומשטח אבן בהיר. על ההחלטות שקובעות את איכות הנגרות, מהחזית ועד המנגנון, כתבנו ב<a href=\"/journal/custom-carpentry-guide/\">מדריך לתכנון נגרות עם מעצבת</a>.",
         "en": "An oak kitchen changes character with the tone. Light oak brings in light and calm and sits well with warm-gray stone. Dark oak creates depth and quiet, especially beside greige fronts and a light stone worktop. We cover the decisions that determine joinery quality, from front to hinge, in our <a href=\"/journal/custom-carpentry-guide/\">guide to planning joinery with a designer</a>."
       }
     },
@@ -405,7 +405,7 @@
         {
           "img": "kitchen-dark-01",
           "alt": {
-            "he": "פינת מטבח באלון כהה וחזיתות גרייג', כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת כהים עם תאורה אחורית, הדמיה",
+            "he": "פינת מטבח באלון כהה וחזיתות גרייג׳, כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת כהים עם תאורה אחורית, הדמיה",
             "en": "Dark-oak kitchen corner with greige fronts, an integrated stone sink, matte-black tap and backlit dark-metal shelving, render"
           },
           "kind": "render"
@@ -435,7 +435,7 @@
             "en": "Dark-oak kitchen"
           },
           "text": {
-            "he": "עץ אלון כהה, חזיתות בגוון גרייג', כיור אבן אינטגרלי ומדפי מתכת עם תאורה אחורית.",
+            "he": "עץ אלון כהה, חזיתות בגוון גרייג׳, כיור אבן אינטגרלי ומדפי מתכת עם תאורה אחורית.",
             "en": "Dark oak, greige fronts, an integrated stone sink and backlit metal shelving."
           }
         }
@@ -454,7 +454,7 @@
             "en": "How much space do you need for a kitchen island?"
           },
           "a": {
-            "he": "מעבר לגודל האי עצמו, צריך מעבר נוח סביבו. כנקודת פתיחה מקובלת, כ-100–120 ס\"מ בין האי לחזית הארונות, ויותר כשעובדים שניים או כשהמעבר משמש לתנועה בבית. כשהמקום לא מאפשר, חצי אי או משטח מוארך לאורך הקיר יעבדו טוב יותר מאי צפוף.",
+            "he": "מעבר לגודל האי עצמו, צריך מעבר נוח סביבו. כנקודת פתיחה מקובלת, כ-100–120 ס״מ בין האי לחזית הארונות, ויותר כשעובדים שניים או כשהמעבר משמש לתנועה בבית. כשהמקום לא מאפשר, חצי אי או משטח מוארך לאורך הקיר יעבדו טוב יותר מאי צפוף.",
             "en": "Beyond the island itself, you need comfortable circulation around it. As a common starting point, allow about 100–120 cm between the island and the cabinet fronts, more with two cooks or when the walkway is a route through the house. Where space is short, a peninsula or a longer run along the wall works better than a cramped island."
           }
         },

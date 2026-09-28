@@ -1,4 +1,4 @@
-/* SELÈ STUDIO — base: reset, type, grid, the one-corner frame, shared components (SPEC §3.2–§3.5).
+/* SELÈ STUDIO — base: reset, type, grid, the rectangular frame, shared components (SPEC §3.2–§3.5).
    Logical properties only; physical lines end with phys-ok. Owner: P0. */
 
 /* ------------------------------------------------------------------ reset */
@@ -94,15 +94,16 @@ html[lang="en"] .brand-line{ font-family:var(--f-lat-text); font-weight:300 }
 [data-theme="paper"], [data-theme="paper-2"]{ background:var(--grain) repeat, var(--bg) }
 html.a11y-contrast :is([data-theme="paper"], [data-theme="paper-2"]){ background:var(--bg) }
 
-/* ------------------------------------------------------------------ the one-corner frame (§3.4) */
+/* ------------------------------------------------------------------ the frame (§3.4)
+   Every image and film frame is a clean rectangle with square corners — crisp, architectural, editorial. The old
+   one-corner arch (owner feedback 28/09/2026) is retired: no rounded corner, no oval or arch clip on a picture.
+   .arch / .arch-door / .arch-quarter / .flat stay in the markup as stable hooks (page CSS and JS select them)
+   but all render square; tools/check.mjs rule 11 fails any rounded frame corner. The seal's oval is the logo,
+   not a frame. */
 .frame{ position:relative; margin:0; container-type:inline-size }
-.frame__clip{ position:relative; overflow:hidden; background:var(--stone); aspect-ratio:var(--ar, 4/5) }
+.frame__clip{ position:relative; overflow:hidden; background:var(--stone); aspect-ratio:var(--ar, 4/5); border-radius:0 }
 .frame__clip > picture, .frame__clip > img, .frame__clip picture > img, .frame__clip > video{
   position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:var(--pos, 50% 50%) }
-.arch > .frame__clip{ border-top-right-radius:var(--arch) }          /* phys-ok: brand corner never mirrors */
-.arch-door > .frame__clip{ border-top-right-radius:var(--arch-door) }/* phys-ok */
-.arch-quarter > .frame__clip{ border-bottom-left-radius:var(--arch) }/* phys-ok: small tiles, bordeaux elements */
-.flat > .frame__clip, .frame.is-flat > .frame__clip{ border-radius:0 }  /* is-flat: state class toggled by JS (W2 full-bleed film) */
 .slab{ border-top-right-radius:var(--arch-ui) }                       /* phys-ok: UI-scale corner (buttons, panels) */
 .frame__clip picture{ display:block }
 
@@ -121,6 +122,9 @@ html.a11y-contrast :is([data-theme="paper"], [data-theme="paper-2"]){ background
   overflow-wrap:normal;
 }
 .opener__title{ font-family:var(--f-display); font-weight:300; font-size:var(--t-d2); margin-block-start:var(--s-3) }
+/* .opener--echo: the display word and the heading are the same word in English (LIGHT / Light). In English the heading
+   stays in the outline for assistive tech but is not drawn twice; in Hebrew the pair is bilingual and both show. */
+html[lang="en"] .opener--echo > .opener__title{ position:absolute; inline-size:1px; block-size:1px; margin:-1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0 }
 .opener__lines{ margin-block-start:var(--s-3); font-family:var(--f-he-text); font-weight:200; font-size:var(--t-brand); line-height:1.75; color:var(--fg-2) }
 html[lang="en"] .opener__lines{ font-family:var(--f-lat-text); font-weight:300 }
 .opener__line{ display:block }
@@ -309,7 +313,7 @@ html[dir="rtl"] .field input[dir="ltr"], html[dir="rtl"] .field input[dir="ltr"]
 .field.has-error :is(input, textarea, select), .field [aria-invalid="true"]{ border-block-end-color:var(--bordeaux); box-shadow:0 1px 0 0 var(--bordeaux) }
 .field__error{ display:flex; gap:.45em; align-items:baseline; font-size:var(--t-small); line-height:1.5; color:var(--bordeaux); font-weight:600 }
 .field__error:empty{ display:none }
-.field__error::before{ content:"⌒"; content:"⌒" / ""; font-weight:400; line-height:1 }
+.field__error::before{ content:""; flex:none; inline-size:10px; block-size:1.5px; background:currentColor; align-self:center; translate:0 -1px }   /* a crisp rule, not a glyph */
 [data-theme="night"] .field__error{ color:var(--glow) }
 
 /* ------------------------------------------------------------------ film (§4.14) */

@@ -57,10 +57,12 @@
   --ease-leaf:cubic-bezier(.65,0,.35,1);    /* aperture, frame, view transitions, menu */
   --ease-ink:cubic-bezier(.3,0,.1,1);       /* line rises */
   --d-micro:180ms; --d-ui:420ms; --d-reveal:1000ms; --d-media:1100ms; --d-vt:700ms;
-  /* ---- Arch ---- */
-  --arch:min(50cqi, 40vh);
-  --arch-door:min(80cqi, 60vh);
-  --arch-ui:14px;
+  /* ---- Corners ----
+     Image and film frames are square-cornered rectangles (owner feedback 28/09/2026: the one-corner arch on
+     pictures is retired). --arch-ui is the UI-scale slab corner (buttons, panels) only — never on a picture.
+     Set to 0 in the same round so no single rounded corner survives next to the square pictures (was 14px;
+     restoring the brand-book slab corner on UI controls is this one value). */
+  --arch-ui:0;
   /* ---- Z ---- */
   --z-media:2; --z-float:40; --z-header:50; --z-menu:60; --z-header-over-menu:70; --z-cursor:80; --z-a11y:90; --z-intro:100;
   /* ---- P0 additions (not in the SPEC block; used by base/chrome) ---- */
