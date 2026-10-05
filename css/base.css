@@ -207,7 +207,9 @@ html[lang="en"] .btn{ font-family:var(--f-lat-text); font-weight:500; font-size:
   color:var(--fg-2);
 }
 html[lang="en"] .caption__status{ font-family:var(--f-lat-text); font-weight:400; font-size:var(--t-label-lat); letter-spacing:.3em; text-transform:uppercase }
-.caption__status::after{ content:" — "; content:" — " / ""; letter-spacing:0 }
+/* label → text separator: no glyph, only a fixed gap (the label's own weight/case sets it apart); the nbsp keeps a real
+   word break for screen readers and copy-paste. A status-only caption ends on the label. */
+.caption__status:not(:last-child)::after{ content:"\00a0"; display:inline-block; inline-size:.85em; letter-spacing:0 }
 
 .margin-note{
   display:flex; align-items:baseline; gap:var(--s-2);

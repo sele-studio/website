@@ -8,7 +8,7 @@
       "en": "Renovation support"
     },
     "title": {
-      "he": "ליווי שיפוץ דירה — מהמדידה ועד הסטיילינג | SELÈ STUDIO",
+      "he": "ליווי שיפוץ דירה מהמדידה ועד הסטיילינג | SELÈ STUDIO",
       "en": "Apartment Renovation Support in Israel | SELÈ STUDIO"
     },
     "desc": {
@@ -31,11 +31,11 @@
       "img": "built-01",
       "alt": {
         "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
-        "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
+        "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas cooktop and black track lighting, photograph"
       },
       "caption": {
-        "he": "צילום ולא הדמיה. הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.",
-        "en": "a photograph, not a render. It is not presented here as the built version of any visualization on this site."
+        "he": "הצילום לא מתעד אף אחת מההדמיות שבאתר.",
+        "en": "The photograph does not show any of the renders on this site."
       },
       "kind": "photo",
       "pos": "50% 50%"
@@ -58,15 +58,15 @@
     {
       "t": "lead",
       "text": {
-        "he": "רוב השיפוצים לא משתבשים בגדול. הם משתבשים בפרטים הקטנים: נקודת חשמל שזזה עשרה סנטימטרים, ברז קיר שהגוף הסמוי שלו לא הוזמן בזמן, ארון שנמדד לפני שהריצוף הונח. ליווי שיפוץ דירה הוא העבודה שסוגרת את הפערים האלה: בין הרעיון לתוכנית, בין התוכנית לקבלן, ובין הקבלן לבית שתגורו בו.",
-        "en": "Most renovations don’t go wrong in a big way. They go wrong in the small details: an electrical point that moved ten centimeters, a wall-mounted tap whose concealed body wasn’t ordered in time, a cabinet measured before the floor was laid. Renovation support is the work that closes those gaps: between the idea and the plan, between the plan and the contractor, and between the contractor and the home you will actually live in."
+        "he": "בשיפוץ, רוב הבעיות מתחילות בפרטים קטנים: נקודת חשמל שזזה עשרה סנטימטרים, ברז קיר שהגוף הסמוי שלו לא הוזמן בזמן, ארון שנמדד לפני שהריצוף הונח. ליווי שיפוץ דירה נועד לתפוס את הפרטים האלה בזמן, כדי שמה שתוכנן על הנייר ייבנה בפועל, והבית ייצא כמו שרציתם.",
+        "en": "In a renovation, most problems start with small details: an electrical point that moved ten centimeters, a wall-mounted tap whose concealed body wasn’t ordered in time, a cabinet measured before the floor was laid. Renovation support is there to catch those details in time, so that what was drawn on paper is what actually gets built, and the home you will live in turns out the way you wanted it."
       }
     },
     {
       "t": "p",
       "text": {
-        "he": "ב-SELÈ STUDIO אנחנו מלווים שיפוצים במרכז ובדרום הארץ, ורואים בכל שיפוץ תהליך אחד רצוף. כל החלטה נקבעת על הנייר לפני שהיא עולה כסף באתר, וכל שלב נבנה על זה שלפניו. בעמוד הזה נפרט את שלבי שיפוץ הדירה כפי שהם מתנהלים כשמעצבת פנים מלווה את התהליך, מה משפיע על לוח הזמנים, ומה בדיוק המשמעות של פיקוח עליון.",
-        "en": "At SELÈ STUDIO we guide renovations across central and southern Israel, and we treat each one as a single continuous process. Every decision is made on paper before it costs money on site, and every stage builds on the one before it. This page sets out the stages of an apartment renovation when an interior designer guides it, what shapes the timeline, and what design supervision really means."
+        "he": "ב-SELÈ STUDIO אנחנו מלווים שיפוצים במרכז ובדרום הארץ. אנחנו מעדיפים לסגור כל החלטה על הנייר, לפני שהיא עולה כסף באתר. כאן תמצאו את שלבי שיפוץ הדירה כשמעצבת פנים מלווה אותו, מה משפיע על לוח הזמנים ומה בדיוק כולל פיקוח עליון.",
+        "en": "At SELÈ STUDIO we guide renovations across central and southern Israel. We prefer to settle every decision on paper, before it costs money on site. Here you will find the stages of an apartment renovation when an interior designer guides it, what affects the timeline and what design supervision actually covers."
       }
     },
     {
@@ -133,13 +133,13 @@
             "en": "Working drawings and details"
           },
           "text": {
-            "he": "זה השלב שבו הרעיון הופך להוראות ביצוע: תוכנית בינוי והריסה, חשמל ותקשורת, תאורה, תקרות ותוכניות נגרות מפורטות, ולצידן מפרט חומרים וגמרים. ככל שהתוכניות שלמות יותר, כך נשאר פחות מקום לפרשנות באתר, ופחות הפתעות בחשבון.",
-            "en": "This is where the idea becomes construction instructions: demolition and construction plans, electrical and data, lighting, ceilings, and detailed joinery drawings, together with a specification of materials and finishes. The more complete the drawings, the less room is left for interpretation on site, and the fewer surprises on the invoice.",
+            "he": "בשלב הזה הרעיון מתורגם להוראות ביצוע: תוכנית בינוי והריסה, חשמל ותקשורת, תאורה, תקרות ותוכניות נגרות מפורטות, ולצידן מפרט חומרים וגמרים. ככל שהתוכניות שלמות יותר, כך נשאר פחות מקום לפרשנות באתר, ופחות הפתעות בחשבון.",
+            "en": "At this stage the idea is translated into construction instructions: demolition and construction plans, electrical and data, lighting, ceilings, and detailed joinery drawings, together with a specification of materials and finishes. The more complete the drawings, the less room is left for interpretation on site, and the fewer surprises on the invoice.",
             "variants": [
               {
                 "requires": "drawingsPlumbingFlooring",
-                "he": "זה השלב שבו הרעיון הופך להוראות ביצוע: תוכנית בינוי והריסה, חשמל ותקשורת, תאורה, אינסטלציה, ריצוף וחיפוי, תקרות ותוכניות נגרות מפורטות, ולצידן מפרט חומרים וגמרים. ככל שהתוכניות שלמות יותר, כך נשאר פחות מקום לפרשנות באתר, ופחות הפתעות בחשבון.",
-                "en": "This is where the idea becomes construction instructions: demolition and construction plans, electrical and data, lighting, plumbing, flooring and wall cladding, ceilings, and detailed joinery drawings, together with a specification of materials and finishes. The more complete the drawings, the less room is left for interpretation on site, and the fewer surprises on the invoice."
+                "he": "בשלב הזה הרעיון מתורגם להוראות ביצוע: תוכנית בינוי והריסה, חשמל ותקשורת, תאורה, אינסטלציה, ריצוף וחיפוי, תקרות ותוכניות נגרות מפורטות, ולצידן מפרט חומרים וגמרים. ככל שהתוכניות שלמות יותר, כך נשאר פחות מקום לפרשנות באתר, ופחות הפתעות בחשבון.",
+                "en": "At this stage the idea is translated into construction instructions: demolition and construction plans, electrical and data, lighting, plumbing, flooring and wall cladding, ceilings, and detailed joinery drawings, together with a specification of materials and finishes. The more complete the drawings, the less room is left for interpretation on site, and the fewer surprises on the invoice."
               }
             ]
           }
@@ -172,8 +172,8 @@
             "en": "Styling and dressing the home"
           },
           "text": {
-            "he": "וילונות, תאורה דקורטיבית, שטיחים, רהיטים, ספרים וקרמיקה על המדף. זה השלב שהופך דירה משופצת לבית. גם הוא מתוכנן מההתחלה, כדי שהשקעים, המדפים והקירות יהיו מוכנים לו.",
-            "en": "Curtains, decorative lighting, rugs, furniture, books and ceramics on the shelf. This is the stage that turns a renovated apartment into a home. It is planned from the start too, so the sockets, shelves and walls are ready for it."
+            "he": "וילונות, תאורה דקורטיבית, שטיחים, רהיטים, ספרים וקרמיקה על המדף. גם את השלב הזה מתכננים מההתחלה, כדי שהשקעים, המדפים והקירות יהיו מוכנים לו.",
+            "en": "Curtains, decorative lighting, rugs, furniture, books and ceramics on the shelf. This stage is planned from the start too, so the sockets, shelves and walls are ready for it."
           },
           "requires": "styling"
         }
@@ -201,8 +201,8 @@
             "en": "Light-oak shelving above a stone plinth, styled with white ceramics, a candle, books and a framed print in soft sunlight, render"
           },
           "caption": {
-            "he": "ההלבשה: השלב שהופך דירה משופצת לבית",
-            "en": "Styling: the stage that turns a renovated apartment into a home"
+            "he": "ההלבשה בסוף השיפוץ: ספרים, קרמיקה ותמונה על המדף",
+            "en": "Styling at the end of the renovation: books, ceramics and a picture on the shelf"
           },
           "kind": "render",
           "requires": "styling"
@@ -219,8 +219,8 @@
     {
       "t": "p",
       "text": {
-        "he": "התשובה הכנה היא שזה תלוי, ושאין מספר אמין לפני שהתוכניות סגורות וההצעות על השולחן. מה שכן אפשר לומר מראש הוא מה מאריך את הדרך ומה מקצר אותה:",
-        "en": "The honest answer is that it depends, and that no reliable number exists until the drawings are final and the quotes are on the table. What can be said in advance is what lengthens the road and what shortens it:"
+        "he": "זה תלוי, ואין מספר אמין לפני שהתוכניות סגורות וההצעות על השולחן. מה שכן אפשר לדעת מראש הוא מה מאריך את העבודה ומה מקצר אותה:",
+        "en": "It depends, and there is no reliable number until the drawings are final and the quotes are on the table. What you can know in advance is what makes the work longer and what makes it shorter:"
       }
     },
     {
@@ -247,8 +247,8 @@
           "en": "<strong>The pace of decisions.</strong> Every decision postponed to the site stops someone from working. That’s why we prefer to settle choices during design."
         },
         {
-          "he": "<strong>סדר העבודה.</strong> חשמלאי, אינסטלטור, רצף, נגר וצבעי תלויים זה בזה. תיאום טוב חוסך ימי המתנה, ותיאום רופף מוסיף אותם.",
-          "en": "<strong>Sequence of trades.</strong> Electrician, plumber, tiler, joiner and painter each depend on the one before. Good coordination saves days of waiting; loose coordination adds them."
+          "he": "<strong>סדר העבודה.</strong> חשמלאי, אינסטלטור, רצף, נגר וצבעי תלויים זה בזה. תיאום טוב ביניהם חוסך ימים שבהם אף אחד לא יכול לעבוד באתר.",
+          "en": "<strong>Sequence of trades.</strong> Electrician, plumber, tiler, joiner and painter each depend on the one before. Good coordination between them saves days when nobody can work on site."
         }
       ]
     },
@@ -262,24 +262,24 @@
     {
       "t": "h2",
       "text": {
-        "he": "מה זה פיקוח עליון, ומה הוא לא",
-        "en": "What design supervision is, and what it isn’t"
+        "he": "מה כולל פיקוח עליון של מעצבת פנים",
+        "en": "What design supervision by an interior designer includes"
       },
       "requires": "siteSupport"
     },
     {
       "t": "p",
       "text": {
-        "he": "בעולם השיפוצים, „פיקוח עליון” של מעצבת פנים הוא פיקוח עיצובי: ביקורים באתר כדי לוודא שהביצוע תואם את התוכניות, את המידות ואת החומרים שנבחרו, ומענה כשעולה שאלה בשטח. זה לא ניהול עבודה יומיומי, לא נוכחות קבועה באתר, וזה לא מחליף את אחריות הקבלן לטיב העבודה.",
-        "en": "In renovation, an interior designer’s supervision is design supervision: visiting the site to confirm that the work matches the drawings, the dimensions and the chosen materials, and answering questions that come up on site. It is not day-to-day site management, not a constant presence on site, and it doesn’t replace the contractor’s responsibility for the quality of the work."
+        "he": "בעולם השיפוצים, „פיקוח עליון” של מעצבת פנים הוא פיקוח עיצובי: ביקורים באתר כדי לוודא שהביצוע תואם את התוכניות, את המידות ואת החומרים שנבחרו, ומענה כשעולה שאלה בשטח. פיקוח כזה אינו ניהול עבודה יומיומי ואינו נוכחות קבועה באתר, והוא לא מחליף את אחריות הקבלן לטיב העבודה.",
+        "en": "In renovation, an interior designer’s supervision is design supervision: visiting the site to confirm that the work matches the drawings, the dimensions and the chosen materials, and answering questions that come up on site. It does not mean running the site day to day or being there all the time, and it doesn’t replace the contractor’s responsibility for the quality of the work."
       },
       "requires": "siteSupport"
     },
     {
       "t": "p",
       "text": {
-        "he": "וחשוב לדייק. כשהשיפוץ כולל עבודות שטעונות היתר או נוגעות בשלד, הפיקוח על אותן עבודות שייך למהנדס או לאדריכל הרשום שחתום עליהן. אם אתם לא בטוחים באיזה צד של הקו נמצא השיפוץ שלכם, כדאי לקרוא <a href=\"/journal/interior-designer-vs-architect/\">מתי צריך אדריכל רשום ומתי מעצבת פנים</a>. היקף הביקורים ותדירותם נקבעים מראש, בהצעת העבודה, כך שברור לכולם מה כלול.",
-        "en": "And an important distinction: when a renovation includes work that needs a building permit or touches the structure, supervision of that work belongs to the registered engineer or architect who signs for it. If you’re not sure which side of that line your project falls on, read <a href=\"/journal/interior-designer-vs-architect/\">when you need a registered architect and when an interior designer</a>. The number and timing of visits are agreed in advance, in the proposal, so everyone knows what is included."
+        "he": "וחשוב לדייק. כשהשיפוץ כולל עבודות שטעונות היתר או נוגעות בשלד, הפיקוח על אותן עבודות שייך למהנדס או לאדריכל הרשום שחתום עליהן. אם אתם לא בטוחים אם השיפוץ שלכם מחייב אדריכל רשום או מהנדס, כדאי לקרוא <a href=\"/journal/interior-designer-vs-architect/\">מתי צריך אדריכל רשום ומתי מעצבת פנים</a>. היקף הביקורים ותדירותם נקבעים מראש, בהצעת העבודה, כך שברור לכולם מה כלול.",
+        "en": "And an important distinction: when a renovation includes work that needs a building permit or touches the structure, supervision of that work belongs to the registered engineer or architect who signs for it. If you’re not sure whether your renovation needs a registered architect or an engineer, read <a href=\"/journal/interior-designer-vs-architect/\">when you need a registered architect and when an interior designer</a>. The number and timing of visits are agreed in advance, in the proposal, so everyone knows what is included."
       },
       "requires": "siteSupport"
     },
@@ -293,8 +293,8 @@
     {
       "t": "p",
       "text": {
-        "he": "שלוש דוגמאות, שכל אחת מהן נראית בתמונות שבעמוד הזה, וממחישות למה התכנון קודם לאתר:",
-        "en": "Three examples, each visible in the images on this page, that show why planning comes before the site:"
+        "he": "שלוש דוגמאות מהתמונות שבעמוד הזה, שמראות למה את התכנון סוגרים לפני שמגיעים לאתר:",
+        "en": "Three examples from the images on this page that show why the planning is settled before work starts on site:"
       }
     },
     {
@@ -355,8 +355,8 @@
     {
       "t": "p",
       "text": {
-        "he": "התמונה בראש העמוד איננה הדמיה. זה צילום מהביצוע: ארונות גובה מעץ כהה עם תריסי אוורור משולבים, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה ותאורת מסילה. היא מראה את מה שליווי טוב אמור להשיג: קווים שנפגשים בדיוק במקום שבו תוכננו, וחומרים שנראים באור אמיתי כמו שנבחרו. עוד עבודות של הסטודיו, רובן הדמיות, מופיעות <a href=\"/projects/\">בעמוד הפרויקטים</a>. מי שמתלבט עם מי לעבור את הדרך הזו ימצא נקודות לבדיקה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
-        "en": "The image at the top of this page is not a render. It is a photograph of finished work: dark-wood tall cabinets with integrated vent grilles, greige lower cabinets, a pale stone-finish island and track lighting. It shows what good support is meant to achieve: lines that meet exactly where they were drawn, and materials that look in real light the way they were chosen. More of the studio’s work, most of it renders, appears on the <a href=\"/projects/\">projects page</a>. If you’re deciding who to take this road with, the guide on <a href=\"/journal/how-to-choose-interior-designer/\">how to choose an interior designer</a> lists what to check."
+        "he": "התמונה בראש העמוד היא צילום מהביצוע: ארונות גובה מעץ כהה עם תריסי אוורור משולבים, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה ותאורת מסילה. הקווים נפגשים בדיוק איפה שתוכננו, וזה מה שליווי טוב צריך להבטיח. עוד עבודות של הסטודיו, רובן הדמיות, נמצאות <a href=\"/projects/\">בעמוד הפרויקטים</a>. אם אתם עדיין בוחרים מעצבת, ריכזנו נקודות לבדיקה במדריך <a href=\"/journal/how-to-choose-interior-designer/\">איך בוחרים מעצבת פנים</a>.",
+        "en": "The image at the top of this page is a photograph of finished work: dark-wood tall cabinets with integrated vent grilles, greige lower cabinets, a pale stone-finish island and track lighting. The lines meet exactly where they were drawn, which is what good renovation support should make sure of. More of the studio’s work, most of it renders, is on the <a href=\"/projects/\">projects page</a>. If you are still choosing a designer, the guide on <a href=\"/journal/how-to-choose-interior-designer/\">how to choose an interior designer</a> lists what to check."
       },
       "requires": "built01Publish"
     },
@@ -439,12 +439,12 @@
     {
       "t": "cta",
       "h": {
-        "he": "לפני שהפטיש הראשון יורד",
-        "en": "Before the first hammer falls"
+        "he": "לפני שמתחילים לשפץ",
+        "en": "Before the renovation starts"
       },
       "p": {
-        "he": "ספרו לנו על הדירה: מה קיים, מה חסר, ומה הייתם רוצים להרגיש כשתיכנסו הביתה. נחזור אליכם לתיאום פגישת היכרות.",
-        "en": "Tell us about the apartment: what’s there, what’s missing, and how you’d like to feel when you walk in. We’ll get back to you to arrange an introductory meeting."
+        "he": "ספרו לנו על הדירה: מה יש בה היום, מה חסר ומה הייתם רוצים לשנות. נחזור אליכם לתיאום פגישת היכרות.",
+        "en": "Tell us about the apartment: what’s there today, what’s missing and what you’d like to change. We’ll get back to you to arrange an introductory meeting."
       },
       "button": {
         "he": "לתיאום פגישת היכרות",

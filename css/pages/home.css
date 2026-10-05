@@ -355,31 +355,6 @@ html[lang="en"] .home-materials__line{ font-family:var(--f-lat-text); font-weigh
   .home-materials__note{ margin-block-start:var(--s-6) }
 }
 
-/* ================================================================== H6 threshold teaser */
-.home-threshold__text{ grid-column:1 / -1; min-inline-size:0 }
-.home-threshold .opener__latin{ white-space:nowrap }
-.home-threshold__p{
-  margin-block-start:var(--s-5);
-  max-inline-size:var(--measure);
-  font-family:var(--f-he-display); font-weight:400;
-  font-size:var(--t-lead); line-height:1.75;
-}
-html[lang="en"] .home-threshold__p{ font-family:var(--f-lat-text); font-weight:300 }
-.home-threshold__more{ margin-block-start:var(--s-4) }
-.home-threshold__fig{ grid-column:1 / -1; justify-self:end; inline-size:min(100%, 60vh); margin-block-start:var(--s-6) }
-@media (min-width:1100px){
-  /* the opener word runs past the text column, so it gets a row of its own across the grid; the H2 + text (cols 1–5)
-     and the portrait (cols 7–11) share the rows below it, the figure's top on the H2's top. The last row is 1fr so the
-     tall figure's extra height lands under the text instead of spreading the text rows apart. */
-  .home-threshold .l-grid{ grid-template-rows:auto auto auto auto 1fr }
-  .home-threshold__text, .home-threshold .opener{ display:contents }
-  .home-threshold .opener__latin{ grid-column:1 / -1; grid-row:1 }
-  .home-threshold .opener__title{ grid-column:1 / 6; grid-row:2; margin-block-start:var(--s-6) }
-  .home-threshold__p{ grid-column:1 / 6; grid-row:3 }
-  .home-threshold__more{ grid-column:1 / 6; grid-row:4; align-self:start }
-  .home-threshold__fig{ grid-column:7 / 12; grid-row:2 / -1; align-self:start; margin-block-start:var(--s-6) }
-}
-
 /* ================================================================== H7 five steps (#home-process) */
 .home-steps__rule{ block-size:1px; margin-block-start:var(--s-6); background:var(--line) }
 .home-steps{ display:grid; grid-template-columns:minmax(0,1fr); gap:var(--s-5) var(--gap); padding-block-start:var(--s-5) }
@@ -449,5 +424,5 @@ html[lang="en"] .home-threshold__p{ font-family:var(--f-lat-text); font-weight:3
 /* ================================================================== openers: long Latin words fit the phone width
    (the brand word stays one line; --t-mega's floor is too large for 8–9 letter words at 320–400 px) */
 @media (max-width:767px){
-  .home-materials .opener__latin, .home-threshold .opener__latin, .home-services .opener__latin, .home-works .opener__latin{ font-size:min(var(--t-mega), 12.4vw) }
+  .home-materials .opener__latin, .home-services .opener__latin, .home-works .opener__latin{ font-size:min(var(--t-mega), 12.4vw) }
 }

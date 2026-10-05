@@ -5,7 +5,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://sele-studio.com/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/"/>
@@ -14,11 +14,10 @@
     <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
     <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://sele-studio.com/en/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/"/>
@@ -27,55 +26,40 @@
     <image:image><image:loc>https://sele-studio.com/assets/img/living-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
     <image:image><image:loc>https://sele-studio.com/assets/img/bedroom-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://sele-studio.com/studio/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/studio/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/studio/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/studio/"/>
     <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-marble.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-stone.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-bronze.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-bronze.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-oak.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-oak.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://sele-studio.com/en/studio/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/studio/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/studio/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/studio/"/>
     <image:image><image:loc>https://sele-studio.com/assets/img/shoham-portrait.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/bath-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-marble.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-stone.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-bronze.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-bronze.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/ny-oak.jpg</image:loc></image:image>
-    <image:image><image:loc>https://sele-studio.com/assets/img/story/studio-oak.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://sele-studio.com/services/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/services/interior-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/interior-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/interior-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/interior-design/"/>
@@ -89,7 +73,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/interior-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/interior-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/interior-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/interior-design/"/>
@@ -103,7 +87,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/services/space-planning/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/space-planning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/space-planning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/space-planning/"/>
@@ -114,7 +98,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/space-planning/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/space-planning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/space-planning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/space-planning/"/>
@@ -125,7 +109,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/services/kitchen-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/kitchen-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/kitchen-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/kitchen-design/"/>
@@ -137,7 +121,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/kitchen-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/kitchen-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/kitchen-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/kitchen-design/"/>
@@ -149,7 +133,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/services/bathroom-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/bathroom-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/bathroom-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/bathroom-design/"/>
@@ -160,7 +144,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/bathroom-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/bathroom-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/bathroom-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/bathroom-design/"/>
@@ -171,7 +155,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/services/renovation-management/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/renovation-management/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/renovation-management/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/renovation-management/"/>
@@ -183,7 +167,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/services/renovation-management/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/services/renovation-management/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/services/renovation-management/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/services/renovation-management/"/>
@@ -195,7 +179,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/projects/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/"/>
@@ -215,7 +199,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/projects/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/"/>
@@ -235,7 +219,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/projects/stone-oak-kitchen/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/stone-oak-kitchen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
@@ -247,7 +231,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/projects/stone-oak-kitchen/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/stone-oak-kitchen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/stone-oak-kitchen/"/>
@@ -259,7 +243,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/projects/oak-living-room/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/oak-living-room/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/oak-living-room/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/oak-living-room/"/>
@@ -272,7 +256,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/projects/oak-living-room/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/oak-living-room/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/oak-living-room/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/oak-living-room/"/>
@@ -285,7 +269,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/projects/travertine-bathroom/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/travertine-bathroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/travertine-bathroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/travertine-bathroom/"/>
@@ -296,7 +280,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/projects/travertine-bathroom/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/travertine-bathroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/travertine-bathroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/travertine-bathroom/"/>
@@ -307,7 +291,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/projects/dark-oak-bedroom/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/dark-oak-bedroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
@@ -318,7 +302,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/projects/dark-oak-bedroom/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/projects/dark-oak-bedroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/projects/dark-oak-bedroom/"/>
@@ -329,7 +313,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/film/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/film/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/film/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/film/"/>
@@ -345,7 +329,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/film/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/film/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/film/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/film/"/>
@@ -361,21 +345,21 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/journal/how-to-choose-interior-designer/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/how-to-choose-interior-designer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
@@ -387,7 +371,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/how-to-choose-interior-designer/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/how-to-choose-interior-designer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/how-to-choose-interior-designer/"/>
@@ -399,7 +383,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/interior-designer-vs-architect/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-designer-vs-architect/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
@@ -410,7 +394,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/interior-designer-vs-architect/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-designer-vs-architect/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-designer-vs-architect/"/>
@@ -421,7 +405,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/interior-design-cost/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-design-cost/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-design-cost/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-design-cost/"/>
@@ -432,7 +416,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/interior-design-cost/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/interior-design-cost/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/interior-design-cost/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/interior-design-cost/"/>
@@ -443,7 +427,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/choosing-kitchen-stone/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/choosing-kitchen-stone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
@@ -454,7 +438,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/choosing-kitchen-stone/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/choosing-kitchen-stone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/choosing-kitchen-stone/"/>
@@ -465,7 +449,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/travertine-guide/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/travertine-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/travertine-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/travertine-guide/"/>
@@ -476,7 +460,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/travertine-guide/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/travertine-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/travertine-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/travertine-guide/"/>
@@ -487,7 +471,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/home-lighting-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/home-lighting-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/home-lighting-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/home-lighting-design/"/>
@@ -498,7 +482,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/home-lighting-design/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/home-lighting-design/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/home-lighting-design/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/home-lighting-design/"/>
@@ -509,7 +493,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/custom-carpentry-guide/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/custom-carpentry-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
@@ -522,7 +506,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/custom-carpentry-guide/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/custom-carpentry-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/custom-carpentry-guide/"/>
@@ -535,7 +519,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/journal/warm-minimalism/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/warm-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/warm-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/warm-minimalism/"/>
@@ -556,7 +540,7 @@
   </url>
   <url>
     <loc>https://sele-studio.com/en/journal/warm-minimalism/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/journal/warm-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/journal/warm-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/journal/warm-minimalism/"/>
@@ -577,28 +561,28 @@
   </url>
   <url>
     <loc>https://sele-studio.com/contact/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/contact/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/contact/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/en/contact/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/contact/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/contact/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/accessibility/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/accessibility/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/accessibility/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/accessibility/"/>
   </url>
   <url>
     <loc>https://sele-studio.com/en/accessibility/</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="he-IL" href="https://sele-studio.com/accessibility/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://sele-studio.com/en/accessibility/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sele-studio.com/accessibility/"/>

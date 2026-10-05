@@ -195,7 +195,7 @@ export function detailLines(s, t, lang) {
 export const MAILTO_CAP = 1800;
 export function mailtoHref(s, t, lang) {
   const name = String(s.name || '').trim().replace(/\s+/g, ' ');
-  const subject = encodeURIComponent(`פנייה מהאתר — ${name}`.trim());
+  const subject = encodeURIComponent(name ? `פנייה מהאתר: ${name}` : 'פנייה מהאתר');
   let raw = detailLines(s, t, lang);
   let body = encodeURIComponent(raw);
   if (body.length > MAILTO_CAP) {

@@ -24,11 +24,11 @@
       "img": "kitchen-stone-03",
       "alt": {
         "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
-        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel tap and coffee machine, render"
       },
       "caption": {
-        "he": "תאורה נסתרת בנישה: רואים את האור, לא את המקור.",
-        "en": "Concealed light in the niche: you see the glow, not the source."
+        "he": "פס לד מוסתר בתקרת הנישה מאיר את חיפוי האבן.",
+        "en": "An LED strip hidden in the niche head lights the stone splashback."
       },
       "kind": "render",
       "pos": "50% 50%"
@@ -36,7 +36,7 @@
     "og": "/assets/img/og/og-journal-home-lighting-design.jpg",
     "ogAlt": {
       "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
-      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel tap and coffee machine, render"
     },
     "article": {
       "section": "materials",
@@ -52,8 +52,8 @@
     {
       "t": "lead",
       "text": {
-        "he": "אור הוא החומר היחיד בבית שאי אפשר לגעת בו, והוא משנה את כל השאר. אותו משטח אבן נראה שטוח תחת ספוט שמכוון אליו ישר מלמעלה, ומקבל עומק כשאור רך מחליק עליו מהצד. אותו חדר שינה מרגיש כמו משרד תחת תקרה זרועה בספוטים, וכמו מקום מנוחה כשהאור יורד נמוך, לגובה המיטה. לכן תכנון תאורה לבית איננו בחירת גופים מקטלוג. זו החלטה על מה רואים, מתי ובאיזו אווירה.",
-        "en": "Light is the one material in a home you cannot touch, and it changes everything else. The same stone worktop looks flat under a spotlight aimed straight down at it, and gains depth when soft light slides across it from the side. The same bedroom feels like an office under a ceiling full of downlights, and like a place to rest when the light drops low, to the height of the bed. So home lighting design is not choosing fittings from a catalog. It is deciding what you see, when, and in what mood."
+        "he": "האור משנה את האופן שבו נראה כל חומר בבית. משטח אבן נראה שטוח תחת ספוט שמכוון אליו ישר מלמעלה, ומקבל עומק כשאור רך מגיע אליו מהצד. חדר שינה עם תקרה מלאה בספוטים מרגיש כמו משרד, וכשהאור יורד נמוך, לגובה המיטה, הוא נעשה מקום למנוחה. לכן תכנון תאורה לבית מתחיל בהחלטה מה רוצים לראות, מתי ובאיזו אווירה, ורק אחר כך בוחרים גופים.",
+        "en": "Light changes how every material in a home looks. A stone worktop looks flat under a spotlight aimed straight down at it, and gains depth when soft light reaches it from the side. A bedroom with a ceiling full of downlights feels like an office, and when the light drops low, to the height of the bed, it becomes a place to rest. So home lighting design starts with deciding what you want to see, when, and in what mood. Choosing fittings comes after that."
       }
     },
     {
@@ -80,8 +80,8 @@
     {
       "t": "h3",
       "text": {
-        "he": "תאורה כללית: הבסיס השקט",
-        "en": "Ambient light: the quiet base"
+        "he": "תאורה כללית: האור הבסיסי של החדר",
+        "en": "Ambient light: the room’s base layer"
       }
     },
     {
@@ -115,8 +115,8 @@
     {
       "t": "p",
       "text": {
-        "he": "נישה מוארת, קיר אבן שאור מחליק עליו, מנורה נמוכה בפינה. השכבה הזאת כמעט לא נחוצה לתפקוד, אבל היא זו שהופכת חדר לבית. בערב, כשהאור הכללי יורד, היא נשארת.",
-        "en": "A lit niche, a stone wall with light sliding across it, a low lamp in a corner. This layer is barely needed for function, but it’s the one that turns a room into a home. In the evening, when the ambient light goes down, it stays on."
+        "he": "נישה מוארת, קיר אבן שאור מחליק עליו, מנורה נמוכה בפינה. השכבה הזאת כמעט לא נחוצה לתפקוד, אבל היא נותנת לחדר את רוב האווירה שלו, במיוחד בערב, כשהאור הכללי מעומעם.",
+        "en": "A lit niche, a stone wall with light sliding across it, a low lamp in a corner. This layer is barely needed for function, but it gives the room most of its atmosphere, especially in the evening, when the ambient light is dimmed."
       }
     },
     {
@@ -157,15 +157,15 @@
     {
       "t": "p",
       "text": {
-        "he": "המדד הזה מתאר עד כמה הצבעים שרואים תחת הנורה נאמנים למציאות. תחת נורה עם מדד נמוך, עץ אלון מאבד את החום שלו, אבן בהירה נראית אפרפרה ועור הפנים חיוור. לבית שבנוי מחומרים טבעיים כדאי לבקש CRI של 90 ומעלה, במיוחד במטבח, בחדר הרחצה ובכל מקום שבו האור נופל על אבן או על עץ. הפער בין נורה טובה לבינונית לא נראה בקטלוג, ורואים אותו מיד על הקיר.",
-        "en": "This index describes how true to life colors look under a light source. Under a low-CRI source, oak loses its warmth, pale stone turns grayish and skin looks pallid. For a home built from natural materials, ask for a CRI of 90 or above, especially in the kitchen, the bathroom and anywhere light falls on stone or wood. The gap between a good source and an average one doesn’t show in a catalog. It shows on the wall straight away."
+        "he": "המדד הזה מתאר עד כמה הצבעים שרואים תחת הנורה נאמנים למציאות. תחת נורה עם מדד נמוך, עץ אלון מאבד את החום שלו, אבן בהירה נראית אפרפרה ועור הפנים חיוור. לבית שבנוי מחומרים טבעיים כדאי לבקש CRI של 90 ומעלה, במיוחד במטבח, בחדר הרחצה ובכל מקום שבו האור נופל על אבן או על עץ. בקטלוג קשה לראות את ההבדל בין נורה טובה לבינונית, אבל על הקיר הוא בולט מיד.",
+        "en": "This index describes how true to life colors look under a light source. Under a low-CRI source, oak loses its warmth, pale stone turns grayish and skin looks pallid. For a home built from natural materials, ask for a CRI of 90 or above, especially in the kitchen, the bathroom and anywhere light falls on stone or wood. In a catalog it’s hard to tell a good source from an average one, but on the wall the difference shows straight away."
       }
     },
     {
       "t": "h2",
       "text": {
-        "he": "תאורה נסתרת: רואים את האור, לא את המקור",
-        "en": "Concealed lighting: you see the light, not the source"
+        "he": "תאורה נסתרת: פסי לד בתוך הנגרות והאבן",
+        "en": "Concealed lighting: LED strips built into joinery and stone"
       }
     },
     {
@@ -274,8 +274,8 @@
     {
       "t": "p",
       "text": {
-        "he": "בתמונה, פס אור מוסתר בתחתית חיפוי העץ ויורד אל בסיס האבן שמתחתיו. שני החומרים נפגשים בקו של אור, והקיר כולו מקבל עומק. כמה עקרונות:",
-        "en": "In the picture, a light line is tucked under the base of the wood paneling and falls onto the stone plinth below. The two materials meet in a line of light, and the whole wall gains depth. A few principles:"
+        "he": "בתמונה, פס אור מוסתר בתחתית חיפוי העץ ויורד אל בסיס האבן שמתחתיו. פס האור עובר בדיוק בקו שבו העץ פוגש את האבן, והקיר כולו מקבל עומק. כמה עקרונות:",
+        "en": "In the picture, a light line is tucked under the base of the wood paneling and falls onto the stone plinth below. The light runs exactly along the line where the wood meets the stone, and the whole wall gains depth. A few principles:"
       }
     },
     {
@@ -305,15 +305,15 @@
     {
       "t": "h2",
       "text": {
-        "he": "מתי מתכננים את התאורה: לפני החשמלאי, לא אחריו",
-        "en": "When to plan the lighting: before the electrician, not after"
+        "he": "מתי מתכננים את התאורה? לפני שהחשמלאי מתחיל",
+        "en": "When to plan the lighting? Before the electrician starts"
       }
     },
     {
       "t": "p",
       "text": {
-        "he": "רוב הטעויות בתאורה לא נובעות מבחירת גוף לא נכון, אלא מתזמון. כשהתאורה נקבעת רק אחרי שהקירות נסגרו, כבר אין מקום לפרופיל, לספק או לנקודת חשמל במקום הנכון. הסדר הנכון בשיפוץ נראה בדרך כלל כך:",
-        "en": "Most lighting mistakes don’t come from choosing the wrong fitting. They come from timing. When lighting is decided only after the walls are closed, there’s no room left for a profile, a driver or a power point in the right place. In a renovation, the right order usually looks like this:"
+        "he": "רוב הטעויות בתאורה קשורות לתזמון יותר מאשר לבחירת הגופים. כשהתאורה נקבעת רק אחרי שהקירות נסגרו, כבר אין מקום לפרופיל, לספק או לנקודת חשמל במקום הנכון. הסדר הנכון בשיפוץ נראה בדרך כלל כך:",
+        "en": "Most lighting mistakes have more to do with timing than with the choice of fittings. When lighting is decided only after the walls are closed, there’s no room left for a profile, a driver or a power point in the right place. In a renovation, the right order usually looks like this:"
       }
     },
     {
@@ -424,8 +424,8 @@
       },
       "kind": "render",
       "caption": {
-        "he": "מנורות תלויות משחררות את השידה ומורידות את האור לגובה הקריאה.",
-        "en": "Pendants free the side table and bring light down to reading height."
+        "he": "מנורות תלויות משני צידי המיטה, ושידות טרוורטין פנויות.",
+        "en": "Pendants on both sides of the bed, and clear travertine side tables."
       }
     },
     {
@@ -452,8 +452,8 @@
     {
       "t": "p",
       "text": {
-        "he": "תאורה טובה לא מתבלטת. מרגישים אותה, ולא רואים אותה. כשהיא מתוכננת יחד עם החומרים, היא הפרט שמחבר את כל השאר.",
-        "en": "Good lighting doesn’t draw attention to itself. You feel it rather than see it. Planned together with the materials, it’s the detail that ties everything else together."
+        "he": "בבית עם תאורה טובה בדרך כלל לא שמים לב לגופי התאורה, רק לכך שנעים להיות בו. זה קורה כשהאור מתוכנן יחד עם החומרים ועם הנגרות.",
+        "en": "In a well-lit home you usually don’t notice the fittings, only that it’s a pleasant place to be. That happens when the light is planned together with the materials and the joinery."
       }
     },
     {

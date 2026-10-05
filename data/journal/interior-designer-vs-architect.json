@@ -12,7 +12,7 @@
       "en": "Architect vs Interior Designer in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל. מדריך ברור עם טבלת השוואה מ-SELÈ STUDIO.",
+      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל, עם טבלת השוואה.",
       "en": "Architect or interior designer? Who signs permit applications, when a renovation in Israel needs an architect or engineer, and what a designer leads."
     },
     "h1": {
@@ -53,8 +53,8 @@
     {
       "t": "lead",
       "text": {
-        "he": "שני מקצועות שעובדים על אותו בית, מזוויות שונות. מי אחראי על המבנה, מי על החיים שבתוכו, ואיך יודעים למי לפנות קודם.",
-        "en": "Two professions working on the same home from different angles. Who is responsible for the building, who shapes the life inside it, and how to know whom to call first."
+        "he": "אדריכל ומעצב פנים עובדים על אותו בית, כל אחד מכיוון אחר. במדריך נסביר מי אחראי על המבנה, מי מתכנן את החלל שבתוכו ולמי כדאי לפנות קודם.",
+        "en": "Architects and interior designers work on the same home, each from a different direction. This guide explains who is responsible for the building, who plans the space inside it, and whom to call first."
       }
     },
     {
@@ -123,8 +123,8 @@
     {
       "t": "h2",
       "text": {
-        "he": "מעצב פנים: איך החלל חי מבפנים",
-        "en": "The interior designer: how the space lives on the inside"
+        "he": "מעצב פנים: תכנון החלל מבפנים",
+        "en": "The interior designer: planning the space from the inside"
       }
     },
     {
@@ -246,8 +246,8 @@
     {
       "t": "p",
       "text": {
-        "he": "ברוב השיפוצים של דירות קיימות, רוב ההחלטות שקובעות איך ייראה הבית ואיך ירגישו בו הן החלטות של תכנון פנים. דוגמה אחת היא הסלון: קיר טיח עם נישה מדויקת לטלוויזיה, ספריית עץ אלון בגובה מלא ובסיס אבן שנמשך לכל אורך הקיר. אין כאן אף החלטה שדורשת היתר. יש כאן עשרות החלטות של מידה, חומר, אור ופרט, והן אלה שיוצרות את התחושה.",
-        "en": "In most renovations of existing apartments, most of the decisions that set how the home looks and feels are interior-planning decisions. Take the living room: a plaster wall with a precise recess for the TV, full-height oak shelving and a stone plinth running the length of the wall. None of it needs a permit. It is dozens of decisions about size, material, light and detail, and they are what create the feeling of the room."
+        "he": "ברוב השיפוצים של דירות קיימות, רוב ההחלטות שקובעות איך ייראה הבית ואיך ירגישו בו הן החלטות של תכנון פנים. דוגמה אחת היא הסלון: קיר טיח עם נישה מדויקת לטלוויזיה, ספריית עץ אלון בגובה מלא ובסיס אבן שנמשך לכל אורך הקיר. שום דבר מזה לא דורש היתר. מה שקובע את התחושה בחדר הוא עשרות החלטות קטנות של מידות, חומרים, תאורה ופרטים.",
+        "en": "In most renovations of existing apartments, most of the decisions that set how the home looks and feels are interior-planning decisions. Take the living room: a plaster wall with a precise recess for the TV, full-height oak shelving and a stone plinth running the length of the wall. None of it needs a permit. What sets the feel of the room is dozens of small decisions about dimensions, materials, lighting and detail."
       }
     },
     {
@@ -266,8 +266,8 @@
       },
       "kind": "render",
       "caption": {
-        "he": "פרט של חיבור בין עץ, אבן ואור. כאן תכנון הפנים עובד במילימטרים.",
-        "en": "A junction of wood, stone and light, where interior planning works to the millimeter."
+        "he": "המפגש בין חיפוי העץ, בסיס האבן ופס התאורה מתוכנן ברמת המילימטר.",
+        "en": "Where the oak paneling, the stone plinth and the light strip meet is planned to the millimeter."
       }
     },
     {
@@ -460,8 +460,8 @@
     {
       "t": "p",
       "text": {
-        "he": "בבנייה חדשה ובשיפוץ עם שינוי מבני, השאלה איננה „אדריכל או מעצב פנים”, אלא מתי כל אחד נכנס ואיך הם מדברים זה עם זה. טעות נפוצה היא לצרף מעצב פנים אחרי שההיתר כבר הוגש. אז מתברר שחלון יצא בדיוק במקום שבו היה צריך להיות ארון, שאין פיר למערכות במקום הנכון, או שגובה התקרה לא משאיר מקום לתאורה נסתרת ולמיזוג.",
-        "en": "In a new build, or a renovation with structural change, the question is not “architect or interior designer” but when each one comes in and how they talk to each other. A common mistake is to bring an interior designer in after the permit has already been submitted. That is when it turns out a window landed exactly where a wardrobe should have been, there is no service shaft in the right place, or the ceiling height leaves no room for concealed lighting and air conditioning."
+        "he": "בבנייה חדשה ובשיפוץ עם שינוי מבני, כשעובדים גם עם אדריכל וגם עם מעצב פנים, השאלה החשובה היא מתי כל אחד נכנס ואיך הם מדברים זה עם זה. טעות נפוצה היא לצרף מעצב פנים אחרי שההיתר כבר הוגש. אז מתברר שחלון יצא בדיוק במקום שבו היה צריך להיות ארון, שאין פיר למערכות במקום הנכון, או שגובה התקרה לא משאיר מקום לתאורה נסתרת ולמיזוג.",
+        "en": "In a new build, or a renovation with structural change, when you work with both an architect and an interior designer, the important question is when each one comes in and how they talk to each other. A common mistake is to bring an interior designer in after the permit has already been submitted. That is when it turns out a window landed exactly where a wardrobe should have been, there is no service shaft in the right place, or the ceiling height leaves no room for concealed lighting and air conditioning."
       }
     },
     {

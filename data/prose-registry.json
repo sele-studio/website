@@ -13,7 +13,7 @@
       "en": "Interior design"
     },
     "title": {
-      "he": "עיצוב פנים לדירה ולבית — מקצה לקצה | SELÈ STUDIO",
+      "he": "עיצוב פנים לדירה ולבית מקצה לקצה | SELÈ STUDIO",
       "en": "Interior Design Services in Israel | SELÈ STUDIO"
     },
     "desc": {
@@ -47,7 +47,7 @@
         "en": "Interior design"
       }
     },
-    "words": 1172
+    "words": 1173
   },
   {
     "id": "service-space-planning",
@@ -63,11 +63,11 @@
       "en": "Space planning"
     },
     "title": {
-      "he": "תכנון דירה ואדריכלות פנים — חלוקת חללים נכונה | SELÈ STUDIO",
+      "he": "תכנון דירה, חלוקת חללים ואדריכלות פנים | SELÈ STUDIO",
       "en": "Apartment Space Planning in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים — קבעו פגישת היכרות.",
+      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים. קבעו פגישת היכרות.",
       "en": "Apartment space planning before a renovation or a move: layout, circulation, storage and light, led by interior designer Shoham Sela. Book a first meeting."
     },
     "h1": {
@@ -97,7 +97,7 @@
         "en": "Space planning"
       }
     },
-    "words": 1023
+    "words": 1021
   },
   {
     "id": "service-kitchen-design",
@@ -113,16 +113,16 @@
       "en": "Kitchen design"
     },
     "title": {
-      "he": "עיצוב מטבח — אבן, עץ ואור בתכנון מדויק | SELÈ STUDIO",
-      "en": "Kitchen Design in Israel — Stone, Oak & Light | SELÈ STUDIO"
+      "he": "עיצוב מטבח ותכנון מדויק של אבן, עץ ואור | SELÈ STUDIO",
+      "en": "Kitchen Design in Israel: Stone, Oak and Light | SELÈ STUDIO"
     },
     "desc": {
       "he": "עיצוב ותכנון מטבח בהתאמה אישית: אי אבן, נגרות עץ אלון עד התקרה ותאורה משולבת בנישות. סטודיו בוטיק בהובלת שוהם סלע, בוגרת שנקר. ספרו לנו על המטבח שלכם.",
       "en": "Kitchen design and planning in Israel: stone islands, full-height oak joinery, lit niches. Boutique studio led by Shenkar graduate Shoham Sela. Get in touch."
     },
     "h1": {
-      "he": "עיצוב מטבח שמתחיל בהרגלים שלכם ונגמר בפרט האחרון",
-      "en": "Kitchen design that starts with how you live and ends with the last detail"
+      "he": "עיצוב מטבח שמתוכנן סביב ההרגלים שלכם, עד הפרט האחרון",
+      "en": "Kitchen design planned around the way you cook and live"
     },
     "latin": "KITCHEN",
     "hero": {
@@ -147,7 +147,7 @@
         "en": "Kitchen design"
       }
     },
-    "words": 1348
+    "words": 1340
   },
   {
     "id": "service-bathroom-design",
@@ -163,16 +163,16 @@
       "en": "Bathroom design"
     },
     "title": {
-      "he": "עיצוב חדר רחצה — טרוורטין, אור ושקט | SELÈ STUDIO",
-      "en": "Bathroom Design in Israel — Travertine & Light | SELÈ STUDIO"
+      "he": "עיצוב חדר רחצה בטרוורטין ובאור רך | SELÈ STUDIO",
+      "en": "Bathroom Design in Israel: Travertine & Light | SELÈ STUDIO"
     },
     "desc": {
-      "he": "עיצוב חדר רחצה בהתאמה אישית: ארון אמבטיה כפול מאבן טבעית, ברזי קיר, אור רך ואחסון שקט. סטודיו בוטיק בהובלת שוהם סלע — ספרו לנו על החלל.",
+      "he": "עיצוב חדר רחצה בהתאמה אישית: ארון אמבטיה כפול מאבן טבעית, ברזי קיר, אור רך ואחסון שקט. סטודיו בוטיק בהובלת שוהם סלע. ספרו לנו על החלל.",
       "en": "Bespoke bathroom design in Israel: a double vanity in natural stone, wall-mounted taps, soft light and quiet storage. A boutique studio led by Shoham Sela."
     },
     "h1": {
-      "he": "עיצוב חדר רחצה: אבן טבעית, אור רך ושקט של סדר",
-      "en": "Bathroom design: natural stone, soft light and a quiet kind of order"
+      "he": "עיצוב חדר רחצה: אבן טבעית, אור רך ואחסון מסודר",
+      "en": "Bathroom design: natural stone, soft light and well-planned storage"
     },
     "latin": "BATH",
     "hero": {
@@ -197,7 +197,7 @@
         "en": "Bathroom design"
       }
     },
-    "words": 1291
+    "words": 1279
   },
   {
     "id": "service-renovation-management",
@@ -213,7 +213,7 @@
       "en": "Renovation support"
     },
     "title": {
-      "he": "ליווי שיפוץ דירה — מהמדידה ועד הסטיילינג | SELÈ STUDIO",
+      "he": "ליווי שיפוץ דירה מהמדידה ועד הסטיילינג | SELÈ STUDIO",
       "en": "Apartment Renovation Support in Israel | SELÈ STUDIO"
     },
     "desc": {
@@ -230,7 +230,7 @@
       "kind": "photo",
       "alt": {
         "he": "מטבח לאחר ביצוע: ארונות גובה מעץ כהה עם תריסי אוורור, ארונות תחתונים בגוון גרייג׳, אי בגימור אבן בהירה עם כיריים ותאורת מסילה שחורה, צילום",
-        "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas hob and black track lighting, photograph"
+        "en": "Finished kitchen: dark-wood tall cabinets with vent grilles, greige lower cabinets, a pale stone-finish island with a gas cooktop and black track lighting, photograph"
       },
       "width": 1023,
       "height": 1537
@@ -247,7 +247,7 @@
         "en": "Renovation support"
       }
     },
-    "words": 1132
+    "words": 1090
   },
   {
     "id": "journal",
@@ -262,8 +262,8 @@
       "en": "Journal"
     },
     "title": {
-      "he": "מגזין עיצוב פנים – מדריכים לבית ולשיפוץ | SELÈ STUDIO",
-      "en": "Interior Design Journal – Practical Guides | SELÈ STUDIO"
+      "he": "מגזין עיצוב פנים: מדריכים לבית ולשיפוץ | SELÈ STUDIO",
+      "en": "Interior Design Journal: Practical Guides | SELÈ STUDIO"
     },
     "desc": {
       "he": "מדריכים מעשיים לעיצוב הבית מתוך עבודת SELÈ STUDIO: אבן למטבח, טרוורטין, תאורה ונגרות, וכל מה שכדאי לדעת לפני שבוחרים מעצבת פנים.",
@@ -341,7 +341,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1797
+    "words": 1792
   },
   {
     "id": "journal-interior-designer-vs-architect",
@@ -361,7 +361,7 @@
       "en": "Architect vs Interior Designer in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל. מדריך ברור עם טבלת השוואה מ-SELÈ STUDIO.",
+      "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל, עם טבלת השוואה.",
       "en": "Architect or interior designer? Who signs permit applications, when a renovation in Israel needs an architect or engineer, and what a designer leads."
     },
     "h1": {
@@ -392,7 +392,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1623
+    "words": 1625
   },
   {
     "id": "journal-interior-design-cost",
@@ -412,7 +412,7 @@
       "en": "Interior Designer Cost in Israel: Fee Models | SELÈ STUDIO"
     },
     "desc": {
-      "he": "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה. מדריך מאת SELÈ STUDIO.",
+      "he": "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה.",
       "en": "How much does an interior designer cost in Israel? The four fee models, what makes the work cost more or less, and how to compare proposals line by line."
     },
     "h1": {
@@ -443,7 +443,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1503
+    "words": 1502
   },
   {
     "id": "journal-choosing-kitchen-stone",
@@ -494,7 +494,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1696
+    "words": 1711
   },
   {
     "id": "journal-travertine-guide",
@@ -514,8 +514,8 @@
       "en": "Travertine in Home Design: Pros, Cons & Care | SELÈ STUDIO"
     },
     "desc": {
-      "he": "טרוורטין ממולא או פתוח, מט או מבריק, ואיפה הוא מתאים: ארון אמבטיה, חיפוי, רצפה ורהיטים. מדריך לבחירה, לשילוב עם עץ ומתכת ולתחזוקה. כדאי לקרוא לפני שמזמינים.",
-      "en": "Travertine in interior design: filled or unfilled, honed or polished, where it suits a home and how to care for it. A designer’s guide to read before you order."
+      "he": "טרוורטין ממולא או פתוח, מט או מבריק, ואיפה הוא מתאים: ארון אמבטיה, חיפוי, רצפה ורהיטים. איך משלבים אותו עם עץ ומתכת, ואיך שומרים עליו מכתמי חומצה.",
+      "en": "Travertine in interior design: filled or unfilled, honed or polished, where it suits a home, what to pair it with and how to protect it from acid marks."
     },
     "h1": {
       "he": "טרוורטין בעיצוב הבית: איפה הוא מתאים, ואיך שומרים עליו",
@@ -545,7 +545,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1851
+    "words": 1840
   },
   {
     "id": "journal-home-lighting-design",
@@ -578,7 +578,7 @@
       "kind": "render",
       "alt": {
         "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
-        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+        "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel tap and coffee machine, render"
       },
       "width": 1312,
       "height": 1199
@@ -586,7 +586,7 @@
     "og": "/assets/img/og/og-journal-home-lighting-design.jpg",
     "ogAlt": {
       "he": "נישת מטבח עם פס אור נסתר שמאיר חיפוי אבן אפורה עם עורקים, כיור שקוע, ברז פלדה מוברשת ומכונת קפה, הדמיה",
-      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel faucet and coffee machine, render"
+      "en": "Kitchen niche lit by a concealed LED strip washing a gray veined stone splashback, with an undermount sink, brushed-steel tap and coffee machine, render"
     },
     "index": true,
     "article": {
@@ -596,7 +596,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1712
+    "words": 1711
   },
   {
     "id": "journal-custom-carpentry-guide",
@@ -647,7 +647,7 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1627
+    "words": 1631
   },
   {
     "id": "journal-warm-minimalism",
@@ -672,7 +672,7 @@
     },
     "h1": {
       "he": "עיצוב פנים מינימליסטי חם: פחות דברים, יותר חומר",
-      "en": "Warm minimalist interior design: fewer things, more material"
+      "en": "Warm minimalist interior design: a few good materials, used well"
     },
     "latin": "JOURNAL",
     "hero": {
@@ -698,6 +698,6 @@
       "published": "2026-09-28",
       "modified": null
     },
-    "words": 1646
+    "words": 1638
   }
 ]

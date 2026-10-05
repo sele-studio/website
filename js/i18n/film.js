@@ -4,8 +4,8 @@ export default {
   "film.crumb": { he: "סרט הסטודיו", en: "Studio film" },
   "film.h1": { he: "סרט קצר מתוך העבודות", en: "A short film from our work" },
   "film.lead": {
-    he: "סרט שקט שנבנה מהדמיות התכנון של הסטודיו: מטבח עם אי אבן ונגרות אלון, סלון באלון ואבן, וחדר שינה באלון כהה ופשתן. בלי קול ובלי מילים, רק חומר ואור.",
-    en: "A silent film built from the studio’s design visualizations: a stone-island kitchen with oak joinery, an oak and stone living room, and a bedroom in dark oak and linen. No sound and no words, just material and light.",
+    he: "סרט שקט שנבנה מהדמיות התכנון של הסטודיו: מטבח עם אי אבן ונגרות אלון, סלון באלון ואבן, וחדר שינה באלון כהה ופשתן. אין בסרט קול או טקסט.",
+    en: "A silent film built from the studio’s design visualizations: a stone-island kitchen with oak joinery, an oak and stone living room, and a bedroom in dark oak and linen. The film has no sound and no text.",
   },
   "film.videoLabel": { he: "סרט הסטודיו: מבט על העבודות", en: "The studio film: a look at our work" },
   "film.caption": { he: "סרט שקט מתוך הדמיות התכנון.", en: "A silent film from the design visualizations." },

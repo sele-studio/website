@@ -49,9 +49,9 @@ export default {
 
   // ---- step 2
   "contact.step2.legend": { he: "הבית והטעם", en: "The home and your taste" },
-  "contact.step2.help": { he: "בחרו חומרים שמדברים אליכם. זה עוזר לנו להבין את הטעם שלכם.", en: "Pick materials that speak to you. It helps us understand your taste." },
+  "contact.step2.help": { he: "סמנו חומרים שאתם אוהבים. זה עוזר לנו להבין את הטעם שלכם.", en: "Pick the materials you like. It helps us understand your taste." },
 
-  "contact.materials.label": { he: "חומרים שמדברים אליכם", en: "Materials that speak to you" },
+  "contact.materials.label": { he: "חומרים שאתם אוהבים", en: "Materials you like" },
   "contact.mat.stone": { he: "אבן עורקית", en: "Veined stone" },
   "contact.mat.lightOak": { he: "אלון בהיר", en: "Light oak" },
   "contact.mat.travertine": { he: "טרוורטין", en: "Travertine" },
@@ -59,7 +59,7 @@ export default {
   "contact.mat.linen": { he: "פשתן", en: "Linen" },
   "contact.mat.darkOak": { he: "אלון כהה", en: "Dark oak" },
   // truth note, shown wherever materials are listed (SPEC §5.0, canonical materials table)
-  "contact.materials.note": { he: "שמות החומרים מתארים את המראה כפי שהוא מופיע בהדמיות. את הבחירה המדויקת לכל בית, סוג האבן, הגימור והספק, אנחנו עושים יחד איתכם.", en: "Material names describe the look as it appears in our visualizations. The exact choice for each home — stone type, finish and supplier — we make together with you." },
+  "contact.materials.note": { he: "שמות החומרים מתארים את המראה כפי שהוא מופיע בהדמיות. את סוג האבן, הגימור והספק אנחנו בוחרים יחד איתכם, לכל בית בנפרד.", en: "Material names describe the look as it appears in our visualizations. We choose the exact stone, finish and supplier together with you, for each home." },
 
   "contact.location.label": { he: "איפה הנכס?", en: "Where is the property?" },
   "contact.location.placeholder": { he: "עיר או אזור", en: "City or area" },
@@ -74,7 +74,7 @@ export default {
   "contact.timing.unsure": { he: "עוד לא יודעים", en: "Not sure yet" },
 
   "contact.message.label": { he: "ספרו לנו על הבית", en: "Tell us about your home" },
-  "contact.message.placeholder": { he: "מי גר בבית, מה חשוב לכם, מה לא עובד היום, ואיך תרצו להרגיש כשאתם נכנסים…", en: "Who lives there, what matters to you, what isn’t working today, and how you’d like to feel when you walk in…" },
+  "contact.message.placeholder": { he: "מי גר בבית, מה חשוב לכם ומה לא עובד היום…", en: "Who lives there, what matters to you and what isn’t working today…" },
   "contact.message.help": { he: "יש לכם תוכניות או תמונות? אפשר לשלוח אותן אחר כך במייל.", en: "Have plans or photos? You can email them afterwards." },
   "contact.message.counter": { he: "{n} / 2000", en: "{n} / 2000" },
 
@@ -135,7 +135,7 @@ export default {
   "contact.letter.svc.supervision": { he: "בליווי השיפוץ", en: "renovation support" },
   "contact.letter.svc.styling": { he: "בסטיילינג ובהשלמות", en: "styling and finishing" },
   "contact.letter.svcUnsure": { he: "עוד לא בטוחים באיזו עזרה נצטרך.", en: "We’re not sure yet what help we’ll need." },
-  "contact.letter.materials": { he: "החומרים שמדברים אלינו: {list}.", en: "Materials that speak to us: {list}." },
+  "contact.letter.materials": { he: "חומרים שאנחנו אוהבים: {list}.", en: "Materials we like: {list}." },
   "contact.letter.timing.soon": { he: "נרצה להתחיל בחודשים הקרובים.", en: "We’d like to start in the coming months." },
   "contact.letter.timing.six": { he: "נרצה להתחיל בחצי השנה הקרובה.", en: "We’d like to start within six months." },
   "contact.letter.timing.year": { he: "נרצה להתחיל בשנה הקרובה.", en: "We’d like to start within a year." },
@@ -151,7 +151,7 @@ export default {
 
   // ---- validation (§6.4)
   "contact.err.summary": { he: "כדי להמשיך, כדאי לתקן:", en: "Before we continue, please fix:" },
-  "contact.err.nameMissing": { he: "איך קוראים לכם? נשמח לדעת.", en: "What’s your name? We’d love to know." },
+  "contact.err.nameMissing": { he: "איך קוראים לכם? נשמח לדעת.", en: "Please tell us your name." },
   "contact.err.nameShort": { he: "השם קצר מדי.", en: "That name looks too short." },
   "contact.err.contactMissing": { he: "השאירו טלפון או אימייל, כדי שנוכל לחזור אליכם.", en: "Leave a phone number or an email so we can get back to you." },
   "contact.err.phoneInvalid": { he: "מספר הטלפון לא נראה תקין. לדוגמה: 050-1234567", en: "That phone number doesn’t look right. For example: 050-1234567" },
@@ -177,7 +177,7 @@ export default {
   "contact.state.pendingP": { he: "בינתיים אפשר לשלוח את אותם פרטים ישירות במייל, בלחיצה אחת:", en: "Meanwhile, you can send the same details by email in one click:" },
   "contact.state.errorH": { he: "משהו השתבש בשליחה.", en: "Something went wrong while sending." },
   "contact.state.errorP": { he: "הפרטים שלכם שמורים כאן. אפשר לנסות שוב, או לשלוח אותם אלינו ישירות במייל.", en: "Your details are kept here. You can try again, or send them to us directly by email." },
-  "contact.state.offlineP": { he: "נראה שאין חיבור לאינטרנט כרגע. הפרטים שמורים, ואפשר לנסות שוב כשהחיבור יחזור.", en: "You seem to be offline. Your details are saved — try again once you’re back online." },
+  "contact.state.offlineP": { he: "נראה שאין חיבור לאינטרנט כרגע. הפרטים שמורים, ואפשר לנסות שוב כשהחיבור יחזור.", en: "You seem to be offline. Your details are saved, so you can try again once you’re back online." },
   "contact.state.mail": { he: "שליחה במייל", en: "Send by email" },
   "contact.state.copy": { he: "העתקת הפרטים", en: "Copy the details" },
   "contact.state.retry": { he: "לנסות שוב", en: "Try again" },
@@ -192,7 +192,7 @@ export default {
   "contact.next.2.t": { he: "שיחת היכרות", en: "A first conversation" },
   "contact.next.2.d": { he: "נתאם שיחה קצרה כדי להכיר אתכם ואת הבית.", en: "We’ll arrange a short call to get to know you and the home." },
   "contact.next.3.t": { he: "פגישה ומסגרת", en: "A meeting and a framework" },
-  "contact.next.3.d": { he: "אם יש התאמה, ניפגש ונבנה יחד את המסגרת לפרויקט.", en: "If it’s a good fit, we’ll meet and shape the project’s framework together." },
+  "contact.next.3.d": { he: "אם יש התאמה, ניפגש ונבנה יחד את המסגרת לפרויקט.", en: "If it’s a good fit, we’ll meet and agree on the scope of the project together." },
   "contact.area.t": { he: "אזור פעילות", en: "Service area" },
   "contact.area.d": { he: "פרויקטים במרכז ובדרום הארץ", en: "Projects across central and southern Israel" },
   "contact.direct.mail": { he: "מעדיפים מייל?", en: "Prefer email?" },

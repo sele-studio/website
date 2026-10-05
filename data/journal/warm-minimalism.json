@@ -17,7 +17,7 @@
     },
     "h1": {
       "he": "עיצוב פנים מינימליסטי חם: פחות דברים, יותר חומר",
-      "en": "Warm minimalist interior design: fewer things, more material"
+      "en": "Warm minimalist interior design: a few good materials, used well"
     },
     "latin": "JOURNAL",
     "hero": {
@@ -27,8 +27,8 @@
         "en": "Warm-toned living room: a TV set into a pale plaster wall, open oak shelving with ceramics and books, a gray stone plinth along the wall, a dark-oak coffee table and a sofa in natural fabric. Render by SELÈ STUDIO"
       },
       "caption": {
-        "he": "קיר אחד שקט, ספרייה אחת, אבן אחת. כל השאר הוא אור.",
-        "en": "One quiet wall, one shelf, one stone. Everything else is light."
+        "he": "בקיר הזה יש רק טיח בהיר, ספריית אלון ובסיס אבן נמוך.",
+        "en": "This wall holds only pale plaster, oak shelving and a low stone plinth."
       },
       "kind": "render",
       "pos": "50% 50%"
@@ -53,15 +53,15 @@
     {
       "t": "lead",
       "text": {
-        "he": "בית מינימליסטי חם הוא לא בית ריק. זה בית שנשאר בו רק מה שצריך להיות בו, ומה שנשאר עשוי מחומרים שנעים לגעת בהם: אבן עם גידים, עץ אלון ואגוז, פשתן, טיח רך ואור יום שעובר דרך וילון שקוף. זו שפה שמוותרת על עומס, אבל לא מוותרת על חום.",
-        "en": "A warm minimalist home is not an empty home. It is a home that keeps only what belongs there, and what stays is made of materials that feel good to touch: veined stone, oak and walnut, linen, soft plaster, and daylight passing through a sheer curtain. It is a language that gives up clutter without giving up warmth."
+        "he": "בבית מינימליסטי חם נשאר רק מה שצריך להיות בו, ומה שנשאר עשוי מחומרים שנעים לגעת בהם: אבן עם גידים, עץ אלון ואגוז, פשתן, טיח רך ואור יום שעובר דרך וילון שקוף. יש בו מעט דברים, ובכל זאת הוא מרגיש חם ונעים לחיות בו.",
+        "en": "A warm minimalist home keeps only what it needs, and what it keeps is made of materials that are pleasant to touch: veined stone, oak and walnut, linen and soft plaster, with daylight filtered through a sheer curtain. The rooms hold very little, but they feel warm and easy to live in."
       }
     },
     {
       "t": "p",
       "text": {
         "he": "בקצרה: עיצוב פנים מינימליסטי חם נשען על פלטה מאופקת של גוונים חמים, על מעט חומרים טבעיים שחוזרים לאורך הבית, על קווים ישרים שמתרככים בכמה נקודות של קימור, ועל אור שקט. ביום הוא טבעי, ובערב הוא חם ומגיע ממקורות מוסתרים. במדריך הזה נפרק את השפה לרכיבים שלה, נסביר במה היא שונה ממינימליזם קר ומג׳פנדי, ונראה איך מיישמים אותה חדר אחר חדר. זו גם השפה שחוזרת בהדמיות של הסטודיו, ולכן כל הדוגמאות כאן לקוחות מהן.",
-        "en": "In short: warm minimalist interior design rests on a restrained palette of warm tones, a few natural materials repeated throughout the home, straight lines softened by a handful of curves, and quiet light: natural by day, warm and hidden by night. This guide breaks the language into its parts, explains how it differs from cold minimalism and from Japandi, and shows how to apply it room by room. It is also the language that recurs in the studio’s renders, so every example here is taken from them."
+        "en": "In short: warm minimalist interior design rests on a restrained palette of warm tones, a few natural materials repeated throughout the home, straight lines softened by a handful of curves, and soft light: daylight during the day, warm hidden fixtures in the evening. This guide breaks the language into its parts, explains how it differs from cold minimalism and from Japandi, and shows how to apply it room by room. It is also the language that recurs in the studio’s renders, so every example here is taken from them."
       }
     },
     {
@@ -88,15 +88,15 @@
     {
       "t": "p",
       "text": {
-        "he": "המינימליזם הקלאסי שאל כמה אפשר להוריד. מינימליזם חם שואל שאלה אחרת: מה חייב להישאר כדי שהחלל ירגיש שלם. התשובה כמעט תמיד נמצאת בחומר. כשיש מעט פריטים בחדר, כל משטח נראה. איכות העץ, הכיוון של הגידים באבן והמרקם של הבד עושים כאן את העבודה שבסגנונות אחרים עושים האביזרים.",
-        "en": "Classic minimalism asked how much could be taken away. Warm minimalism asks a different question: what has to stay for the space to feel complete? The answer is almost always material. When a room holds only a few things, every surface is seen. The quality of the wood, the direction of the veins in the stone and the texture of the fabric do the work that accessories do in other styles."
+        "he": "מינימליזם קלאסי מתחיל מהשאלה מה אפשר להוריד. במינימליזם חם חשוב באותה מידה מה נשאר, כי כשיש בחדר מעט פריטים, כל משטח נראה. איכות העץ, הכיוון של הגידים באבן והמרקם של הבד עושים כאן את העבודה שבסגנונות אחרים עושים האביזרים.",
+        "en": "Classic minimalism starts from what can be taken away. In warm minimalism, what stays matters just as much, because when a room holds only a few things, every surface is seen. The quality of the wood, the direction of the veins in the stone and the texture of the fabric do the work that accessories do in other styles."
       }
     },
     {
       "t": "h3",
       "text": {
-        "he": "חמשת הרכיבים של השפה",
-        "en": "The five elements of the language"
+        "he": "חמישה רכיבים שחוזרים בסגנון",
+        "en": "Five elements that recur in the style"
       }
     },
     {
@@ -104,11 +104,11 @@
       "items": [
         {
           "he": "<strong>פלטה מאופקת.</strong> שלושה או ארבעה גוונים לכל הבית: לבן שבור או גרייג׳ לקירות, גוון עץ אחד או שניים, גוון אבן, ונקודה כהה אחת שמעגנת את החלל.",
-          "en": "<strong>A restrained palette.</strong> Three or four tones for the whole home: off-white or greige for the walls, one or two wood tones, a stone tone, and one dark point that anchors the space."
+          "en": "<strong>A restrained palette.</strong> Three or four tones for the whole home: off-white or greige for the walls, one or two wood tones, a stone tone, and one dark accent to anchor the room."
         },
         {
-          "he": "<strong>חומרים טבעיים שחוזרים.</strong> אבן, אלון, אגוז, פשתן וטיח. כשאותו חומר מופיע גם במטבח וגם בחדר הרחצה, נוצר רצף, והרצף הוא מה שגורם לבית להרגיש רגוע.",
-          "en": "<strong>Natural materials that repeat.</strong> Stone, oak, walnut, linen and plaster. When the same material appears in the kitchen and in the bathroom, it creates continuity, and continuity is what makes a home feel calm."
+          "he": "<strong>חומרים טבעיים שחוזרים.</strong> אבן, אלון, אגוז, פשתן וטיח. כשאותו חומר מופיע גם במטבח וגם בחדר הרחצה, נוצר רצף שגורם לבית כולו להרגיש רגוע.",
+          "en": "<strong>Natural materials that repeat.</strong> Stone, oak, walnut, linen and plaster. When the same material appears in the kitchen and in the bathroom, it creates a continuity that makes the whole home feel calm."
         },
         {
           "he": "<strong>ישר מול מעוגל.</strong> רוב הקווים ישרים ונקיים: חזיתות בלי ידיות, מישקים דקים, לוחות עד התקרה. כמה קימורים, כמו קיר ראש מיטה שמתעגל בקצה, פינה רכה של שולחן או שידה עגולה, מרככות את כל השאר.",
@@ -119,8 +119,8 @@
           "en": "<strong>Quiet light.</strong> Daylight filtered through a sheer curtain, and in the evening warm light from niches, hidden LED strips and low light fittings, not only from the ceiling."
         },
         {
-          "he": "<strong>מעט חפצים עם משמעות.</strong> כלי קרמיקה, ספר, נר, ענף זית. מעט ונבחר, ולא מדפים שמתמלאים כדי למלא אותם.",
-          "en": "<strong>A few meaningful objects.</strong> A ceramic vessel, a book, a candle, an olive branch. Few and chosen, rather than shelves filled for the sake of filling them."
+          "he": "<strong>מעט חפצים עם משמעות.</strong> כלי קרמיקה, ספר, נר, ענף זית. עדיף כמה פריטים שבחרתם מאשר מדפים מלאים רק כדי שלא יישארו ריקים.",
+          "en": "<strong>A few meaningful objects.</strong> A ceramic vessel, a book, a candle, an olive branch. Better a few pieces you chose than shelves filled just so they aren’t empty."
         }
       ]
     },
@@ -414,8 +414,8 @@
     {
       "t": "p",
       "text": {
-        "he": "<strong>יוקרה שקטה</strong> היא בכלל לא סגנון אלא עמדה: איכות בלי לוגו, חומר אמיתי במקום קישוט. מינימליזם חם הוא אחת הדרכים לבטא אותה. כשיש מעט, מה שיש צריך להיות טוב: גמר מדויק, מישק ישר, ואבן שהגידים שלה ממשיכים מחזית לחזית.",
-        "en": "<strong>Quiet luxury</strong> is not a style at all but a position: quality without logos, real material instead of ornament. Warm minimalism is one way to express it. When there is little, what there is has to be good: a precise finish, a straight joint, and stone whose veins continue from one front to the next."
+        "he": "<strong>יוקרה שקטה</strong> היא יותר גישה מאשר סגנון: איכות בלי לוגו, וחומר אמיתי במקום קישוט. מינימליזם חם הוא אחת הדרכים לבטא אותה. כשיש מעט, מה שיש צריך להיות טוב: גמר מדויק, מישק ישר, ואבן שהגידים שלה ממשיכים מחזית לחזית.",
+        "en": "<strong>Quiet luxury</strong> is more an attitude than a style: quality without logos, and real material instead of ornament. Warm minimalism is one way to express it. With so few things in the room, each one has to be well made: a precise finish, a straight joint, and stone whose veins continue from one front to the next."
       }
     },
     {
@@ -462,8 +462,8 @@
       },
       "kind": "render",
       "caption": {
-        "he": "הארונות נעלמים, הנישה מחזיקה את היומיום, והאי נשאר פנוי.",
-        "en": "The cabinetry disappears, the niche holds daily life, and the island stays clear."
+        "he": "הארונות עד התקרה מסתירים את האחסון, והנישה מחזיקה את מה שמשתמשים בו כל יום.",
+        "en": "Full-height cabinets hide the storage, and the niche holds what gets used every day."
       }
     },
     {
@@ -489,8 +489,8 @@
       },
       "kind": "render",
       "caption": {
-        "he": "חומר אחד שעוטף, עץ חם מתחתיו, אור בגובה הפנים.",
-        "en": "One wrapping material, warm wood beneath, light at face height."
+        "he": "טרוורטין על הקיר ועל הארון, ומגירות אגוז מתחתיו.",
+        "en": "Travertine on the wall and the vanity, with walnut drawers beneath."
       }
     },
     {
@@ -503,8 +503,8 @@
     {
       "t": "p",
       "text": {
-        "he": "כאן מותרת הכי הרבה רכות: מיטה מרופדת בפשתן, קיר ראש מיטה מעץ כהה שמתעגל בקצה, שידות לילה עגולות מאבן, גופי תאורה תלויים במקום מנורות לילה, ווילון שקוף שמסנן את שמש הבוקר. הקימור בקיר הוא הפרט שעושה את ההבדל: קו אחד רך בחדר שכולו ישר. ראו את <a href=\"/projects/dark-oak-bedroom/\">חדר השינה עם קיר האלון הכהה המעוגל</a>.",
-        "en": "This is where the most softness is allowed: a bed upholstered in linen, a dark-wood headboard wall that curves at its end, round stone bedside tables, pendant lights instead of bedside lamps, and a sheer curtain filtering the morning sun. The curve in the wall is the detail that makes the difference: one soft line in a room that is otherwise straight. See the <a href=\"/projects/dark-oak-bedroom/\">bedroom with a curved dark-oak wall</a>."
+        "he": "בחדר השינה אפשר להרשות יותר רכות: מיטה מרופדת בפשתן, קיר ראש מיטה מעץ כהה שמתעגל בקצה, שידות לילה עגולות מאבן, גופי תאורה תלויים במקום מנורות לילה, ווילון שקוף שמסנן את שמש הבוקר. הפרט החשוב כאן הוא הקימור בקיר, שמרכך חדר שרוב הקווים בו ישרים. ראו את <a href=\"/projects/dark-oak-bedroom/\">חדר השינה עם קיר האלון הכהה המעוגל</a>.",
+        "en": "The bedroom can take the most softness: a bed upholstered in linen, a dark-wood headboard wall that curves at its end, round stone bedside tables, pendant lights instead of bedside lamps, and a sheer curtain filtering the morning sun. The key detail is the curve in the wall, which softens a room that is otherwise mostly straight lines. See the <a href=\"/projects/dark-oak-bedroom/\">bedroom with a curved dark-oak wall</a>."
       }
     },
     {
@@ -526,8 +526,8 @@
           },
           "kind": "render",
           "caption": {
-            "he": "קו אחד רך בחדר שכולו ישר.",
-            "en": "One soft line in a room that is otherwise straight."
+            "he": "קיר האלון מתעגל בקצה, ליד שידת טרוורטין עגולה.",
+            "en": "The oak wall curves at its end, beside a round travertine side table."
           }
         }
       ]
@@ -535,15 +535,15 @@
     {
       "t": "h2",
       "text": {
-        "he": "אור: החומר שלא רואים",
-        "en": "Light: the material you don’t see"
+        "he": "תאורה במינימליזם חם",
+        "en": "Lighting in warm minimalism"
       }
     },
     {
       "t": "p",
       "text": {
-        "he": "במינימליזם חם, האור הוא חומר לכל דבר. ביום, וילונות שקופים מבד טבעי, עד הרצפה, מסננים את השמש ומציירים על הרצפה פסי אור שזזים לאורך היום. בערב, רוב האור מגיע ממקורות חמים ונמוכים: נישות מוארות, פסי לד מוסתרים מתחת למדפים ומאחורי מראות, וגופים תלויים. טמפרטורת צבע של 2700K עד 3000K נפוצה בחללי מגורים, והתאורה בתקרה משמשת בעיקר לעבודה ולניקיון. על השכבות, על הגוונים ועל המיקומים הרחבנו במדריך ל<a href=\"/journal/home-lighting-design/\">תכנון תאורה בבית</a>.",
-        "en": "In warm minimalism, light is a material in its own right. By day, floor-length sheer curtains in a natural fabric filter the sun and draw lines of light across the floor that move through the day. In the evening, most of the light comes from warm, low sources: backlit niches, LED strips hidden under shelves and behind mirrors, and pendants. A color temperature of 2700K to 3000K is common in living spaces, and the ceiling lights are mainly for tasks and cleaning. We go deeper into layers, color temperatures and placement in the guide to <a href=\"/journal/home-lighting-design/\">home lighting design</a>."
+        "he": "במינימליזם חם מתכננים את האור בדיוק כמו את החומרים. ביום, וילונות שקופים מבד טבעי, עד הרצפה, מסננים את השמש ויוצרים על הרצפה פסי אור שזזים לאורך היום. בערב, רוב האור מגיע ממקורות חמים ונמוכים: נישות מוארות, פסי לד מוסתרים מתחת למדפים ומאחורי מראות, וגופים תלויים. טמפרטורת צבע של 2700K עד 3000K נפוצה בחללי מגורים, והתאורה בתקרה משמשת בעיקר לעבודה ולניקיון. על השכבות, על הגוונים ועל המיקומים הרחבנו במדריך ל<a href=\"/journal/home-lighting-design/\">תכנון תאורה בבית</a>.",
+        "en": "In warm minimalism, light is planned as carefully as the materials. By day, floor-length sheer curtains in a natural fabric filter the sun and cast lines of light across the floor that move through the day. In the evening, most of the light comes from warm, low sources: backlit niches, LED strips hidden under shelves and behind mirrors, and pendants. A color temperature of 2700K to 3000K is common in living spaces, and the ceiling lights are mainly for tasks and cleaning. We go deeper into layers, color temperatures and placement in the guide to <a href=\"/journal/home-lighting-design/\">home lighting design</a>."
       }
     },
     {
@@ -558,7 +558,7 @@
       "items": [
         {
           "he": "<strong>בז׳ על בז׳.</strong> בלי נקודה כהה אחת ובלי מרקם, עיצוב פנים חם הופך לשטוח. אלון כהה, אגוז או אבן עם גידים נותנים לעין נקודת עוגן.",
-          "en": "<strong>Beige on beige.</strong> Without one dark point and without texture, a warm interior turns flat. Dark oak, walnut or veined stone gives the eye an anchor."
+          "en": "<strong>Beige on beige.</strong> Without a dark accent or some texture, a warm interior turns flat. Dark oak, walnut or veined stone gives the eye an anchor."
         },
         {
           "he": "<strong>יותר מדי גוונים של עץ.</strong> שלושה גוונים שונים של עץ שלא תוכננו יחד נראים כמו מקרה. עדיף גוון בהיר אחד וגוון כהה אחד, שחוזרים לאורך הבית.",
@@ -593,15 +593,15 @@
     {
       "t": "p",
       "text": {
-        "he": "„נקי, מדויק ונכון” הן המילים שבהן SELÈ STUDIO מתאר את השפה שלו, והן גם תיאור טוב של מינימליזם חם. אבל סגנון הוא נקודת מוצא, לא נוסחה. אותה פלטה נראית אחרת בדירה עם אור מערבי חזק ובבית עם חלונות צרים, אצל משפחה עם ילדים קטנים ואצל זוג שעובד מהבית. תפקיד התכנון הוא לתרגם את השפה לבית המסוים ולאנשים שגרים בו. עוד דוגמאות תמצאו בעמוד <a href=\"/projects/\">הפרויקטים</a>.",
-        "en": "“Clean, precise and right” is how SELÈ STUDIO describes its own language, and it is also a good description of warm minimalism. But a style is a starting point, not a formula. The same palette looks different in an apartment with strong western light and in a house with narrow windows, for a family with small children and for a couple who work from home. The job of design is to translate the language to one particular home and the people who live in it. You’ll find more examples on the <a href=\"/projects/\">projects</a> page."
+        "he": "„נקי, מדויק ונכון” הן המילים שבהן SELÈ STUDIO מתאר את השפה שלו, והן גם תיאור טוב של מינימליזם חם. ועדיין, סגנון הוא רק נקודת מוצא. אותה פלטה נראית אחרת בדירה עם אור מערבי חזק ובבית עם חלונות צרים, אצל משפחה עם ילדים קטנים ואצל זוג שעובד מהבית. תפקיד התכנון הוא לתרגם את השפה לבית המסוים ולאנשים שגרים בו. עוד דוגמאות תמצאו בעמוד <a href=\"/projects/\">הפרויקטים</a>.",
+        "en": "“Clean, precise and right” is how SELÈ STUDIO describes its own language, and it is also a good description of warm minimalism. Still, a style only gets you so far. The same palette looks different in an apartment with strong western light and in a house with narrow windows, for a family with small children and for a couple who work from home. The job of design is to translate the language to one particular home and the people who live in it. You’ll find more examples on the <a href=\"/projects/\">projects</a> page."
       }
     },
     {
       "t": "cta",
       "h": {
-        "he": "רוצים בית שקט, חם ומדויק?",
-        "en": "Would you like a home that is calm, warm and precise?"
+        "he": "מתכננים בית במינימליזם חם?",
+        "en": "Planning a warm minimalist home?"
       },
       "p": {
         "he": "ספרו לנו על הבית ועל מה שאתם מחפשים, ונחזור אליכם לתיאום פגישת היכרות.",
@@ -647,7 +647,7 @@
           },
           "a": {
             "he": "לבן שבור, גרייג׳, חול, טאופ וגוונים של עץ טבעי, ולצידם נקודה כהה אחת: חום עמוק, אלון כהה או אגוז. כדאי להימנע מלבן קר עם גוון כחלחל ומריבוי צבעים חזקים. כאן הגוון מגיע מהחומרים, לא מהצבע על הקיר.",
-            "en": "Off-white, greige, sand, taupe and natural wood tones, with one dark point beside them: deep brown, dark oak or walnut. Avoid cold, bluish whites and many strong colors. Here the tone comes from the materials, not from the paint on the wall."
+            "en": "Off-white, greige, sand, taupe and natural wood tones, plus one dark accent: deep brown, dark oak or walnut. Avoid cold, bluish whites and many strong colors. Here the tone comes from the materials, not from the paint on the wall."
           }
         },
         {
@@ -666,8 +666,8 @@
             "en": "Can light and dark wood be combined in the same space?"
           },
           "a": {
-            "he": "כן, וזה אחד הכלים החזקים של הסגנון. בוחרים גוון בהיר אחד לבסיס, כמו ארונות וקירות, וגוון כהה אחד לעוגן, כמו שולחן או קיר ראש מיטה, וחוזרים עליהם. כדאי ששני הגוונים יחלקו אותו בסיס חם, צהבהב או אדמדם, כדי שייראו כמו זוג ולא כמו שני עצים שנפגשו במקרה.",
-            "en": "Yes, and it is one of the style’s strongest tools. Choose one light tone for the base, such as cabinetry and walls, and one dark tone for the anchor, such as a table or a headboard wall, and repeat them. The two tones should share the same warm undertone, yellowish or reddish, so they read as a pair rather than two woods that met by accident."
+            "he": "כן, וזה אחד הדברים שהכי עובדים בסגנון הזה. בוחרים גוון בהיר אחד לבסיס, כמו ארונות וקירות, וגוון כהה אחד לעוגן, כמו שולחן או קיר ראש מיטה, וחוזרים עליהם. כדאי ששני הגוונים יחלקו אותו בסיס חם, צהבהב או אדמדם, כדי שייראו כמו זוג ולא כמו שני עצים שנפגשו במקרה.",
+            "en": "Yes, and it’s one of the things that work best in this style. Choose one light tone for the base, such as cabinetry and walls, and one dark tone for the anchor, such as a table or a headboard wall, and repeat them. The two tones should share the same warm undertone, yellowish or reddish, so they read as a pair rather than two woods that met by accident."
           }
         }
       ]

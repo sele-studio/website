@@ -27,7 +27,7 @@ export const CRUMB_PATHS = {
 
 /** OG alt text per source image: SEO-TECH §8.2 with D12 spelling and American English (A6.3 rule 6). */
 export const OG_ALT = {
-  studio: { he: 'SELÈ STUDIO — אדריכלות ועיצוב פנים', en: 'SELÈ STUDIO — architecture and interior design' },
+  studio: { he: 'SELÈ STUDIO, סטודיו לאדריכלות ועיצוב פנים', en: 'SELÈ STUDIO, an architecture and interior design studio' },
   'kitchen-stone-01': {
     he: 'מטבח עם אי אבן מונוליתי אפור עם גידים, ארונות אלון בהיר עד התקרה ונישת אבן מוארת',
     en: 'Kitchen with a monolithic gray-veined stone island, full-height light-oak cabinetry and a backlit stone niche',
@@ -74,23 +74,23 @@ export const PAGES = [
     id: 'home', file: 'index.html', path: '/', type: 'home', crumbs: [],
     crumb: { he: 'ראשי', en: 'Home' },
     title: {
-      he: 'מעצבת פנים – סטודיו לאדריכלות ועיצוב פנים | SELÈ STUDIO',
-      en: 'Interior Designer in Israel – Design Studio | SELÈ STUDIO',
+      he: 'מעצבת פנים וסטודיו לאדריכלות ועיצוב פנים | SELÈ STUDIO',
+      en: 'Interior Designer and Design Studio in Israel | SELÈ STUDIO',
     },
     // used instead of title / desc while data/site.json → serviceArea is set (A8.5). In titleWithArea, {in} is the
     // locative of serviceArea.he ("המרכז והדרום" → "במרכז ובדרום", 60 characters) and of .en; {he}/{en} the plain area.
     // The EN title and both descriptions are written for the current area (central + southern Israel, owner 28/09/2026):
     // rewrite them when data/site.json → serviceArea changes.
     titleWithArea: {
-      he: 'מעצבת פנים {in} – אדריכלות ועיצוב פנים | SELÈ STUDIO',
+      he: 'מעצבת פנים {in}: עיצוב ותכנון דירות | SELÈ STUDIO',
       en: 'Interior Designer in Central & Southern Israel | SELÈ STUDIO',
     },
     desc: {
-      he: 'SELÈ STUDIO – סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג.',
+      he: 'SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג.',
       en: 'SELÈ STUDIO is a boutique architecture and interior design studio in Israel, led by Shoham Sela, an interior designer and Shenkar honors graduate.',
     },
     descWithArea: {
-      he: 'SELÈ STUDIO – סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג במרכז ובדרום הארץ.',
+      he: 'SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. תכנון, עיצוב, ליווי ביצוע וסטיילינג לבתים במרכז ובדרום הארץ.',
       en: 'SELÈ STUDIO is a boutique architecture and interior design studio led by Shoham Sela, a Shenkar honors graduate. Projects across central and southern Israel.',
     },
     og: OG('og-home'), ogAlt: OG_ALT.studio, index: true,
@@ -99,17 +99,17 @@ export const PAGES = [
   {
     id: 'studio', file: 'studio/index.html', path: '/studio/', type: 'about', crumbs: ['home'],
     crumb: { he: 'הסטודיו', en: 'Studio' },
-    title: { he: 'שוהם סלע – מעצבת פנים בוגרת שנקר | SELÈ STUDIO', en: 'Shoham Sela, Interior Designer | SELÈ STUDIO' },
+    title: { he: 'שוהם סלע, מעצבת פנים בוגרת שנקר | SELÈ STUDIO', en: 'Shoham Sela, Interior Designer | SELÈ STUDIO' },
     desc: {
-      he: 'הכירו את שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות, ואת SELÈ STUDIO – סטודיו בוטיק לאדריכלות ועיצוב פנים עם יחס אישי וחם.',
-      en: 'Meet Shoham Sela, an interior designer and Shenkar honors graduate, and SELÈ STUDIO, a boutique architecture and interior design studio with a personal touch.',
+      he: 'הכירו את שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות, ואת SELÈ STUDIO, סטודיו בוטיק לאדריכלות ועיצוב פנים שעובד עם כל לקוח באופן אישי.',
+      en: 'Meet Shoham Sela, an interior designer and Shenkar honors graduate, and SELÈ STUDIO, the boutique architecture and interior design studio she leads.',
     },
     og: OG('og-studio'), ogAlt: OG_ALT['bath-02'], index: true,
   },
   {
     id: 'services', file: 'services/index.html', path: '/services/', type: 'services-hub', crumbs: ['home'],
     crumb: { he: 'שירותים', en: 'Services' },
-    title: { he: 'שירותי עיצוב פנים – מהתכנון ועד הסטיילינג | SELÈ STUDIO', en: 'Interior Design Services – Planning to Styling | SELÈ STUDIO' },
+    title: { he: 'שירותי עיצוב פנים מהתכנון ועד הסטיילינג | SELÈ STUDIO', en: 'Interior Design from Planning to Styling | SELÈ STUDIO' },
     desc: {
       he: 'שירותי SELÈ STUDIO: תכנון דירה ואדריכלות פנים, עיצוב פנים לבית, עיצוב מטבח וחדר רחצה וליווי שיפוץ, בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר.',
       en: 'SELÈ STUDIO services in Israel: space planning and interior architecture, whole-home interior design, kitchens, bathrooms and renovation support.',
@@ -120,7 +120,7 @@ export const PAGES = [
   {
     id: 'projects', file: 'projects/index.html', path: '/projects/', type: 'collection', crumbs: ['home'],
     crumb: { he: 'פרויקטים', en: 'Projects' },
-    title: { he: 'פרויקטים – עיצוב פנים ואדריכלות | SELÈ STUDIO', en: 'Interior Design Projects | SELÈ STUDIO' },
+    title: { he: 'פרויקטים בעיצוב פנים ואדריכלות | SELÈ STUDIO', en: 'Interior Design Projects | SELÈ STUDIO' },
     desc: {
       he: 'חללים נבחרים מתוך פרויקטים פרטיים של SELÈ STUDIO: מטבח עם אי אבן, סלון באלון ואבן, חדר רחצה בטרוורטין וחדר שינה בפשתן ואלון.',
       en: "Selected spaces from SELÈ STUDIO’s private projects: a stone-island kitchen, an oak and stone living room, a travertine bath and a linen and oak bedroom.",
@@ -183,7 +183,7 @@ export const PAGES = [
   {
     id: 'film', file: 'film/index.html', path: '/film/', type: 'film', crumbs: ['home', 'projects'],
     crumb: { he: 'סרט הסטודיו', en: 'Studio film' },
-    title: { he: 'סרט הסטודיו – מבט על העבודות | SELÈ STUDIO', en: 'Studio Film – A Look at Our Work | SELÈ STUDIO' },
+    title: { he: 'סרט הסטודיו: מבט על העבודות | SELÈ STUDIO', en: 'Studio Film: A Look at Our Work | SELÈ STUDIO' },
     desc: {
       he: 'סרט קצר ושקט מתוך הדמיות התכנון של SELÈ STUDIO: מטבח עם אי אבן ונגרות אלון, סלון באלון ואבן וחדר שינה באלון כהה ופשתן.',
       en: "A short, silent film from SELÈ STUDIO’s design visualizations: a stone-island kitchen with oak joinery, an oak and stone living room and a dark-oak bedroom.",

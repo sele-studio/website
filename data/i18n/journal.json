@@ -20,7 +20,7 @@
     "en": "Architect vs interior designer: what’s the difference, and when do you need both?"
   },
   "journal.card.journal-interior-designer-vs-architect.desc": {
-    "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל. מדריך ברור עם טבלת השוואה מ-<bdi lang=\"en\">SELÈ STUDIO</bdi>.",
+    "he": "אדריכל רשום או מעצב פנים? מי מוסמך לחתום על בקשה להיתר, מתי שיפוץ מחייב אדריכל או מהנדס, ומה מעצב פנים מוביל, עם טבלת השוואה.",
     "en": "Architect or interior designer? Who signs permit applications, when a renovation in Israel needs an architect or engineer, and what a designer leads."
   },
   "journal.card.journal-interior-design-cost.date": {
@@ -32,7 +32,7 @@
     "en": "What an interior designer costs in Israel, and how to compare proposals"
   },
   "journal.card.journal-interior-design-cost.desc": {
-    "he": "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה. מדריך מאת <bdi lang=\"en\">SELÈ STUDIO</bdi>.",
+    "he": "כמה עולה מעצבת פנים? ארבע שיטות התמחור המקובלות, מה מייקר או מוזיל את העבודה ואיך משווים בין הצעות מחיר שורה מול שורה.",
     "en": "How much does an interior designer cost in Israel? The four fee models, what makes the work cost more or less, and how to compare proposals line by line."
   },
   "journal.card.journal-choosing-kitchen-stone.date": {
@@ -56,8 +56,8 @@
     "en": "Travertine in interior design: where to use it, and how to care for it"
   },
   "journal.card.journal-travertine-guide.desc": {
-    "he": "טרוורטין ממולא או פתוח, מט או מבריק, ואיפה הוא מתאים: ארון אמבטיה, חיפוי, רצפה ורהיטים. מדריך לבחירה, לשילוב עם עץ ומתכת ולתחזוקה. כדאי לקרוא לפני שמזמינים.",
-    "en": "Travertine in interior design: filled or unfilled, honed or polished, where it suits a home and how to care for it. A designer’s guide to read before you order."
+    "he": "טרוורטין ממולא או פתוח, מט או מבריק, ואיפה הוא מתאים: ארון אמבטיה, חיפוי, רצפה ורהיטים. איך משלבים אותו עם עץ ומתכת, ואיך שומרים עליו מכתמי חומצה.",
+    "en": "Travertine in interior design: filled or unfilled, honed or polished, where it suits a home, what to pair it with and how to protect it from acid marks."
   },
   "journal.card.journal-home-lighting-design.date": {
     "he": "28 בספטמבר 2026",
@@ -89,7 +89,7 @@
   },
   "journal.card.journal-warm-minimalism.title": {
     "he": "עיצוב פנים מינימליסטי חם: פחות דברים, יותר חומר",
-    "en": "Warm minimalist interior design: fewer things, more material"
+    "en": "Warm minimalist interior design: a few good materials, used well"
   },
   "journal.card.journal-warm-minimalism.desc": {
     "he": "עיצוב פנים מינימליסטי חם: פלטה מאופקת, אבן עם גידים, אלון ואגוז, פשתן ואור רך. במה הוא שונה ממינימליזם קר ומג׳פנדי, ואיך מיישמים אותו חדר אחר חדר.",
@@ -104,7 +104,7 @@
     "en": "Interior design journal"
   },
   "journal.lead": {
-    "he": "מדריכים מעשיים מתוך העבודה בסטודיו: איך בוחרים אבן ומשטח, איך מתכננים אור ונגרות, ומה כדאי לדעת לפני שבוחרים מעצבת פנים. כתוב בשפה פשוטה, בלי מחירונים ובלי הבטחות.",
-    "en": "Practical guides from the studio’s work: how to choose stone and worktops, how to plan light and joinery, and what to know before choosing an interior designer. Written plainly, with no price lists and no promises."
+    "he": "מדריכים מעשיים מתוך העבודה בסטודיו: איך בוחרים אבן ומשטח, איך מתכננים אור ונגרות, ומה כדאי לדעת לפני שבוחרים מעצבת פנים. בשפה פשוטה, בלי מחירונים.",
+    "en": "Practical guides from the studio’s work: how to choose stone and worktops, how to plan light and joinery, and what to know before choosing an interior designer. Written plainly, without price lists."
   }
 }

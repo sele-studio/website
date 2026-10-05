@@ -211,7 +211,7 @@ export function setLangLinks(html, lang, href) {
     let t = setAttr(tag, 'href', href);
     if (lang === 'en') {
       t = setAttr(setAttr(setAttr(t, 'hreflang', 'he'), 'lang', 'he'), 'dir', 'rtl');
-      if (hasAttr(t, 'aria-label')) t = setAttr(t, 'aria-label', 'גרסה עברית');
+      if (hasAttr(t, 'aria-label')) t = setAttr(t, 'aria-label', 'עב, גרסה עברית');
     }
     return t;
   }).replace(/(<a\b[^>]*\sdata-lang-switch\b[^>]*>)([^<]*)(<\/a>)/g, (all, open, text, close) => {

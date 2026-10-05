@@ -4,7 +4,7 @@
     "path": "/journal/",
     "type": "journal",
     "crumb": { "he": "מגזין", "en": "Journal" },
-    "title": { "he": "מגזין עיצוב פנים – מדריכים לבית ולשיפוץ | SELÈ STUDIO", "en": "Interior Design Journal – Practical Guides | SELÈ STUDIO" },
+    "title": { "he": "מגזין עיצוב פנים: מדריכים לבית ולשיפוץ | SELÈ STUDIO", "en": "Interior Design Journal: Practical Guides | SELÈ STUDIO" },
     "desc": {
       "he": "מדריכים מעשיים לעיצוב הבית מתוך עבודת SELÈ STUDIO: אבן למטבח, טרוורטין, תאורה ונגרות, וכל מה שכדאי לדעת לפני שבוחרים מעצבת פנים.",
       "en": "Practical home design guides from SELÈ STUDIO: kitchen stone, travertine, lighting and joinery, and what to know before you hire an interior designer."
@@ -16,8 +16,8 @@
     "index": true
   },
   "lead": {
-    "he": "מדריכים מעשיים מתוך העבודה בסטודיו: איך בוחרים אבן ומשטח, איך מתכננים אור ונגרות, ומה כדאי לדעת לפני שבוחרים מעצבת פנים. כתוב בשפה פשוטה, בלי מחירונים ובלי הבטחות.",
-    "en": "Practical guides from the studio’s work: how to choose stone and worktops, how to plan light and joinery, and what to know before choosing an interior designer. Written plainly, with no price lists and no promises."
+    "he": "מדריכים מעשיים מתוך העבודה בסטודיו: איך בוחרים אבן ומשטח, איך מתכננים אור ונגרות, ומה כדאי לדעת לפני שבוחרים מעצבת פנים. בשפה פשוטה, בלי מחירונים.",
+    "en": "Practical guides from the studio’s work: how to choose stone and worktops, how to plan light and joinery, and what to know before choosing an interior designer. Written plainly, without price lists."
   },
   "sections": [
     { "key": "hiring", "ids": ["journal-how-to-choose-interior-designer", "journal-interior-designer-vs-architect", "journal-interior-design-cost"] },

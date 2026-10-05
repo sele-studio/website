@@ -3,7 +3,7 @@
 // runtime uses it for dynamic strings (i18n.t) and the bilingual 404.
 export default {
   "common.skip": { he: "דילוג לתוכן", en: "Skip to content" },
-  "common.skipSeq": { he: "דילוג על הרצף", en: "Skip this sequence" },
+  "common.skipSeq": { he: "דילוג על האנימציה", en: "Skip the animation" },
 
   "common.nav.aria": { he: "ניווט ראשי", en: "Main navigation" },
   "common.nav.home": { he: "בית", en: "Home" },
@@ -27,7 +27,7 @@ export default {
   "common.menu.close": { he: "סגירה", en: "Close" },
   "common.menu.title": { he: "תפריט האתר", en: "Site menu" },
 
-  "common.brand.home": { he: "SELÈ STUDIO — לעמוד הבית", en: "SELÈ STUDIO — home" },
+  "common.brand.home": { he: "לעמוד הבית של SELÈ STUDIO", en: "SELÈ STUDIO home page" },
 
   "common.lang.toEn": { he: "Switch to English", en: "Switch to English" },
   "common.lang.toHe": { he: "מעבר לעברית", en: "מעבר לעברית" },
@@ -35,7 +35,7 @@ export default {
 
   "common.cta.start": { he: "התחלת פרויקט", en: "Start a project" },
   "common.cta.startShort": { he: "צרו קשר", en: "Contact" },
-  "common.cta.title": { he: "הבית שלכם מתחיל בסף.", en: "Your home begins at the threshold." },
+  "common.cta.title": { he: "מתכננים שיפוץ או דירה חדשה?", en: "Planning a renovation or a new home?" },
   "common.cta.sub": { he: "ספרו לנו על הבית, ונחזור אליכם לתיאום פגישת היכרות.", en: "Tell us about your home, and we’ll get back to you to arrange a first meeting." },
   "common.cta.button": { he: "לספר לנו על הבית", en: "Tell us about your home" },
 

@@ -69,7 +69,7 @@ const LINK_REWRITE = {
   '/journal/master-bathroom-design/': null,
 };
 
-const BUILT_NOTE = { he: 'הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.', en: 'It is not presented here as the built version of any visualization on this site.' };
+const BUILT_NOTE = { he: 'הצילום לא מתעד אף אחת מההדמיות שבאתר.', en: 'The photograph does not show any of the renders on this site.' };
 export const HERO_SIZES = '(min-width:1100px) 44vw, calc(100vw - 40px)';
 const FIG_SIZES = '(min-width:1100px) 58vw, (min-width:768px) calc(100vw - 80px), calc(100vw - 40px)';
 const WIDE_SIZES = '(min-width:1100px) 72vw, (min-width:768px) calc(100vw - 80px), calc(100vw - 40px)';

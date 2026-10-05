@@ -152,7 +152,7 @@ function chrome({ langHref, bilingual = false }) {
       <a href="/journal/" data-i18n="common.nav.journal">מגזין</a>
     </nav>
     <a class="menu-btn" href="#footer-nav" role="button"><span data-i18n="common.menu.open">תפריט</span></a>
-    <a class="lang-toggle" href="${langHref}" hreflang="en" lang="en" dir="ltr" aria-label="English version" data-lang-switch>EN</a>
+    <a class="lang-toggle" href="${langHref}" hreflang="en" lang="en" dir="ltr" aria-label="EN, English version" data-lang-switch>EN</a>
   </header>
   <div class="lang-pill" hidden data-lang-pill><a class="lang-pill__link" href="${langHref}" hreflang="en" lang="en" dir="ltr" data-lang-switch="pill">English version →</a><button type="button" aria-label="סגירת ההצעה" data-i18n-attr="aria-label:common.lang.pillClose">×</button></div>
   <div class="site-menu" role="dialog" hidden><h2 data-i18n="common.menu.title">תפריט האתר</h2></div>`,
@@ -402,7 +402,7 @@ test('EN output: links rewritten, _next, language links, font swap', () => {
   assert.ok(!hrefs.some((h) => /^\/(projects|film|services|journal)\//.test(h)), 'no un-prefixed page link left');
   assert.equal($('input[name="_next"]').attr('value'), 'https://sele-studio.com/en/contact/thanks/');
   const tog = $('.lang-toggle');
-  assert.deepEqual([tog.attr('href'), tog.attr('hreflang'), tog.attr('lang'), tog.attr('dir'), tog.text(), tog.attr('aria-label')], ['/', 'he', 'he', 'rtl', 'עב', 'גרסה עברית']);
+  assert.deepEqual([tog.attr('href'), tog.attr('hreflang'), tog.attr('lang'), tog.attr('dir'), tog.text(), tog.attr('aria-label')], ['/', 'he', 'he', 'rtl', 'עב', 'עב, גרסה עברית']);
   const pill = $('[data-lang-switch="pill"]');
   assert.deepEqual([pill.attr('href'), pill.attr('lang'), pill.attr('dir'), pill.text()], ['/', 'he', 'rtl', 'לגרסה העברית ←']);
   const $c = cheerio.load(read(POS, 'en/projects/stone-oak-kitchen/index.html'));
@@ -590,7 +590,7 @@ test('null tokens / area emit nothing; set values are emitted (A8.1)', async () 
   const $ = cheerio.load(read(dir, 'index.html'));
   assert.equal($('meta[name="google-site-verification"]').attr('content'), 'gsc-abc');
   assert.equal($('meta[name="msvalidate.01"]').attr('content'), 'bing-xyz');
-  const heTitle = 'מעצבת פנים במרכז ובדרום – אדריכלות ועיצוב פנים | SELÈ STUDIO';
+  const heTitle = 'מעצבת פנים במרכז ובדרום: עיצוב ותכנון דירות | SELÈ STUDIO';
   assert.equal($('title').text(), heTitle);
   assert.ok([...heTitle].length <= 60, 'the area title stays within 60 characters');
   assert.match($('meta[name="description"]').attr('content'), /במרכז ובדרום הארץ\.$/);
@@ -614,7 +614,7 @@ test('null tokens / area emit nothing; set values are emitted (A8.1)', async () 
   const svc = ldOf(read(dir, 'services/kitchen-design/index.html'))['@graph'].find((x) => x['@type'] === 'Service');
   assert.deepEqual(svc.areaServed.map((a) => a.name), ['מחוז המרכז', 'מחוז הדרום']);
   const llms = read(dir, 'llms.txt');
-  assert.ok(llms.includes(core.orgDesc('en', { serviceArea: AREA })) && llms.includes('service area: central and southern Israel — המרכז והדרום (Central District / מחוז המרכז, Southern District / מחוז הדרום);'));
+  assert.ok(llms.includes(core.orgDesc('en', { serviceArea: AREA })) && llms.includes('service area: central and southern Israel / המרכז והדרום (Central District / מחוז המרכז, Southern District / מחוז הדרום);'));
   assert.ok(!/\{in\}|\{he\}|\{en\}|TODO|SERVICE_AREA/.test(llms + read(dir, 'index.html') + read(dir, 'en/index.html')));
   assert.deepEqual(g.find((x) => x['@type'] === 'Person').knowsLanguage, ['he', 'en']);
 });
@@ -655,7 +655,7 @@ test('the bilingual 404 under a simulated /en/ path (toggle + pill re-pointed to
   $('head title').text('Page not found | SELÈ STUDIO'); // A3.8 step 4: document.title from legal.notfound.docTitle
   $('[data-lang-switch]').each((_, el) => {
     $(el).attr('href', '/').attr('hreflang', 'he').attr('lang', 'he').attr('dir', 'rtl');
-    if ($(el).attr('data-lang-switch') === 'pill') $(el).text('לגרסה העברית ←'); else $(el).text('עב').attr('aria-label', 'גרסה עברית');
+    if ($(el).attr('data-lang-switch') === 'pill') $(el).text('לגרסה העברית ←'); else $(el).text('עב').attr('aria-label', 'עב, גרסה עברית');
   });
   const all = { ...COMMON, ...LEGAL };
   $('[data-i18n]').each((_, el) => { $(el).text(all[$(el).attr('data-i18n')].en); });
@@ -731,7 +731,7 @@ const NEG = [
   ['broken link', /broken internal link "\/nowhere\/"/, (d) => edit(d, 'film/index.html', (s) => s.replace('<p id="fm-lead"', '<a href="/nowhere/">x</a><p id="fm-lead"'))],
   ['title > 65', /title \d+ characters \(> 65\)/, (d) => edit(d, 'data/prose-registry.json', (s) => s.replace('עיצוב מטבח ותכנון מטבח בהתאמה אישית | SELÈ STUDIO', 'עיצוב מטבח ותכנון מטבח בהתאמה אישית לבתים ולדירות בכל הארץ, בקפידה | SELÈ STUDIO'))],
   ['description outside 70–165', /description \d+ characters \(70–165\)/, (d) => edit(d, 'data/prose-registry.json', (s) => s.replace(/"he": "עיצוב מטבח מדויק:[^"]*"/, '"he": "קצר מדי."'))],
-  ['duplicate title', /duplicate title/, (d) => edit(d, 'data/prose-registry.json', (s) => s.replace('עיצוב מטבח ותכנון מטבח בהתאמה אישית | SELÈ STUDIO', 'פרויקטים – עיצוב פנים ואדריכלות | SELÈ STUDIO'))],
+  ['duplicate title', /duplicate title/, (d) => edit(d, 'data/prose-registry.json', (s) => s.replace('עיצוב מטבח ותכנון מטבח בהתאמה אישית | SELÈ STUDIO', 'פרויקטים בעיצוב פנים ואדריכלות | SELÈ STUDIO'))],
   ['duplicate description', /duplicate description/, (d) => edit(d, 'data/prose-registry.json', (s) => s.replace(/"he": "עיצוב מטבח מדויק:[^"]*"/, '"he": "חללים נבחרים מתוך פרויקטים פרטיים של SELÈ STUDIO: מטבח עם אי אבן, סלון באלון ואבן, חדר רחצה בטרוורטין וחדר שינה בפשתן ואלון."'))],
   ['duplicate FAQ question', /FAQ question also on/, (d) => edit(d, 'journal/travertine-guide/index.html', (s) => s.replace('</section>', `<details data-faq-item><summary><h3 data-faq-q>${SVC['service-kitchen-design.q0'].he}</h3></summary><div data-faq-a><p>תשובה.</p></div></details></section>`))],
   ['Hebrew in an EN page', /Hebrew text left in the English page/, (d) => edit(d, 'en/film/index.html', (s) => s.replace('<p id="fm-lead"', '<p>עברית שנשארה</p><p id="fm-lead"'))],

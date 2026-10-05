@@ -11,8 +11,8 @@ export default {
   "legal.a11y.crumb": { he: "הצהרת נגישות", en: "Accessibility statement" },
   "legal.a11y.h1": { he: "הצהרת נגישות", en: "Accessibility statement" },
   "legal.a11y.intro": {
-    he: "ב־<bdi lang=\"en\">SELÈ STUDIO</bdi> אנחנו רואים בנגישות חלק מעיצוב טוב: בית צריך להיות נעים לכל מי שנכנס אליו, וכך גם האתר שלנו. פעלנו כדי שהאתר יהיה נגיש לאנשים עם מוגבלות, ואנחנו ממשיכים לבדוק ולשפר.",
-    en: "At SELÈ STUDIO we see accessibility as part of good design: a home should feel good to everyone who enters it, and so should our website. We have worked to make this site accessible to people with disabilities, and we keep checking and improving it.",
+    he: "ב־<bdi lang=\"en\">SELÈ STUDIO</bdi> נגישות היא חלק מעיצוב טוב, בבית וגם באתר. פעלנו כדי שהאתר יהיה נגיש לאנשים עם מוגבלות, ואנחנו ממשיכים לבדוק ולשפר.",
+    en: "At SELÈ STUDIO we treat accessibility as part of good design, in a home and on a website alike. We have worked to make this site accessible to people with disabilities, and we keep checking and improving it.",
   },
 
   "legal.a11y.level.h2": { he: "רמת הנגישות", en: "Accessibility level" },
@@ -23,13 +23,13 @@ export default {
 
   "legal.a11y.done.h2": { he: "מה עשינו באתר", en: "What we have done" },
   "legal.a11y.done.1": { he: "ניווט מלא במקלדת, עם סימון פוקוס ברור", en: "Full keyboard navigation with a clear focus indicator" },
-  "legal.a11y.done.2": { he: "קישור \"דילוג לתוכן\" בראש כל עמוד", en: "A “skip to content” link at the top of every page" },
+  "legal.a11y.done.2": { he: "קישור „דילוג לתוכן” בראש כל עמוד", en: "A “skip to content” link at the top of every page" },
   "legal.a11y.done.3": { he: "מבנה כותרות ואזורים סמנטיים (כותרת, ניווט, תוכן, כותרת תחתונה)", en: "Semantic headings and landmarks (header, navigation, main, footer)" },
   "legal.a11y.done.4": { he: "טקסט חלופי לכל תמונה שמעבירה מידע, וסימון ההדמיות כהדמיות", en: "Text alternatives for every informative image, with visualizations marked as visualizations" },
   "legal.a11y.done.5": { he: "ניגודיות צבעים של 4.5:1 לפחות לטקסט רגיל", en: "Color contrast of at least 4.5:1 for regular text" },
   "legal.a11y.done.6": { he: "מידע שאינו מועבר באמצעות צבע בלבד", en: "No information conveyed by color alone" },
   "legal.a11y.done.7": { he: "כפתור עצירה לכל סרטון; הסרטונים שקטים ואינם מהבהבים", en: "A pause button on every video; videos are silent and never flash" },
-  "legal.a11y.done.8": { he: "כיבוד הגדרת \"הפחתת תנועה\" של מערכת ההפעלה", en: "Respect for the operating system’s “reduce motion” setting" },
+  "legal.a11y.done.8": { he: "כיבוד הגדרת „הפחתת תנועה” של מערכת ההפעלה", en: "Respect for the operating system’s “reduce motion” setting" },
   "legal.a11y.done.9": { he: "טופס פנייה עם תוויות לכל שדה, הודעות שגיאה ברורות ובלי <bdi lang=\"en\">CAPTCHA</bdi>", en: "A contact form with a label for every field, clear error messages and no CAPTCHA" },
   "legal.a11y.done.10": { he: "מעבר בין עברית לאנגלית בכל עמוד", en: "Switching between Hebrew and English on every page" },
 
@@ -135,5 +135,5 @@ export default {
   "legal.notfound.contact": { he: "צרו קשר", en: "Contact" },
   "legal.notfound.docTitle": { he: "העמוד לא נמצא | SELÈ STUDIO", en: "Page not found | SELÈ STUDIO" },
   "legal.notfound.desc": { he: "הדלת הזו סגורה, אבל יש עוד הרבה חדרים.", en: "This door is closed, but there are plenty of other rooms." },
-  "legal.notfound.ogAlt": { he: "SELÈ STUDIO — אדריכלות ועיצוב פנים", en: "SELÈ STUDIO — architecture and interior design" },
+  "legal.notfound.ogAlt": { he: "SELÈ STUDIO, סטודיו לאדריכלות ועיצוב פנים", en: "SELÈ STUDIO, an architecture and interior design studio" },
 };

@@ -192,7 +192,7 @@ export const i18n = {
         a.setAttribute('lang', 'he');
         a.setAttribute('dir', 'rtl');
         if (a.getAttribute('data-lang-switch') === 'pill') a.textContent = 'לגרסה העברית ←';
-        else { a.textContent = 'עב'; a.setAttribute('aria-label', 'גרסה עברית'); }
+        else { a.textContent = 'עב'; a.setAttribute('aria-label', 'עב, גרסה עברית'); }
       });
       if (root === document && html.hasAttribute('data-bilingual') && 'legal.notfound.docTitle' in map) {
         document.title = this.t('legal.notfound.docTitle');

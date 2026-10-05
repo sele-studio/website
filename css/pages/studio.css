@@ -1,6 +1,5 @@
 /* SELÈ STUDIO — Studio page (SPEC §5.4 + Addendum A7.3). Prefix st-. Owner: P3.
-   Logical properties only. Every W5 effect style is keyed on html.threshold-ready (added by js/pages/studio.js
-   once its ScrollTriggers exist, removed in destroy), never on fx-desktop alone. */
+   Logical properties only. The W5 Threshold sequence was removed (owner, 05/10/2026); the portrait sits in S1. */
 
 /* ------------------------------------------------------------------ shared */
 .h1-sub{
@@ -12,9 +11,8 @@
 }
 /* EN: Bodoni's hairlines vanish at --t-d4 (the comma reads as a period), so the sub-line takes the Latin lead face */
 html[lang="en"] .h1-sub{ font-family:var(--f-lat-text); font-weight:300; letter-spacing:.01em; line-height:1.45 }
-/* opener words that sit in a column: never wider than the column (THRESHOLD ≈ 6.02em, SIGNATURE ≈ 5.73em) */
-.st-threshold__text, .st-seal__text{ container-type:inline-size }
-.st-threshold__opener .opener__latin{ font-size:min(var(--t-mega), 16cqi) }
+/* opener words that sit in a column: never wider than the column (SIGNATURE ≈ 5.73em) */
+.st-seal__text{ container-type:inline-size }
 .st-seal__opener .opener__latin{ font-size:min(var(--t-mega), 16.8cqi) }
 
 /* ------------------------------------------------------------------ S1 opener */
@@ -30,117 +28,32 @@ html[lang="en"] .h1-sub{ font-family:var(--f-lat-text); font-weight:300; letter-
   html[lang="en"] .st-open__lines{ font-size:clamp(1.0625rem, 4.4vw, var(--t-brand)) }
 }
 .st-open__estd{ margin-block-start:var(--s-4) }
+/* Shoham's portrait. Phones: the hero image, straight under the H1 (it follows the H1 in the DOM), with the brand lines
+   below it. Tablets and desktop: a column beside the text, so the first screen is never one text column next to a blank half.
+   Definite width (§3.4). */
+.st-open__portrait{ grid-column:1 / -1; inline-size:min(100%, 28rem); margin-block-start:var(--s-5) }
+@media (max-width:767px){
+  .st-open{ padding-block-end:var(--s-6) }
+  .st-open__aside{ margin-block-start:var(--s-5) }
+  .st-open__lines{ margin-block-start:0 }
+}
+/* tablets: the grid has 8 columns (text 5, portrait 3); desktop: 12 (text 6, portrait 5) */
 @media (min-width:768px){
-  .st-open__main{ grid-column:1 / 8 }
-  .st-open__aside{ grid-column:1 / 8 }
+  .st-open__grid{ grid-template-rows:auto 1fr; align-items:start }
+  .st-open__main, html[lang="en"] .st-open__main{ grid-column:1 / 6; grid-row:1 }
+  .st-open__aside, html[lang="en"] .st-open__aside{ grid-column:1 / 6; grid-row:2 }
+  .st-open__portrait{ grid-column:6 / 9; grid-row:1 / 3; justify-self:end; inline-size:100%; margin-block-start:var(--s-4) }
 }
 @media (min-width:1100px){
   .st-open{ padding-block-end:var(--s-6) }
-  .st-open__grid{ align-items:end }
-  .st-open__main{ grid-column:1 / 8 }
-  .st-open__aside{ grid-column:8 / 13; padding-block-end:.35em }
+  .st-open__main, html[lang="en"] .st-open__main{ grid-column:1 / 7 }
+  /* the English brand lines are ~70% longer: six columns keep each one on one line */
+  .st-open__aside, html[lang="en"] .st-open__aside{ grid-column:1 / 7; margin-block-start:var(--s-6) }
   .st-open__lines{ margin-block-start:0 }
-  /* the English brand lines are ~70% longer: six columns keep each one on one line (the EN H1 wraps anyway) */
-  html[lang="en"] .st-open__main{ grid-column:1 / 7 }
-  html[lang="en"] .st-open__aside{ grid-column:7 / 13 }
-}
-
-/* ------------------------------------------------------------------ S2 Threshold (W5) */
-.st-threshold{ position:relative; padding-block:0 var(--s-7) }
-/* the focused skip chip sits in the gap above the opener, on the l-wrap edge (not over THRESHOLD, not on the viewport edge) */
-.st-threshold > .skip-seq:focus, .st-threshold > .skip-seq:focus-visible{
-  inset-block-start:calc(-1 * (44px + var(--s-2)));
-  inset-inline-start:max(var(--margin), (100% - var(--maxw)) / 2);
-}
-.st-threshold__grid{ row-gap:var(--s-6) }
-.st-threshold__stage, .st-threshold__text{ grid-column:1 / -1 }
-.st-threshold__stage{ display:grid; justify-items:start }
-/* < 1100: full width, never taller than 78svh (definite width, §3.4) */
-.st-threshold__frame{ width:min(100%, calc(78svh * 3 / 4)) }
-.st-threshold__frame .frame__clip{ isolation:isolate }
-.st-threshold__frame [data-layer]{ position:absolute; inset:0 }
-.st-threshold__frame [data-layer="bath"]{ display:none; z-index:1 }
-.st-threshold__frame [data-layer="portrait"] img{ transform-origin:50% 16% }
-.st-threshold__cap{ max-inline-size:none }
-
-.st-threshold__opener{ margin-block-end:var(--s-6) }
-.st-threshold__p{
-  font-family:var(--f-display); font-weight:400;
-  font-size:var(--t-lead); line-height:1.75;
-  color:var(--fg);
-  max-inline-size:var(--measure);
-}
-html[lang="en"] .st-threshold__p{ font-family:var(--f-lat-text); font-weight:300 }
-.st-threshold__p + .st-threshold__p, .st-threshold__p + .st-threshold__bath, .st-threshold__bath + .st-threshold__p,
-.st-rhymes + .st-threshold__p{ margin-block-start:var(--s-5) }
-.st-threshold__bath{ max-inline-size:26rem }
-.st-threshold__end{ display:flex; flex-direction:column; align-items:flex-start; gap:var(--s-4); margin-block-start:var(--s-6) }
-.st-threshold__sign{ color:var(--fg-2) }
-
-@media (min-width:1100px){
-  .st-threshold__grid{ row-gap:0; align-items:start }
-  .st-threshold__text{ grid-column:1 / 6; grid-row:1; padding-block-start:var(--s-4) }
-  .st-threshold__stage{
-    grid-column:7 / 13; grid-row:1;
-    position:sticky; inset-block-start:calc(var(--header-h) + 6vh);
-    justify-items:end;
-  }
-  /* aspect-ratio + a definite height on the .frame itself (§3.4); capped so the caption stays on screen */
-  .st-threshold__frame{ height:min(80vh, calc(94vh - var(--header-h) - 64px)); width:auto; aspect-ratio:3 / 4 }
-  /* each step holds the stage for a while: 60vh while the effect runs, a calmer 36vh in the static layout
-     (the portrait stays sticky beside the text either way) */
-  .st-threshold__p{ min-block-size:36vh }
-  html.threshold-ready .st-threshold__p{ min-block-size:60vh }
-  html.threshold-ready .st-threshold__p[data-step="1"]{ min-block-size:50vh }
-  .st-threshold__p[data-step="4"], html.threshold-ready .st-threshold__p[data-step="4"]{ min-block-size:0 }
-  .st-threshold__p + .st-threshold__p, .st-rhymes + .st-threshold__p{ margin-block-start:0 }
-  .st-threshold__bath{ margin-block-end:var(--s-6) }
-}
-
-/* the effect (keyed on threshold-ready only) */
-html.threshold-ready [data-threshold-inline]{ display:none }
-/* the inline figure's place becomes a pause: the bath holds on the stage before paragraph 3 brings the portrait back */
-html.threshold-ready .st-threshold__p[data-step="2"]{ margin-block-end:45vh }
-html.threshold-ready .st-threshold__frame [data-layer="bath"]{ display:block; opacity:0 }
-html.threshold-ready .st-threshold__cap{ display:grid; grid-template-areas:"rule" "cap" }
-html.threshold-ready .st-threshold__cap::before{ grid-area:rule }
-html.threshold-ready .st-threshold__cap-item{ grid-area:cap }
-html.threshold-ready .st-threshold__cap-item[data-cap="bath"]{ opacity:0 }
-
-/* rhymes: one palette, two places */
-.st-rhymes{
-  display:grid; gap:var(--s-5);
-  margin-block:var(--s-6) var(--s-6);
-  padding-block-start:var(--s-5);
-  border-block-start:1px solid var(--line);
-}
-.st-rhyme{ display:grid; grid-template-columns:auto minmax(0,1fr); align-items:end; gap:var(--s-2) var(--s-4) }
-.st-rhyme__pair{ display:flex; gap:12px; align-items:flex-end }
-.st-rhyme__fig{ flex:none; width:clamp(84px, 9vw, 132px) }   /* definite width (§3.4); ≤ 1.2× every source */
-.st-rhyme__cap{
-  font-family:var(--f-display); font-weight:400;
-  font-size:var(--t-small); line-height:1.6;
-  color:var(--fg-2);
-  padding-block-end:2px;
-}
-html[lang="en"] .st-rhyme__cap{ font-family:var(--f-lat-text); font-weight:300 }
-.st-rhyme__cap::before{ content:""; display:block; inline-size:24px; block-size:1px; background:var(--line); margin-block-end:10px }
-.st-rhyme--wide{ grid-template-columns:minmax(0,1fr) }
-.st-rhyme--wide .st-rhyme__pair{ flex-direction:column; align-items:flex-start; gap:10px }
-.st-rhyme--wide .st-rhyme__fig{ width:min(100%, 360px) }
-/* phones: the caption goes under its pair at full width, so each half stays on one line (owner QA 28/09) */
-@media (max-width:767px){ .st-rhyme{ grid-template-columns:minmax(0,1fr); align-items:start } }
-@media (min-width:768px){
-  .st-rhymes{ grid-template-columns:repeat(2, auto); justify-content:start; column-gap:var(--s-6); row-gap:var(--s-6) }
-  .st-rhyme{ grid-template-columns:auto; align-items:start }
-  .st-rhyme--wide{ grid-column:1 / -1 }
-}
-@media (min-width:1100px){
-  .st-rhymes{ margin-block:0 var(--s-7); column-gap:var(--s-5); inline-size:max-content; max-inline-size:calc(100% + var(--gap) + (100% - 4 * var(--gap)) / 5) }
+  .st-open__portrait{ grid-column:8 / 13; inline-size:min(100%, calc((100svh - var(--header-h) - 9rem) * 3 / 4)) }
 }
 
 /* ------------------------------------------------------------------ S3 in brief */
-.st-facts:focus{ outline:none }
 .st-facts__grid > *{ grid-column:1 / -1 }
 .st-facts__intro{
   margin-block-start:var(--s-5);
@@ -185,9 +98,13 @@ html[lang="en"] .st-facts__row dt{ font-family:var(--f-lat-text); font-weight:40
   }
   .st-facts__row dd{ flex:0 1 auto; max-inline-size:62%; text-align:end }
 }
+/* desktop: the intro and links on one side, the facts list beside them, so the section uses the full width */
 @media (min-width:1100px){
-  .st-facts__opener{ grid-column:1 / 9 }
-  .st-facts__intro{ grid-column:1 / 8 }
+  .st-facts__grid{ grid-template-rows:auto auto 1fr; align-items:start }
+  .st-facts__opener{ grid-column:1 / 7; grid-row:1 }
+  .st-facts__intro{ grid-column:1 / 7; grid-row:2 }
+  .st-links{ grid-column:1 / 7; grid-row:3 }
+  .st-facts__list{ grid-column:8 / 13; grid-row:2 / 4; margin-block-start:var(--s-5) }
 }
 
 /* ------------------------------------------------------------------ S4 principles */

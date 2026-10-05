@@ -8,11 +8,11 @@
       "en": "Space planning"
     },
     "title": {
-      "he": "תכנון דירה ואדריכלות פנים — חלוקת חללים נכונה | SELÈ STUDIO",
+      "he": "תכנון דירה, חלוקת חללים ואדריכלות פנים | SELÈ STUDIO",
       "en": "Apartment Space Planning in Israel | SELÈ STUDIO"
     },
     "desc": {
-      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים — קבעו פגישת היכרות.",
+      "he": "תכנון דירה לפני שיפוץ או כניסה לדירה חדשה: חלוקת חללים, מעברים, אחסון ואור. סטודיו בוטיק בהובלת שוהם סלע, מעצבת פנים. קבעו פגישת היכרות.",
       "en": "Apartment space planning before a renovation or a move: layout, circulation, storage and light, led by interior designer Shoham Sela. Book a first meeting."
     },
     "h1": {
@@ -58,13 +58,13 @@
     {
       "t": "p",
       "text": {
-        "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה יפה לאורך זמן, לא רק ביום הצילום. אנחנו מתכננים דירות ובתים לקראת שיפוץ, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
-        "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment beautiful for years, not only on the day it is photographed. We plan apartments and homes ahead of a renovation, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed.",
+        "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה נוחה ויפה גם שנים אחרי השיפוץ. אנחנו מתכננים דירות ובתים לקראת שיפוץ, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
+        "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment comfortable and good-looking for years after the renovation. We plan apartments and homes ahead of a renovation, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed.",
         "variants": [
           {
             "requires": "newBuild",
-            "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה יפה לאורך זמן, לא רק ביום הצילום. אנחנו מתכננים דירות ובתים לקראת שיפוץ או לפני כניסה לדירה חדשה, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
-            "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment beautiful for years, not only on the day it is photographed. We plan apartments and homes ahead of a renovation or before a move into a new apartment, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed."
+            "he": "ב-SELÈ STUDIO תכנון הפנים הוא השלד של העיצוב. חלוקה נכונה של החללים היא מה שמשאיר דירה נוחה ויפה גם שנים אחרי השיפוץ. אנחנו מתכננים דירות ובתים לקראת שיפוץ או לפני כניסה לדירה חדשה, ביחס אישי ובתשומת לב לפרטים הקטנים: רוחב של מעבר, עומק של ארון, גובה של שקע ליד המיטה.",
+            "en": "At SELÈ STUDIO, interior planning is the skeleton of the design. The right division of space is what keeps an apartment comfortable and good-looking for years after the renovation. We plan apartments and homes ahead of a renovation or before a move into a new apartment, with a personal approach and attention to the small things: the width of a passage, the depth of a cupboard, the height of a socket beside the bed."
           }
         ]
       }
@@ -128,8 +128,8 @@
     {
       "t": "p",
       "text": {
-        "he": "את הבית חווים גם בתנועה בתוכו. תוכנית טובה בודקת איך נכנסים ואיפה מניחים מפתחות ותיק, איך עוברים מהמטבח לשולחן בלי להיתקל בכיסא, ולאן נפתחות הדלתות. מעבר שצר מדי בכמה סנטימטרים מורגש בכל יום.",
-        "en": "A home is also experienced by moving through it. A good plan checks how you come in and where keys and bags land, how you get from the kitchen to the table without bumping into a chair, and which way the doors open. A passage a few centimeters too narrow is felt every day."
+        "he": "תוכנית טובה בודקת גם איך זזים בתוך הבית: איך נכנסים ואיפה מניחים מפתחות ותיק, איך עוברים מהמטבח לשולחן בלי להיתקל בכיסא, ולאן נפתחות הדלתות. מעבר שצר מדי בכמה סנטימטרים מורגש בכל יום.",
+        "en": "A good plan also looks at how you move through the home: how you come in and where keys and bags land, how you get from the kitchen to the table without bumping into a chair, and which way the doors open. A passage a few centimeters too narrow is felt every day."
       }
     },
     {

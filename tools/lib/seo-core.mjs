@@ -66,17 +66,17 @@ export const ID = {
 /** Entity strings. orgDesc = the A7.3 entity statement verbatim (the same text as /studio/ S3). */
 export const T = {
   orgDesc: {
-    he: 'SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים בישראל, שנוסד ב־2024 בהובלת שוהם סלע, מעצבת פנים בוגרת שנקר בהצטיינות. הסטודיו מתכנן ומעצב בתים ודירות — תכנון, עיצוב פנים, ליווי ביצוע וסטיילינג — בשפה נקייה, מדויקת ונכונה, עם יחס אישי וחם.',
-    en: 'SELÈ STUDIO is a boutique architecture and interior design studio in Israel, founded in 2024 and led by Shoham Sela, an interior designer who graduated from Shenkar with honors. The studio plans and designs homes and apartments — planning, interior design, build support and styling — in a clean, precise language, with a warm, personal approach.',
+    he: 'SELÈ STUDIO הוא סטודיו בוטיק לאדריכלות ועיצוב פנים שהקימה שוהם סלע ב־2024. אנחנו מתכננים ומעצבים דירות ובתים, ומלווים כל פרויקט מהמדידה הראשונה ועד הסטיילינג, בקשר ישיר עם שוהם לאורך כל הדרך.',
+    en: 'SELÈ STUDIO is a boutique architecture and interior design studio founded by Shoham Sela in 2024. We design homes and apartments and stay with each project from the first measurements to the final styling, with Shoham as your direct contact throughout.',
   },
   slogan: { he: 'נקי, מדויק ונכון', en: 'Clean, precise and right' },
   personName: { he: 'שוהם סלע', en: 'Shoham Sela' },
   jobTitle: { he: 'מעצבת פנים', en: 'Interior Designer' },
   personDesc: {
-    he: 'שוהם סלע היא מעצבת פנים, בוגרת שנקר בהצטיינות, ומייסדת SELÈ STUDIO — סטודיו בוטיק לאדריכלות ועיצוב פנים.',
+    he: 'שוהם סלע היא מעצבת פנים, בוגרת שנקר בהצטיינות, ומייסדת SELÈ STUDIO, סטודיו בוטיק לאדריכלות ועיצוב פנים.',
     en: 'Shoham Sela is an interior designer, a Shenkar graduate with honors, and the founder of SELÈ STUDIO, a boutique architecture and interior design studio.',
   },
-  shenkar: { he: 'שנקר – הנדסה. עיצוב. אמנות.', en: 'Shenkar – Engineering. Design. Art.' },
+  shenkar: { he: 'שנקר', en: 'Shenkar College of Engineering, Design and Art' },
   israel: { he: 'ישראל', en: 'Israel' },
   catalog: { he: 'שירותי אדריכלות ועיצוב פנים', en: 'Architecture and interior design services' },
   genre: { he: 'עיצוב פנים', en: 'Interior design' },
@@ -438,7 +438,7 @@ function areaFact(site) {
   const a = site && site.serviceArea;
   if (!a || !a.en) return '';
   const regions = Array.isArray(a.regions) && a.regions.length ? ` (${a.regions.map((r) => `${r.en} / ${r.he}`).join(', ')})` : '';
-  return ` service area: ${a.en} — ${a.he}${regions};`;
+  return ` service area: ${a.en} / ${a.he}${regions};`;
 }
 const LLMS_MAIN = ['home', 'about', 'services-hub', 'service', 'collection', 'project', 'film', 'journal', 'article', 'contact'];
 /** list: [{ lang, meta }] of indexable pages, in registry order */
@@ -452,9 +452,9 @@ export function llmsTxt(list, site = SITE_DEFAULTS) {
     '',
     `> ${orgDesc('he', site)}`,
     '',
-    `Facts: studio name "SELÈ STUDIO" (also written SELE STUDIO); founded 2024; country: Israel;${areaFact(site)} founder and lead designer: Shoham Sela (שוהם סלע), interior designer; education: Shenkar – Engineering. Design. Art. (graduated with honors); contact: office@sele-studio.com; Instagram: @sele__studio (studio), @shohamsela__ (Shoham Sela). Website languages: Hebrew (primary, at the root) and English (under /en/). The studio publishes no street address, phone number or prices on the web; enquiries go through the contact page. Project images on this site are the studio's own design visualizations unless a caption says otherwise.`,
+    `Facts: studio name "SELÈ STUDIO" (also written SELE STUDIO); founded 2024; country: Israel;${areaFact(site)} founder and lead designer: Shoham Sela (שוהם סלע), interior designer; education: Shenkar College of Engineering, Design and Art (graduated with honors); contact: office@sele-studio.com; Instagram: @sele__studio (studio), @shohamsela__ (Shoham Sela). Website languages: Hebrew (primary, at the root) and English (under /en/). The studio publishes no street address, phone number or prices on the web; enquiries go through the contact page. Project images on this site are the studio's own design visualizations unless a caption says otherwise.`,
     '',
-    '## עברית (Hebrew — primary)',
+    '## עברית (Hebrew, primary)',
     section(LLMS_MAIN, 'he'),
     '',
     '## English',

@@ -77,7 +77,7 @@ function extract($, meta, lang) {
       cap.find('[hidden], [aria-hidden="true"], template').remove();
       const st = collapse(cap.find('.caption__status').first().text());
       const tx = collapse(cap.find('.caption__text').first().text());
-      caption = st || tx ? [st, tx].filter(Boolean).join(' — ') : collapse(cap.text());
+      caption = st || tx ? [st, tx].filter(Boolean).join('. ') : collapse(cap.text());
     }
     images.push({
       src: $el.attr('data-full') || $el.attr('src'),

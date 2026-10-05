@@ -7,18 +7,18 @@
 
 /** Canonical materials table (SPEC §5.0). Chip labels on /projects/, tile names and sensory lines on case pages. */
 export const materials = [
-  { id: 'stone', name: { he: 'אבן עורקית', en: 'Veined stone' }, line: { he: 'קרירה ביד, שקטה לעין. העורקים הם הקישוט היחיד שהחלל צריך.', en: 'Cool to the hand, quiet to the eye. The veining is the only ornament the room needs.' }, tile: 'materials/tile-stone' },
-  { id: 'light-oak', name: { he: 'אלון בהיר', en: 'Light oak' }, line: { he: 'העץ שמחזיק את האור של הבוקר. גרעין ישר, גוון שקט.', en: 'The wood that holds the morning light. Straight grain, a quiet tone.' }, tile: 'materials/tile-light-oak' },
-  { id: 'dark-oak', name: { he: 'אלון כהה', en: 'Dark oak' }, line: { he: 'עוגן. הגוון שנותן לחדר משקל ושקט.', en: 'An anchor. The tone that gives a room weight and calm.' }, tile: 'materials/tile-dark-oak' },
-  { id: 'travertine', name: { he: 'טרוורטין', en: 'Travertine' }, line: { he: 'אבן עם זיכרון: כל נקבובית היא צל קטן.', en: 'A stone with memory: every pore is a small shadow.' }, tile: 'materials/tile-travertine' },
-  { id: 'walnut', name: { he: 'אגוז', en: 'Walnut' }, line: { he: 'עומק חם מתחת ליד. הצד הכהה של הפלטה.', en: 'Warm depth under the hand. The dark side of the palette.' }, tile: 'materials/tile-walnut' },
-  { id: 'linen', name: { he: 'פשתן', en: 'Linen' }, line: { he: 'רך, מחוספס מעט, נושם. הבד שמרכך את כל השאר.', en: 'Soft, slightly rough, breathing. The fabric that softens everything else.' }, tile: 'materials/tile-linen' },
+  { id: 'stone', name: { he: 'אבן עורקית', en: 'Veined stone' }, line: { he: 'אבן קרירה למגע עם עורקים טבעיים. היא מספיקה לבד, בלי קישוטים נוספים לידה.', en: 'Cool to the touch, with natural veining. It holds its own without extra decoration around it.' }, tile: 'materials/tile-stone' },
+  { id: 'light-oak', name: { he: 'אלון בהיר', en: 'Light oak' }, line: { he: 'גרעין ישר וגוון בהיר שמחזיר הרבה אור. מתאים לנגרות גדולה בלי להכביד על החדר.', en: 'Straight grain and a pale tone that reflects plenty of light. It suits large joinery without weighing the room down.' }, tile: 'materials/tile-light-oak' },
+  { id: 'dark-oak', name: { he: 'אלון כהה', en: 'Dark oak' }, line: { he: 'גוון עמוק שנותן לחדר משקל ומאזן משטחים בהירים.', en: 'A deep tone that gives a room weight and balances pale surfaces.' }, tile: 'materials/tile-dark-oak' },
+  { id: 'travertine', name: { he: 'טרוורטין', en: 'Travertine' }, line: { he: 'אבן טבעית עם נקבוביות קטנות שיוצרות צללים עדינים באור צד.', en: 'A natural stone with small pores that cast soft shadows in side light.' }, tile: 'materials/tile-travertine' },
+  { id: 'walnut', name: { he: 'אגוז', en: 'Walnut' }, line: { he: 'עץ חם וכהה, נעים למגע. אצלנו הוא הגוון הכהה בפלטה.', en: 'A warm, dark wood that feels good to the touch. In our palette it is the darker tone.' }, tile: 'materials/tile-walnut' },
+  { id: 'linen', name: { he: 'פשתן', en: 'Linen' }, line: { he: 'בד רך עם מרקם מעט מחוספס, שמרכך את העץ והאבן שסביבו.', en: 'A soft fabric with a slightly rough texture that softens the wood and stone around it.' }, tile: 'materials/tile-linen' },
 ];
 
 /** Truth note, shown wherever materials are listed (SPEC §5.0). */
 export const materialsNote = {
-  he: 'שמות החומרים מתארים את המראה כפי שהוא מופיע בהדמיות. את הבחירה המדויקת לכל בית, סוג האבן, הגימור והספק, אנחנו עושים יחד איתכם.',
-  en: 'Material names describe the look as it appears in our visualizations. The exact choice for each home — stone type, finish and supplier — we make together with you.',
+  he: 'שמות החומרים מתארים את המראה כפי שהוא מופיע בהדמיות. את סוג האבן, הגימור והספק לכל בית אנחנו בוחרים יחד איתכם.',
+  en: 'Material names describe the look as it appears in our visualizations. We choose the exact stone type, finish and supplier for each home together with you.',
 };
 
 /** Space keys and their chip labels (SPEC §5.2). */
@@ -55,7 +55,7 @@ export const strings = {
   'projects.index.clear': { he: 'ניקוי הסינון', en: 'Clear filters' },
   'projects.index.film': { he: 'סרט קצר מתוך העבודות', en: 'A short film from our work' },
   'projects.index.onsite.h2': { he: 'מהשטח', en: 'On site' },
-  'projects.index.onsite.p': { he: 'לצד ההדמיות, צילום מעבודה שבוצעה: אותה שפה של חומר ואור, גם בשטח. הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.', en: 'Alongside the visualizations, a photograph of completed work: the same language of material and light, on site. It is not presented here as the built version of any visualization on this site.' },
+  'projects.index.onsite.p': { he: 'לצד ההדמיות, צילום מעבודה שבוצעה בשטח, באותה גישה לחומר ולאור. הצילום לא מתעד אף אחת מההדמיות שבאתר.', en: 'Alongside the visualizations, a photograph of completed work on site, with the same approach to material and light. The photograph does not show any of the renders on this site.' },
   'projects.index.onsite.caption': { he: 'ארונות אלון כהה לגובה מלא ואי בהיר.', en: 'Full-height dark-oak cabinetry and a pale island.' },
   'projects.index.onsite.alt': { he: 'מטבח שבוצע: ארונות אלון כהה לגובה מלא עם פתחי אוורור, ארונות תחתונים בגוון חם, אי בגוון טרוורטין ומסילת תאורה.', en: 'A completed kitchen: full-height dark-oak cabinetry with vent grilles, warm-toned lower cabinets, a travertine-toned island and track lighting.' },
 
@@ -97,12 +97,12 @@ export default [
       alt: { he: 'מטבח במבט חזיתי: אי מאבן עורקית עם כיריים גז, ארונות אלון בהיר עד התקרה, נישה מוארת עם גב אבן, ווילון שקוף בצד. הדמיה.', en: 'A frontal view of a kitchen: a veined-stone island with a gas cooktop, floor-to-ceiling light-oak cabinetry, a lit niche backed in stone and a sheer curtain to the side. Render.' },
       caption: { he: 'האי והנישה, במבט חזיתי.', en: 'The island and the niche, head-on.' },
     },
-    lead: { he: 'אי אחד, מאבן אחת. גוש של אבן עורקית שנראה כאילו נחצב בשלמותו, ומאחוריו קיר נגרות מאלון בהיר שעולה עד התקרה ומסתיר את כל מה שלא צריך להיראות.', en: 'One island, one stone. A block of veined stone that looks carved whole, and behind it a wall of light-oak joinery rising to the ceiling, hiding everything that needn’t be seen.' },
-    body: { he: 'פתח אחד בלבד נשאר בקיר: נישה מוארת עם גב מאותה האבן, לפינת הקפה ולכיור. מה שנשאר גלוי הוא מה שבאמת צריך להיות שם: אש, מים, קפה ואור שמש שנכנס מבעד לווילון.', en: 'Only one opening remains in the wall: a lit niche backed in the same stone, for coffee and the sink. What stays in view is what truly belongs there: fire, water, coffee, and sunlight through a sheer curtain.' },
+    lead: { he: 'במרכז המטבח עומד אי מאבן עורקית שנראה כמו גוש אחד שלם. מאחוריו קיר נגרות מאלון בהיר עד התקרה, שמסתיר את האחסון ואת כל מה שלא צריך להיות גלוי.', en: 'At the center of the kitchen is a veined-stone island that looks like one solid block. Behind it, light-oak joinery runs to the ceiling and hides the storage and everything else that doesn’t need to be on show.' },
+    body: { he: 'בקיר נשאר פתח אחד: נישה מוארת עם גב מאותה האבן, לפינת הקפה ולכיור. מלבדה רואים רק את הכיריים שעל האי ואת אור השמש שנכנס דרך הווילון.', en: 'The wall keeps a single opening: a lit niche backed in the same stone, for coffee and the sink. Apart from that, all you see is the cooktop on the island and the sunlight coming through the curtain.' },
     plates: [
       {
         id: 'pl-2', file: 'kitchen-stone-02', w: 1312, h: 1199, layout: 'wide', pos: '50% 50%',
-        caption: { he: 'האי במבט אלכסוני, ואור שמש שנשבר על המשטח.', en: 'The island at an angle, with sunlight breaking across the worktop.' },
+        caption: { he: 'האי במבט אלכסוני, עם פסי אור שמש על המשטח.', en: 'The island at an angle, with bands of sunlight on the worktop.' },
         alt: { he: 'אי האבן במבט אלכסוני עם כיריים גז, נישה מוארת ופסי אור שמש על המשטח. הדמיה.', en: 'The stone island at an angle with a gas cooktop, the lit niche and bands of sunlight on the worktop. Render.' },
       },
       {
@@ -118,7 +118,7 @@ export default [
     },
     light: {
       file: 'light/stone-oak-kitchen', w: 560, h: 700, pos: '50% 50%',
-      text: { he: 'הנישה מוארת מלמעלה בפס אור נסתר. האור נופל על פני האבן ומעורר את העורקים שלה, ובצד השני של החדר וילון שקוף מרכך את שמש אחר הצהריים.', en: 'The niche is washed from above by a concealed line of light. It grazes the stone and wakes its veining, while across the room a sheer curtain softens the afternoon sun.' },
+      text: { he: 'הנישה מוארת מלמעלה בפס אור נסתר. האור נופל על פני האבן ומבליט את העורקים שלה, ובצד השני של החדר וילון שקוף מרכך את שמש אחר הצהריים.', en: 'The niche is washed from above by a concealed line of light. It falls across the stone and brings out its veining, while across the room a sheer curtain softens the afternoon sun.' },
       alt: { he: 'פרט מהנישה המוארת: פס אור חם בראש גב האבן. הדמיה.', en: 'A detail of the lit niche: a warm line of light at the top of the stone splashback. Render.' },
     },
     services: ['kitchen-design'],
@@ -141,8 +141,8 @@ export default [
       alt: { he: 'סלון: טלוויזיה שקועה בקיר טיח, ספריית אלון עם כלי קרמיקה וספרים, אדן אבן לכל אורך הקיר ושולחן קפה מאלון כהה. הדמיה.', en: 'A living room: a TV set into a plaster wall, oak shelving with ceramics and books, a stone plinth along the whole wall and a dark-oak coffee table. Render.' },
       caption: { he: 'קיר אחד: טיח, מדפי אלון ואדן אבן.', en: 'One wall: plaster, oak shelves and a stone plinth.' },
     },
-    lead: { he: 'קיר אחד שעושה הכול. טלוויזיה ששקועה בטיח, ספריית אלון דקה שמציגה רק את מה שנבחר, ואדן אבן ארוך שנמשך לכל אורך הקיר ומחבר ביניהם.', en: 'One wall that does everything. A television set flush into plaster, slender oak shelving that shows only what was chosen, and a long stone plinth running the length of the wall to tie it all together.' },
-    body: { he: 'המדפים מחולקים בקצב לא שווה, כך שלכל חפץ יש מקום משלו: קרמיקה, ספר, נר. מול הקיר, שולחן קפה מאלון כהה עם פינות רכות מאזן את כל הבהירות.', en: 'The shelves are divided in an uneven rhythm, so every object has its own place: a ceramic, a book, a candle. Facing the wall, a dark-oak coffee table with softened corners balances all that lightness.' },
+    lead: { he: 'הסלון בנוי סביב קיר אחד: טלוויזיה ששקועה בטיח, ספריית אלון דקה שמציגה רק כמה פריטים נבחרים, ואדן אבן ארוך שנמשך לכל אורך הקיר ומחבר ביניהם.', en: 'The living room is built around one wall: a television set flush into plaster, slender oak shelving that holds only a few chosen pieces, and a long stone plinth running the length of the wall to tie them together.' },
+    body: { he: 'המדפים מחולקים במרווחים לא שווים, כך שלכל חפץ יש מקום משלו: קרמיקה, ספר, נר. מול הקיר עומד שולחן קפה מאלון כהה עם פינות מעוגלות, שמאזן את הגוונים הבהירים.', en: 'The shelves are spaced unevenly, so each object has its own place: a ceramic piece, a book, a candle. Facing the wall, a dark-oak coffee table with rounded corners balances the pale tones.' },
     plates: [
       {
         id: 'pl-2', file: 'living-03', w: 1145, h: 1374, layout: 'detail', pos: '50% 45%',
@@ -167,7 +167,7 @@ export default [
     },
     light: {
       file: 'light/oak-living-room', w: 560, h: 700, pos: '50% 50%',
-      text: { he: 'פס אור עדין מתחת לחיפוי העץ מפריד בינו לבין האבן, ונותן לקיר כולו תחושה של ריחוף.', en: 'A soft line of light beneath the oak paneling separates it from the stone and lets the whole wall seem to float.' },
+      text: { he: 'פס אור עדין מתחת לחיפוי העץ מפריד בינו לבין האבן, ונראה שהחיפוי מרחף מעל האדן.', en: 'A soft line of light beneath the oak paneling separates it from the stone, so the paneling appears to hover above the plinth.' },
       alt: { he: 'פרט: פס אור חם בין חיפוי האלון לאדן האבן. הדמיה.', en: 'A detail: a warm line of light between the oak paneling and the stone plinth. Render.' },
     },
     services: ['interior-design', 'space-planning'],
@@ -190,8 +190,8 @@ export default [
       alt: { he: 'חדר רחצה: כיור כפול מטרוורטין, שתי מראות עם תאורה אחורית, ברזי קיר בגוון ברונזה ומגירות אגוז. הדמיה.', en: 'A bathroom: a double travertine vanity, two backlit mirrors, bronze-toned wall taps and walnut drawers. Render.' },
       caption: { he: 'הכיור הכפול והמראות המוארות מאחור.', en: 'The double vanity and its backlit mirrors.' },
     },
-    lead: { he: 'כיור כפול שנראה כמו גוש טרוורטין אחד, שתי מראות שמוארות מאחור, ברזי קיר בגוון ברונזה ומגירות אגוז. חדר שקט, שמרגישים אותו כבר מהדלת.', en: 'A double vanity that reads as a single block of travertine, two mirrors lit from behind, bronze-toned wall taps and walnut drawers. A quiet room you can feel from the doorway.' },
-    body: { he: 'חדר רחצה הוא הרגע הכי פרטי בבית. הוא צריך להרגיש כמו נשימה. הטרוורטין עולה מהקיר ועד הכיור, וכך החדר נקרא כחומר אחד, ומתחת לאבן מרחפות מגירות האגוז ומוסיפות חום.', en: 'A bath is the most private moment in a home. It should feel like an exhale. The travertine runs from wall to basin, so the room reads as one material, and beneath the stone the walnut drawers float and add warmth.' },
+    lead: { he: 'כיור כפול שנראה כמו גוש טרוורטין אחד, שתי מראות שמוארות מאחור, ברזי קיר בגוון ברונזה ומגירות אגוז. חדר רגוע, עם מעט חומרים ובלי עומס.', en: 'A double vanity that reads as a single block of travertine, two mirrors lit from behind, bronze-toned wall taps and walnut drawers. A calm room with few materials and no clutter.' },
+    body: { he: 'חדר הרחצה הוא החדר הכי פרטי בבית, ורצינו שיהיה בו שקט. הטרוורטין ממשיך מהקיר אל הכיור, כך שהחדר נראה עשוי מחומר אחד, ומתחת לאבן תלויות מגירות אגוז שמוסיפות חום.', en: 'The bathroom is the most private room in a home, and we wanted it to feel calm. The travertine continues from the wall into the basin, so the room reads as one material, and wall-hung walnut drawers beneath the stone add warmth.' },
     plates: [
       {
         id: 'pl-2', file: 'bath-02', w: 1024, h: 1536, layout: 'door', pos: '50% 45%',
@@ -201,12 +201,12 @@ export default [
     ],
     film: {
       name: 'bath-threshold-4x5',
-      caption: { he: 'סרט קצר: דרך הדלת, אל תוך החדר', en: 'A short film: through the door, into the room' },
+      caption: { he: 'סרט קצר: מהדלת אל תוך החדר', en: 'A short film from the door into the room' },
       alt: { he: 'סרט קצר: מבט דרך הדלת שמתקרב אל הכיור, ואז החדר כולו. מתוך ההדמיות.', en: 'A short film: a view through the door moving toward the vanity, then the whole room. From the visualizations.' },
     },
     light: {
       file: 'light/travertine-bathroom', w: 520, h: 650, pos: '50% 50%',
-      text: { he: 'האור יוצא מאחורי המראות, לא מעליהן. כך הוא נופל ברכות, והטרוורטין חושף כל נקבובית שלו.', en: 'The light comes from behind the mirrors, not above them. It falls softly, and the travertine shows every pore.' },
+      text: { he: 'התאורה נמצאת מאחורי המראות ולא מעליהן. האור נופל ברכות על הקיר ומבליט את הנקבוביות בטרוורטין.', en: 'The lighting sits behind the mirrors rather than above them. It falls softly on the wall and brings out the pores in the travertine.' },
       alt: { he: 'פרט: קצה מראה עם תאורה אחורית על קיר טרוורטין. הדמיה.', en: 'A detail: the edge of a backlit mirror on a travertine wall. Render.' },
     },
     services: ['bathroom-design'],
@@ -229,14 +229,14 @@ export default [
       alt: { he: 'חדר שינה: מיטה מרופדת מול קיר אלון כהה שמתעגל בקצוות, שולחנות צד מטרוורטין, מנורות תלויות ווילון שקוף. הדמיה.', en: 'A bedroom: an upholstered bed against a dark-oak wall that curves at its ends, travertine side tables, pendant lights and a sheer curtain. Render.' },
       caption: { he: 'המיטה וקיר האלון הכהה שעוטף אותה.', en: 'The bed and the dark-oak wall that wraps it.' },
     },
-    lead: { he: 'חדר שמוריד את הווליום. קיר אלון כהה שמתעגל בקצוות ועוטף את המיטה, ראש מיטה מרופד בפשתן, שולחנות צד מטרוורטין ומנורות דקות שיורדות מהתקרה.', en: 'A room that turns the volume down. A dark-oak wall that curves at its ends to wrap the bed, a linen headboard, travertine side tables and slender pendants dropping from the ceiling.' },
+    lead: { he: 'חדר שינה בגוונים כהים ורכים: קיר אלון כהה שמתעגל בקצוות ועוטף את המיטה, ראש מיטה מרופד בפשתן, שולחנות צד מטרוורטין ומנורות דקות שיורדות מהתקרה.', en: 'A bedroom in dark, soft tones: a dark-oak wall that curves at its ends to wrap the bed, a linen headboard, travertine side tables and slender pendants hanging from the ceiling.' },
     body: { he: 'האור נכנס מבעד לווילון ונשאר רך. המנורות התלויות מחליפות מנורות לילה, ומשאירות את שולחנות הצד פנויים לספר ולנר.', en: 'Light comes in through the curtain and stays soft. The pendants replace bedside lamps, leaving the side tables free for a book and a candle.' },
     plates: [
       {
         id: 'pl-2', file: 'bedroom-02', w: 1183, h: 1330, layout: 'detail', pos: '45% 45%',
         caption: { he: 'ראש מיטה מפשתן, פאנל עץ מעוגל ושולחן צד מטרוורטין.', en: 'A linen headboard, a curved wood panel and a travertine side table.' },
         alt: { he: 'ראש מיטה מרופד בפשתן, פאנל אלון כהה מעוגל ושולחן צד מטרוורטין. הדמיה.', en: 'A linen headboard, a curved dark-oak panel and a travertine side table. Render.' },
-        note: { he: 'הפאנל מתעגל: פינה שלא נגמרת בזווית', en: 'The panel curves: a corner that doesn’t end in an angle' },
+        note: { he: 'הפאנל מתעגל בפינה במקום להיגמר בזווית', en: 'The panel curves at the corner instead of ending in an angle' },
       },
     ],
     film: {
@@ -245,7 +245,7 @@ export default [
     },
     light: {
       file: 'light/dark-oak-bedroom', w: 480, h: 600, pos: '50% 50%',
-      text: { he: 'שמש אחר הצהריים מציירת טריז של אור על הקיר, מעל קו העץ הכהה, והווילון השקוף מרכך אותה.', en: 'Afternoon sun draws a wedge of light on the wall above the dark wood line, softened by the sheer curtain.' },
+      text: { he: 'שמש אחר הצהריים נופלת בטריז של אור על הקיר, מעל קו העץ הכהה, והווילון השקוף מרכך אותה.', en: 'Afternoon sun falls in a wedge of light on the wall above the dark wood line, softened by the sheer curtain.' },
       alt: { he: 'פרט: טריז של אור שמש על קיר בהיר מעל חיפוי אלון כהה. הדמיה.', en: 'A detail: a wedge of sunlight on a pale wall above dark-oak paneling. Render.' },
     },
     services: ['interior-design'],
@@ -268,13 +268,13 @@ export default [
       alt: { he: 'פינת מטבח: אלון כהה, ארונות בלכה בגוון גרייג׳, כיור אבן אינטגרלי, ברז שחור מט ומדפי מתכת כהים עם תאורה אחורית. הדמיה.', en: 'A kitchen corner: dark oak, greige lacquered cabinets, an integrated stone sink, a matte-black tap and dark metal shelving lit from behind. Render.' },
       caption: { he: 'פינת המטבח: אלון כהה, לכה ומדפים מוארים.', en: 'The kitchen corner: dark oak, lacquer and lit shelving.' },
     },
-    lead: { he: 'אלון כהה, לכה בגוון גרייג׳, כיור אבן אינטגרלי ומדפי מתכת כהים עם אור מאחור. מטבח שהאור בו יוצא מתוך הקיר.', en: 'Dark oak, greige lacquer, an integrated stone sink and dark metal shelving lit from behind: a kitchen where the light comes out of the wall.' },
+    lead: { he: 'אלון כהה, לכה בגוון גרייג׳, כיור אבן אינטגרלי ומדפי מתכת כהים עם תאורה אחורית, כך שהאור במטבח מגיע מתוך הקיר.', en: 'Dark oak, greige lacquer, an integrated stone sink and dark metal shelving lit from behind, so the kitchen’s light comes from within the wall.' },
     body: null,
     plates: [],
     film: null,
     light: {
       file: 'light/dark-oak-kitchen', w: 560, h: 700, pos: '50% 50%',
-      text: { he: 'מדפי המתכת מוארים מאחור, והאור יוצא מתוך הקיר בפסים אנכיים שקטים.', en: 'The metal shelves are lit from behind, so the light comes out of the wall in quiet vertical lines.' },
+      text: { he: 'מדפי המתכת מוארים מאחור, והאור יוצא מתוך הקיר בפסים אנכיים דקים.', en: 'The metal shelves are lit from behind, so the light comes out of the wall in thin vertical lines.' },
       alt: { he: 'פרט: מדפי מתכת כהים עם תאורה אחורית חמה. הדמיה.', en: 'A detail: dark metal shelving with warm backlighting. Render.' },
     },
     services: ['kitchen-design'],

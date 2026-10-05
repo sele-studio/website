@@ -223,7 +223,7 @@ export async function renderEn(root, heRel, heSrc, existingEn = null) {
     const $el = $(el);
     $el.attr('href', hePath).attr('hreflang', 'he').attr('lang', 'he').attr('dir', 'rtl');
     if ($el.attr('data-lang-switch') === 'pill') $el.text('לגרסה העברית ←');
-    else $el.text('עב').attr('aria-label', 'גרסה עברית');
+    else $el.text('עב').attr('aria-label', 'עב, גרסה עברית');
   });
 
   // 7 font preloads

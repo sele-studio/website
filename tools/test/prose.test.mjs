@@ -263,7 +263,7 @@ if (isMain || underTestRunner) {
     assert.ok(/<source type="image\/webp" srcset="\/assets\/img\/materials\/marble\.webp">/.test(art));
     assert.ok(!/<p class="pr-swatch__name"[^>]*>[^<]*\*\*/.test(art), 'swatch name without ** markers');
     // built-01 caption gets the "not the built version" sentence; status is מהביצוע
-    assert.ok(svc.includes('הצילום אינו מוצג כאן כגרסה המבוצעת של אחת ההדמיות באתר.'));
+    assert.ok(svc.includes('הצילום לא מתעד אף אחת מההדמיות שבאתר.'));
     assert.ok(/data-i18n="common\.status\.photo">מהביצוע</.test(svc));
     // article meta line + author box + related (fallback: no sibling in "style")
     assert.ok(/<p class="pr-meta label"><span data-i18n="prose\.meta\.by">מאת<\/span> <bdi lang="en">SELÈ STUDIO<\/bdi>/.test(art));

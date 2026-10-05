@@ -16,7 +16,7 @@ export function buildPayload(form, { lang, emailOk }) {
   const email = val(form, 'email');
   const timingEl = form.querySelector('[data-field="timing"]');
   const payload = {
-    _subject: `פנייה חדשה מהאתר — ${name}`,
+    _subject: name ? `פנייה חדשה מהאתר: ${name}` : 'פנייה חדשה מהאתר',
     _template: 'table',
     _captcha: 'false',
     _honey: '',
